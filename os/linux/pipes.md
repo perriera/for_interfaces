@@ -1,0 +1,1 @@
+[pipe() System call](https://www.geeksforgeeks.org/pipe-system-call/)

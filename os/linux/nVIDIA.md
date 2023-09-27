@@ -1,0 +1,3 @@
+### Tools
+> - [How to display Graphics card information on Ubuntu 22.04](https://net2.com/how-to-display-graphics-card-information-on-ubuntu-22-04/)
+> - [NVIDIA-SMI has failed because it couldn’t communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running](https://forums.developer.nvidia.com/t/nvidia-smi-has-failed-because-it-couldnt-communicate-with-the-nvidia-driver-make-sure-that-the-latest-nvidia-driver-is-installed-and-running/197141)
