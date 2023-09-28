@@ -5,8 +5,8 @@
 > and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).</br>
 > To add a tag to the git repository do:
 >
-> > git tag -a v0.4.0 -m "Added tweaks.md for Angular, React and Vue"</br>
-> > git push origin v0.4.0
+> > git tag -a v0.4.1 -m "Added tweaks.md for Angular, React and Vue"</br>
+> > git push origin v0.4.1
 
 IMPORTANT:
 
@@ -32,9 +32,9 @@ Adding dock test cases </br>
 Adding unit test cases </br>
 Updated README.md accordingly</br>
 
-**added tweaks.md for Angular, React and Vue**: https://github.com/perriera/htmlforge.net/compare/v0.3.0...v0.4.0
-**updated changelog.md**: https://github.com/perriera/htmlforge.net/compare/v0.2.0...v0.3.0
-**updated changelog.md**: https://github.com/perriera/htmlforge.net/compare/v0.1.0...v0.2.0
+**added tweaks.md for Angular, React and Vue**: https://github.com/perriera/for_interfaces/compare/v0.3.0...v0.4.1
+**updated changelog.md**: https://github.com/perriera/for_interfaces/compare/v0.2.0...v0.3.0
+**updated changelog.md**: https://github.com/perriera/for_interfaces/compare/v0.1.0...v0.2.0
 
 #### 0.1.0 (2023-09-26)
 - created
