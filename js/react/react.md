@@ -24,7 +24,12 @@
 Removing React
 
 	npm remove -g create-react-app
-	
+
+**Alternate Case**
+React Developer Tools
+
+See [React Developer Tools](https://react.dev/learn/react-developer-tools)
+
 **Summary**
 This guide assumes that you have npm installed
 
