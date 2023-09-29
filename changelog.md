@@ -5,8 +5,8 @@
 > and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).</br>
 > To add a tag to the git repository do:
 >
-> > git tag -a v0.6.0 -m "Added Prettier Formatter docs"</br>
-> > git push origin v0.6.0
+> > git tag -a v0.6.1 -m "Added Prettier Formatter docs"</br>
+> > git push origin v0.6.1
 
 IMPORTANT:
 
@@ -32,7 +32,7 @@ Adding dock test cases </br>
 Adding unit test cases </br>
 Updated README.md accordingly</br>
 
-**aAdded Prettier Formatter images**: https://github.com/perriera/for_interfaces/compare/v0.5.0...v0.6.0
+**Added Prettier Formatter images**: https://github.com/perriera/for_interfaces/compare/v0.5.0...v0.6.1
 **added React Developer Tools**: https://github.com/perriera/for_interfaces/compare/v0.4.2...v0.5.0
 **added React Developer Tools**: https://github.com/perriera/for_interfaces/compare/v0.4.2...v0.5.0
 **added tweaks.md for Angular, React and Vue**: https://github.com/perriera/for_interfaces/compare/v0.3.0...v0.4.2
