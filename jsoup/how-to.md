@@ -1,4 +1,8 @@
-### [Example program: list links](https://jsoup.org/cookbook/extracting-data/example-list-links)
+### JSoup
+> 1. [Use selector-syntax to find elements](https://jsoup.org/cookbook/extracting-data/selector-syntax)
+> 2. [Class Safelist](https://jsoup.org/apidocs/org/jsoup/safety/Safelist.html)
+> 3. [Parsing HTML in Java with Jsoup](https://www.baeldung.com/java-with-jsoup)
+> 4. [Example program: list links](https://jsoup.org/cookbook/extracting-data/example-list-links)
 > Example program: list links
 > 1. This example program demonstrates how to fetch a page from a URL; 
 > 2. extract links, images, and other pointers; and 
