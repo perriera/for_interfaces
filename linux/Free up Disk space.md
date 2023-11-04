@@ -1,0 +1,16 @@
+###
+> - [Free up Disk Space – Clear Systemd Journal Logs in Ubuntu 20.04](https://ubuntuhandbook.org/index.php/2020/12/clear-systemd-journal-logs-ubuntu/)
+
+```
+
+journalctl --disk-usage
+
+sudo journalctl --rotate
+sudo journalctl --vacuum-time=2days
+sudo journalctl --vacuum-size=100M
+sudo journalctl --vacuum-files=5
+
+sudo -H gedit /etc/systemd/journald.conf
+#SystemMaxUse= and change it to SystemMaxUse=100M.
+
+```
