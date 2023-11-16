@@ -5,3 +5,6 @@
 - [3.11 Options That Control Optimization](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html)
 - [GNU Compiler Collection Flags](http://www.spec.org/cpu2017/flags/gcc.2018-02-16.html) 
 - [Usage of cmake flags in Relase and Debug mode](https://stackoverflow.com/questions/64659538/usage-of-cmake-flags-in-relase-and-debug-mode)
+- [GCC -fPIC option](https://stackoverflow.com/questions/5311515/gcc-fpic-option)
+- [Interprocedural optimization](https://en.wikipedia.org/wiki/Interprocedural_optimization)
+- [C++ Standards Support in GCC](https://gcc.gnu.org/projects/cxx-status.html) 
