@@ -1,45 +1,31 @@
 # Changelog
 
-> All notable changes to this project will be documented in this file.</br>
-> The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), </br>
-> and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).</br>
-> To add a tag to the git repository do:
+> - All notable changes to this project will be documented in this file.
+> - The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+> - and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+> - IMPORTANT:
 >
+> - Manually keep the changelog version number in sync with CMakeLists.txt project version
+> - Keep the changelog.md up to date, neat and tidy, (as it is a maintenance tool for code).
+> - Use [Semantic Versioning](https://semver.org/spec/v2.0.0.html) such that
+> - Given a version number MAJOR.MINOR.PATCH, increment the:
+> - MAJOR version when you make incompatible API changes,
+> - MINOR version when you add functionality in a backwards compatible manner, and
+> - PATCH version when you make backwards compatible bug fixes.
+> - But there is no need to change the version number for correcting spelling errors, (etc).
+> - MAKE SURE to tag and update the tag compare list below, (for quick code comparison purposes).
 
 ```
 tagit.sh
 
-tagit.sh v2.24.2 "Added color to bash scripts"
+tagit.sh v2.24.4 "Updated help docs on tagit.sh"
 firefox https://github.com/perriera/for_interfaces/tags
 cat changelog.md | grep "*:" >/tmp/file1.txt
 xclip -selection c /tmp/file1.txt
 ```
 
-IMPORTANT:
-
-- Manually keep the changelog version number in sync with CMakeLists.txt project version<br>
-- Keep the changelog.md up to date, neat and tidy, (as it is a convenient tool for code maintenance).<br>
-- Use [Semantic Versioning](https://semver.org/spec/v2.0.0.html) such that<br>
-- Given a version number MAJOR.MINOR.PATCH, increment the:<br>
-- MAJOR version when you make incompatible API changes,<br>
-- MINOR version when you add functionality in a backwards compatible manner, and<br>
-- PATCH version when you make backwards compatible bug fixes. <br>
-- But there is no need to change the version number for correcting spelling errors, (etc).<br>
-- MAKE SURE to tag and update the tag compare list below, (for quick code comparison purposes).<br>
-
-## [Unreleased]
-
-Detailed test cases</br>
-Detailed class descriptions in README.md</br>
-Correct URL for github, (for source compare)</br>
-
-## [Next Steps]
-
-Adding dock test cases </br>
-Adding unit test cases </br>
-Updated README.md accordingly</br>
-
-**Added color to bash scripts**: https://github.com/perriera/for_interfaces/compare/v0.22.2...v0.24.2
+**Updated help docs on tagit.sh**: https://github.com/perriera/for_interfaces/compare/v2.24.2...v2.24.4
+**Added color to bash scripts**: https://github.com/perriera/for_interfaces/compare/v0.22.2...v2.24.2
 **Merged bash scripts to bin folder**: https://github.com/perriera/for_interfaces/compare/v0.18.0...v0.22.2
 **Relocated linux, macos and windows folders**: https://github.com/perriera/for_interfaces/compare/v0.17.0...v0.18.0
 **How to open a URL in the browser automatically with Node**: https://github.com/perriera/for_interfaces/compare/v0.10.0...v0.10.1

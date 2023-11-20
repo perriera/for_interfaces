@@ -42,4 +42,6 @@ echo -e "${ANSI_BLUE}$1${ANSI_CYAN}"
 git add .; git commit -m "Added $1"; git push
 git tag -a $1 -m "added $1 $2 $3 $4 $5 $6 $7 $8 $9 "
 git push origin $1
+echo -e "${ANSI_BLUE}When the git repository window appears press Create Release${ANSI_ENDCOLOR}"
+echo -e "${ANSI_BLUE}Then press Ctrl-V to paste selected contents of changelog.md${ANSI_ENDCOLOR}"
 echo -e "${ANSI_ENDCOLOR}"
