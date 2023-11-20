@@ -26,14 +26,14 @@
 if [ $# -lt 2 ]; 
   then
     echo "No arguments supplied"
-    echo Syntax: $0 existing_interface new_interface
+    echo Syntax: $(basename $0) existing_interface new_interface
     exit
 fi
 
 if [[ "$1" == "$2" ]]
   then
     echo "Cannot copy a folder onto itself"
-    echo Syntax: $0 existing_interface new_interface
+    echo Syntax: $(basename $0) existing_interface new_interface
     exit
 fi
 

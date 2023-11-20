@@ -26,7 +26,7 @@
 if [ $# -lt 1 ]; 
   then
     echo "No arguments supplied"
-    echo Syntax: $0 existing_interface 
+    echo Syntax: $(basename $0)  existing_interface 
     exit
 fi
 
