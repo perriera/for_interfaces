@@ -23,12 +23,20 @@
 # IN THE SOFTWARE.
 #
 
+source ansi_colors.sh
+source version.sh
+
+echo -e "${ANSI_BLUE}$(basename $0)${ANSI_ENDCOLOR}"
+echo -e "${ANSI_PURPLE}${INTERFACES_SCRIPTS_PROJECT}${ANSI_ENDCOLOR}"
+
 if [ $# -lt 1 ]; 
   then
-    echo "No arguments supplied"
-    echo Syntax: $(basename $0)  existing_interface 
+    echo -e "${ANSI_RED}No arguments supplied${ANSI_ENDCOLOR}"
+    echo -e "${ANSI_BLUE}Syntax: $(basename $0) existing_interface${ANSI_ENDCOLOR}"
     exit
 fi
+
+echo -e "${ANSI_BLUE}$1${ANSI_CYAN}"
 
 PARENT="$(basename "$(dirname "$PWD/test")")"
 echo $PARENT

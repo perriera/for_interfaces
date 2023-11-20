@@ -29,64 +29,10 @@ source version.sh
 echo -e "${ANSI_BLUE}$(basename $0)${ANSI_ENDCOLOR}"
 echo -e "${ANSI_PURPLE}${INTERFACES_SCRIPTS_PROJECT}${ANSI_ENDCOLOR}"
 
-if [ $# -lt 2 ]; 
-  then
-    echo -e "${ANSI_RED}No arguments supplied${ANSI_ENDCOLOR}"
-    echo -e "${ANSI_BLUE}Syntax: $(basename $0) existing_interface new_interface${ANSI_ENDCOLOR}"
-    exit
-fi
+echo -e "${ANSI_WHITE}current contents of LD_LIBRARY_PATH:${ANSI_CYAN}"
 
-if [[ "$1" == "$2" ]]
-  then
-    echo -e "${ANSI_RED}Cannot copy a folder onto itself${ANSI_ENDCOLOR}"
-    echo -e "${ANSI_BLUE}Syntax: $(basename $0) existing_interface new_interface${ANSI_ENDCOLOR}"
-    exit
-fi
-
-echo -e "${ANSI_BLUE}$1 $2${ANSI_CYAN}"
-
-PARENT="$(basename "$(dirname "$PWD/test")")"
-echo $PARENT
-
-#
-# duplicate 'include/' folders 
-#
-
-BASE=include/${PARENT}
-echo $BASE
-
-SOURCE=${BASE}/$1
-TARGET=${BASE}/$2
-
-if [ ! -d "${TARGET}" ] 
-then
-    mkdir ${TARGET}
-fi
-
-cp ${SOURCE}/clazz.hpp ${TARGET}/clazz.hpp
-
-sed -i -e "s/${1}/${2}/g" ${TARGET}/clazz.hpp 
-sed -i -e "s/${1^}/${2^}/g" ${TARGET}/clazz.hpp 
-sed -i -e "s/${1^^}/${2^^}/g" ${TARGET}/clazz.hpp 
-
-#
-# duplicate 'interfaces/' folders 
-#
-
-SOURCE=interfaces/$1
-TARGET=interfaces/$2
-
-echo ${SOURCE}
-echo ${TARGET}
-
-if [ ! -d "${TARGET}" ] 
-then
-    mkdir ${TARGET}
-fi
-
-cp ${SOURCE}/dock_instance.cpp ${TARGET}/dock_instance.cpp
-
-sed -i -e "s/${1}/${2}/g" ${TARGET}/dock_instance.cpp
-sed -i -e "s/${1^}/${2^}/g" ${TARGET}/dock_instance.cpp
-sed -i -e "s/${1^^}/${2^^}/g" ${TARGET}/dock_instance.cpp
-
+path=$(echo $LD_LIBRARY_PATH | tr ":" "\n")
+for addr in $path
+do
+    echo -e "${ANSI_BLUE}$addr${ANSI_ENDCOLOR}"
+done

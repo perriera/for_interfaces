@@ -23,19 +23,27 @@
 # IN THE SOFTWARE.
 #
 
+source ansi_colors.sh
+source version.sh
+
+echo -e "${ANSI_BLUE}$(basename $0)${ANSI_ENDCOLOR}"
+echo -e "${ANSI_PURPLE}${INTERFACES_SCRIPTS_PROJECT}${ANSI_ENDCOLOR}"
+
 if [ $# -lt 2 ]; 
   then
-    echo "No arguments supplied"
-    echo Syntax: $(basename $0) existing_interface new_interface
+    echo -e "${ANSI_RED}No arguments supplied${ANSI_ENDCOLOR}"
+    echo -e "${ANSI_BLUE}Syntax: $(basename $0) existing_interface new_interface${ANSI_ENDCOLOR}"
     exit
 fi
 
 if [[ "$1" == "$2" ]]
   then
-    echo "Cannot copy a folder onto itself"
-    echo Syntax: $(basename $0) existing_interface new_interface
+    echo -e "${ANSI_RED}Cannot copy a folder onto itself${ANSI_ENDCOLOR}"
+    echo -e "${ANSI_BLUE}Syntax: $(basename $0) existing_interface new_interface${ANSI_ENDCOLOR}"
     exit
 fi
+
+echo -e "${ANSI_BLUE}$1 $2${ANSI_CYAN}"
 
 PARENT="$(basename "$(dirname "$PWD/test")")"
 echo $PARENT
@@ -88,3 +96,5 @@ sed -i -e "s/${1^^}/${2^^}/g" ${TARGET}/mold_interface.cpp
 sed -i -e "s/${1}/${2}/g" ${TARGET}/test_interface.cpp
 sed -i -e "s/${1^}/${2^}/g" ${TARGET}/test_interface.cpp
 sed -i -e "s/${1^^}/${2^^}/g" ${TARGET}/test_interface.cpp
+
+echo -e "${ANSI_ENDCOLOR}"
