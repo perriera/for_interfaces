@@ -2,6 +2,7 @@
 #
 # @brief The MIT License (MIT)
 # @copyright © 2023 Perry Anderson, (perry@exparx.ca)
+# @ref https://github.com/perriera
 #
 # Permission  is  hereby  granted, free  of  charge, to  any person  obtaining
 # a copy of this software and associated documentation files (the “Software”),
@@ -22,24 +23,11 @@
 # IN THE SOFTWARE.
 #
 
-source ansi_colors.sh
-source version.sh
+export INTERFACES_SCRIPTS_NAME="for_interfaces/bin"
+export INTERFACES_SCRIPTS_MAJOR=0
+export INTERFACES_SCRIPTS_MINOR=1
+export INTERFACES_SCRIPTS_PATCH=0
+export INTERFACES_SCRIPTS_VERSION="v${INTERFACES_SCRIPTS_MAJOR}.${INTERFACES_SCRIPTS_MINOR}.${INTERFACES_SCRIPTS_PATCH}"
+export INTERFACES_SCRIPTS_PROJECT="${INTERFACES_SCRIPTS_NAME} ${INTERFACES_SCRIPTS_VERSION}"
 
-echo -e "${ANSI_BLUE}$(basename $0)${ANSI_ENDCOLOR}"
-echo -e "${ANSI_PURPLE}${INTERFACES_SCRIPTS_PROJECT}${ANSI_ENDCOLOR}"
 
-if [ $# -eq 0 ]
-  then
-    echo -e "${ANSI_RED}No arguments supplied${ANSI_ENDCOLOR}"
-    echo -e "${ANSI_BLUE}Syntax: $(basename $0) tag comment1 comment2 ... comment9${ANSI_ENDCOLOR}"
-    echo -e "${ANSI_BLUE}tag should be major.minor.patch ${ANSI_ENDCOLOR}"
-    echo -e "${ANSI_BLUE}for example here's the last tag:${ANSI_CYAN}"
-    git describe --tags --abbrev=0 
-    exit
-fi
-
-echo -e "${ANSI_BLUE}$1${ANSI_CYAN}"
-git add .; git commit -m "Added $1"; git push
-git tag -a $1 -m "added $1 $2 $3 $4 $5 $6 $7 $8 $9 "
-git push origin $1
-echo -e "${ANSI_ENDCOLOR}"
