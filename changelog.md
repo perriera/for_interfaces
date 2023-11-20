@@ -5,8 +5,15 @@
 > and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).</br>
 > To add a tag to the git repository do:
 >
-> > git tag -a v0.22.2 -m "Merged bash scripts to bin folder"</br>
-> > git push origin v0.22.2
+
+```
+tagit.sh
+
+tagit.sh v2.24.2 "Added color to bash scripts"
+firefox https://github.com/perriera/for_interfaces/tags
+cat changelog.md | grep "*:" >/tmp/file1.txt
+xclip -selection c /tmp/file1.txt
+```
 
 IMPORTANT:
 
@@ -32,6 +39,7 @@ Adding dock test cases </br>
 Adding unit test cases </br>
 Updated README.md accordingly</br>
 
+**Added color to bash scripts**: https://github.com/perriera/for_interfaces/compare/v0.22.2...v0.24.2
 **Merged bash scripts to bin folder**: https://github.com/perriera/for_interfaces/compare/v0.18.0...v0.22.2
 **Relocated linux, macos and windows folders**: https://github.com/perriera/for_interfaces/compare/v0.17.0...v0.18.0
 **How to open a URL in the browser automatically with Node**: https://github.com/perriera/for_interfaces/compare/v0.10.0...v0.10.1
