@@ -18,12 +18,13 @@
 ```
 tagit.sh
 
-tagit.sh v2.24.4 "Updated help docs on tagit.sh"
+tagit.sh v2.25.0 "Added docs on git rebase"
 firefox https://github.com/perriera/for_interfaces/tags
 cat changelog.md | grep "*:" >/tmp/file1.txt
 xclip -selection c /tmp/file1.txt
 ```
 
+**Added docs on git rebase**: https://github.com/perriera/for_interfaces/compare/v2.24.4...v2.25.0
 **Updated help docs on tagit.sh**: https://github.com/perriera/for_interfaces/compare/v2.24.2...v2.24.4
 **Added color to bash scripts**: https://github.com/perriera/for_interfaces/compare/v0.22.2...v2.24.2
 **Merged bash scripts to bin folder**: https://github.com/perriera/for_interfaces/compare/v0.18.0...v0.22.2
