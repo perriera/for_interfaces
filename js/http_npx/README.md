@@ -1,5 +1,6 @@
 ### http-server: a simple static HTTP server
-> [http-server: a simple static HTTP server](https://www.npmjs.com/package/http-server)
+> - [http-server: a simple static HTTP server](https://www.npmjs.com/package/http-server)
+> - [How to open browser to localhost through npm scripts](https://stackoverflow.com/questions/40713752/how-to-open-browser-to-localhost-through-npm-scripts)
 
 > Running on-demand:
 ```
