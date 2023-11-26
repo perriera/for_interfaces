@@ -19,13 +19,14 @@
 tagit.sh
 
 cd ~/dev/for_interfaces
-tagit.sh v2.34.0 "Added interface_test.sh"
+tagit.sh v2.35.0 "Refactored bash script names"
 firefox https://github.com/perriera/for_interfaces/tags
 cd ~/dev/for_interfaces
 cat changelog.md | grep "*:" >/tmp/file1.txt
 xclip -selection c /tmp/file1.txt
 ```
 
+**Refactored bash script names**: https://github.com/perriera/for_interfaces/compare/v2.34.0...v2.35.0
 **Added interface_test.sh**: https://github.com/perriera/for_interfaces/compare/v2.30.0...v2.34.0
 **Added interface_test.sh**: https://github.com/perriera/for_interfaces/compare/v2.30.0...v2.31.0
 **Added http-server (npx) support**: https://github.com/perriera/for_interfaces/compare/v2.25.1...v2.29.2
