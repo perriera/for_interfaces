@@ -30,4 +30,19 @@ export INTERFACES_SCRIPTS_PATCH=4
 export INTERFACES_SCRIPTS_VERSION="v${INTERFACES_SCRIPTS_MAJOR}.${INTERFACES_SCRIPTS_MINOR}.${INTERFACES_SCRIPTS_PATCH}"
 export INTERFACES_SCRIPTS_PROJECT="${INTERFACES_SCRIPTS_NAME} ${INTERFACES_SCRIPTS_VERSION}"
 
+#
+# TODO: Make _VENDOR overrideable, 
+#       (so users can post their own repositories)
+#
+
+if [ "$INTERFACES_SCRIPTS_VENDOR" = "" ];
+then
+    #
+    # set INTERFACES_SCRIPTS_VENDOR in your ~/.bashrc, (optional)
+    #
+    export INTERFACES_SCRIPTS_VENDOR=perriera
+fi
+
+
+
 

@@ -23,10 +23,11 @@
 # IN THE SOFTWARE.
 #
 
+clear
 source ansi_colors.sh
 source version.sh
 
-echo -e "${ANSI_BLUE}$(basename $0)${ANSI_ENDCOLOR}"
+echo -e "${ANSI_WHITE}${ANSI_BRIGHT}$(basename $0)${ANSI_ENDCOLOR}"
 echo -e "${ANSI_PURPLE}${INTERFACES_SCRIPTS_PROJECT}${ANSI_ENDCOLOR}"
 
 tagit.sh
@@ -35,7 +36,8 @@ if [ $# -lt 2 ];
   then
     echo -e "${ANSI_RED}Arguments required${ANSI_ENDCOLOR}"
     echo -e "${ANSI_RED}vMAJOR.MINOR.PATCH "some form of relavent documentation"${ANSI_ENDCOLOR}"
-    echo -e "${ANSI_BLUE}Example: $(basename $0) v0.7.8 \"Molding system::Interface::bash()\"${ANSI_ENDCOLOR}"
+    git status
+    echo -e "${ANSI_MAGENTA}Example: ${ANSI_WHITE}$(basename $0) v0.7.8 \"Molding system::Interface::bash()\"${ANSI_ENDCOLOR}"
     exit
 fi
 
