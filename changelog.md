@@ -19,13 +19,14 @@
 tagit.sh
 
 cd ~/dev/for_interfaces
-tagit.sh v2.25.1 "Added http-server (npx) support"
+tagit.sh v2.31.0 "Added interface_test.sh"
 firefox https://github.com/perriera/for_interfaces/tags
 cd ~/dev/for_interfaces
 cat changelog.md | grep "*:" >/tmp/file1.txt
 xclip -selection c /tmp/file1.txt
 ```
 
+**Added interface_test.sh**: https://github.com/perriera/for_interfaces/compare/v2.30.0...v2.31.0
 **Added http-server (npx) support**: https://github.com/perriera/for_interfaces/compare/v2.25.1...v2.29.2
 **Added docs on git rebase**: https://github.com/perriera/for_interfaces/compare/v2.24.4...v2.25.1
 **Updated help docs on tagit.sh**: https://github.com/perriera/for_interfaces/compare/v2.24.2...v2.24.4
