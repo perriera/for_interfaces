@@ -31,9 +31,9 @@ echo -e "${ANSI_PURPLE}${INTERFACES_SCRIPTS_PROJECT}${ANSI_ENDCOLOR}"
 if [ $# -eq 0 ]
   then
     echo -e "${ANSI_RED}No arguments supplied${ANSI_ENDCOLOR}"
-    echo -e "${ANSI_BLUE}Syntax: $(basename $0) tag comment1 comment2 ... comment9${ANSI_ENDCOLOR}"
-    echo -e "${ANSI_BLUE}tag should be major.minor.patch ${ANSI_ENDCOLOR}"
-    echo -e "${ANSI_BLUE}for example here's the last tag:${ANSI_CYAN}"
+    echo -e "${ANSI_WHITE}Syntax: $(basename $0) tag comment1 comment2 ... comment9${ANSI_ENDCOLOR}"
+    echo -e "${ANSI_WHITE}tag should be major.minor.patch ${ANSI_ENDCOLOR}"
+    echo -e "${ANSI_WHITE}for example here's the last tag:${ANSI_CYAN}"
     git describe --tags --abbrev=0 
     exit
 fi

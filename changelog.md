@@ -19,13 +19,14 @@
 tagit.sh
 
 cd ~/dev/for_interfaces
-tagit.sh v2.36.0 "Added interface_help.sh"
+tagit.sh v2.37.0 "Updated tagit.sh"
 firefox https://github.com/perriera/for_interfaces/tags
 cd ~/dev/for_interfaces
 cat changelog.md | grep "*:" >/tmp/file1.txt
 xclip -selection c /tmp/file1.txt
 ```
 
+**Updated tagit.sh**: https://github.com/perriera/for_interfaces/compare/v2.36.0...v2.37.0
 **Added interface_help.sh**: https://github.com/perriera/for_interfaces/compare/v2.35.0...v2.36.0
 **Refactored bash script names**: https://github.com/perriera/for_interfaces/compare/v2.34.0...v2.35.0
 **Refactored bash script names**: https://github.com/perriera/for_interfaces/compare/v2.34.0...v2.35.0
