@@ -12,3 +12,12 @@
 ```
 /snap/cmake/current/bin/cmake
 ```
+
+### [Executing bash commands from a CMake file](https://stackoverflow.com/questions/35072473/executing-bash-commands-from-a-cmake-file)
+```
+execute_process (
+    COMMAND bash -c "date +'%F %T'"
+    OUTPUT_VARIABLE outVar
+)
+file(WRITE "datestamp" "${outVar}")
+```

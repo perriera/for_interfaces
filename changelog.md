@@ -19,7 +19,7 @@
 tagit.sh
 
 cd ~/dev/for_interfaces
-it_post.sh v2.39.12 "Added docs to it_test.sh"
+it_post.sh v2.40.0 "Added docs to cmake.md"
 firefox https://github.com/perriera/for_interfaces/tags
 cd ~/dev/for_interfaces
 cat changelog.md | grep "*:" >/tmp/file1.txt
@@ -27,6 +27,7 @@ xclip -selection c /tmp/file1.txt
 
 ```
 
+**Added docs to it_test.sh**: https://github.com/perriera/for_interfaces/compare/v2.39.12...v2.40.0
 **Added docs to it_test.sh**: https://github.com/perriera/for_interfaces/compare/v2.39.11...v2.39.12
 **Updated interface_post.sh**: https://github.com/perriera/for_interfaces/compare/v2.37.0...v2.38.0
 **Updated tagit.sh**: https://github.com/perriera/for_interfaces/compare/v2.36.0...v2.37.0
