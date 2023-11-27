@@ -50,6 +50,7 @@ ls "${WHERE}" -la
 echo -e "${ANSI_RESET}"
 echo -e "${ANSI_WHITE}disclaimer: interface bash scripts are PATH found inside ~/dev/interfaces/docs/${ANSI_BLUE}"
 echo -e "${ANSI_WHITE}            however they are maintained inside ~/dev/for_interfaces/bin${ANSI_BLUE}"
+echo -e "${ANSI_YELLOW}           (just remember to run bin/docs.sh (or docs.sh) to update your project)${ANSI_BLUE}"
 
 echo -e "${ANSI_ENDCOLOR}"
 
