@@ -43,23 +43,15 @@ PARENT="$(basename "$(dirname "$PWD/test")")"
 echo $PARENT
 PROJECT_NAME=$PARENT
 
-cd ~/dev/${PROJECT_NAME}
-rm build/lib*
-rm build/run-unittests-${PROJECT_NAME}
-cd build; cmake ..; make; cd ..
+WHERE=/home/dev/dev/interfaces/docs/for_interfaces/bin
+echo -e "${ANSI_CYAN}contents of: ${WHERE}${ANSI_BLUE}"
+echo -e "${ANSI_RESET}"
+ls "${WHERE}" -la
+echo -e "${ANSI_RESET}"
+echo -e "${ANSI_WHITE}disclaimer: interface bash scripts are PATH found inside ~/dev/interfaces/docs/${ANSI_BLUE}"
+echo -e "${ANSI_WHITE}            however they are maintained inside ~/dev/for_interfaces/bin${ANSI_BLUE}"
 
-FILE=build/run-unittests-${PROJECT_NAME}
-if [ -f "$FILE" ]; then
-  $FILE
-fi
-if [ ! -f "$FILE" ]; then
-  echo "$FILE does not exist, (build failed?)"
-fi
-
-echo -e "${ANSI_GREEN}"
-ls build
 echo -e "${ANSI_ENDCOLOR}"
-tagit.sh
 
 exit
 
