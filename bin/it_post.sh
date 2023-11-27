@@ -61,7 +61,7 @@ echo -e "${ANSI_RESET}${ANSI_CYAN}"
     echo ${D}
 echo -e "${ANSI_YELLOW}${ANSI_BRIGHT}"
 
-read -p "${POST_COMMAND}: (Y/n)? " name
+read -p "${POST_COMMAND}: (y/N)? " name
 
 if [ "$name" = "Y" ];
 then
