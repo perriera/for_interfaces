@@ -54,10 +54,10 @@ POST_COMMAND="tagit.sh $1 \"$2 $3 $4 $5 $6 $7 $8 $9\""
     B=firefox https://github.com/${INTERFACES_SCRIPTS_VENDOR}/${PROJECT_NAME}/tags
     C=cat changelog.md | grep "*:" >/tmp/file1.txt
     D=xclip -selection c /tmp/file1.txt
-    $echo ${A}
-    $echo ${B}
-    $echo ${C}
-    $echo ${D}
+    echo ${A}
+    echo ${B}
+    echo ${C}
+    echo ${D}
 
 read -p "${POST_COMMAND}: (Y/n)? " name
 
