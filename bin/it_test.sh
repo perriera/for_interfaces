@@ -34,6 +34,7 @@ if [ $# -gt 0 ];
     echo -e "${ANSI_RED}No arguments required${ANSI_ENDCOLOR}"
     echo -e "${ANSI_RED}must be in root folder of injections-based project${ANSI_ENDCOLOR}"
     echo -e "${ANSI_BLUE}Syntax: $(basename $0) ${ANSI_ENDCOLOR}"
+    echo -e "${ANSI_BLUE}failed: $(basename $0) | grep FAILED ${ANSI_ENDCOLOR}"
     exit
 fi
 
