@@ -19,15 +19,15 @@
 tagit.sh
 
 cd ~/dev/for_interfaces
-it_post.sh v2.40.0 "Added docs to cmake.md"
+it_post.sh v2.45.2 "renamed it_create.sh to it_clone.sh"
 firefox https://github.com/perriera/for_interfaces/tags
 cd ~/dev/for_interfaces
 cat changelog.md | grep "*:" >/tmp/file1.txt
 xclip -selection c /tmp/file1.txt
 
 ```
-
-**renamed bash scripts**: https://github.com/perriera/for_interfaces/compare/v2.44.0...v2.45.1
+**renamed it_create.sh to it_clone.sh**: https://github.com/perriera/for_interfaces/compare/v2.45.1...v2.45.2
+**renamed tagit.sh script (back)**: https://github.com/perriera/for_interfaces/compare/v2.44.0...v2.45.1
 **added pyhton folder**: https://github.com/perriera/for_interfaces/compare/v2.43.0...v2.44.0
 **renamed tagit.sh to tagit.sh**: https://github.com/perriera/for_interfaces/compare/v2.42.0...v2.43.0
 **add docs on ssh keys**: https://github.com/perriera/for_interfaces/compare/v2.40.0...v2.42.0
