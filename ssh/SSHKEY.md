@@ -33,6 +33,17 @@ Assuming you have a GitHub.com account:
     echo public_key_string >> ~/.ssh/authorized_keys
 
 ```
+
+### Alternate Case
+> *Failed to restart ssh.service: Unit ssh.service not found.*
+```
+sudo apt install openssh-server
+```
+or
+```
+sudo systemctl restart ssh
+```
+
 ### Alternate Case
 > **user.email not specified**<br/>
 > **user.name not specified**<br/>
