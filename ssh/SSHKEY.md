@@ -27,6 +27,13 @@ Assuming you have a GitHub.com account:
 5. You should be good to go on any git clone operations needing a SSH key for your current Ubuntu instance
 
 ### Alternate Case
+> Add this to the .ssh account on the server you wish to connect to:
+```
+    cat ~/.ssh/id_ed25519.pub
+    echo public_key_string >> ~/.ssh/authorized_keys
+
+```
+### Alternate Case
 > **user.email not specified**<br/>
 > **user.name not specified**<br/>
 > You must specify your name and email for the git client to work<br/>
@@ -38,6 +45,6 @@ Assuming you have a GitHub.com account:
 
 ### Next Steps
 - [How to clone your project (with this template)](https://github.com/perriera/extras_dbo/blob/dev/docs/CLONE.md)
-
+- [How To Configure SSH Key-Based Authentication on a Linux Server](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
 
 
