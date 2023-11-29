@@ -30,7 +30,7 @@ source it_version.sh
 echo -e "${ANSI_WHITE}${ANSI_BRIGHT}$(basename $0)${ANSI_ENDCOLOR}"
 echo -e "${ANSI_PURPLE}${INTERFACES_SCRIPTS_PROJECT}${ANSI_ENDCOLOR}"
 
-it_tag.sh
+tagit.sh
 
 if [ $# -lt 2 ]; 
   then
@@ -48,7 +48,7 @@ echo $PARENT
 PROJECT_NAME=$PARENT
 
 cd ~/dev/${PROJECT_NAME}
-POST_COMMAND="it_tag.sh $1 \"$2 $3 $4 $5 $6 $7 $8 $9\""
+POST_COMMAND="tagit.sh $1 \"$2 $3 $4 $5 $6 $7 $8 $9\""
 
     A="${POST_COMMAND}"
     B="firefox https://github.com/${INTERFACES_SCRIPTS_VENDOR}/${PROJECT_NAME}/tags"
@@ -73,7 +73,7 @@ fi
 if [ "$name" = "n" ];
 then
     echo -e "${ANSI_RED}No changes made to repository${ANSI_ENDCOLOR}"
-    it_tag.sh
+    tagit.sh
 fi
 
 exit

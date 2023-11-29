@@ -16,7 +16,7 @@
 > - MAKE SURE to tag and update the tag compare list below, (for quick code comparison purposes).
 
 ```
-it_tag.sh
+tagit.sh
 
 cd ~/dev/for_interfaces
 it_post.sh v2.40.0 "Added docs to cmake.md"
@@ -27,9 +27,9 @@ xclip -selection c /tmp/file1.txt
 
 ```
 
-**renamed bash scripts**: https://github.com/perriera/for_interfaces/compare/v2.44.0...v2.45.0
+**renamed bash scripts**: https://github.com/perriera/for_interfaces/compare/v2.44.0...v2.45.1
 **added pyhton folder**: https://github.com/perriera/for_interfaces/compare/v2.43.0...v2.44.0
-**renamed tagit.sh to it_tag.sh**: https://github.com/perriera/for_interfaces/compare/v2.42.0...v2.43.0
+**renamed tagit.sh to tagit.sh**: https://github.com/perriera/for_interfaces/compare/v2.42.0...v2.43.0
 **add docs on ssh keys**: https://github.com/perriera/for_interfaces/compare/v2.40.0...v2.42.0
 **Added docs to it_test.sh**: https://github.com/perriera/for_interfaces/compare/v2.39.12...v2.40.0
 **Added docs to it_test.sh**: https://github.com/perriera/for_interfaces/compare/v2.39.11...v2.39.12

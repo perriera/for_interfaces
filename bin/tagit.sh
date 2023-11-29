@@ -22,5 +22,26 @@
 # IN THE SOFTWARE.
 #
 
-# legacy, (can be deleted)
-it_tag.sh $1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12 $13 $14
+source it_ansi_colors.sh
+source it_version.sh
+
+echo -e "${ANSI_BLUE}$(basename $0)${ANSI_ENDCOLOR}"
+echo -e "${ANSI_PURPLE}${INTERFACES_SCRIPTS_PROJECT}${ANSI_ENDCOLOR}"
+
+if [ $# -eq 0 ]
+  then
+    echo -e "${ANSI_RED}No arguments supplied${ANSI_ENDCOLOR}"
+    echo -e "${ANSI_WHITE}Syntax: $(basename $0) tag comment1 comment2 ... comment9${ANSI_ENDCOLOR}"
+    echo -e "${ANSI_WHITE}tag should be major.minor.patch ${ANSI_ENDCOLOR}"
+    echo -e "${ANSI_WHITE}for example here's the last tag:${ANSI_CYAN}"
+    git describe --tags --abbrev=0 
+    exit
+fi
+
+echo -e "${ANSI_BLUE}$1${ANSI_CYAN}"
+git add .; git commit -m "Added $1"; git push
+git tag -a $1 -m "added $1 $2 $3 $4 $5 $6 $7 $8 $9 "
+git push origin $1
+echo -e "${ANSI_BLUE}When the git repository window appears press Create Release${ANSI_ENDCOLOR}"
+echo -e "${ANSI_BLUE}Then press Ctrl-V to paste selected contents of changelog.md${ANSI_ENDCOLOR}"
+echo -e "${ANSI_ENDCOLOR}"

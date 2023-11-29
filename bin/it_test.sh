@@ -60,7 +60,7 @@ fi
 echo -e "${ANSI_GREEN}"
 ls build
 echo -e "${ANSI_ENDCOLOR}"
-it_tag.sh
+tagit.sh
 
 exit
 
