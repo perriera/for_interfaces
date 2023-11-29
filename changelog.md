@@ -27,6 +27,7 @@ xclip -selection c /tmp/file1.txt
 
 ```
 
+**renamed bash scripts**: https://github.com/perriera/for_interfaces/compare/v2.44.0...v2.45.0
 **added pyhton folder**: https://github.com/perriera/for_interfaces/compare/v2.43.0...v2.44.0
 **renamed tagit.sh to it_tag.sh**: https://github.com/perriera/for_interfaces/compare/v2.42.0...v2.43.0
 **add docs on ssh keys**: https://github.com/perriera/for_interfaces/compare/v2.40.0...v2.42.0

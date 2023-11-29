@@ -23,8 +23,8 @@
 # IN THE SOFTWARE.
 #
 
-source ansi_colors.sh
-source version.sh
+source it_ansi_colors.sh
+source it_version.sh
 
 echo -e "${ANSI_BLUE}$(basename $0)${ANSI_ENDCOLOR}"
 echo -e "${ANSI_PURPLE}${INTERFACES_SCRIPTS_PROJECT}${ANSI_ENDCOLOR}"
