@@ -19,14 +19,14 @@
 tagit.sh
 
 cd ~/dev/for_interfaces
-it_post.sh v2.46.0 "made it_assert_interface.sh compliant"
-firefox https://github.com/perriera/for_interfaces/tags
+it_post.sh v2.46.1 "made it_assert_interface.sh compliant"
+firefox https://github.com/perriera/for_interfaces/tags &
 cd ~/dev/for_interfaces
 cat changelog.md | grep "*:" >/tmp/file1.txt
 xclip -selection c /tmp/file1.txt
 
 ```
-**made it_assert_interface.sh compliant**: https://github.com/perriera/for_interfaces/compare/v2.45.2...v2.46.0
+**made it_assert_interface.sh compliant**: https://github.com/perriera/for_interfaces/compare/v2.45.2...v2.46.1
 **renamed it_create.sh to it_clone.sh**: https://github.com/perriera/for_interfaces/compare/v2.45.1...v2.45.2
 **renamed tagit.sh script (back)**: https://github.com/perriera/for_interfaces/compare/v2.44.0...v2.45.1
 **added pyhton folder**: https://github.com/perriera/for_interfaces/compare/v2.43.0...v2.44.0
