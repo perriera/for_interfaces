@@ -17,3 +17,10 @@ parent_dir_name=$(basename $PWD)
 > - [Bash Array – How to Declare an Array of Strings in a Bash Script](https://www.freecodecamp.org/news/bash-array-how-to-declare-an-array-of-strings-in-a-bash-script/)
 > - [You don't know Bash: An introduction to Bash arrays](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
 > - [Redirecting command output to a variable in bash fails](https://stackoverflow.com/questions/10319745/redirecting-command-output-to-a-variable-in-bash-fails)
+```
+OUTPUT=$(sudo apache2ctl configtest)
+echo $OUTPUT
+```
+```
+OUTPUT="$(sudo apache2ctl configtest 2>&1)"
+```
