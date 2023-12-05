@@ -24,3 +24,5 @@ echo $OUTPUT
 ```
 OUTPUT="$(sudo apache2ctl configtest 2>&1)"
 ```
+> - [Returning Values from Functions in Bash Shell Scripting](https://ioflood.com/blog/bash-function-return-value/)
+> - [Get return value of exe in script [duplicate]](https://stackoverflow.com/questions/18182977/get-return-value-of-exe-in-script)
