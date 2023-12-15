@@ -143,8 +143,12 @@ at this point you might want to backup the website
 ### next steps
 > - adding content generated from your web site project in the form of HTML/CSS and place it into /var/www/thewebsite.com/public_html/
 > - as a general rule of thumb rename the current public_html to public_html.bak as a safety were there be an issue with the newest version
-### note: always copy the web page content into the apache folder as root (never, never, never try to set up some sort of symbolic link to your user folder as this is a classic snafu otherwise known as the 'rookie mistake' of apache server hosting). 
-> for example let's assume you have new content to be placed onto the apache server in a folder call ~/myproject/website/content. do this to upload your content
+### beware: #1 ROOKIE MISTAKE 
+> - never symbolic link apache /var/www folders into the user folder (and adjust permissions for world wide access)
+> - just duplicate all HTML/CSS/JS content into the designated /var/www folder (and restart apache2)
+### best way to upload new content
+> - let's assume you have new content to be placed onto the apache server in a folder call ~/myproject/website/conten
+> - do something like this to update your content
 ```
 sudo rm -rf /var/www/thewebsite.com/public_html.bak
 sudo mv /var/www/thewebsite.com/public_html /var/www/thewebsite.com/public_html.bak
