@@ -163,15 +163,17 @@ cat ~/.ssh/id_ed25519.pub
 ### alternate case
 > it is possible to repeat the above steps for additional websites (all from the same ubuntu machine and ip address) as apache2 has been specializing in this type of service for many years (using common sense just add website profiles and folders using the example above)
 ### summary
-at this point you might want to backup the website
+at this point you might want to backup the website. once backed up you might want to consider removing OpenSSH access from ufw (for production related sites) *but only in the case where you do not have to access the site again in the future*
 ### alternate case
 > WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
 ```
 ssh-keygen -f "/home/perry/.ssh/known_hosts" -R "bigblueai.com"
 ```
 ### next steps
+> - backup the entire website
 > - add actual HTML/CSS content (generated from your web site project)
 > - apache2 will look for an index.html file (unless otherwise directed)
+> - increase security by removing OpenSSH access with ufw
 
 ### beware: #1 ROOKIE MISTAKE 
 > - never symbolic link apache /var/www folders into the user folder (and adjust permissions for world wide access)
