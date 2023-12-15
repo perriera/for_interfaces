@@ -140,7 +140,7 @@ firefox thewebsite.com
 ```
 
 ### summary
-at this point you might want to back up the website
+at this point you might want to backup the website
 
 ### next steps
 > - adding content generated from your web site project in the form of HTML/CSS and place it into /var/www/thewebsite.com/public_html/
