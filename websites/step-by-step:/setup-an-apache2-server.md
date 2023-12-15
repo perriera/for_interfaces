@@ -11,11 +11,27 @@
 > - the domain name www alias pointing towards the cname
 
 ### wish case
-note: substitute 'thewebsite.com' for the domain name to be mounted in the instructions below:
+note: substitute 'bigblueai.com' for the domain name to be mounted in the instructions below:
 
+a. before proceeding further make sure the domain name is resolved to the ip address of the linux box
+```
+ping bigblueai.com
+```
+b. add your local ssh key to the root authorized_keys file, (assuming you have one, in the case where you do not have a local ssh key see alternate case below)
+```
+cat ~/.ssh/id_ed25519.pub 
+```
+c. get into the root of the remote ubuntu box 
+```
+ls ~/.ssh/authorized_keys 
+echo [whatever was displayed as the ssh key] >> ~/.ssh/authorized_keys 
+exit
+```
 1. create dev user and re-ssh into the Ubuntu box (as dev)
 ```
-ssh root@thewebsite.com
+ssh root@bigblueai.com
+```
+```
 adduser dev
 ```
 2. supply a password (no need for other details)
@@ -24,7 +40,9 @@ adduser dev sudo
 cp -r .ssh /home/dev 
 chown -R dev:dev /home/dev 
 exit
-ssh dev@thewebsite.com
+```
+```
+ssh dev@bigblueai.com
 ```
 3. once back inside ubuntu (as dev) apply the latest upgrades
 ```
@@ -33,52 +51,52 @@ sudo apt -y upgrade
 sudo apt -y autoremove
 sudo reboot
 ``` 
-4. before proceeding further make sure the domain name is resolved to the ip address of the linux box
+4. relog back into the ubuntu box (after a minute or two)
 ```
-ping thewebsite.com
+ssh dev@bigblueai.com
 ```
 5. At this stage you can now install apache2
 ```
 sudo apt install -y apache2
 ```
-6. now make sure the ubuntu firewall is install, active and allowing https and ssh access
+6. now make sure the ubuntu firewall is install, active and allowing https and ssh access (answer 'y')
 ```
 sudo ufw app list
 sudo ufw allow 'Apache'
-sudo ufw status
-sudo ufw enable
 sudo ufw allow OpenSSH
 sudo ufw allow https
+sudo ufw status
+sudo ufw enable
 ```
-7. at this point the apache2 webserver diagnostic page for your ip address would be visable to the Internet, (in the case where it is not retrace your steps)
+7. at this point the apache2 webserver diagnostic page for your ip address would be visable to the Internet, (in the case where it is not retrace your steps or refresh your browser)
 ```
-firefox thewebsite.com
+firefox bigblueai.com
 ```
 8. now add an apache2 profile for the domain name
 ```
-sudo vi /etc/apache2/sites-available/thewebsite.com.conf
+sudo vi /etc/apache2/sites-available/bigblueai.com.conf
 ```
 9. add the following contents
 ```
 <VirtualHost *:80>
-    ServerAdmin admin@thewebsite.com
-    ServerName thewebsite.com
-     <Directory /var/www/thewebsite.com/public_html>
+    ServerAdmin admin@bigblueai.com
+    ServerName bigblueai.com
+     <Directory /var/www/bigblueai.com/public_html>
         Options Indexes FollowSymLinks MultiViews
         AllowOverride All
         Order allow,deny
         allow from all
      </Directory>
-    ServerAlias www.thewebsite.com 
-    DocumentRoot /var/www/thewebsite.com/public_html
+    ServerAlias www.bigblueai.com 
+    DocumentRoot /var/www/bigblueai.com/public_html
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 ```
 10. now put a basic web page in that folder
 ```
-sudo mkdir -p /var/www/thewebsite.com/public_html
-sudo vi /var/www/thewebsite.com/public_html/index.html 
+sudo mkdir -p /var/www/bigblueai.com/public_html
+sudo vi /var/www/bigblueai.com/public_html/index.html 
 ```
 11. add the following content
 ```
@@ -93,13 +111,13 @@ sudo vi /var/www/thewebsite.com/public_html/index.html
 ```
 12. now activate the new server profile and restart apache2
 ```
-sudo a2ensite thewebsite.com.conf
+sudo a2ensite bigblueai.com.conf
 sudo a2dissite 000-default.conf
 sudo systemctl restart apache2
 ```
 13. check the Internet again to see the new web page
 ```
-firefox thewebsite.com
+firefox bigblueai.com
 ```
 14. now we need to add https and certbot support
 ```
@@ -110,9 +128,9 @@ sudo apt install certbot python3-certbot-apache -y
 hostname -I
 curl -4 icanhazip.com
 ```
-16. compare the ip addresses listed with the content that comes back for thewebsite.com
+16. compare the ip addresses listed with the content that comes back for bigblueai.com
 ```
-curl thewebsite.com
+curl bigblueai.com
 ```
 17. now edit this to the apache2.conf file
 ```
@@ -134,12 +152,23 @@ sudo certbot --apache
 ```
 20. check the Internet again to see the new web page (using https)
 ```
-firefox thewebsite.com
+firefox bigblueai.com
 ```
-
+### alternate case
+> need a local ssh key 
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+cat ~/.ssh/id_ed25519.pub
+```
+### alternate case
+> it is possible to repeat the above steps for additional websites (all from the same ubuntu machine and ip address) as apache2 has been specializing in this type of service for many years (using common sense just add website profiles and folders using the example above)
 ### summary
 at this point you might want to backup the website
-
+### alternate case
+> WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
+```
+ssh-keygen -f "/home/perry/.ssh/known_hosts" -R "bigblueai.com"
+```
 ### next steps
 > - add actual HTML/CSS content (generated from your web site project)
 > - apache2 will look for an index.html file (unless otherwise directed)
@@ -148,13 +177,13 @@ at this point you might want to backup the website
 > - never symbolic link apache /var/www folders into the user folder (and adjust permissions for world wide access)
 > - just duplicate all HTML/CSS/JS content into the designated /var/www folder (and restart apache2)
 ### best way to upload new content
-> - let's assume you have new content to be placed onto the apache server in a folder call ~/myproject/website/conten
+> - let's assume you have new content to be placed onto the apache server in a folder call ~/myproject/website/content
 > - do something like this to update your content
 ```
-sudo rm -rf /var/www/thewebsite.com/public_html.bak
-sudo mv /var/www/thewebsite.com/public_html /var/www/thewebsite.com/public_html.bak
-sudo cp -r ~/myproject/website/content /var/www/thewebsite.com/public_html
-sudo chown -R root:root /var/www/thewebsite.com/public_html
+sudo rm -rf /var/www/bigblueai.com/public_html.bak
+sudo mv /var/www/bigblueai.com/public_html /var/www/bigblueai.com/public_html.bak
+sudo cp -r ~/myproject/website/content /var/www/bigblueai.com/public_html
+sudo chown -R root:root /var/www/bigblueai.com/public_html
 sudo systemctl reload apache2
 sudo apache2ctl configtest
 ```

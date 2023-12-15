@@ -19,13 +19,15 @@
 tagit.sh
 
 cd ~/dev/for_interfaces
-it_post.sh v2.46.2 "made it_assert_interface.sh compliant"
+it_post.sh v2.51.0 "added setup-an-apache2-server.md"
 firefox https://github.com/perriera/for_interfaces/tags &
 cd ~/dev/for_interfaces
 cat changelog.md | grep "*:" >/tmp/file1.txt
 xclip -selection c /tmp/file1.txt
 
 ```
+**added setup-an-apache2-server.md**: https://github.com/perriera/for_interfaces/compare/v2.49.0...v2.51.0
+**added a bunch of tweaks**: https://github.com/perriera/for_interfaces/compare/v2.45.2...v2.49.0
 **made it_assert_interface.sh compliant**: https://github.com/perriera/for_interfaces/compare/v2.45.2...v2.46.2
 **renamed it_create.sh to it_clone.sh**: https://github.com/perriera/for_interfaces/compare/v2.45.1...v2.45.2
 **renamed tagit.sh script (back)**: https://github.com/perriera/for_interfaces/compare/v2.44.0...v2.45.1
