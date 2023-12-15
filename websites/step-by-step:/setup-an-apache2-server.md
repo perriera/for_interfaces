@@ -11,7 +11,7 @@
 > - the domain name www alias pointing towards the cname
 
 ### wish case
-note: 'thewebsite.com' for the domain name in the instructions below:
+note: substitute 'thewebsite.com' for the domain name to be mounted in the instructions below:
 
 1. create dev user and re-ssh into the Ubuntu box (as dev)
 ```
@@ -146,6 +146,7 @@ at this point you might want to backup the website
 ### note: always copy the web page content into the apache folder as root (never, never, never try to set up some sort of symbolic link to your user folder as this is a classic snafu otherwise known as the 'rookie mistake' of apache server hosting). 
 > for example let's assume you have new content to be placed onto the apache server in a folder call ~/myproject/website/content. do this to upload your content
 ```
+sudo rm -rf /var/www/thewebsite.com/public_html.bak
 sudo mv /var/www/thewebsite.com/public_html /var/www/thewebsite.com/public_html.bak
 sudo cp -r ~/myproject/website/content /var/www/thewebsite.com/public_html
 sudo chown -R root:root /var/www/thewebsite.com/public_html
