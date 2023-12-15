@@ -128,11 +128,10 @@ ServerName 127.0.0.1
 sudo systemctl reload apache2
 sudo apache2ctl configtest
 ```
-19. now make certbot do it's thing (supply an email that can be used in the event of an admin issue)
+19. now make certbot do it's thing (supply an email that can be used in the event of an admin issue).  when asked to specify two domain names do it like this '1 2' (or whatever numbers are listed)
 ```
 sudo certbot --apache
 ```
-note: when asked to specify two domain names do it like this '1 2' (or whatever numbers are listed)
 20. check the Internet again to see the new web page (using https)
 ```
 firefox thewebsite.com
