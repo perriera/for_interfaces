@@ -162,13 +162,13 @@ cat ~/.ssh/id_ed25519.pub
 ```
 ### alternate case
 > it is possible to repeat the above steps for additional websites (all from the same ubuntu machine and ip address) as apache2 has been specializing in this type of service for many years (using common sense just add website profiles and folders using the example above)
-### summary
-at this point you might want to backup the website. once backed up you might want to consider removing OpenSSH access from ufw (for production related sites) *but only in the case where you do not have to access the site again in the future*
 ### alternate case
 > WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
 ```
 ssh-keygen -f "/home/perry/.ssh/known_hosts" -R "bigblueai.com"
 ```
+### summary
+at this point you might want to backup the website. once backed up you might want to consider removing OpenSSH access from ufw (for production related sites) *but only in the case where you do not have to access the site again in the future*
 ### next steps
 > - backup the entire website
 > - add actual HTML/CSS content (generated from your web site project)
