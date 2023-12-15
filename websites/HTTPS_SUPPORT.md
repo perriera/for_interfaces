@@ -1,7 +1,3 @@
-
-
-
-
 ## How To Secure Apache with Let's Encrypt on Ubuntu 20.04
 > To be able to host multiple websites off one single web server and for those to be https compliant is worth it's weight in gold. This How-To describes how to set up such a platform using Apache, certbot and a well established version of Ubuntu.
 
@@ -38,7 +34,6 @@ sudo vi /etc/apache2/sites-available/freeformjs.org.conf
 <VirtualHost *:80>
     ServerAdmin admin@freeformjs.org
     ServerName freeformjs.org
-
      <Directory /var/www/freeformjs.org/public_html>
         Options Indexes FollowSymLinks MultiViews
         AllowOverride All

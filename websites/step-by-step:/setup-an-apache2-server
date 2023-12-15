@@ -1,0 +1,33 @@
+## use case (purpose)
+> *Given* the need to setup a https server quickly and easily *when* we outline the steps necessary to do so here *then* we save a lot of time doing so in the future by having all the instructions, (for a particular versions of Ubuntu and Apache2) here and now.
+
+### prerequisites
+> - Ubuntu 20.04 box (or better)
+> - sudo rights
+> - good internet
+> - ssh access (when remote)
+> - the ability to backup/restore easily
+> - the domain name setup with the ip address
+> - the domain name www alias pointing towards the cname
+
+### wish case
+1. create dev user and re-ssh into the Ubuntu box (as dev)
+```
+ssh root@thewebsite.com
+adduser dev
+```
+2. supply a password (no need for other details)
+```
+adduser dev sudo
+cp -r .ssh /home/dev 
+chown -R dev:dev /home/dev 
+exit
+ssh dev@thewebsite.com
+```
+3. once back inside ubuntu (as dev) apply the latest upgrades
+```
+sudo apt -y update
+sudo apt -y upgrade
+sudo apt -y autoremove
+sudo reboot
+``` 
