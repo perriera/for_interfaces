@@ -110,9 +110,8 @@ sudo apt install certbot python3-certbot-apache -y
 hostname -I
 curl -4 icanhazip.com
 ```
-16. compare the ip addresses listed with the ip address that comes back for thewebsite.com
+16. compare the ip addresses listed with the content that comes back for thewebsite.com
 ```
-ping thewebsite.com
 curl thewebsite.com
 ```
 17. now edit this to the apache2.conf file
