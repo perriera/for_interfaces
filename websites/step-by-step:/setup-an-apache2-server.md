@@ -72,9 +72,10 @@ sudo ufw enable
 ```
 firefox bigblueai.com
 ```
-7b. in the case where 'Unable to connect' shows up check to see that there is no 'https' preceding the url, (as the browser has your previous exercise in it's cache). in such a case test it with the ip address, for example:
+7b. in the case where 'Unable to connect' shows up check to see that there is no 'https' preceding the url, (as the browser has your previous exercise in it's cache). in such a case test it with the ip address, (or use curl) for example:
 ```
 firefox 143.110.147.169
+curl bigblueai.com
 ```
 8. now add an apache2 profile for the domain name
 ```
@@ -180,8 +181,8 @@ at this point you might want to backup the website. once backed up you might wan
 > - increase security by removing OpenSSH access with ufw
 
 ### beware: #1 ROOKIE MISTAKE 
-> - never symbolic link apache /var/www folders into the user folder (and adjust permissions for world wide access)
-> - just duplicate all HTML/CSS/JS content into the designated /var/www folder (and restart apache2)
+> - never symbolic link apache the /var/www *public_html* into the your user folder (and adjust permissions)
+> - just duplicate all HTML/CSS/JS content into the designated /var/www folder (and chown to root:root)
 ### best way to upload new content
 > - let's assume you have new content to be placed onto the apache server in a folder call ~/myproject/website/content
 > - do something like this to update your content
