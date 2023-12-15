@@ -59,7 +59,7 @@ ssh dev@bigblueai.com
 ```
 sudo apt install -y apache2
 ```
-6. now make sure the ubuntu firewall is install, active and allowing https and ssh access (answer 'y')
+6. now make sure the ubuntu firewall is installed, active and allowing https and ssh access (answer 'y')
 ```
 sudo ufw app list
 sudo ufw allow 'Apache'
@@ -71,6 +71,10 @@ sudo ufw enable
 7. at this point the apache2 webserver diagnostic page for your ip address would be visable to the Internet, (in the case where it is not retrace your steps or refresh your browser)
 ```
 firefox bigblueai.com
+```
+7b. in the case where 'Unable to connect' shows up check to see that there is no 'https' preceding the url, (as the browser has your previous exercise in it's cache). in such a case test it with the ip address, for example:
+```
+firefox 143.110.147.169
 ```
 8. now add an apache2 profile for the domain name
 ```
