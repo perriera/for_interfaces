@@ -5,7 +5,7 @@
 > - Ubuntu 20.04 box (or better)
 > - sudo rights
 > - good internet
-> - ssh access (when remote)
+> - ssh access (local ssh public already added to /root/.ssh/authorized_keys)
 > - the ability to backup/restore easily
 > - the domain name setup with the ip address
 > - the domain name www alias pointing towards the cname
