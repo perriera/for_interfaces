@@ -11,6 +11,8 @@
 > - the domain name www alias pointing towards the cname
 
 ### wish case
+note: 'thewebsite.com' for the domain name in the instructions below:
+
 1. create dev user and re-ssh into the Ubuntu box (as dev)
 ```
 ssh root@thewebsite.com
@@ -67,7 +69,6 @@ sudo vi /etc/apache2/sites-available/thewebsite.com.conf
         Order allow,deny
         allow from all
      </Directory>
-
     ServerAlias www.thewebsite.com 
     DocumentRoot /var/www/thewebsite.com/public_html
     ErrorLog ${APACHE_LOG_DIR}/error.log
@@ -76,6 +77,7 @@ sudo vi /etc/apache2/sites-available/thewebsite.com.conf
 ```
 10. now put a basic web page in that folder
 ```
+sudo mkdir -p /var/www/thewebsite.com/public_html
 sudo vi /var/www/thewebsite.com/public_html/index.html 
 ```
 11. add the following content
@@ -99,8 +101,57 @@ sudo systemctl restart apache2
 ```
 firefox thewebsite.com
 ```
-14. now we need to add https support
+14. now we need to add https and certbot support
 ```
+sudo apt install certbot python3-certbot-apache -y
 ```
+15. double check the ip address of your server
+```
+hostname -I
+curl -4 icanhazip.com
+```
+16. compare the ip addresses listed with the ip address that comes back for thewebsite.com
+```
+ping thewebsite.com
+curl thewebsite.com
+```
+17. now edit this to the apache2.conf file
+```
+sudo vi /etc/apache2/apache2.conf
+```
+18. add this to the end of apache2.conf 
+```
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+ServerName 127.0.0.1
+```
+19. now reload apache2 (you should see a 'Syntax Ok' message and nothing else)
+```
+sudo systemctl reload apache2
+sudo apache2ctl configtest
+```
+19. now make certbot do it's thing (supply an email that can be used in the event of an admin issue)
+```
+sudo certbot --apache
+```
+note: when asked to specify two domain names do it like this '1 2' (or whatever numbers are listed)
+20. check the Internet again to see the new web page (using https)
+```
+firefox thewebsite.com
+```
+
+### summary
+at this point you might want to back up the website
+
 ### next steps
-> - [UFW Essentials: Common Firewall Rules and Commands](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
+> - adding content generated from your web site project in the form of HTML/CSS and place it into /var/www/thewebsite.com/public_html/
+> - as a general rule of thumb rename the current public_html to public_html.bak as a safety were there be an issue with the newest version
+### note: always copy the web page content into the apache folder as root (never, never, never try to set up some sort of symbolic link to your user folder as this is a classic snafu otherwise known as the 'rookie mistake' of apache server hosting). 
+> for example let's assume you have new content to be placed onto the apache server in a folder call ~/myproject/website/content. do this to upload your content
+```
+sudo mv /var/www/thewebsite.com/public_html /var/www/thewebsite.com/public_html.bak
+sudo cp -r ~/myproject/website/content /var/www/thewebsite.com/public_html
+sudo chown -R root:root /var/www/thewebsite.com/public_html
+sudo systemctl reload apache2
+sudo apache2ctl configtest
+```
+
