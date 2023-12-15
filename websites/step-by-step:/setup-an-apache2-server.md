@@ -141,8 +141,9 @@ firefox thewebsite.com
 at this point you might want to backup the website
 
 ### next steps
-> - adding content generated from your web site project in the form of HTML/CSS and place it into /var/www/thewebsite.com/public_html/
-> - as a general rule of thumb rename the current public_html to public_html.bak as a safety were there be an issue with the newest version
+> - add actual HTML/CSS content (generated from your web site project)
+> - apache2 will look for an index.html file (unless otherwise directed)
+
 ### beware: #1 ROOKIE MISTAKE 
 > - never symbolic link apache /var/www folders into the user folder (and adjust permissions for world wide access)
 > - just duplicate all HTML/CSS/JS content into the designated /var/www folder (and restart apache2)
