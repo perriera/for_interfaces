@@ -5,6 +5,8 @@
 > - [How do you write a cmake.yml which allows you to review a file on GitHub?](https://stackoverflow.com/questions/70980759/how-do-you-write-a-cmake-yml-which-allows-you-to-review-a-file-on-github)
 > - [How To Install clang-format on Ubuntu 18.04](https://installati.one/ubuntu/18.04/clang-format/)
 >- [How to Install CMake on Ubuntu 20.04 LTS](https://vitux.com/how-to-install-cmake-on-ubuntu/)
+>- [How to copy directory from source tree to binary tree?](https://stackoverflow.com/questions/697560/how-to-copy-directory-from-source-tree-to-binary-tree)
+>- [Installing Files](https://cmake.org/cmake/help/book/mastering-cmake/chapter/Install.html)
 
 ### bad executable
 [bad cmake executable vscode](https://askubuntu.com/questions/1353824/bad-cmake-executable-vscode)
