@@ -5,6 +5,8 @@
 > - [Delete All Files in a Directory Except Some](https://www.baeldung.com/linux/delete-all-exclude-some)
 > - [Grep Exclude: How To Use -v To Exclude Words, Patterns, or Files in Grep](https://ioflood.com/blog/grep-exclude-how-to-use-v-to-exclude-words-patterns-or-files-in-grep/#:~:text=Excluding%20a%20pattern%20in%20grep,contain%20the%20pattern%20%27exclude_this%27.)
 > - [How do I check if a directory exists or not in a Bash shell script?](https://stackoverflow.com/questions/59838/how-do-i-check-if-a-directory-exists-or-not-in-a-bash-shell-script)
+> - [How do I redirect output to a variable in shell? [duplicate]](https://stackoverflow.com/questions/2559076/how-do-i-redirect-output-to-a-variable-in-shell)
+
 ### how to get the name of the parent directory
 ```
 parent_dir_name=$(basename $(dirname $PWD))
