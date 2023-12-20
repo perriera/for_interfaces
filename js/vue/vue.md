@@ -22,7 +22,6 @@
 	cd my-first-vue-app
 	npx vue-cli-service serve --open
 	
-
 **Alternate Case**
 Removing Vue
 
@@ -32,3 +31,6 @@ Removing Vue
 	
 **Summary**
 This guide assumes that you have npm installed
+
+**References**
+[How to Install Vue.js on Ubuntu 22.04](https://tecadmin.net/how-to-install-angular-cli-on-ubuntu-22-04/)
