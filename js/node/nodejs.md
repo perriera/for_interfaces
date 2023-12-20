@@ -75,6 +75,7 @@ This guide assumes that you are using Ubuntu 22.04. Before you begin, you should
 3. [How To Install Node.js on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04)
 4. [installing-node-using-the-node-version-manager](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04#option-3-installing-node-using-the-node-version-manager)
 5. [How can I completely uninstall nodejs, npm and node in Ubuntu [closed]](https://stackoverflow.com/questions/32426601/how-can-i-completely-uninstall-nodejs-npm-and-node-in-ubuntu)
+6. [How to Install Angular CLI on Ubuntu 22.04](https://tecadmin.net/how-to-install-angular-cli-on-ubuntu-22-04/)
 
 ### Acknowledgements
 

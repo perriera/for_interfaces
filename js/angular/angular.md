@@ -45,3 +45,6 @@ Use specific version
 	
 **Summary**
 This guide assumes that you have npm installed
+
+**References**
+1. [How to Install Angular CLI on Ubuntu 22.04](https://tecadmin.net/how-to-install-angular-cli-on-ubuntu-22-04/)
