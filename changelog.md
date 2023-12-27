@@ -26,6 +26,7 @@ cat changelog.md | grep "*:" >/tmp/file1.txt
 xclip -selection c /tmp/file1.txt
 
 ```
+**added remote/WORK.md**: https://github.com/perriera/for_interfaces/compare/v2.52.5...v2.52.7
 **updated CMAKE.md**: https://github.com/perriera/for_interfaces/compare/v2.51.2...v2.52.0
 **added setup-an-apache2-server.md**: https://github.com/perriera/for_interfaces/compare/v2.49.0...v2.51.2
 **added a bunch of tweaks**: https://github.com/perriera/for_interfaces/compare/v2.45.2...v2.49.0
