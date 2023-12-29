@@ -28,3 +28,8 @@ OUTPUT="$(sudo apache2ctl configtest 2>&1)"
 ```
 > - [Returning Values from Functions in Bash Shell Scripting](https://ioflood.com/blog/bash-function-return-value/)
 > - [Get return value of exe in script [duplicate]](https://stackoverflow.com/questions/18182977/get-return-value-of-exe-in-script)
+>- [Loop through an array of strings in Bash?](https://stackoverflow.com/questions/8880603/loop-through-an-array-of-strings-in-bash)
+>- [How can I convert a string from uppercase to lowercase in Bash? [duplicate]](https://stackoverflow.com/questions/11392189/how-can-i-convert-a-string-from-uppercase-to-lowercase-in-bash)
+>- [Replacing some characters in a string with another character](https://stackoverflow.com/questions/2871181/replacing-some-characters-in-a-string-with-another-character)
+>- [Adding Counter in shell script](https://stackoverflow.com/questions/13638670/adding-counter-in-shell-script)
+>- [How can I declare and use Boolean variables in a shell script?](https://stackoverflow.com/questions/2953646/how-can-i-declare-and-use-boolean-variables-in-a-shell-script)
