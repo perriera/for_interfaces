@@ -33,3 +33,4 @@ OUTPUT="$(sudo apache2ctl configtest 2>&1)"
 >- [Replacing some characters in a string with another character](https://stackoverflow.com/questions/2871181/replacing-some-characters-in-a-string-with-another-character)
 >- [Adding Counter in shell script](https://stackoverflow.com/questions/13638670/adding-counter-in-shell-script)
 >- [How can I declare and use Boolean variables in a shell script?](https://stackoverflow.com/questions/2953646/how-can-i-declare-and-use-boolean-variables-in-a-shell-script)
+>- [How to check if a file contains a specific string using Bash](https://stackoverflow.com/questions/11287861/how-to-check-if-a-file-contains-a-specific-string-using-bash)
