@@ -3,6 +3,13 @@
 
 ```
 
+1. run Disk Usage Analyser
+2. rm -rf .cache
+3. firefox -p
+4. sudo apt-get clean
+5. sudo apt-get autoremove --purge
+6. sudo apt-get autoremove
+
 journalctl --disk-usage
 
 sudo journalctl --rotate
