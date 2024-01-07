@@ -1,0 +1,2 @@
+### crazy inventions
+>- [off-grid-generator-1?creativeId](https://go.todaysgreenlivingtips.com/off-grid-generator-1?creativeId=682883945443&gclid=Cj0KCQiAtOmsBhCnARIsAGPa5ybzcjNjyiVwY2_5UF8FAdnpqPBpztXyjf26oj5_qXJBwv_fuoovTfUaAtYNEALw_wcB&utm_content=156718318072&utm_id=20822260537&utm_medium=display&utm_source=google&utm_term=)
