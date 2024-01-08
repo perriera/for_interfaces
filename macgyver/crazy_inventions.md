@@ -1,2 +1,3 @@
 ### crazy inventions
 >- [off-grid-generator-1?creativeId](https://go.todaysgreenlivingtips.com/off-grid-generator-1?creativeId=682883945443&gclid=Cj0KCQiAtOmsBhCnARIsAGPa5ybzcjNjyiVwY2_5UF8FAdnpqPBpztXyjf26oj5_qXJBwv_fuoovTfUaAtYNEALw_wcB&utm_content=156718318072&utm_id=20822260537&utm_medium=display&utm_source=google&utm_term=)
+>- [yoga-go.io](https://yoga-go.io/start-age-full2?branch-name=chair&test-name=go4qpm&utm_source=google&utm_medium=cpc&campaign_id=20781937186&adgroup_id=156214973752&ad_id=680961101969&utm_term=&gclid=Cj0KCQiAtOmsBhCnARIsAGPa5ybQo-aBML3K7phbhmOpsrippCzyl0BiGbcBr_WKpnUrigMJuDQRgKYaAmKLEALw_wcB)
