@@ -6,9 +6,14 @@
 1. run Disk Usage Analyser
 2. rm -rf .cache
 3. firefox -p
-4. sudo apt-get clean
-5. sudo apt-get autoremove --purge
-6. sudo apt-get autoremove
+```
+sudo apt-get clean
+sudo apt-get autoremove --purge
+sudo apt-get autoremove
+rm -rf .local/share/tracker/
+rm -rf .mozilla/firefox/
+rm -rf .cache
+```
 
 journalctl --disk-usage
 
