@@ -1,6 +1,7 @@
 ###
 > - [Map in C++ Standard Template Library (STL)](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)
 > - [C++ Loop through Map](https://stackoverflow.com/questions/26281979/c-loop-through-map)
+> - [How to write an STL compatible container](https://medium.com/@vgasparyan1995/how-to-write-an-stl-compatible-container-fc5b994462c6)
 ```
 
 // C++ program to illustrate the begin and end iterator
