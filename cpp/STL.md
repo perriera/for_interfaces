@@ -3,6 +3,20 @@
 > - [C++ Loop through Map](https://stackoverflow.com/questions/26281979/c-loop-through-map)
 > - [How to write an STL compatible container](https://medium.com/@vgasparyan1995/how-to-write-an-stl-compatible-container-fc5b994462c6)
 > - [C++ Vectors](https://www.programiz.com/cpp-programming/vectors)
+> - [How can I add two vectors in C++? ](https://www.reddit.com/r/cpp_questions/comments/vz261o/how_can_i_add_two_vectors_in_c/?rdt=53979)
+
+```
+#include <algorithm>
+#include <vector>
+template<typename T, template<typename> class C>
+C<T> operator +(const C<T>& A, const C<T>& B) {
+   C<T> result;
+   std::transform(std::begin(A), std::end(A), std::begin(B), std::back_inserter(result), std::plus<T>{});
+
+   return result;
+}
+```
+
 ```
 
 // C++ program to illustrate the begin and end iterator
