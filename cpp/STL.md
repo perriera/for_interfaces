@@ -4,6 +4,7 @@
 > - [How to write an STL compatible container](https://medium.com/@vgasparyan1995/how-to-write-an-stl-compatible-container-fc5b994462c6)
 > - [C++ Vectors](https://www.programiz.com/cpp-programming/vectors)
 > - [How can I add two vectors in C++? ](https://www.reddit.com/r/cpp_questions/comments/vz261o/how_can_i_add_two_vectors_in_c/?rdt=53979)
+> - [Understanding Vector insert() in C++](https://www.digitalocean.com/community/tutorials/vector-insert-in-c-plus-plus)
 
 ```
 #include <algorithm>
