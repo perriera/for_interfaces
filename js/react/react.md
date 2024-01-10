@@ -30,6 +30,10 @@ React Developer Tools
 
 See [React Developer Tools](https://react.dev/learn/react-developer-tools)
 
+**Alternate Case**
+NPM stop?
+>- [NPM stop?](https://discuss.codecademy.com/t/npm-stop/457155)
+
 **Summary**
 This guide assumes that you have npm installed
 

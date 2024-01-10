@@ -35,3 +35,4 @@ OUTPUT="$(sudo apache2ctl configtest 2>&1)"
 >- [How can I declare and use Boolean variables in a shell script?](https://stackoverflow.com/questions/2953646/how-can-i-declare-and-use-boolean-variables-in-a-shell-script)
 >- [How to check if a file contains a specific string using Bash](https://stackoverflow.com/questions/11287861/how-to-check-if-a-file-contains-a-specific-string-using-bash)
 >- [echo that outputs to stderr](https://stackoverflow.com/questions/2990414/echo-that-outputs-to-stderr)
+>- [NPM stop?](https://discuss.codecademy.com/t/npm-stop/457155)
