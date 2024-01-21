@@ -19,13 +19,14 @@
 tagit.sh
 
 cd ~/dev/for_interfaces
-it_post.sh v2.51.2 "added setup-an-apache2-server.md"
+it_post.sh v3.0.0 "removed obsolete bin/ folder"
 firefox https://github.com/perriera/for_interfaces/tags &
 cd ~/dev/for_interfaces
 cat changelog.md | grep "*:" >/tmp/file1.txt
 xclip -selection c /tmp/file1.txt
 
 ```
+**removed obsolete bin/ folder**: https://github.com/perriera/for_interfaces/compare/v2.31.0X...v3.0.0
 **added remote/WORK.md**: https://github.com/perriera/for_interfaces/compare/v2.52.5...v2.52.7
 **updated CMAKE.md**: https://github.com/perriera/for_interfaces/compare/v2.51.2...v2.52.0
 **added setup-an-apache2-server.md**: https://github.com/perriera/for_interfaces/compare/v2.49.0...v2.51.2
