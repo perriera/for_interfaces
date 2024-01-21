@@ -36,3 +36,26 @@ OUTPUT="$(sudo apache2ctl configtest 2>&1)"
 >- [How to check if a file contains a specific string using Bash](https://stackoverflow.com/questions/11287861/how-to-check-if-a-file-contains-a-specific-string-using-bash)
 >- [echo that outputs to stderr](https://stackoverflow.com/questions/2990414/echo-that-outputs-to-stderr)
 >- [NPM stop?](https://discuss.codecademy.com/t/npm-stop/457155)
+>- [Return value in a Bash function](https://stackoverflow.com/questions/17336915/return-value-in-a-bash-function)
+```
+function fun1(){
+  echo 34
+}
+
+function fun2(){
+  local res=$(fun1)
+  echo $res
+}
+```
+>- [How to read a file into a variable in shell?](https://stackoverflow.com/questions/7427262/how-to-read-a-file-into-a-variable-in-shell)
+```
+#!/bin/bash
+value=$(<config.txt)
+echo "$value"
+```
+```
+#!/bin/sh
+value=`cat config.txt`
+echo "$value"
+```
+
