@@ -59,3 +59,27 @@ value=`cat config.txt`
 echo "$value"
 ```
 
+>- [How to Check if a File or Directory Exists in Bash](https://linuxize.com/post/bash-check-if-file-exists/)
+```
+FILE=/etc/resolv.conf
+if [ -f "$FILE" ]; then
+    echo "$FILE exists."
+fi
+
+```
+
+>- [Can a string be returned from a Bash function without using echo or global variables?](https://stackoverflow.com/questions/14482943/can-a-string-be-returned-from-a-bash-function-without-using-echo-or-global-varia)
+```
+ foo() {
+    local input="$1";
+    # local output=$2;  # need to use $2 in scope...
+
+    eval "${2}=\"Hello, ${input} World!\""
+    return 
+}
+
+
+foo "Call by Output" output;
+
+echo $output;
+```
