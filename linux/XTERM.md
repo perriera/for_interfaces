@@ -1,6 +1,17 @@
 ### xterm stuff
 >- [Set Title and Minimized Name in xterm](https://www.starnet.com/help/set-title-and-minimized-name-in-xterm/)
+>- [Simply set xterm title?](https://askubuntu.com/questions/616256/simply-set-xterm-title)
+```
+xterm -title whatever (that is what xterm --help suggests)
 
+xterm -T whatever (according to man pages, this is the same as --title)
+```
+>- [Bash script, pid of xterm process](https://stackoverflow.com/questions/13257110/bash-script-pid-of-xterm-process)
+```
+xterm -e "(time ./program.exe 127.0.0.1) 2> out.txt" &
+pid=$!
+wait $pid
+```
 
 Often, users have many xterms on their desktop which becomes hard to differentiate then since they are all titled the same. To assign a unique name to an xterm, use the -T switch. To assign a unique name when minimized, use the -n switch.
 
