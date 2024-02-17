@@ -11,3 +11,17 @@ esac
 
 ```
 
+basename
+```
+$(basename $0)
+```
+
+compare strings
+```
+if [[ "$1" == "$2" ]]
+  then
+    echo -e "${ANSI_RED}Cannot copy a folder onto itself${ANSI_ENDCOLOR}"
+    echo -e "${ANSI_BLUE}Syntax: $(basename $0) existing_interface new_interface${ANSI_ENDCOLOR}"
+    exit
+fi
+```
