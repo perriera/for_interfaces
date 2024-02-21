@@ -5,3 +5,4 @@
 >- [Walkthrough: Build and debug C++ with WSL 2 and Visual Studio 2022](https://learn.microsoft.com/en-us/cpp/build/walkthrough-build-debug-wsl2?view=msvc-170)
 >- [How to disable popup tips in Visual Studio Code](https://blog.shawnhyde.com/post/2019/02/16/how-to-disable-popup-tips-in-visual-studio-code)
 >- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+>- [Visual Studio Code breakpoint appearing in wrong place](https://stackoverflow.com/questions/50765353/visual-studio-code-breakpoint-appearing-in-wrong-place)
