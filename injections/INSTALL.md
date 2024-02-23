@@ -62,6 +62,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		cd ~/dev/injections
 		code .
+        
 > Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
 
 In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
