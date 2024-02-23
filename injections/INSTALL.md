@@ -35,24 +35,6 @@ Now that you have your project cloned we need to make sure you have the tools ne
         install -d build; cd build; cmake ..; make; cd ..
         build/run-unittests-injections
 
-
-In the case VSC recommends adding C/C++ Extention pack and the CMake Tools select 'Install'
-
-
- - [ ] Now install gcc build tools
-
-		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb
-
- - [ ] Assuming that was successful, install CMake 
-
-		sudo apt-get -y install clang-format
-		pip install cmake-format
-		sudo snap install cmake --classic 
-
- - [ ] Now open the vi editor 
-
-		vi ~/.bashrc
-		
  - [ ] APPEND these environment variables to `~/.bashrc `
 		
 		export PATH=$HOME/.local/bin:${PATH}
@@ -62,54 +44,27 @@ In the case VSC recommends adding C/C++ Extention pack and the CMake Tools selec
  - [ ] Then source it ... 
 
 		source ~/.bashrc
-
- - [ ] Now install Visual Studio Code
-
-		sudo snap install --classic code # or code-insiders
-
- - [ ] Now remove all unnecessary files 
-
-		sudo apt-get autoremove -y
-		sudo apt-get autoclean -y
-		sudo apt-get clean -y
-		journalctl --disk-usage
-		sudo journalctl --vacuum-time=3d
-		du -h /var/lib/snapd/snaps
-
- - [ ] Create the following script: `vi ~/.local/bin/xsnap.sh`
-		
-		#!/bin/bash
-		echo Removes old revisions of snaps
-		echo CLOSE ALL SNAPS BEFORE RUNNING THIS
-		echo Attention: **experimental optimization** 
-		echo Attention: Have your Linux instance backed up beforehand 
-		echo Attention: should snap behave strangely resort to the backup
-		read -p "Are you sure you want to reset local SNAPS cache: (y/N)? " name
-		if [[ "$name" = "Y" || "$name" = "y" ]];
-		then
-			echo -e "local SNAPS cache deleted${ANSI_RED}"
-			set -eu
-			snap list --all | awk '/disabled/{print $1, $3}' |
-				while read snapname revision; do
-					snap remove "$snapname" --revision="$revision"
-			done
-		else
-			echo -e "local SNAPS cache not deleted${ANSI_RED}"
-		fi
-
-
- - [ ] Now execute it
-
-		chmod +x ~/.local/bin/xsnap.sh
-		sudo ~/.local/bin/xsnap.sh
 		
  - [ ] Now start Visual Studio Code
 
-		mkdir ~/dev
-		cd ~/dev
-		mkdir sample_project
-		cd sample_project
+		cd ~/dev/injections
 		code .
+
+ - [ ] Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
+
+> In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
+
+ - [ ] To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
+
+### Alternate Case 
+#### Using Visual Studio Code (VSC or 'code')
+> Using VSC is optional (*but recommended*)
+
+		cd ~/dev/injections
+		code .
+> Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
+
+In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
 
 ### Alternate Case 
 > Dark Theme
@@ -117,42 +72,8 @@ In the case where you start up VSC and the title bar portion of the editor is Li
 1. Open the Settings app, (click on the bottom left menu and type 'Settings')
 2. Select Appearance and then click on the Dark theme
 
-### Alternate Case 
-> error: snap "code" is not available on stable for this architecture (arm64) but exists on other architectures (amd64).
-In the case of the Apple M1 (and you are running Linux under a VM like Parallels or VirtualBox) what you want to do is connect to the Linux box via it's IP address over SSH.
-```
-sudo apt install net-tools
-ifconfig
-```
-Get the IP address and after adding the ~/.ssh/id_ed25519.pub key to the ~/.ssh/authorized_keys of the Linux box log into it via ssh protocol
-
-### Alternate Case 
-> **Visual Studio Code Extensions** </br>
->	Visual Studio Code will detect whatever language you are using and offer to install extentions automatically. Feel free to allow all recommendations as they appear to the bottom right of the Visual Studio Code environment.
-
-### Alternate Case 
-> **Bad CMake executable "/snap/bin/cmake"** </br>
->	cmake has been going through alot of improvemetns and the latest  method of installation from the command line provides the 3.21 requirement (see [bad cmake executable vscode](https://askubuntu.com/questions/1353824/bad-cmake-executable-vscode)):
-```
-snap remove cmake
-sudo apt-get update
-sudo apt-get install cmake
-sudo apt-add-repository universe
-sudo apt-get install cmake-extras
-```
-
-### Alternate Case 
-> **Ubuntu 18.04** </br>
->	Slightly different parameters required
-```
-sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clang-9 cppcheck clang-tidy python3-pip checkinstall gdb gcc-multilib g++-multilib
-```
-> In the case you've installed a version of gcc / g++ that doesn't ship by default (such as g++-4.8 on lucid) you'll want to match the version as well:
-```
-sudo apt-get install gcc-4.8-multilib g++-4.8-multilib
-```
 ### Summary 
-Now you have instaled the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
+Now you have installed *(perriera) / injections* f  the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
 
 ### Next Steps
  - [How to generate a new SSH key for your GitHub.com account](https://github.com/perriera/extras_dbo/blob/dev/docs/SSHKEY.md)

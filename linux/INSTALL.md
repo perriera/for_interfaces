@@ -170,7 +170,7 @@ sudo apt install -y build-essential libtool autotools-dev automake pkg-config gi
 sudo apt-get install gcc-4.8-multilib g++-4.8-multilib
 ```
 ### Summary 
-Now you have instaled the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
+Now you have installed the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
 
 ### Next Steps
  - [How to generate a new SSH key for your GitHub.com account](https://github.com/perriera/extras_dbo/blob/dev/docs/SSHKEY.md)
