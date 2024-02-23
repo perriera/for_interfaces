@@ -1,20 +1,19 @@
 
-## How to install the tools necessary for C++11/17 projects
+## How to install the tools necessary for (perriera) / injections 
 > In this step we need to install all the tools used by this project (that you may or may not already have installed.
 
- 1. **GIVEN** we need to have g++ tools installed 
- 2. **WHEN** we update the Ubuntu install and install the tools required
- 3. **THEN** we build projects using g++, cmake and  CPM
+ 1. **GIVEN** we need to have develope injectX based projects
+ 2. **WHEN** we install (perriera) / injections onto Linux, OS X, WSL2
+ 3. **THEN** we can build projects using g++, cmake, CPM and injectX
 
 ### Prerequisites
-  - [How to install a Linux Platform (Ubuntu 20.04.4)](https://github.com/perriera/extras_dbo/blob/dev/docs/UBUNTU.md)
-  - [How to clone your project (with this template)](https://github.com/perriera/extras_dbo/blob/dev/docs/CLONE.md)
-
+- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/linux/INSTALL.md)
+- A standard user account setup for C++ development, (*sudo access optional*)
  
 ### Wish Case
 Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
 
-  - [ ] First put **sudo** into ready-to-accept mode
+  - [ ] Open a Terminal box and install 
 	
 		sudo ls
 	
@@ -103,18 +102,6 @@ Now that you have your project cloned we need to make sure you have the tools ne
 In the case where you start up VSC and the title bar portion of the editor is Light coloured and you desire to have it Dark themed merely do this:
 1. Open the Settings app, (click on the bottom left menu and type 'Settings')
 2. Select Appearance and then click on the Dark theme
-
-### Alternate Case 
-> Semi-transparent Terminal boxes
-In the case where you would like your Terminal box to have a certain level of transparency:
-1. Open a Terminal box, , (click on the bottom left menu and type 'Terminal')
-2. On the top left of the screen click on 'Terminal'
-3. Select Preferences -> Unnamed -> Colours 
-4. Deselect 'Use transparency from system theme'
-5. Select 'Use transparent background'
-6. Adjust the scroll bar to your preferred level of transparency
-> In this way you'll be able to see things behind your Terminal box, (comes in handy)
-
 
 ### Alternate Case 
 > error: snap "code" is not available on stable for this architecture (arm64) but exists on other architectures (amd64).
