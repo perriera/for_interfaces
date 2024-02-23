@@ -12,7 +12,8 @@
 - SSH key access to the (perriera) private repositories 
 - [How to generate a new SSH key for your GitHub.com account](https://github.com/perriera/for_interfaces/blob/main/ssh/SSHKEY.md)
 - TODO: make (perriera) / injections publically available
- 
+- [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md)
+
 ### Wish Case
 Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
 
@@ -66,6 +67,19 @@ Now that you have your project cloned we need to make sure you have the tools ne
 > - Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
 > - In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
 > - To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
+
+### Alternate Case 
+#### Using Visual Studio Code (VSC or 'code') via Remote SSH
+In the case where you would like to access the Linux box via VSC over SSH:
+ - Do [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md)
+ - Then open VSC (on the client) 
+ - In the bottom left corner there should be a little blue icon with these two symbols '><' (almost).
+ - In the case that that symbol '><' is not present add 'Remote - SSH' using the Extensions (usually the 5th large icon on the top left of the VSC editor)
+ - Click that icon and select 'Connect Current Window to Host ...' add the same ssh connection parameters used earlier (to test the SSH connection ex. 'perry@10.211.55.32' *do not do this 'ssh perry@10.211.55.32')
+ - Once connected open the File menu on VSC and select 'Open Folder'
+ - Here you can navigate to the dev folder and select the project of your choice, (in this case it would be `dev/injections')
+```
+```
 
 ### Alternate Case 
 > Dark Theme

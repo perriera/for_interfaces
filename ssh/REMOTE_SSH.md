@@ -32,6 +32,8 @@ Assuming you have a public SSH key on the client computer:
 
         ssh perry@<ip address of Linux box>
 
+5. When asked to add the fingerprint say 'yes'
+
 ### Alternate Case
 No ip address shows up on ifconfig?
 > Run the ifconfig without a filter (and usually take the first IP address you see)
