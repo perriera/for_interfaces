@@ -30,11 +30,24 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb
 
+ - [ ] Now setup the git utility for regular access (change "your_email@example.com" and "Your Name" accordingly)
+
+		git config --global user.email "your_email@example.com"
+		git config --global user.name "Your Name"
+
+  - [ ] Now setup your SSH key for the Linux box (**do not supply a pass phrase**)
+
+		ssh-keygen -t ed25519 -C "your_email@example.com"
+		cat ~/.ssh/id_ed25519.pub
+
  - [ ] Assuming that was successful, install CMake 
 
 		sudo apt-get -y install clang-format
 		pip install cmake-format
-		sudo snap install cmake --classic 
+		sudo apt-get update -y 
+		sudo apt-get install cmake -y
+		sudo apt-add-repository universe -y
+		sudo apt-get install cmake-extras -y
 
  - [ ] Now open the vi editor 
 
@@ -130,14 +143,20 @@ Get the IP address and after adding the ~/.ssh/id_ed25519.pub key to the ~/.ssh/
 >	Visual Studio Code will detect whatever language you are using and offer to install extentions automatically. Feel free to allow all recommendations as they appear to the bottom right of the Visual Studio Code environment.
 
 ### Alternate Case 
+> Install cmake using snap:
+```
+sudo snap install cmake --classic 
+```
+
+### Alternate Case 
 > **Bad CMake executable "/snap/bin/cmake"** </br>
 >	cmake has been going through alot of improvemetns and the latest  method of installation from the command line provides the 3.21 requirement (see [bad cmake executable vscode](https://askubuntu.com/questions/1353824/bad-cmake-executable-vscode)):
 ```
-snap remove cmake
-sudo apt-get update
-sudo apt-get install cmake
-sudo apt-add-repository universe
-sudo apt-get install cmake-extras
+snap remove cmake -y 
+sudo apt-get update -y 
+sudo apt-get install cmake -y
+sudo apt-add-repository universe -y
+sudo apt-get install cmake-extras -y
 ```
 
 ### Alternate Case 

@@ -6,3 +6,4 @@
 >- [How to disable popup tips in Visual Studio Code](https://blog.shawnhyde.com/post/2019/02/16/how-to-disable-popup-tips-in-visual-studio-code)
 >- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 >- [Visual Studio Code breakpoint appearing in wrong place](https://stackoverflow.com/questions/50765353/visual-studio-code-breakpoint-appearing-in-wrong-place)
+>- [C/C++ for Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)

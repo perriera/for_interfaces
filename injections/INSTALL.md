@@ -9,21 +9,35 @@
 ### Prerequisites
 - [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/linux/INSTALL.md)
 - A standard user account setup for C++ development, (*sudo access optional*)
+- SSH key access to the (perriera) private repositories 
+- [How to generate a new SSH key for your GitHub.com account](https://github.com/perriera/for_interfaces/blob/main/ssh/SSHKEY.md)
+- TODO: make (perriera) / injections publically available
  
 ### Wish Case
 Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
 
+  - [ ] Setup your SSH access to (perriera) private repositories 
+
+        ssh-keygen -t ed25519 -C "unbuntu2204_m5@ubuntu2204_m5" 
+        cat ~/.ssh/id_ed25519.pub 
+
+  - [ ] Copy the contents to the clipboard and add the SSH key to (perriera) private SSH keys list 
+
   - [ ] Open a Terminal box and install 
 	
-		sudo ls
+		mkdir ~/dev
+        cd ~/dev
+        git clone git@github.com:perriera/injections.git
 	
- - [ ] Now bring Ubuntu up to date
+ - [ ] Now build and run the test cases for 
 
-		sudo apt update -y
-		sudo apt upgrade -y
-		sudo apt autoremove -y
-		sudo apt autoclean -y
-		sudo reboot 
+		cd ~/dev/injections
+        install -d build; cd build; cmake ..; make; cd ..
+        build/run-unittests-injections
+
+
+In the case VSC recommends adding C/C++ Extention pack and the CMake Tools select 'Install'
+
 
  - [ ] Now install gcc build tools
 
