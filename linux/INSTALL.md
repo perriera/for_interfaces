@@ -35,8 +35,9 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		git config --global user.email "your_email@example.com"
 		git config --global user.name "Your Name"
 
-  - [ ] Now setup your SSH key for the Linux box (**do not supply a pass phrase**)
+  - [ ] Now add SSH to the Linux box and set it up for use with git (**do not supply a pass phrase**)
 
+		sudo apt install openssh-server
 		ssh-keygen -t ed25519 -C "your_email@example.com"
 		cat ~/.ssh/id_ed25519.pub
 
