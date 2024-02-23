@@ -62,10 +62,10 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		cd ~/dev/injections
 		code .
-        
-> Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
 
-In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
+> - Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
+> - In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
+> - To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
 
 ### Alternate Case 
 > Dark Theme
