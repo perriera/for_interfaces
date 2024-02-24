@@ -78,6 +78,8 @@ In the case where you would like to access the Linux box via VSC over SSH:
  - Click that icon and select 'Connect Current Window to Host ...' add the same ssh connection parameters used earlier (to test the SSH connection ex. 'perry@10.211.55.32' *do not do this 'ssh perry@10.211.55.32')
  - Once connected open the File menu on VSC and select 'Open Folder'
  - Here you can navigate to the dev folder and select the project of your choice, (in this case it would be `dev/injections')
+ - Select 'Yes' to `I trust the authors`
+ > When asked 'Install C/C++ Extension Pack' say 'Yes'
 ```
 ```
 

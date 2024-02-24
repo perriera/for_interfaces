@@ -1,6 +1,6 @@
 
 ## How to install the tools necessary for C++11/17 projects
-> In this step we need to install all the tools used by this project (that you may or may not already have installed.
+> In this step we need to install all the tools used by this project (that you may or may not already have installed).
 
  1. **GIVEN** we need to have g++ tools installed 
  2. **WHEN** we update the Ubuntu install and install the tools required
@@ -35,11 +35,27 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		git config --global user.email "your_email@example.com"
 		git config --global user.name "Your Name"
 
-  - [ ] Now add SSH to the Linux box and set it up for use with git (**do not supply a pass phrase**)
+  - [ ] Now add SSH to the Linux box (**do not supply a different filename and leave the pass phrase blank**)
 
 		sudo apt install openssh-server
 		ssh-keygen -t ed25519 -C "your_email@example.com"
+
+  - [ ] Show the SSH public key and remember how to display it when it is needed later on (for SSH authentication)
+
 		cat ~/.ssh/id_ed25519.pub
+
+  - [ ] Also install net-tools and keep track of your ip address:
+
+		sudo apt install net-tools
+		ifconfig
+
+  - [ ] Also the name of your user account
+
+		ls /home
+
+  - [ ] As you will be needing your SSH public key, your username and your IP address for SSH purposes (for example):
+
+		ssh dev@211.56.210.32
 
  - [ ] Assuming that was successful, install CMake 
 
@@ -77,8 +93,12 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		sudo journalctl --vacuum-time=3d
 		du -h /var/lib/snapd/snaps
 
- - [ ] Create the following script: `vi ~/.local/bin/xsnap.sh`
+ - [ ] Create the following script: 
+ 
+ 		vi ~/.local/bin/xsnap.sh
 		
+ - [ ] Add the following content
+
 		#!/bin/bash
 		echo Removes old revisions of snaps
 		echo CLOSE ALL SNAPS BEFORE RUNNING THIS
@@ -98,6 +118,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 			echo -e "local SNAPS cache not deleted${ANSI_RED}"
 		fi
 
+ > The above script would free up to a GB of unnecessary files. However, be sure to use it only after a backup of the Linux box as it has been known to screw up the snap utility.
 
  - [ ] Now execute it
 
