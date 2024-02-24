@@ -14,25 +14,60 @@
 
 ### Wish Case
 Assuming you have a public SSH key on the client computer:
- 1. Open a Terminal box:
+
+  1. Also install net-tools and keep track of your ip address:
+
+		sudo apt install net-tools
+
+  2. Note the IP address of the Linux box:
+
+        ifconfig | grep "netmask 255.255.255.0"
+
+  3. Also the name of your user account
+
+		ls /home
+
+  4. As you will be needing your SSH public key, your username and your IP address for SSH purposes :
+
+		ssh perry@211.56.210.32 (this is an example)
+
+  5. ON YOUR CLIENT machine open a Terminal box and display your SSH key:
 
 		cat ~/.ssh/id_ed25519.pub 
 
-2. Copy the contents to the clipboard and add them to the authorized_keys file on the Linux server (*take note of the username you using on the Linux box*)
+  6. ON THE LINUX box Copy the contents to the clipboard and add them to the authorized_keys file on the Linux server (*take note of the username you using on the Linux box*)
 
         echo <clipboard contents>
         echo <clipboard contents> >> ~/.ssh/authorized_keys 
         sudo systemctl restart ssh
 
-3. Note the IP address of the Linux box:
+  7. ON YOUR CLIENT machine test to see if the client computer can access the Linux box (using the username where you added the client's SSH key):
 
-        ifconfig | grep "netmask 255.255.255.0"
+        ssh perry@<actual ip address of Linux box obtained in step 2>
 
-4. Now test to see if the client computer can access the Linux box (using the username where you added the client's SSH key):
+  8. When asked to add the fingerprint say 'yes'
 
-        ssh perry@<ip address of Linux box>
+        Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 
-5. When asked to add the fingerprint say 'yes'
+  9. In the case where everything is connected together properly you would see a terminal session showing user level access to the Linux box. You are now in a position to access the Linux box using Visual Studio Code (or any tool that can use the SSH protocol)
+
+### Alternate Case 
+#### Using Visual Studio Code (VSC or 'code') via Remote SSH
+In the case where you would like to access the Linux box via VSC over SSH:
+ - Open VSC (ON YOUR CLIENT) 
+ - In the bottom left corner there should be a little blue icon with these two symbols '><' (almost).
+ - In the case that that symbol '><' is not present add 'Remote - SSH' using the Extensions (usually the 5th large icon on the top left of the VSC editor)
+ - Click that icon and select 'Connect Current Window to Host ...' add the same ssh connection parameters used earlier (to test the SSH connection ex. 'perry@10.211.55.32' *not to be confused with this 'ssh perry@10.211.55.32')
+ - Once connected open the File menu on VSC and select 'Open Folder'
+ - Here you can navigate to the dev folder and select the project of your choice, (in this case it would be `dev/injections')
+ - Select 'Yes' to `I trust the authors`
+ > When asked 'Install C/C++ Extension Pack' say 'Yes'
+
+### Alternate Case
+No SSH key on your client machine, create one (**do not change the name of the SSH key file and do not supply a pass phrase**):
+```
+		ssh-keygen -t ed25519 -C "your_email@example.com"
+```
 
 ### Alternate Case
 No ip address shows up on ifconfig?
@@ -74,7 +109,6 @@ or
 ```
 sudo systemctl restart ssh
 ```
-
 ### Alternate Case
 > **user.email not specified**<br/>
 > **user.name not specified**<br/>
