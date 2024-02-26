@@ -28,7 +28,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
  - [ ] Now install gcc build tools
 
-		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb
+		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip
 
  - [ ] Now setup the git utility for regular access (change "your_email@example.com" and "Your Name" accordingly)
 

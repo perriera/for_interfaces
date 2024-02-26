@@ -17,12 +17,13 @@
 ### Wish Case
 Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
 
-  - [ ] Setup your SSH access to (perriera) private repositories 
+  - [ ] Generate a SSH key for your Linux box, (do not change the file name and do not supply a passphrase)
 
-        ssh-keygen -t ed25519 -C "unbuntu2204_m5@ubuntu2204_m5" 
-        cat ~/.ssh/id_ed25519.pub 
+        ssh-keygen -t ed25519 -C "your_name@your_email_address.com" 
 
-  - [ ] Copy the contents to the clipboard and add the SSH key to (perriera) private SSH keys list 
+  - [ ] Copy the SSH public key to the clipboard and paste it to your Github repository "SSH and GPG keys" section under your user profile Settings page. 
+
+  		xclip -selection c ~/.ssh/id_ed25519.pub 
 
   - [ ] Open a Terminal box and install 
 	
@@ -45,6 +46,11 @@ Now that you have your project cloned we need to make sure you have the tools ne
  - [ ] Then source it ... 
 
 		source ~/.bashrc
+
+ - [ ] The following will populate docs/ folder with a copy of all the last How-to docs currently available for use with (perriera) / injections
+ Be sure to 
+
+		bin/docs.sh
 		
  - [ ] Now start Visual Studio Code
 

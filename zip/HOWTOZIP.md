@@ -2,7 +2,7 @@
 [How To Zip Folder on Linux](https://devconnected.com/how-to-zip-folder-on-linux/)
 ```
 zip -re data.zip facts/
-```les99#
+```
 
 
 ```

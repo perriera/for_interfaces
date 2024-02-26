@@ -1,40 +1,34 @@
 
-## How to install the tools necessary for (perriera) / injections 
+## How to install the tools necessary for (perriera) / interfaces 
 > In this step we need to install all the tools used by this project (that you may or may not already have installed.
 
  1. **GIVEN** we need to have develope injectX based projects
  2. **WHEN** we install (perriera) / injections onto Linux, OS X, WSL2
- 3. **THEN** we can build projects using g++, cmake, CPM and injectX
+ 3. **THEN** we can build projects using special bins/scripts to simplify using injections
 
 ### Prerequisites
-- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/linux/INSTALL.md)
-- A standard user account setup for C++ development, (*sudo access optional*)
-- SSH key access to the (perriera) private repositories 
-- [How to generate a new SSH key for your GitHub.com account](https://github.com/perriera/for_interfaces/blob/main/ssh/SSHKEY.md)
-- TODO: make (perriera) / injections publically available
-- [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md)
+- [How to install the tools necessary for (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md)
 
 ### Wish Case
-Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
+  - [ ] Generate a SSH key for your Linux box, (do not change the file name and do not supply a passphrase)
 
-  - [ ] Setup your SSH access to (perriera) private repositories 
+        ssh-keygen -t ed25519 -C "your_name@your_email_address.com" 
 
-        ssh-keygen -t ed25519 -C "unbuntu2204_m5@ubuntu2204_m5" 
-        cat ~/.ssh/id_ed25519.pub 
+  - [ ] Copy the SSH public key to the clipboard and paste it to your Github repository "SSH and GPG keys" section under your user profile Settings page. 
 
-  - [ ] Copy the contents to the clipboard and add the SSH key to (perriera) private SSH keys list 
+  		xclip -selection c ~/.ssh/id_ed25519.pub 
 
   - [ ] Open a Terminal box and install 
 	
 		mkdir ~/dev
         cd ~/dev
-        git clone git@github.com:perriera/injections.git
+        git clone git@github.com:perriera/interfaces.git
 	
  - [ ] Now build and run the test cases for 
 
-		cd ~/dev/injections
+		cd ~/dev/interfaces
         install -d build; cd build; cmake ..; make; cd ..
-        build/run-unittests-injections
+        build/run-unittests-interfaces
 
  - [ ] APPEND these environment variables to `~/.bashrc `
 		
