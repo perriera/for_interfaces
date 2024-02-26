@@ -28,17 +28,21 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
  - [ ] Now install gcc build tools
 
-		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip
+		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server
+
+ - [ ] In the interest of simplicity set to temporary environment variables (just for this process)
+
+		MY_EMAIL_IS="myemail@email.com"
+		MY_NAME_IS="My Name"
 
  - [ ] Now setup the git utility for regular access (change "your_email@example.com" and "Your Name" accordingly)
 
-		git config --global user.email "your_email@example.com"
-		git config --global user.name "Your Name"
+		git config --global user.email ${MY_EMAIL_IS}
+		git config --global user.name ${MY_NAME_IS}
 
-  - [ ] Now add SSH to the Linux box (**do not supply a different filename and leave the pass phrase blank**)
+  - [ ] Now create an SSH for the Linux box (**do not supply a different filename and leave the pass phrase blank**)
 
-		sudo apt install openssh-server
-		ssh-keygen -t ed25519 -C "your_email@example.com"
+		ssh-keygen -t ed25519 -C ${MY_EMAIL_IS}
 
   - [ ] Show the SSH public key and remember how to display it when it is needed later on (for SSH authentication)
 
