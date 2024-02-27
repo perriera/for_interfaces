@@ -40,7 +40,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		git config --global user.email ${MY_EMAIL_IS}
 		git config --global user.name ${MY_NAME_IS}
 
-  - [ ] Now create an SSH for the Linux box (**do not supply a different filename and leave the pass phrase blank**)
+  - [ ] Now create an SSH key for the Linux box (**do not supply a different filename and leave the pass phrase blank**)
 
 		ssh-keygen -t ed25519 -C ${MY_EMAIL_IS}
 
@@ -48,17 +48,12 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		cat ~/.ssh/id_ed25519.pub
 
-  - [ ] Now display your ip addresses: (the first one is typically the one you need for SSH) 
+  - [ ] Now determine the ssh command you'd need to log into this Linux box (once you add the clients SSH key): 
 
-		hostname -I
-
-  - [ ] Also the name of your user account
-
-		ls /home
-
-  - [ ] Now with your user name and ip address you can setup a ssh call (from another Linux box) for example:
-
-		ssh dev@211.56.210.32
+		output=$(hostname -I)
+		output=($output)
+		ssh_cmd="ssh $(basename $PWD)@${output[0]}"
+		echo $ssh_cmd
 
  - [ ] Assuming that was successful, install CMake (on the new Linux box)
 
@@ -87,7 +82,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		sudo snap install --classic code # or code-insiders
 
- - [ ] Now remove all unnecessary files 
+ - [ ] Now close any apps (including browsers) and remove all unnecessary files 
 
 		sudo apt-get autoremove -y
 		sudo apt-get autoclean -y
@@ -95,6 +90,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		journalctl --disk-usage
 		sudo journalctl --vacuum-time=3d
 		du -h /var/lib/snapd/snaps
+		rm -rf ~/.cache 
 
  - [ ] Create the following script: 
  
@@ -131,10 +127,6 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		sudo ~/.local/bin/xsnap.sh
 		
- - [ ]  Additional space can be cleared up as follows (make sure the nothing is open)
-
- 		rm -rf ~/.cache 
-
  - [ ] Now start Visual Studio Code
 
 		mkdir ~/dev
@@ -209,8 +201,5 @@ sudo apt-get install gcc-4.8-multilib g++-4.8-multilib
 Now you have installed the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
 
 ### Next Steps
- - [How to install the tools necessary for (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md)
- - [How to generate a new SSH key for your GitHub.com account](https://github.com/perriera/extras_dbo/blob/dev/docs/SSHKEY.md)
- - [How to clone your project (with this template)](https://github.com/perriera/extras_dbo/blob/dev/docs/CLONE.md)
- - [How to setup your changelog.md](https://github.com/perriera/extras_dbo/blob/dev/docs/CHANGELOG.md)
- - [How to tag your latest revisions](https://github.com/perriera/extras_dbo/blob/dev/docs/TAGIT.md)
+ - [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md)
+- [How to install (perriera) / interfaces](https://github.com/perriera/for_interfaces/blob/main/injections/interfaces/INSTALL.md)
