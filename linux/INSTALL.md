@@ -28,7 +28,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
  - [ ] Now install gcc build tools
 
-		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server
+		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server net-tools
 
  - [ ] In the interest of simplicity set to temporary environment variables (just for this process)
 
@@ -48,20 +48,19 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		cat ~/.ssh/id_ed25519.pub
 
-  - [ ] Also install net-tools and keep track of your ip address:
+  - [ ] Now display your ip addresses: (the first one is typically the one you need for SSH) 
 
-		sudo apt install net-tools
-		ifconfig
+		hostname -I
 
   - [ ] Also the name of your user account
 
 		ls /home
 
-  - [ ] As you will be needing your SSH public key, your username and your IP address for SSH purposes (for example):
+  - [ ] Now with your user name and ip address you can setup a ssh call (from another Linux box) for example:
 
 		ssh dev@211.56.210.32
 
- - [ ] Assuming that was successful, install CMake 
+ - [ ] Assuming that was successful, install CMake (on the new Linux box)
 
 		sudo apt-get -y install clang-format
 		pip install cmake-format
@@ -110,23 +109,26 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		echo Attention: Have your Linux instance backed up beforehand 
 		echo Attention: should snap behave strangely resort to the backup
 		read -p "Are you sure you want to reset local SNAPS cache: (y/N)? " name
-		if [[ "$name" = "Y" || "$name" = "y" ]];
+		if [[ "$name"=="Y" || "$name"=="y" ]];
 		then
-			echo -e "local SNAPS cache deleted${ANSI_RED}"
+			echo -e "local SNAPS cache deleted"
 			set -eu
 			snap list --all | awk '/disabled/{print $1, $3}' |
 				while read snapname revision; do
 					snap remove "$snapname" --revision="$revision"
 			done
 		else
-			echo -e "local SNAPS cache not deleted${ANSI_RED}"
+			echo -e "local SNAPS cache not deleted"
 		fi
 
  > The above script would free up to a GB of unnecessary files. However, be sure to use it only after a backup of the Linux box as it has been known to screw up the snap utility.
 
- - [ ] Now execute it
+ - [ ] Change it's exe mode
 
 		chmod +x ~/.local/bin/xsnap.sh
+
+ - [ ] Execute it
+
 		sudo ~/.local/bin/xsnap.sh
 		
  - [ ] Now start Visual Studio Code
@@ -137,14 +139,18 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		cd sample_project
 		code .
 
+### Alternate Case
+#### /home/perry/.local/bin/xsnap.sh: 8: [[: not found
+Make sure the first line of the bash script copies over as "#!/bin/bash" and not " #!/bin/bash" 
+
 ### Alternate Case 
-> Dark Theme
+#### Dark Theme
 In the case where you start up VSC and the title bar portion of the editor is Light coloured and you desire to have it Dark themed merely do this:
 1. Open the Settings app, (click on the bottom left menu and type 'Settings')
 2. Select Appearance and then click on the Dark theme
 
 ### Alternate Case 
-> Semi-transparent Terminal boxes
+#### Semi-transparent Terminal boxes
 In the case where you would like your Terminal box to have a certain level of transparency:
 1. Open a Terminal box, , (click on the bottom left menu and type 'Terminal')
 2. On the top left of the screen click on 'Terminal'
@@ -156,7 +162,7 @@ In the case where you would like your Terminal box to have a certain level of tr
 
 
 ### Alternate Case 
-> error: snap "code" is not available on stable for this architecture (arm64) but exists on other architectures (amd64).
+#### error: snap "code" is not available on stable for this architecture (arm64) but exists on other architectures (amd64).
 In the case of the Apple M1 (and you are running Linux under a VM like Parallels or VirtualBox) what you want to do is connect to the Linux box via it's IP address over SSH.
 ```
 sudo apt install net-tools
@@ -165,18 +171,18 @@ ifconfig
 Get the IP address and after adding the ~/.ssh/id_ed25519.pub key to the ~/.ssh/authorized_keys of the Linux box log into it via ssh protocol
 
 ### Alternate Case 
-> **Visual Studio Code Extensions** </br>
->	Visual Studio Code will detect whatever language you are using and offer to install extentions automatically. Feel free to allow all recommendations as they appear to the bottom right of the Visual Studio Code environment.
+#### **Visual Studio Code Extensions** </br>
+Visual Studio Code will detect whatever language you are using and offer to install extentions automatically. Feel free to allow all recommendations as they appear to the bottom right of the Visual Studio Code environment.
 
 ### Alternate Case 
-> Install cmake using snap:
+#### Install cmake using snap:
 ```
 sudo snap install cmake --classic 
 ```
 
 ### Alternate Case 
-> **Bad CMake executable "/snap/bin/cmake"** </br>
->	cmake has been going through alot of improvemetns and the latest  method of installation from the command line provides the 3.21 requirement (see [bad cmake executable vscode](https://askubuntu.com/questions/1353824/bad-cmake-executable-vscode)):
+#### **Bad CMake executable "/snap/bin/cmake"** 
+cmake has been going through alot of improvemetns and the latest  method of installation from the command line provides the 3.21 requirement (see [bad cmake executable vscode](https://askubuntu.com/questions/1353824/bad-cmake-executable-vscode)):
 ```
 snap remove cmake -y 
 sudo apt-get update -y 
@@ -186,8 +192,8 @@ sudo apt-get install cmake-extras -y
 ```
 
 ### Alternate Case 
-> **Ubuntu 18.04** </br>
->	Slightly different parameters required
+#### **Ubuntu 18.04** </br>
+Slightly different parameters required
 ```
 sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clang-9 cppcheck clang-tidy python3-pip checkinstall gdb gcc-multilib g++-multilib
 ```
