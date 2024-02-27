@@ -1,6 +1,6 @@
 
 ## How to install (perriera) / injections 
-> In this step we need to install all the tools used by this project (that you may or may not already have installed.
+> In this step we need to install all the tools used by this project (that you may or may not already have installed).
 
  1. **GIVEN** we need to have develope injectX based projects
  2. **WHEN** we install (perriera) / injections onto Linux, OS X, WSL2
@@ -23,7 +23,7 @@
         cd ~/dev
         git clone https://github.com/perriera/injections.git
 		cd ~/dev/injections
-		bin/docs.sh
+		bin/scripts/docs.sh
 	
  - [ ] Now build and run the test cases for 
 
@@ -38,12 +38,18 @@
 
 >- To see a Dark title bar go to Linux Settings -> Appearance -> Dark  
 >- To see a Terminal window select Terminal -> New Terminal from the top menu.
->- IMPORTANT: When asked to install C++ or CMake extensions say yes
+>- IMPORTANT: When asked to install C++ or CMake extensions say `Install` or `Yes`
 >- MORE IMPORTANT: When asked to select a C++ dialect select anything early gcc, (*avoid late versions clang*)
 
  - [ ] Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
 
 > In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
+
+#### VSC Intergrated Debugger capabilties
+
+ - [ ] The C/C++ Extensions has to be installed and VSC usually detects that is it required and will ask your to allow it to be install, (select 'Install')
+
+ - [ ] The `EXPLORER` panel (to the top left) will show you all files and folders in the injections project. The first large icon is that of a file copy operation, select it. On the list of files and folders shown select `interfaces/system/mold_interface.cpp` and place a break point on the line that says `system::Test(i);`
 
  - [ ] To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
 
@@ -97,27 +103,5 @@ In the case where you start up VSC and the title bar portion of the editor is Li
 Now you have installed *(perriera) / injections* f  the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
 
 ### Next Steps
- - [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md)
- - [How to generate a new SSH key for your GitHub.com account](https://github.com/perriera/extras_dbo/blob/dev/docs/SSHKEY.md)
- - [How to clone your project (with this template)](https://github.com/perriera/extras_dbo/blob/dev/docs/CLONE.md)
- - [How to setup your changelog.md](https://github.com/perriera/extras_dbo/blob/dev/docs/CHANGELOG.md)
- - [How to tag your latest revisions](https://github.com/perriera/extras_dbo/blob/dev/docs/TAGIT.md)
+- [How to install (perriera) / interfaces](https://github.com/perriera/for_interfaces/blob/main/injections/interfaces/INSTALL.md)
 
-
-#### TODO: Place in .md file of it's own
-```
-
-#### On the computer / Linux instance you are connecting to the new Linux box from:
-
-  - [ ] Copy the SSH public key to the clipboard 
-  
-  		cat ~/.ssh/id_ed25519.pub 
-
-#### On the new Linux box where you authorize the client SSH to be able to connect:
-
-  - [ ] Add the SSH key to ~/.ssh/authorized_keys:
-
-	   echo (clipboard contents) >> ~/.ssh/authorized_keys
-
-
-```

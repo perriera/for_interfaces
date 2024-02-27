@@ -124,3 +124,20 @@ sudo systemctl restart ssh
 - [How To Configure SSH Key-Based Authentication on a Linux Server](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
 
 
+#### TODO: Place in .md file of it's own
+```
+
+#### On the computer / Linux instance you are connecting to the new Linux box from:
+
+  - [ ] Copy the SSH public key to the clipboard 
+  
+  		cat ~/.ssh/id_ed25519.pub 
+
+#### On the new Linux box where you authorize the client SSH to be able to connect:
+
+  - [ ] Add the SSH key to ~/.ssh/authorized_keys:
+
+	   echo (clipboard contents) >> ~/.ssh/authorized_keys
+
+
+```
