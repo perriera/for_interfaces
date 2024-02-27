@@ -15,21 +15,15 @@
 - [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md)
 
 ### Wish Case
-Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
-
-  - [ ] Generate a SSH key for your Linux box, (do not change the file name and do not supply a passphrase)
-
-        ssh-keygen -t ed25519 -C "your_name@your_email_address.com" 
-
-  - [ ] Copy the SSH public key to the clipboard and paste it to your Github repository "SSH and GPG keys" section under your user profile Settings page. 
-
-  		xclip -selection c ~/.ssh/id_ed25519.pub 
+`(perriera) / injections` is a Github project available here: [git@github.com:perriera/injections.git](https://github.com/perriera/injections)
 
   - [ ] Open a Terminal box and install 
 	
 		mkdir ~/dev
         cd ~/dev
-        git clone git@github.com:perriera/injections.git
+        git clone https://github.com/perriera/injections.git
+		cd ~/dev/injections
+		bin/docs.sh
 	
  - [ ] Now build and run the test cases for 
 
@@ -37,31 +31,35 @@ Now that you have your project cloned we need to make sure you have the tools ne
         install -d build; cd build; cmake ..; make; cd ..
         build/run-unittests-injections
 
- - [ ] APPEND these environment variables to `~/.bashrc `
-		
-		export PATH=$HOME/.local/bin:${PATH}
-		export CPM_SOURCE_CACHE=$HOME/.cache/CPM
-		export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
-
- - [ ] Then source it ... 
-
-		source ~/.bashrc
-
- - [ ] The following will populate docs/ folder with a copy of all the last How-to docs currently available for use with (perriera) / injections
- Be sure to 
-
-		bin/docs.sh
-		
  - [ ] Now start Visual Studio Code
 
 		cd ~/dev/injections
 		code .
+
+>- To see a Dark title bar go to Linux Settings -> Appearance -> Dark  
+>- To see a Terminal window select Terminal -> New Terminal from the top menu.
+>- IMPORTANT: When asked to install C++ or CMake extensions say yes
+>- MORE IMPORTANT: When asked to select a C++ dialect select anything early gcc, (*avoid late versions clang*)
 
  - [ ] Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
 
 > In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
 
  - [ ] To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
+
+### Alternate Case
+#### Since selecting clang the C++ compiler shows warning messages
+There should not be any C++ warning messages unless you selected one of the latest versions of clang. 
+```
+rm  ~/.local/share/CMakeTools/cmake-tools-kits.json
+```
+or edit that file to remove all references to clang (for now)
+
+### Alternate Case
+#### You don't have a `~/.ssh/id_ed25519.pub`
+Generate a SSH key for your Linux box, (**do not change the file name and do not supply a passphrase**)
+
+	ssh-keygen -t ed25519 -C "your_name@your_email_address.com" 
 
 ### Alternate Case 
 #### Using Visual Studio Code (VSC or 'code')
@@ -104,3 +102,22 @@ Now you have installed *(perriera) / injections* f  the development environment 
  - [How to clone your project (with this template)](https://github.com/perriera/extras_dbo/blob/dev/docs/CLONE.md)
  - [How to setup your changelog.md](https://github.com/perriera/extras_dbo/blob/dev/docs/CHANGELOG.md)
  - [How to tag your latest revisions](https://github.com/perriera/extras_dbo/blob/dev/docs/TAGIT.md)
+
+
+#### TODO: Place in .md file of it's own
+```
+
+#### On the computer / Linux instance you are connecting to the new Linux box from:
+
+  - [ ] Copy the SSH public key to the clipboard 
+  
+  		cat ~/.ssh/id_ed25519.pub 
+
+#### On the new Linux box where you authorize the client SSH to be able to connect:
+
+  - [ ] Add the SSH key to ~/.ssh/authorized_keys:
+
+	   echo (clipboard contents) >> ~/.ssh/authorized_keys
+
+
+```

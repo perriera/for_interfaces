@@ -121,7 +121,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 			echo -e "local SNAPS cache not deleted"
 		fi
 
- > The above script would free up to a GB of unnecessary files. However, be sure to use it only after a backup of the Linux box as it has been known to screw up the snap utility.
+ > The above script might free up to 5 GB of unnecessary files. However, be sure to use it only after a backup of the Linux box as it has been known to screw up the snap utility.
 
  - [ ] Change it's exe mode
 
@@ -131,6 +131,10 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		sudo ~/.local/bin/xsnap.sh
 		
+ - [ ]  Additional space can be cleared up as follows (make sure the nothing is open)
+
+ 		rm -rf ~/.cache 
+
  - [ ] Now start Visual Studio Code
 
 		mkdir ~/dev
