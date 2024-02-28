@@ -4,7 +4,7 @@
 
  1. **GIVEN** we need to have develop HTML based projects
  2. **WHEN** we use the Java-based JSoup Framework 
- 3. **THEN** we can parse properly HTML pages
+ 3. **THEN** the htmlforge.net framework can parse HTML pages
 
 ### Prerequisites
 - [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md)
@@ -18,11 +18,23 @@
 
 git clone git@github.com:perriera/html_parser.git
 
- - [ ] Now select and install a `Java Development Kit (JDK)` and `maven`:
+ - [ ] Now in your VSC editor do: `File -> Open Folder -> ~/dev/html_parser` or ... 
 
+		cd ~/dev/html_parser
+		code .
+
+	- Select 'Yes' to 'Trust the Authors'
+	- Select 'Install' when asked about Java Extensions
+	- Select 'Deny' on `Red Hat Statistics` where source code privacy is important
+	- Close the window when asked by VSC to install a JDK (`you are going to do it manually`)
+
+ - [ ] Open a Terminal window using VSC (do `Terminal -> New Terminal`) 
+ 
+ - [ ] Now type the following:
+ 
 		javac
 
-	Available options:
+	Select a `Java Development Kit (JDK)` : (**openjdk-8-jdk-headless** works fine for our purposes)
 
 		sudo apt install openjdk-11-jdk-headless  # version 11.0.20.1+1-0ubuntu1~22.04, or
 		sudo apt install default-jdk              # version 2:1.11-72build2
@@ -36,69 +48,49 @@ git clone git@github.com:perriera/html_parser.git
 
 		sudo apt install maven openjdk-8-jdk-headless -y  # version 8u382-ga-1~22.04.1
 
+	Notice we are also installing `maven` here as well.
+	
+ - [ ] Now setup the merge.sh script 
+
+		bin/install_merge.sh
+
  - [ ] Now build and run the test cases:
 
 		mvn test
+
+	The first time this runs maven will download all necessary jar files.
 
  - [ ] Now build and run the test cases again:
 
 		mvn test
 
+	The second time this runs maven will be faster and would show the same `SUCCESS` message:
+
+		[WARNING] Tests run: 1189, Failures: 0, Errors: 0, Skipped: 45
+		[INFO] 
+		[INFO] ------------------------------------------------------------------------
+		[INFO] BUILD SUCCESS
+		[INFO] ------------------------------------------------------------------------
+		[INFO] Total time:  11.141 s
+		[INFO] Finished at: 2024-02-28T10:37:27-08:00
+		[INFO] ------------------------------------------------------------------------
+
+
  - [ ] Now build the jar target:
 
 		mvn jar:jar
 
- - [ ] Now install JSoup 
+ - [ ] Now install JSoup (for use by the operating system)
 
 		mvn install
 
- - [ ] Now setup the merge.sh script 
-
-		bin/install_merge.sh
-
-
-
-
-
-> Add any extensions that VSC recommends: (typically `Extension Pack for Java`)
-
- - [ ] Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
-
-> In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
-
- - [ ] To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
+### Alternate Case 
+#### Failure on `mvn test`
+It would be required to examine the diagnostics and/or email anything that cannot be resolved to: info@exparx.ca.
 
 ### Alternate Case 
-#### Using Visual Studio Code (VSC or 'code')
-> Using VSC is optional (*but recommended*)
-
-		cd ~/dev/injections
-		code .
-
-> - Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
-> - In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
-> - To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
-
-### Alternate Case 
-#### Using Visual Studio Code (VSC or 'code') via Remote SSH
-In the case where you would like to access the Linux box via VSC over SSH:
- - Do [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md)
- - Then open VSC (on the client) 
- - In the bottom left corner there should be a little blue icon with these two symbols '><' (almost).
- - In the case that that symbol '><' is not present add 'Remote - SSH' using the Extensions (usually the 5th large icon on the top left of the VSC editor)
- - Click that icon and select 'Connect Current Window to Host ...' add the same ssh connection parameters used earlier (to test the SSH connection ex. 'perry@10.211.55.32' *do not do this 'ssh perry@10.211.55.32')
- - Once connected open the File menu on VSC and select 'Open Folder'
- - Here you can navigate to the dev folder and select the project of your choice, (in this case it would be `dev/injections')
- - Select 'Yes' to `I trust the authors`
- > When asked 'Install C/C++ Extension Pack' say 'Yes'
-```
-```
-
-### Alternate Case 
-> Dark Theme
-In the case where you start up VSC and the title bar portion of the editor is Light coloured and you desire to have it Dark themed merely do this:
-1. Open the Settings app, (click on the bottom left menu and type 'Settings')
-2. Select Appearance and then click on the Dark theme
+#### Failure on `mvn install`
+Rerun `mvn install` again (in the case there was some sort of Internet timeout). It would be required to examine the diagnostics and/or email anything that cannot be resolved to: info@exparx.ca.
 
 ### Summary 
 Now you have installed *(perriera) / injections* f  the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).

@@ -33,6 +33,8 @@ git clone git@github.com:perriera/injections.git
 		cd ~/dev/injections
 		code .
 
+	- Select 'Yes' to 'Trust the Authors'
+
 >- IMPORTANT: When asked to install C++ or CMake extensions say `Install` or `Yes`
 >- MORE IMPORTANT: When asked to select a C++ dialect select anything early gcc, (*avoid newer versions of clang as the newer lint specifications creates insane warnings on builds*)
 
