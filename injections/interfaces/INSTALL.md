@@ -24,16 +24,28 @@ git clone git@github.com:perriera/interfaces.git
         install -d build; cd build; cmake ..; make; cd ..
         build/run-unittests-interfaces
 
- - [ ] Now start a VSC session 
+ - [ ] Now in your VSC editor do: `File -> Open Folder -> ~/dev/interfaces` or ... 
 
-		cd ~/dev/injections
+		cd ~/dev/interfaces
 		code .
 
  - [ ] Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
 
 > In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
 
- - [ ] To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
+- [ ] Maximize your editor and place a breakpoint on `interfaces/proofs/test_interface.cpp` (at the first `ASSERT_INJECTX`)
+
+		std::ifstream in("changelog.md");
+		REQUIRE_INJECTX(proofs::SyntaxError, in);
+		ASSERT_INJECTX(injections::file::NotFound, proofs_md);
+		std::ifstream in2(proofs_md);
+		ASSERT_INJECTX(proofs::SyntaxError, in2);
+
+ - [ ] Select the forth large icon from the top left (for `RUN AND DEBUG`) and press the Green arrow.
+
+### Alternate Case
+#### VSC Breakpoints and the **gdb** debugging tools
+VSC merely uses the Linux gdb for it's C++ debugging purposes. However certain quicks somewhere between the latest gcc compilers, VSC and how gdb works are causing occasional eratic behavior. For example trying to `step-over` `REQUIRE_` macros will force a jump out of the function and sometimes a breakpoint set in one source location will cause gdb to stop in another location. Nothing on the Internet is giving much in the way of how to resolve this (yet) but we are hoping something in the future will resolve this issue. 
 
 ### Alternate Case 
 #### Using Visual Studio Code (VSC or 'code')
@@ -58,8 +70,6 @@ In the case where you would like to access the Linux box via VSC over SSH:
  - Here you can navigate to the dev folder and select the project of your choice, (in this case it would be `dev/injections')
  - Select 'Yes' to `I trust the authors`
  > When asked 'Install C/C++ Extension Pack' say 'Yes'
-```
-```
 
 ### Alternate Case 
 > Dark Theme

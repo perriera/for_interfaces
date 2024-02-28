@@ -20,6 +20,8 @@
 		cd ~/dev/injections
 		bin/scripts/docs.sh
 	
+git clone git@github.com:perriera/injections.git
+
  - [ ] Now build and run the test cases for 
 
 		cd ~/dev/injections
@@ -31,12 +33,18 @@
 		cd ~/dev/injections
 		code .
 
->- To see a Dark title bar go to Linux Settings -> Appearance -> Dark  
->- To see a Terminal window select Terminal -> New Terminal from the top menu.
 >- IMPORTANT: When asked to install C++ or CMake extensions say `Install` or `Yes`
->- MORE IMPORTANT: When asked to select a C++ dialect select anything early gcc, (*avoid late versions clang*)
+>- MORE IMPORTANT: When asked to select a C++ dialect select anything early gcc, (*avoid newer versions of clang as the newer lint specifications creates insane warnings on builds*)
 
  - [ ] Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
+
+ - [ ] Maximize your editor and place a breakpoint on `interfaces/system/test_interface.cpp` (at the first `ASSERT_INJECTX`)
+
+         REQUIRE_INJECTX(SomethingMessedUp, "some stderr diagnostics");
+         ASSERT_INJECTX(SomethingMessedUp, "");
+         REQUIRE_INJECTX(NothingSpecified, "");
+
+ - [ ] Select the forth large icon from the top left (for `RUN AND DEBUG`) and press the Green arrow.
 
 > In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
 
@@ -48,6 +56,15 @@
 
  - [ ] To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
 
+### Alternate Case
+#### VSC Breakpoints and the **gdb** debugging tools
+VSC merely uses the Linux gdb for it's C++ debugging purposes. However certain quicks somewhere between the latest gcc compilers, VSC and how gdb works are causing occasional eratic behavior. For example trying to `step-over` `REQUIRE_` macros will force a jump out of the function and sometimes a breakpoint set in one source location will cause gdb to stop in another location. Nothing on the Internet is giving much in the way of how to resolve this (yet) but we are hoping something in the future will resolve this issue. 
+
+### Alternate Case
+#### Customizations
+>- To see a Dark title bar go to Linux Settings -> Appearance -> Dark  
+>- To see a Terminal window select Terminal -> New Terminal from the top menu.
+>- To see background transparency on the Terminal window -> Terminal (on top of screen) -> Preferences -> Unnamed -> Colors -> Use transparency background -> set desired level
 ### Alternate Case
 #### Since selecting clang the C++ compiler shows warning messages
 There should not be any C++ warning messages unless you selected one of the latest versions of clang. 
@@ -95,7 +112,7 @@ In the case where you start up VSC and the title bar portion of the editor is Li
 2. Select Appearance and then click on the Dark theme
 
 ### Summary 
-Now you have installed *(perriera) / injections* f  the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
+Now you have installed *(perriera) / injections*, the development environment and VSC for a C++17 project (complete with cmake 3.21 support). 
 
 ### Next Steps
 - [How to install (perriera) / interfaces](https://github.com/perriera/for_interfaces/blob/main/injections/interfaces/INSTALL.md)
