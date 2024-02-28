@@ -15,12 +15,9 @@
 	
         cd ~/dev
 		git clone https://github.com/perriera/html_parser.git
+		cd html_parser
 
 git clone git@github.com:perriera/html_parser.git
-
- - [ ] Now in your VSC editor do: `File -> Open Folder -> ~/dev/html_parser` or ... 
-
-		cd ~/dev/html_parser
 
  - [ ] Now type the following:
  
@@ -44,17 +41,14 @@ git clone git@github.com:perriera/html_parser.git
 	
  - [ ] Now setup the merge.sh script 
 
+        cd ~/dev/html_parser
 		bin/install_merge.sh
 
  - [ ] Now build and run the test cases:
 
 		mvn test
 
-	The first time this runs maven will download all necessary jar files.
-
- - [ ] Now build and run the test cases again:
-
-		mvn test
+	**Note**: The first time this runs maven will download all necessary jar files.
 
 	You would see this:
 	
@@ -75,19 +69,35 @@ git clone git@github.com:perriera/html_parser.git
 
 		mvn install
 
- - [ ] Open another Terminal window and run the merge test:
+	The following would display (in time):
 
-		cd ~
+		[INFO] ------------------------------------------------------------------------
+		[INFO] BUILD SUCCESS
+		[INFO] ------------------------------------------------------------------------
+		[INFO] Total time:  02:25 min
+		[INFO] Finished at: 2024-02-28T12:33:41-08:00
+		[INFO] ------------------------------------------------------------------------
+
+ - [ ] Now run the `merge_tests.sh` within the `~/dev/html_parser` folder
+
+        cd ~/dev/html_parser
 		merge_tests.sh test 
+
+ - [ ] Now run the `merge_tests.sh` within the `~` folder
+
+        cd ~
+		merge_tests.sh test | grep merge.sh
 
 	- A successful run will look like parsed HTML having been tested for each supported **vendor**:
 
 		- **Angular**
 		- **React**
 		- **Vue** (installed via npm)
-		- **Vue** (using just a .js file)
+		- **BasicVue** (imported vue.js file)
 
-	- Planned support for mobile **vendors**:
+	- This ensures that the path to the necessary Java libraries as well as the bash scripts are setup properly. 
+
+	- Planned support for mobile **vendors** are as follows:
 
 		- **Qt**
 		- **Flutter**
@@ -95,10 +105,16 @@ git clone git@github.com:perriera/html_parser.git
 		- **React (mobile)**
 		- **Vue (mobile)**
 
-	- This ensures that the path to the necessary Java libraries as well as the bash scripts are setup properly. 
+ - [ ] Make a backup of the Linux box instance.
+
+	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
+
+### Alternate Case 
+#### Using VSC
 
  - [ ] Now take a look at the code using VSC: (optional)
 
+		cd ~/dev/html_parser
 		code .
 
 	- Select 'Yes' to 'Trust the Authors'
@@ -123,10 +139,6 @@ git clone git@github.com:perriera/html_parser.git
 	- Now you can trace the code or just hit the `Blue Arrow` on the Debugger menu. 
 	- Below the editor window the wrds 'TEST RESULTS' appear, click that to see Test run results. 
 	- Explore VSC for various tools to examine the code (at your leisure)
-
- - [ ] Make a backup of the Linux box instance.
-
-	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
 
 ### Alternate Case 
 #### JAVA_HOME not set
