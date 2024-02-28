@@ -15,3 +15,9 @@ multipass restore dapper-manakin.e1
 multipass start dapper-manakin
 ```
 >- [How can I change memory (RAM) size of existing Multipass virtual machine?](https://github.com/canonical/multipass/issues/1265)
+`multipass set [local.<instance-name>.(cpus|disk|memory)](https://multipass.run/t/)]=[value]`
+```
+multipass set local.dapper-manakin.memory=8G
+multipass set local.dapper-manakin.cpus=2   
+multipass set local.dapper-manakin.disk=64GB
+```
