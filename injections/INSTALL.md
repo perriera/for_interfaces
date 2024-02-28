@@ -2,7 +2,7 @@
 ## How to install (perriera) / injections 
 > In this step we need to install all the tools used by this project (that you may or may not already have installed).
 
- 1. **GIVEN** we need to have develope injectX based projects
+ 1. **GIVEN** we need to have develop injectX based projects
  2. **WHEN** we install (perriera) / injections onto Linux, OS X, WSL2
  3. **THEN** we can build projects using g++, cmake, CPM and injectX
 
@@ -48,6 +48,16 @@ git clone git@github.com:perriera/injections.git
 
 > In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
 
+### Note
+#### (perriera) / injections bash scripts and binaries
+Upon the successful BUILD of `(perriera) / injections` the `~/.local/bin` folder is now populated similiar to the the following: 
+```
+cmake-annotate    docs.sh                  it_clean_cache.sh      it_paths.sh       it_test.sh               
+cmake-format      ex_sudo.sh               it_common_scripts.sh   it_post.sh        it_version.sh            cmake-genparsers  it_ansi_colors.sh        it_default_browser.sh  it_rebuild.sh     it_version.txt           ctest-to          it_build.sh              it_library_path.sh     it_show_title.sh         
+```
+These bash scripts and binaries are now available on the PATH (as long as `~/.local/bin` is part of PATH). The `it_help.sh` script gives a basic introduction to these tools. For more on this see **Next Steps** below.
+
+### Note
 #### VSC Intergrated Debugger capabilties
 
  - [ ] The C/C++ Extensions has to be installed and VSC usually detects that is it required and will ask your to allow it to be install, (select 'Install')
@@ -115,5 +125,6 @@ In the case where you start up VSC and the title bar portion of the editor is Li
 Now you have installed *(perriera) / injections*, the development environment and VSC for a C++17 project (complete with cmake 3.21 support). 
 
 ### Next Steps
+- [How to the PATH environment variable (using it_paths.sh)](https://github.com/perriera/for_interfaces/blob/main/injections/SET_PATHS.md)
 - [How to install (perriera) / interfaces](https://github.com/perriera/for_interfaces/blob/main/injections/interfaces/INSTALL.md)
 

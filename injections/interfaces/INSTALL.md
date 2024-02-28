@@ -2,7 +2,7 @@
 ## How to install (perriera) / interfaces 
 > In this step we need to install all the tools used by this project (that you may or may not already have installed).
 
- 1. **GIVEN** we need to have develope injectX based projects
+ 1. **GIVEN** we need to have develop injectX based projects
  2. **WHEN** we install (perriera) / injections onto Linux, OS X, WSL2
  3. **THEN** we can build projects using special bins/scripts to simplify using injections
 
