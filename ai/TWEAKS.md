@@ -1,0 +1,2 @@
+#### Software tweak doubles computer processing speed, halves energy use
+>- [Software tweak doubles computer processing speed, halves energy use](https://newatlas.com/computers/smht-parallel-processing/)
