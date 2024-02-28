@@ -14,4 +14,4 @@ Restore from a Snapshot
 multipass restore dapper-manakin.e1 
 multipass start dapper-manakin
 ```
-
+>- [How can I change memory (RAM) size of existing Multipass virtual machine?](https://github.com/canonical/multipass/issues/1265)
