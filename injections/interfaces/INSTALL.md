@@ -121,7 +121,10 @@ git clone git@github.com:perriera/interfaces.git
 		upgrades - describe "sets the version number of project"
 		upgrades_menu - describe "displays a menu (found in changelog.md)"
 		xsnap.sh - describe "purges the snaps library (of old snap images)"
-perry@ubuntu2204:~/dev/interfaces$ 
+
+ - [ ] Make a backup of the Linux box instance.
+
+	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
 
 ### Alternate Case
 #### VSC Breakpoints and the **gdb** debugging tools

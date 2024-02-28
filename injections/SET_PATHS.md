@@ -127,6 +127,10 @@
 
     `/home/perry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin`
     
+ - [ ] Make a backup of the Linux box instance.
+
+	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
+
 ### Summary 
 Now you have just used your very first bash script from *(perriera) / injections*, one designed to `ensure` that the PATH variable is properly ordered and easily verifiable using `it_paths.sh` and the `~/.bashrc` 
 

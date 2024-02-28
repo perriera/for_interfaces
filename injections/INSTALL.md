@@ -52,6 +52,10 @@ git clone git@github.com:perriera/injections.git
 
 > In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
 
+ - [ ] Make a backup of the Linux box instance.
+
+	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
+	
 ### Note
 #### (perriera) / injections bash scripts and binaries
 Upon the successful BUILD of `(perriera) / injections` the `~/.local/bin` folder is now populated similiar to the the following: 

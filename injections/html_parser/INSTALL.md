@@ -21,20 +21,12 @@ git clone git@github.com:perriera/html_parser.git
  - [ ] Now in your VSC editor do: `File -> Open Folder -> ~/dev/html_parser` or ... 
 
 		cd ~/dev/html_parser
-		code .
 
-	- Select 'Yes' to 'Trust the Authors'
-	- Select 'Install' when asked about Java Extensions
-	- Select 'Deny' on `Red Hat Statistics` where source code privacy is important
-	- Close the window when asked by VSC to install a JDK (`you are going to do it manually`)
-
- - [ ] Open a Terminal window using VSC (do `Terminal -> New Terminal`) 
- 
  - [ ] Now type the following:
  
 		javac
 
-	Select a `Java Development Kit (JDK)` : (**openjdk-8-jdk-headless** works fine for our purposes)
+	Select a `Java Development Kit (JDK)` : (**openjdk-11-jdk-headless** works for our purposes)
 
 		sudo apt install openjdk-11-jdk-headless  # version 11.0.20.1+1-0ubuntu1~22.04, or
 		sudo apt install default-jdk              # version 2:1.11-72build2
@@ -46,7 +38,7 @@ git clone git@github.com:perriera/html_parser.git
 
 	Recommended:
 
-		sudo apt install maven openjdk-8-jdk-headless -y  # version 8u382-ga-1~22.04.1
+		sudo apt install maven openjdk-11-jdk-headless  # version 11.0.20.1+1-0ubuntu1~22.04
 
 	Notice we are also installing `maven` here as well.
 	
@@ -75,7 +67,6 @@ git clone git@github.com:perriera/html_parser.git
 		[INFO] Finished at: 2024-02-28T10:37:27-08:00
 		[INFO] ------------------------------------------------------------------------
 
-
  - [ ] Now build the jar target:
 
 		mvn jar:jar
@@ -83,6 +74,29 @@ git clone git@github.com:perriera/html_parser.git
  - [ ] Now install JSoup (for use by the operating system)
 
 		mvn install
+
+ - [ ] Now take a look at the code using VSC:
+
+		code .
+
+	- Select 'Yes' to 'Trust the Authors'
+	- Select 'Install' when asked about Java Extensions
+	- Select 'Deny' on `Red Hat Statistics` where source code privacy is important
+	- Close the window when asked by VSC to install a JDK (`you are going to do it manually`)
+
+ - [ ] Open a Terminal window using VSC (do `Terminal -> New Terminal`) and run the merge test:
+
+		merge_tests.sh test 
+
+	A successful run will look like HTML (having been successfully passed for Angular, React and two flavours of Vue)
+
+ - [ ] Make a backup of the Linux box instance.
+
+	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
+
+### Alternate Case 
+#### JAVA_HOME not set
+It would be required to examine the diagnostics and/or email anything that cannot be resolved to: info@exparx.ca.
 
 ### Alternate Case 
 #### Failure on `mvn test`
