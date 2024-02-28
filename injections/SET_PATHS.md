@@ -127,13 +127,15 @@
 
     `/home/perry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin`
 
+ - [ ] Do `Enchanced Shell Startup` below (**optional**)
+
  - [ ] Make a backup of the Linux box instance.
 
 	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
 
 ### Alternate Case
 #### Enchanced Shell Startup
-There are many bash scripts and binaries that come with each component of the `(perrier) injections` framework. To display these new tools at startup (of a new Terminal window) do this:
+There are many bash scripts and binaries that come with each component of the `(perrier) / injections` framework. To display these new tools at startup (of a new Terminal window) do this:
 
     vi ~/.bashrc
 
