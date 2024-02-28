@@ -72,7 +72,7 @@
         PATH=${PATH}:/snap/bin
         PATH=${PATH}:/snap/bin
 
-    Copy the PATH= portions above into the clipboard
+    Copy the all `PATH=` entries above into the clipboard
 
  - [ ]  Open your `./bashrc` (or equivalent):
 
@@ -123,12 +123,12 @@
         /usr/local/games
         /snap/bin
 
-    As you can verify with a `echo $PATH` your PATH variable is now free of duplicates and ordered in a manner where you can keep track of it's contents:
+    As you can verify with a `echo $PATH` your PATH variable is now free of duplicates and ordered in a manner where you can keep track of which binaries are now available on your command line:
 
     `/home/perry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin`
     
 ### Summary 
-Now you have installed *(perriera) / injections*, the development environment and VSC for a C++17 project (complete with cmake 3.21 support). 
+Now you have just used your very first bash script from *(perriera) / injections*, one designed to `ensure` that the PATH variable is properly ordered and easily verifiable using `it_paths.sh` and the `~/.bashrc` 
 
 ### Next Steps
 - [How to install (perriera) / interfaces](https://github.com/perriera/for_interfaces/blob/main/injections/interfaces/INSTALL.md)
