@@ -48,6 +48,8 @@ git clone git@github.com:perriera/injections.git
 
  - [ ] Select the forth large icon from the top left (for `RUN AND DEBUG`) and press the Green arrow.
 
+	**Note**: For your initial run (*assuming the gdb issue mentioned below is not occuring*) the break point will be landed on **twice**. This is because both the mold_interface.cpp and the dock_instance.cpp source files make use of the same test_interface.cpp.
+
 > In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
 
 ### Note
