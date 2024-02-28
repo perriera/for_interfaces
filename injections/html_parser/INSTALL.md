@@ -56,8 +56,8 @@ git clone git@github.com:perriera/html_parser.git
 
 		mvn test
 
-	The second time this runs maven will be faster and would show the same `SUCCESS` message:
-
+	You would see this:
+	
 		[WARNING] Tests run: 1189, Failures: 0, Errors: 0, Skipped: 45
 		[INFO] 
 		[INFO] ------------------------------------------------------------------------
@@ -75,7 +75,29 @@ git clone git@github.com:perriera/html_parser.git
 
 		mvn install
 
- - [ ] Now take a look at the code using VSC:
+ - [ ] Open another Terminal window and run the merge test:
+
+		cd ~
+		merge_tests.sh test 
+
+	- A successful run will look like parsed HTML having been tested for each supported **vendor**:
+
+		- **Angular**
+		- **React**
+		- **Vue** (installed via npm)
+		- **Vue** (using just a .js file)
+
+	- Planned support for mobile **vendors**:
+
+		- **Qt**
+		- **Flutter**
+		- **Angular (mobile)**
+		- **React (mobile)**
+		- **Vue (mobile)**
+
+	- This ensures that the path to the necessary Java libraries as well as the bash scripts are setup properly. 
+
+ - [ ] Now take a look at the code using VSC: (optional)
 
 		code .
 
@@ -84,19 +106,13 @@ git clone git@github.com:perriera/html_parser.git
 	- Select 'Deny' on `Red Hat Statistics` where source code privacy is important
 	- Close the window when asked by VSC to install a JDK (`you are going to do it manually`)
 
- - [ ] Open a Terminal window using VSC (do `Terminal -> New Terminal`) and run the merge test:
-
-		merge_tests.sh test 
-
-	A successful run will look like HTML (having been successfully passed for Angular, React and two flavours of Vue)
-
  - [ ] Make a backup of the Linux box instance.
 
 	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
 
 ### Alternate Case 
 #### JAVA_HOME not set
-It would be required to examine the diagnostics and/or email anything that cannot be resolved to: info@exparx.ca.
+Unless there is a solution online (that works), resort to your latest backed image of the Linux box. 
 
 ### Alternate Case 
 #### Failure on `mvn test`
@@ -107,7 +123,7 @@ It would be required to examine the diagnostics and/or email anything that canno
 Rerun `mvn install` again (in the case there was some sort of Internet timeout). It would be required to examine the diagnostics and/or email anything that cannot be resolved to: info@exparx.ca.
 
 ### Summary 
-Now you have installed *(perriera) / injections* f  the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
+Now you have installed *(perriera) / html_parser*. You now have the ability to parse HTML/CSS pages from Webflow.com for use inside Angular, React, Vue (as well as future planned supported JavaScript frameworks).
 
 ### Next Steps
-- [How to install (perriera) / intehtml_parserfaces](https://github.com/perriera/for_interfaces/blob/main/injections/html_parser/INSTALL.md)
+- [How to install (perriera) / htmlforge](https://github.com/perriera/for_interfaces/blob/main/injections/htmlforge/INSTALL.md)
