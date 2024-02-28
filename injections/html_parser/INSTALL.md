@@ -102,9 +102,27 @@ git clone git@github.com:perriera/html_parser.git
 		code .
 
 	- Select 'Yes' to 'Trust the Authors'
-	- Select 'Install' when asked about Java Extensions
+	- Select 'Install' when asked about Java Extensions (ignore the `Install JDK` button)
 	- Select 'Deny' on `Red Hat Statistics` where source code privacy is important
 	- Close the window when asked by VSC to install a JDK (`you are going to do it manually`)
+
+ - [ ] Examine source code
+
+	- Open `src/main/test/exparx/html/vendor/TestAngular.java`
+	- Place a breakpoint on line 19:
+
+			AllTests allTests = new AllTests();
+			allTests.common_WebflowIndex(args[1]);
+			allTests.common_BeforeUpdate(args[2]);
+			allTests.angular_BeforeUpdate(args[2]);
+			new Command().migrate(args[0], args[1], args[2], args[3]);
+			allTests.common_AfterUpdate(args[3]);
+			allTests.angular_AfterUpdate(args[3]);
+
+	- Right click on the `Green Arrow` (right next to `public void test_case_001()`) and select `Debug Test`
+	- Now you can trace the code or just hit the `Blue Arrow` on the Debugger menu. 
+	- Below the editor window the wrds 'TEST RESULTS' appear, click that to see Test run results. 
+	- Explore VSC for various tools to examine the code (at your leisure)
 
  - [ ] Make a backup of the Linux box instance.
 
