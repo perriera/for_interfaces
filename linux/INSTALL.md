@@ -30,7 +30,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server net-tools
 
- - [ ] In the interest of simplicity set to temporary environment variables (just for this process)
+ - [ ] In the interest of simplicity set these temporary environment variables to your desired email address and username (for the purposes of the Linux box):
 
 		MY_EMAIL_IS="myemail@email.com"
 		MY_NAME_IS="My Name"
@@ -78,7 +78,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		source ~/.bashrc
 
- - [ ] Now install Visual Studio Code
+ - [ ] Now install Visual Studio Code (**optional**)
 
 		sudo snap install --classic code # or code-insiders
 
@@ -127,7 +127,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		sudo ~/.local/bin/xsnap.sh
 		
- - [ ] Now start Visual Studio Code
+ - [ ] Now start Visual Studio Code (**optional**)
 
 		mkdir ~/dev
 		cd ~/dev

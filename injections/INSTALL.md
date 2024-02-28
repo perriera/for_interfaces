@@ -8,11 +8,6 @@
 
 ### Prerequisites
 - [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/linux/INSTALL.md)
-- A standard user account setup for C++ development, (*sudo access optional*)
-- SSH key access to the (perriera) private repositories 
-- [How to generate a new SSH key for your GitHub.com account](https://github.com/perriera/for_interfaces/blob/main/ssh/SSHKEY.md)
-- TODO: make (perriera) / injections publically available
-- [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md)
 
 ### Wish Case
 `(perriera) / injections` is a Github project available here: [git@github.com:perriera/injections.git](https://github.com/perriera/injections)
