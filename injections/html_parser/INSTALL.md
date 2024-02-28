@@ -48,6 +48,18 @@ git clone git@github.com:perriera/html_parser.git
 
 		mvn jar:jar
 
+ - [ ] Now install JSoup 
+
+		mvn install
+
+ - [ ] Now setup the merge.sh script 
+
+		bin/install_merge.sh
+
+
+
+
+
 > Add any extensions that VSC recommends: (typically `Extension Pack for Java`)
 
  - [ ] Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
