@@ -1,10 +1,10 @@
 
-## How to install (perriera) / interfaces 
+## How to install (perriera) / html_parser 
 > In this step we need to install all the tools used by this project (that you may or may not already have installed).
 
- 1. **GIVEN** we need to have develope injectX based projects
- 2. **WHEN** we install (perriera) / injections onto Linux, OS X, WSL2
- 3. **THEN** we can build projects using special bins/scripts to simplify using injections
+ 1. **GIVEN** we need to have develop HTML based projects
+ 2. **WHEN** we use the Java-based JSoup Framework 
+ 3. **THEN** we can parse properly HTML pages
 
 ### Prerequisites
 - [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md)
@@ -14,20 +14,41 @@
   - [ ] Open a Terminal box and install 
 	
         cd ~/dev
-		git clone https://github.com/perriera/interfaces.git
+		git clone https://github.com/perriera/html_parser.git
 
-git clone git@github.com:perriera/interfaces.git
-	
- - [ ] Now build and run the test cases for 
+git clone git@github.com:perriera/html_parser.git
 
-		cd ~/dev/interfaces
-        install -d build; cd build; cmake ..; make; cd ..
-        build/run-unittests-interfaces
+ - [ ] Now select and install a `Java Development Kit (JDK)` and `maven`:
 
- - [ ] Now start a VSC session 
+		javac
 
-		cd ~/dev/injections
-		code .
+	Available options:
+
+		sudo apt install openjdk-11-jdk-headless  # version 11.0.20.1+1-0ubuntu1~22.04, or
+		sudo apt install default-jdk              # version 2:1.11-72build2
+		sudo apt install openjdk-17-jdk-headless  # version 17.0.8.1+1~us1-0ubuntu1~22.04
+		sudo apt install openjdk-18-jdk-headless  # version 18.0.2+9-2~22.04
+		sudo apt install openjdk-19-jdk-headless  # version 19.0.2+7-0ubuntu3~22.04
+		sudo apt install openjdk-8-jdk-headless   # version 8u382-ga-1~22.04.1
+		sudo apt install ecj                      # version 3.16.0-1
+
+	Recommended:
+
+		sudo apt install maven openjdk-8-jdk-headless -y  # version 8u382-ga-1~22.04.1
+
+ - [ ] Now build and run the test cases:
+
+		mvn test
+
+ - [ ] Now build and run the test cases again:
+
+		mvn test
+
+ - [ ] Now build the jar target:
+
+		mvn jar:jar
+
+> Add any extensions that VSC recommends: (typically `Extension Pack for Java`)
 
  - [ ] Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
 
@@ -71,4 +92,4 @@ In the case where you start up VSC and the title bar portion of the editor is Li
 Now you have installed *(perriera) / injections* f  the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
 
 ### Next Steps
-- [How to install (perriera) / html_parser](https://github.com/perriera/for_interfaces/blob/main/injections/html_parser/INSTALL.md)
+- [How to install (perriera) / intehtml_parserfaces](https://github.com/perriera/for_interfaces/blob/main/injections/html_parser/INSTALL.md)
