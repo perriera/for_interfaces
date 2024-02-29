@@ -18,7 +18,7 @@
         cd ~/dev
 		git clone https://github.com/perriera/htmlforge.net.git
 
-git clone git@github.com:perriera/interfaces.git
+git clone git@github.com:perriera/htmlforge.net.git
 	
  - [ ] Now build and run the test cases for 
 
