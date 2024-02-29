@@ -28,7 +28,7 @@ git clone git@github.com:perriera/htmlforge.net.git
 
  - [ ] Now in your VSC editor do: `File -> Open Folder -> ~/dev/interfaces` or ... 
 
-		cd ~/dev/interfaces
+		cd ~/dev/htmlforge.net
 		code .
 
 	- Select 'Yes' to 'Trust the Authors'
