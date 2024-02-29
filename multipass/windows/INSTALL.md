@@ -66,25 +66,25 @@
 		sudo adduser dev sudo
 		su dev
 
- - From here you can now exit and backup the instance:
-
-		exit
-		exit
-
-		multipass stop ${MY_NAME_IS}
-		multipass snapshot ${MY_NAME_IS} --name "e1"
-		multipass list --snapshots
-
- - Now restart the instance and update it:
-
-		multipass shell ${MY_NAME_IS}
-		su dev
+ - Now update the system:
 
  		sudo apt update -y
 		sudo apt upgrade -y
 		sudo apt autoremove -y
 		sudo apt autoclean -y
 		sudo reboot 
+
+ - From here you can backup the instance
+
+		multipass stop ${MY_NAME_IS}
+		multipass snapshot ${MY_NAME_IS} --name "e1"
+		multipass list --snapshots
+
+ - Now restart the instance as `dev`
+
+		multipass shell ${MY_NAME_IS}
+		su dev
+
 
 ### Alternate Case
 #### Added GUI
