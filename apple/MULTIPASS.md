@@ -11,7 +11,11 @@ multipass set local.<name>.disk=64GB
 ```
 5. `multipass start <name>`
 6. `multipass shell <name>`
-
+```
+adduser dev
+adduser dev sudo
+su dev
+```
 
 >- [Multipass Documentation](https://multipass.run/docs)
 >- [`multipass transfer` command](https://multipass.run/docs/transfer-command)
