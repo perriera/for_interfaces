@@ -1,208 +1,111 @@
-## How to install multipass on Windows
+## How to install `multipass` on OS X
+> In this step we show how to install multipass on Windows 10/11
 
-  WIP
-
-## How to install the tools necessary for C++11/17 projects
-> In this step we need to install all the tools used by this project (that you may or may not already have installed).
-
- 1. **GIVEN** we need to have g++ tools installed 
- 2. **WHEN** we update the Ubuntu install and install the tools required
- 3. **THEN** we build projects using g++, cmake and  CPM
+ 1. **GIVEN** we need to be able to run Linux apps on OSX and Windows
+ 2. **WHEN** we install multipass on OSX or Windows 
+ 3. **THEN** we can launch an instance of Ubuntu 22.04 
 
 ### Prerequisites
-  - [How to install a Linux Platform (Ubuntu 20.04.4)](https://github.com/perriera/extras_dbo/blob/dev/docs/UBUNTU.md)
-  - [How to clone your project (with this template)](https://github.com/perriera/extras_dbo/blob/dev/docs/CLONE.md)
+- [How to install Multipass on macOS](https://multipass.run/docs/installing-on-macos#heading--install-upgrade-uninstall) (reviewed)
+- [Multipass Documentation](https://multipass.run/docs)
+- OSX based computer
+- sudo privilages 
 
- 
 ### Wish Case
-Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
 
-  - [ ] First put **sudo** into ready-to-accept mode
+  - Go to the [website and download the installer for OSX](https://multipass.run/docs/installing-on-macos#heading--install-upgrade-uninstall)
+  - Once installed successfully do this:
 	
-		sudo ls
-	
- - [ ] Now bring Ubuntu up to date
+		multipass launch
+		multipass list
 
-		sudo apt update -y
+- Right here identify the name of the newly created Ubuntu 22 instance, (for example):
+
+		Name                    State             IPv4             Image
+		observant-earwig        Running           192.168.64.2     Ubuntu 22.04 LTS
+
+- multipass creates a Ubuntu 22.04 instance (by default) and issues it a random name:
+
+		MY_NAME_IS=observant-earwig
+
+- Now cut & paste the following:
+
+		multipass stop ${MY_NAME_IS}
+		multipass set local.${MY_NAME_IS}.memory=8G
+		multipass set local.${MY_NAME_IS}.cpus=2   
+		multipass set local.${MY_NAME_IS}.disk=64GB
+		multipass start ${MY_NAME_IS}
+		multipass shell ${MY_NAME_IS}
+
+ - Once inside the instance create a dev user:
+
+		adduser dev
+
+ - Added dev to the sudo group and make sure it works:
+
+		adduser dev sudo
+		su dev
+
+ - From here you can now exit and backup the instance:
+
+		exit
+		exit
+
+		multipass stop ${MY_NAME_IS}
+		multipass snapshot ${MY_NAME_IS} --name "e1"
+		multipass list --snapshots
+
+ - Now restart the instance and update it:
+
+		multipass shell ${MY_NAME_IS}
+		su dev
+
+ 		sudo apt update -y
 		sudo apt upgrade -y
 		sudo apt autoremove -y
 		sudo apt autoclean -y
 		sudo reboot 
 
- - [ ] Now install gcc build tools
+### Alternate Case
+#### Added GUI
+`multipass` is very cutting edge in that it is possible to add gui access to the instance either using **x11** or even `Microsoft Remote Desktop` (available on the **App Store**) without too much trouble at all:
 
-		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server net-tools zip xterm http-server
+	sudo apt update
+	sudo apt install ubuntu-desktop xrdp
 
- - [ ] In the interest of simplicity set these temporary environment variables to your desired email address and username (for the purposes of the Linux box):
-
-		MY_EMAIL_IS="myemail@email.com"
-		MY_NAME_IS="My Name"
-
- - [ ] Now setup the git utility for regular access (change "your_email@example.com" and "Your Name" accordingly)
-
-		git config --global user.email ${MY_EMAIL_IS}
-		git config --global user.name ${MY_NAME_IS}
-
-  - [ ] Now create an SSH key for the Linux box (**do not supply a different filename and leave the pass phrase blank**)
-
-		ssh-keygen -t ed25519 -C ${MY_EMAIL_IS}
-
-  - [ ] Show the SSH public key and remember how to display it when it is needed later on (for SSH authentication)
-
-		cat ~/.ssh/id_ed25519.pub
-
-  - [ ] Now determine the ssh command you'd need to log into this Linux box (once you add the clients SSH key): 
-
-		output=$(hostname -I)
-		output=($output)
-		ssh_cmd="ssh $(basename $PWD)@${output[0]}"
-		echo $ssh_cmd
-
- - [ ] Assuming that was successful, install CMake (on the new Linux box)
-
-		sudo apt-get -y install clang-format
-		pip install cmake-format
-		sudo apt-get update -y 
-		sudo apt-get install cmake -y
-		sudo apt-add-repository universe -y
-		sudo apt-get install cmake-extras -y
-
- - [ ] Now open the vi editor 
-
-		vi ~/.bashrc
-		
- - [ ] APPEND these environment variables to `~/.bashrc `
-		
-		export PATH=$HOME/.local/bin:${PATH}
-		export CPM_SOURCE_CACHE=$HOME/.cache/CPM
-		export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
-
- - [ ] Then source it ... 
-
-		source ~/.bashrc
-
- - [ ] Now install Visual Studio Code (**optional**)
-
-		sudo snap install --classic code # or code-insiders
-
- - [ ] Now close any apps (including browsers) and remove all unnecessary files 
-
-		sudo apt-get autoremove -y
-		sudo apt-get autoclean -y
-		sudo apt-get clean -y
-		journalctl --disk-usage
-		sudo journalctl --vacuum-time=3d
-		du -h /var/lib/snapd/snaps
-		rm -rf ~/.cache 
-
- - [ ] Create the following script: 
- 
- 		vi ~/.local/bin/xsnap.sh
-		
- - [ ] Add the following content
-
-		#!/bin/bash
-		echo Removes old revisions of snaps
-		echo CLOSE ALL SNAPS BEFORE RUNNING THIS
-		echo Attention: **experimental optimization** 
-		echo Attention: Have your Linux instance backed up beforehand 
-		echo Attention: should snap behave strangely resort to the backup
-		read -p "Are you sure you want to reset local SNAPS cache: (y/N)? " name
-		if [[ "$name"=="Y" || "$name"=="y" ]];
-		then
-			echo -e "local SNAPS cache deleted"
-			set -eu
-			snap list --all | awk '/disabled/{print $1, $3}' |
-				while read snapname revision; do
-					snap remove "$snapname" --revision="$revision"
-			done
-		else
-			echo -e "local SNAPS cache not deleted"
-		fi
-
- > The above script might free up to 5 GB of unnecessary files. However, be sure to use it only after a backup of the Linux box as it has been known to screw up the snap utility.
-
- - [ ] Change it's exe mode
-
-		chmod +x ~/.local/bin/xsnap.sh
-
- - [ ] Execute it
-
-		sudo ~/.local/bin/xsnap.sh
-		
- - [ ] Now start Visual Studio Code (**optional**)
-
-		mkdir ~/dev
-		cd ~/dev
-		mkdir sample_project
-		cd sample_project
-		code .
+- see [How to set up a graphical interface](https://multipass.run/docs/set-up-a-graphical-interface)
 
 ### Alternate Case
-#### /home/perry/.local/bin/xsnap.sh: 8: [[: not found
-Make sure the first line of the bash script copies over as "#!/bin/bash" and not " #!/bin/bash" 
+#### Can't access the Internet? (but a `sudo update` still works?)
+OSX might have firewall setup:
+ - see [How to troubleshoot networking](https://multipass.run/docs/troubleshoot-networking#heading--dns-problems)
 
-### Alternate Case 
-#### Dark Theme
-In the case where you start up VSC and the title bar portion of the editor is Light coloured and you desire to have it Dark themed merely do this:
-1. Open the Settings app, (click on the bottom left menu and type 'Settings')
-2. Select Appearance and then click on the Dark theme
+### Alternate Case
+#### Can do a restore from a backup?
+Backups with multipass are very fast but require the instance to be stopped first:
 
-### Alternate Case 
-#### Semi-transparent Terminal boxes
-In the case where you would like your Terminal box to have a certain level of transparency:
-1. Open a Terminal box, , (click on the bottom left menu and type 'Terminal')
-2. On the top left of the screen click on 'Terminal'
-3. Select Preferences -> Unnamed -> Colours 
-4. Deselect 'Use transparency from system theme'
-5. Select 'Use transparent background'
-6. Adjust the scroll bar to your preferred level of transparency
-> In this way you'll be able to see things behind your Terminal box, (comes in handy)
+ Create a Snapshot
 
+	multipass stop dapper-manakin
+	multipass snapshot observant-earwig --name "e1"
 
-### Alternate Case 
-#### error: snap "code" is not available on stable for this architecture (arm64) but exists on other architectures (amd64).
-In the case of the Apple M1 (and you are running Linux under a VM like Parallels or VirtualBox) what you want to do is connect to the Linux box via it's IP address over SSH.
-```
-sudo apt install net-tools
-ifconfig
-```
-Get the IP address and after adding the ~/.ssh/id_ed25519.pub key to the ~/.ssh/authorized_keys of the Linux box log into it via ssh protocol
+Restore from a Snapshot
 
-### Alternate Case 
-#### **Visual Studio Code Extensions** </br>
-Visual Studio Code will detect whatever language you are using and offer to install extentions automatically. Feel free to allow all recommendations as they appear to the bottom right of the Visual Studio Code environment.
+	multipass list --snapshots
+	multipass restore observant-earwig.e1 
+	multipass start observant-earwig
 
-### Alternate Case 
-#### Install cmake using snap:
-```
-sudo snap install cmake --classic 
-```
+ - see [Creating a Backup of a Multipass Instance](https://github-wiki-see.page/m/dialloi659/multipass/wiki/Creating-a-Backup-of-a-Multipass-Instance)
 
-### Alternate Case 
-#### **Bad CMake executable "/snap/bin/cmake"** 
-cmake has been going through alot of improvemetns and the latest  method of installation from the command line provides the 3.21 requirement (see [bad cmake executable vscode](https://askubuntu.com/questions/1353824/bad-cmake-executable-vscode)):
-```
-snap remove cmake -y 
-sudo apt-get update -y 
-sudo apt-get install cmake -y
-sudo apt-add-repository universe -y
-sudo apt-get install cmake-extras -y
-```
-
-### Alternate Case 
-#### **Ubuntu 18.04** </br>
-Slightly different parameters required
-```
-sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clang-9 cppcheck clang-tidy python3-pip checkinstall gdb gcc-multilib g++-multilib
-```
-> In the case you've installed a version of gcc / g++ that doesn't ship by default (such as g++-4.8 on lucid) you'll want to match the version as well:
-```
-sudo apt-get install gcc-4.8-multilib g++-4.8-multilib
-```
-### Summary 
-Now you have installed the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
+### Summary
+`multipass` appears to be a streamlined version of Docker for the purposes of running Ubuntu 22.04 on all major platforms. 
 
 ### Next Steps
- - [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md)
-- [How to install (perriera) / interfaces](https://github.com/perriera/for_interfaces/blob/main/injections/interfaces/INSTALL.md)
+
+- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/linux/INSTALL.md)
+- [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md)
+- [How to create a VM with Multipass](https://ubuntu.com/server/docs/virtualization-multipass)
+- [How to run Ubuntu 22.04 VMs on Apple M1 ARM-based systems for free](https://multipass.run/docs/installing-on-macos)
+- [How to create a VM with Multipass](https://ubuntu.com/server/docs/virtualization-multipass)
+- [How can I change memory (RAM) size of existing Multipass virtual machine?](https://github.com/canonical/multipass/issues/1265)
+
