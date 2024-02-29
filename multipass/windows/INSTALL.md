@@ -66,7 +66,12 @@
 		sudo adduser dev sudo
 		su dev
 
- - Now update the system:
+ - Now go into `sudo mode`:
+
+		cd ~
+		sudo ls
+
+ 	Update the system:
 
  		sudo apt update -y
 		sudo apt upgrade -y
@@ -115,6 +120,10 @@ Restore from a Snapshot
 	multipass restore observant-earwig.e1 
 	multipass start observant-earwig
 
+Delete a Snapshot
+
+	multipass delete --purge observant-earwig.e1
+	
  - see [Creating a Backup of a Multipass Instance](https://github-wiki-see.page/m/dialloi659/multipass/wiki/Creating-a-Backup-of-a-Multipass-Instance)
 
 ### Summary
