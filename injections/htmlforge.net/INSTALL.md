@@ -26,7 +26,7 @@ git clone git@github.com:perriera/htmlforge.net.git
         install -d build; cd build; cmake ..; make; cd ..
         build/run-unittests-htmlforge.net
 
- - [ ] Now in your VSC editor do: `File -> Open Folder -> ~/dev/interfaces` or ... 
+ - [ ] Now in your VSC editor do: `File -> Open Folder -> ~/dev/htmlforge.net` or ... 
 
 		cd ~/dev/htmlforge.net
 		code .

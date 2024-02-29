@@ -28,7 +28,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
  - [ ] Now install gcc build tools
 
-		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server net-tools
+		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server net-tools zip
 
  - [ ] In the interest of simplicity set these temporary environment variables to your desired email address and username (for the purposes of the Linux box):
 
