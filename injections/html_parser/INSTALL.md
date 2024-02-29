@@ -156,4 +156,4 @@ Rerun `mvn install` again (in the case there was some sort of Internet timeout).
 Now you have installed *(perriera) / html_parser*. You now have the ability to parse HTML/CSS pages from Webflow.com for use inside Angular, React, Vue (as well as future planned supported JavaScript frameworks).
 
 ### Next Steps
-- [How to install (perriera) / htmlforge](https://github.com/perriera/for_interfaces/blob/main/injections/htmlforge/INSTALL.md)
+- [How to install (perriera) / htmlforge](https://github.com/perriera/for_interfaces/blob/main/injections/htmlforge.net/INSTALL.md)
