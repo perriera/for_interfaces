@@ -1,5 +1,5 @@
 
-## How to install (perriera) / interfaces 
+## How to install (perriera) / htmlforge.net 
 > In this step we need to install all the tools used by this project (that you may or may not already have installed).
 
  1. **GIVEN** we need to have develop injectX based projects
@@ -16,15 +16,15 @@
   - [ ] Open a Terminal box and install 
 	
         cd ~/dev
-		git clone https://github.com/perriera/interfaces.git
+		git clone https://github.com/perriera/htmlforge.net.git
 
 git clone git@github.com:perriera/interfaces.git
 	
  - [ ] Now build and run the test cases for 
 
-		cd ~/dev/interfaces
+		cd ~/dev/htmlforge.net
         install -d build; cd build; cmake ..; make; cd ..
-        build/run-unittests-interfaces
+        build/run-unittests-htmlforge.net
 
  - [ ] Now in your VSC editor do: `File -> Open Folder -> ~/dev/interfaces` or ... 
 
