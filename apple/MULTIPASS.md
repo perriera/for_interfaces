@@ -17,6 +17,7 @@ adduser dev sudo
 su dev
 ```
 
+>- [How to troubleshoot networking](https://multipass.run/docs/troubleshoot-networking#heading--dns-problems)
 >- [Multipass Documentation](https://multipass.run/docs)
 >- [`multipass transfer` command](https://multipass.run/docs/transfer-command)
 >- [How to create a VM with Multipass](https://ubuntu.com/server/docs/virtualization-multipass)
@@ -31,7 +32,7 @@ multipass snapshot observant-earwig --name "e1"
 ```
 Restore from a Snapshot
 ```
-multipass restore dapper-manakin.e1 
+multipass restore observant-earwig.e1 
 multipass start observant-earwig
 ```
 ### Configuration
