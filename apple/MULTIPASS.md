@@ -16,7 +16,7 @@ adduser dev
 adduser dev sudo
 su dev
 ```
-
+>- [How to set up a graphical interface](https://multipass.run/docs/set-up-a-graphical-interface)
 >- [How to troubleshoot networking](https://multipass.run/docs/troubleshoot-networking#heading--dns-problems)
 >- [Multipass Documentation](https://multipass.run/docs)
 >- [`multipass transfer` command](https://multipass.run/docs/transfer-command)

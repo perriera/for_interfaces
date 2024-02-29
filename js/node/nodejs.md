@@ -22,7 +22,7 @@
     nvm list-remote
     nvm install v16.14.0
     nvm list
-    sudo apt install npm
+    sudo apt install npm -y
 
 **Alternate Case**
 Special releases of (using nvm)
