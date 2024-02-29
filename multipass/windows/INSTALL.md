@@ -22,28 +22,48 @@
 - Right here identify the name of the newly created Ubuntu 22 instance, (for example):
 
 		Name                    State             IPv4             Image
+		breezy-dolphin          Running           192.168.64.3     Ubuntu 22.04 LTS
 		observant-earwig        Running           192.168.64.2     Ubuntu 22.04 LTS
 
 - multipass creates a Ubuntu 22.04 instance (by default) and issues it a random name:
 
-		MY_NAME_IS=observant-earwig
-
-- Now cut & paste the following:
-
+		MY_NAME_IS=breezy-dolphin
 		multipass stop ${MY_NAME_IS}
+
+- Now set the desired amount of RAM:
+
 		multipass set local.${MY_NAME_IS}.memory=8G
+
+- Now set the desired number of CPUS:
+
 		multipass set local.${MY_NAME_IS}.cpus=2   
+
+- Now set the desired number of HARDDISK:
+
 		multipass set local.${MY_NAME_IS}.disk=64GB
-		multipass start ${MY_NAME_IS}
+
+- Now shell into ${MY_NAME_IS}:
+
 		multipass shell ${MY_NAME_IS}
+
+	When the Ubuntu instance starts up again take note of it's welcome screen:
+
+		System load:           0.080078125
+		Usage of /:            2.6% of 61.84GB
+		Memory usage:          3%
+		Swap usage:            0%
+		Processes:             130
+		Users logged in:       0
+		IPv4 address for ens3: 192.168.64.3
+		IPv6 address for ens3: fdf4:54a2:bb80:ad36:5054:ff:feea:532a
 
  - Once inside the instance create a dev user:
 
-		adduser dev
+		sudo adduser dev
 
  - Added dev to the sudo group and make sure it works:
 
-		adduser dev sudo
+		sudo adduser dev sudo
 		su dev
 
  - From here you can now exit and backup the instance:
