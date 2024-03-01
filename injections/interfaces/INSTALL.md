@@ -138,7 +138,7 @@ Add the SSH key to Github -> Settings -> SSH and GPG keys
 
 ### Alternate Case
 #### "Username for 'https://github.com': " comes up during build
-This has not been resolved properly (as of yet) however switching to VSC (via SSH) and doing a build from there resolves this issue. 
+This has not been resolved properly (as of yet) however switching to VSC (via SSH) and doing a build from there resolves this issue. **Note**: Make sure the CPM of the Terminal window in the Linux box is disconnected before building with VSC. After the executables are built (and the CPM cache is not cleared you can it_test.sh from the terminal in the Linux box).
 
 ### Alternate Case
 #### VSC Breakpoints and the **gdb** debugging tools
