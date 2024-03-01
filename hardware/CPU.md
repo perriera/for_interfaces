@@ -1,0 +1,4 @@
+### hardware
+>- [Simplify Complex Sensor Systems](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/pic-mcus/pic16f17146?s_kwcid=AL!18852!3!671926325692!!youtube.com!ytv!!&gclid=Cj0KCQiAgqGrBhDtARIsAM5s0_lOBTqTLCSWnTue31fWtiO5ZeCc29SqDvoLYyRQ0k3N3nJWeRH41iIaAmEqEALw_wcB)
+>- [Analog Development Tool Ecosystem](https://www.microchip.com/en-us/tools-resources/develop/analog-development-tool-ecosystem?s_kwcid=AL!18852!3!655557470575!!youtube.com!ytv!!&gclid=Cj0KCQiAr8eqBhD3ARIsAIe-buPiIawo6Nw_gxPpnCp3UOXNBQbFlvbDkZGUu457BIXfXSC-jioKme0aAmW0EALw_wcB)
+>- [Drone Sale](https://global.quadairdrone.com/#/en/checkout1bpp?uid=31&oid=530&sub5=ts-1_of-561_net-15_ci-20681221099_ai-155103956135_cr-677562785449_de-c_ac-9440880449_geo-CAEN&mvprm=sub5&gclid=CjwKCAiA6byqBhAWEiwAnGCA4HTSi6cJGhd6wY_yz2iEVDsL8sp19nh5uD9yow6xSLBJGVnkwqLEhhoCXOYQAvD_BwE)
