@@ -13,6 +13,7 @@
 1. Ubuntu installed
 2. Access to the Internet
 3. **sudo** privileges
+4. [How To Install Node.js on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04)
 
 ### Wish Case
 

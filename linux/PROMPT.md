@@ -1,7 +1,7 @@
 ### xterm stuff
 >- [Set Title and Minimized Name in xterm](https://www.starnet.com/help/set-title-and-minimized-name-in-xterm/)
 >- [Simply set xterm title?](https://askubuntu.com/questions/616256/simply-set-xterm-title)
-
+>- [How to Fix Ubuntu Can’t Open the Terminal Issue](https://www.maketecheasier.com/fix-ubuntu-cannot-open-terminal/)
 
 Often, users have many xterms on their desktop which becomes hard to differentiate then since they are all titled the same. To assign a unique name to an xterm, use the -T switch. To assign a unique name when minimized, use the -n switch.
 

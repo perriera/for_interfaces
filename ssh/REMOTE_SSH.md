@@ -8,9 +8,11 @@
 
 ### Prerequisites
  1. The client operating system having a public SSH key
+ 2. [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh)
 
 ### Resources
  1. [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+ 2. [How To Configure SSH Key-Based Authentication on a Linux Server](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
 
 ### Wish Case
 Assuming you have a public SSH key on the client computer:
