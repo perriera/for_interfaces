@@ -28,7 +28,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
  - [ ] Now install gcc build tools
 
-		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server net-tools zip xterm http-server
+		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server net-tools zip xterm  
 
  - [ ] In the interest of simplicity set these temporary environment variables to your desired email address and username (for the purposes of the Linux box):
 
@@ -54,6 +54,10 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		output=($output)
 		ssh_cmd="ssh $(basename $PWD)@${output[0]}"
 		echo $ssh_cmd
+
+	Something like this should display:
+
+		ssh dev@192.168.0.1
 
  - [ ] Assuming that was successful, install CMake (on the new Linux box)
 
@@ -134,6 +138,11 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		mkdir sample_project
 		cd sample_project
 		code .
+
+### Alternate Case
+#### Visual Studio could not be installed or started (directly)
+In certain cases VSC cannot be installed (in the case of no gui support or processor incompatibilies). In this situation a SSH client could be setup.
+- see [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md)
 
 ### Alternate Case
 #### /home/perry/.local/bin/xsnap.sh: 8: [[: not found

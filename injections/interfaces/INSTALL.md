@@ -15,8 +15,6 @@
 	
         cd ~/dev
 		git clone https://github.com/perriera/interfaces.git
-
-git clone git@github.com:perriera/interfaces.git
 	
  - [ ] Now build and run the test cases for 
 
@@ -125,6 +123,22 @@ git clone git@github.com:perriera/interfaces.git
  - [ ] Make a backup of the Linux box instance.
 
 	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
+
+### Alternate Case
+#### When we are connecting via SSH key to Github
+In the case where we wish to make updates to the source repository we need to connect to Github via an SSH key:
+
+	cat ~/.ssh/id_ed25519.pub
+
+Add the SSH key to Github -> Settings -> SSH and GPG keys
+
+	mkdir ~/dev
+	cd ~/dev
+	git clone git@github.com:perriera/interfaces.git
+
+### Alternate Case
+#### "Username for 'https://github.com': " comes up during build
+This has not been resolved properly (as of yet) however switching to VSC (via SSH) and doing a build from there resolves this issue. 
 
 ### Alternate Case
 #### VSC Breakpoints and the **gdb** debugging tools

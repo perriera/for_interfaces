@@ -20,8 +20,6 @@
 		cd ~/dev/injections
 		bin/scripts/docs.sh
 	
-git clone git@github.com:perriera/injections.git
-
  - [ ] Now build and run the test cases for 
 
 		cd ~/dev/injections
@@ -73,6 +71,38 @@ These bash scripts and binaries are now available on the PATH (as long as `~/.lo
  - [ ] The `EXPLORER` panel (to the top left) will show you all files and folders in the injections project. The first large icon is that of a file copy operation, select it. On the list of files and folders shown select `interfaces/system/mold_interface.cpp` and place a break point on the line that says `system::Test(i);`
 
  - [ ] To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
+
+### Alternate Case
+#### When we are connecting via SSH key to Github
+In the case where we wish to make updates to the source repository we need to connect to Github via an SSH key:
+
+	cat ~/.ssh/id_ed25519.pub
+
+Add the SSH key to Github -> Settings -> SSH and GPG keys
+
+	mkdir ~/dev
+	cd ~/dev
+	git clone git@github.com:perriera/injections.git
+
+### Alternate Case
+#### When we need to connect VSC to the Linux box via SSH
+In the case where we do not have a gui to work with we can connect VSC via SSH provided the client SSH key is added to the local authorized_keys:
+
+On the client machine:
+
+	cat ~/.ssh/id_ed25519.pub
+
+On the Linux box add the clipboard contents to the authorized_keys
+
+ 	echo ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINGrWm8vAqdDMuHVlDc+hlLASoWHas8JPQZo8Gwq2y/n perry@imac219 >> ~/.ssh/authorized_keys 
+
+Add the Remote SSH extensions to VSC and connect via the username and ip address to the Linux box (more below)
+
+	cd ~
+	basename $PWD
+	hostname -I
+
+	aka. dev@192.169.2.2
 
 ### Alternate Case
 #### VSC Breakpoints and the **gdb** debugging tools
@@ -133,6 +163,6 @@ In the case where you start up VSC and the title bar portion of the editor is Li
 Now you have installed *(perriera) / injections*, the development environment and VSC for a C++17 project (complete with cmake 3.21 support). 
 
 ### Next Steps
-- [How to the PATH environment variable (using it_paths.sh)](https://github.com/perriera/for_interfaces/blob/main/injections/SET_PATHS.md)
+- [How to set the PATH environment variable (using it_paths.sh)](https://github.com/perriera/for_interfaces/blob/main/injections/SET_PATHS.md)
 - [How to install (perriera) / interfaces](https://github.com/perriera/for_interfaces/blob/main/injections/interfaces/INSTALL.md)
 

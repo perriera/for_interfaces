@@ -1,5 +1,5 @@
 
-## How to the PATH environment variable (using it_paths.sh)
+## How to set the PATH environment variable (using it_paths.sh)
 > In this step we need to install all the tools used by this project (that you may or may not already have installed).
 
  1. **GIVEN** we need to have develope injectX based projects
@@ -80,6 +80,10 @@
 
  - [ ]  Make adjustments similar to the following:
 
+        export PATH=$HOME/.local/bin:${PATH}
+        export CPM_SOURCE_CACHE=$HOME/.cache/CPM
+        export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
+
         PATH=/home/perry/.local/bin
         PATH=${PATH}:/usr/local/sbin
         PATH=${PATH}:/usr/local/bin
@@ -91,9 +95,9 @@
         PATH=${PATH}:/usr/local/games
         PATH=${PATH}:/snap/bin
 
-        #export PATH=$HOME/.local/bin:${PATH}
-        export CPM_SOURCE_CACHE=$HOME/.cache/CPM
-        export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
+        it_help.sh
+        nterface_tools.sh 
+        it_paths.sh
 
     As you can tell the duplicate PATH entries are removed.
 
