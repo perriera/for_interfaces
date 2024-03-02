@@ -14,6 +14,7 @@
  - Access to the Internet
  - ssh key access 
  - at least two domain names (pointing to the Linux box)
+ - [certbot](https://certbot.eff.org/instructions?ws=other&os=ubuntufocal)
 
 ### Wish Case
 Assuming you have an Ubuntu instance with ssh key access ready to go:
