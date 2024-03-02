@@ -1,0 +1,37 @@
+sudo vi /etc/apache2/sites-available/bigblueai.org.conf
+
+<VirtualHost *:80>
+    ServerAdmin admin@bigblueai.org
+    ServerName bigblueai.org
+     <Directory /var/www/bigblueai.org/public_html>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+     </Directory>
+    ServerAlias www.bigblueai.org 
+    DocumentRoot /var/www/bigblueai.org/public_html
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+sudo mkdir -p /var/www/bigblueai.org/public_html
+sudo vi /var/www/bigblueai.org/public_html/index.html 
+
+<html>
+    <head>
+        <title>Welcome to Your_domain!</title>
+    </head>
+    <body>
+        <h1>Success!  The your_domain virtual host is working!</h1>
+    </body>
+</html>
+
+sudo a2ensite bigblueai.org.conf
+sudo systemctl restart apache2
+
+sudo systemctl reload apache2
+sudo apache2ctl configtest
+
+sudo certbot --apache
+
