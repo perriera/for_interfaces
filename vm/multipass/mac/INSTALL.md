@@ -14,7 +14,7 @@
 ### Wish Case
 
   - Go to the [website and download the installer for OSX](https://multipass.run/docs/installing-on-macos#heading--install-upgrade-uninstall)
-  - Once installed successfully do this:
+  - Once installed in a Terminal box do this:
 	
 		multipass launch
 		multipass list
@@ -28,12 +28,18 @@
 
 		MY_NAME_IS=observant-earwig
 
-- Now cut & paste the following:
+- Now stop the instance:
 
 		multipass stop ${MY_NAME_IS}
+
+- Now reconfigure the instance:
+
 		multipass set local.${MY_NAME_IS}.memory=8G
 		multipass set local.${MY_NAME_IS}.cpus=2   
 		multipass set local.${MY_NAME_IS}.disk=64GB
+
+- Now restart the instance:
+
 		multipass start ${MY_NAME_IS}
 		multipass shell ${MY_NAME_IS}
 
