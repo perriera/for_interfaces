@@ -1,3 +1,7 @@
+### menu
+>- [How to install Linux natively](https://github.com/perriera/for_interfaces/blob/main/multipass/linux/INSTALL.md)
+>- [How to install Linux using `multipass` on Mac (OS X)](https://github.com/perriera/for_interfaces/blob/main/multipass/linux/INSTALL.md)
+>- [How to install Linux natively](https://github.com/perriera/for_interfaces/blob/main/multipass/linux/INSTALL.md)
 ### notes
 >- [How can I change memory (RAM) size of existing Multipass virtual machine?](https://github.com/canonical/multipass/issues/1265)
 >- [`multipass info` command](https://multipass.run/docs/info-command)

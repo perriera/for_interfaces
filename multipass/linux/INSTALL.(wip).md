@@ -1,8 +1,8 @@
-## How to install `multipass` on OS X
-> In this step we show how to install multipass on OS X (mac)
+## How to install Linux using `multipass` on Linux [Work-in-progress]
+> In this step we show how to install multipass on Linux
 
  1. **GIVEN** we need to be able to run Linux apps on OSX and Windows
- 2. **WHEN** we install multipass on OSX or Windows 
+ 2. **WHEN** we install multipass on OSX or Windows (or Ubuntu)
  3. **THEN** we can launch an instance of Ubuntu 22.04 
 
 ### Prerequisites
