@@ -10,7 +10,7 @@
 - [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/linux/INSTALL.md)
 
 ### Wish Case
-`(perriera) / injections` is a Github project available here: [git@github.com:perriera/injections.git](https://github.com/perriera/injections)
+Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 projects (see above):
 
   - [ ] Open a Terminal box and install 
 	
