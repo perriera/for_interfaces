@@ -45,11 +45,11 @@
 
  - Once inside the instance create a dev user:
 
-		adduser dev
+		sudo adduser dev
 
  - Added dev to the sudo group and make sure it works:
 
-		adduser dev sudo
+		sudo adduser dev sudo
 		su dev
 
  - From here you can now exit and backup the instance:
