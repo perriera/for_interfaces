@@ -9,5 +9,5 @@ cd certbot
 
 in the case 
 ### next steps
-> - [UFW Essentials: Common Firewall Rules and Commands](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
-
+>- [UFW Essentials: Common Firewall Rules and Commands](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
+>- [certbot instructions](https://certbot.eff.org/instructions?ws=other&os=ubuntufocal)

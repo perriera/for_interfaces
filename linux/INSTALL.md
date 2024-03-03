@@ -2,7 +2,7 @@
 ## How to install the tools necessary for C++11/17 projects
 > In this step we need to install all the tools used by this project (that you may or may not already have installed).
 
- 1. **GIVEN** we need to have g++ tools installed 
+ 1. **GIVEN** we need to have C++11/17 (gcc/g++) tools installed 
  2. **WHEN** we update the Ubuntu install and install the tools required
  3. **THEN** we build projects using g++, cmake and  CPM
 
@@ -10,7 +10,6 @@
   - [How to install a Linux Platform (Ubuntu 20.04.4)](https://github.com/perriera/extras_dbo/blob/dev/docs/UBUNTU.md)
   - [How to clone your project (with this template)](https://github.com/perriera/extras_dbo/blob/dev/docs/CLONE.md)
 
- 
 ### Wish Case
 Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
 
