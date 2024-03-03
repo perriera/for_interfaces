@@ -1,4 +1,6 @@
-## How to install Linux using `multipass` on Linux [Work-in-progress]
+## How to install Linux using `multipass` on Linux 
+[Work-in-progress](aka. not ready yet)
+
 > In this step we show how to install multipass on Linux
 
  1. **GIVEN** we need to be able to run Linux apps on OSX and Windows

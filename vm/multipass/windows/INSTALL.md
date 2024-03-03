@@ -1,4 +1,6 @@
-## How to install `multipass` on Windows [Work-in-progress]
+## How to install `multipass` on Windows 
+[Work-in-progress](aka. not ready yet)
+
 > In this step we show how to install multipass on Windows 10/11
 
  1. **GIVEN** we need to be able to run Linux apps on OSX and Windows
