@@ -48,6 +48,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
   - [ ] Now determine the ssh command you'd need to log into this Linux box (once you add the clients SSH key): 
 
+		cd ~
 		output=$(hostname -I)
 		output=($output)
 		ssh_cmd="ssh $(basename $PWD)@${output[0]}"
