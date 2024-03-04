@@ -17,23 +17,19 @@
 ### Wish Case
 Assuming you have a public SSH key on the client computer:
 
-  1. Also install net-tools and keep track of your ip address:
+  1. The following will show you the ssh command to connect to the Linux box:
 
-            sudo apt install net-tools
+            cd ~
+            output=$(hostname -I)
+            output=($output)
+            ssh_cmd="ssh $(basename $PWD)@${output[0]}"
+            echo $ssh_cmd
 
-  2. Note the IP address of the Linux box:
+      Assuming the username is perry the output might resemble this:
 
-            ifconfig | grep "netmask 255.255.255.0"
+            ssh perry@211.56.210.32 
 
-  3. Also the name of your user account
-
-            ls /home
-
-  4. As you will be needing your SSH public key, your username and your IP address for SSH purposes :
-
-            ssh perry@211.56.210.32 (this is an example)
-
-  5. ON YOUR CLIENT machine open a Terminal box and display your SSH key:
+  5. ON YOUR CLIENT machine open a Terminal box and display it's SSH key:
 
             cat ~/.ssh/id_ed25519.pub 
 
