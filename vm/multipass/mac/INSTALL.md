@@ -78,7 +78,9 @@
 	sudo apt update
 	sudo apt install ubuntu-desktop xrdp
 
-- see [How to set up a graphical interface](https://multipass.run/docs/set-up-a-graphical-interface)
+On macOS we can use the “Microsoft Remote Desktop” application, from the Mac App Store. Once installed use the username and password for `dev`:
+
+- for more see [How to set up a graphical interface](https://multipass.run/docs/set-up-a-graphical-interface)
 
 ### Alternate Case
 #### Can't access the Internet? (but a `sudo update` still works?)
