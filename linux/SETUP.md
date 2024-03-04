@@ -1,6 +1,6 @@
 
 ## How to install the tools necessary for C++11/17 projects
-> In this step we need to install all the tools used by this project (that you may or may not already have installed).
+> In this step we need to install all the  C++11/17 (gcc/g++) tools for software development
 
  1. **GIVEN** we need to have C++11/17 (gcc/g++) tools installed 
  2. **WHEN** we update the Ubuntu install and install the tools required
