@@ -52,10 +52,7 @@
 		sudo adduser dev sudo
 		su dev
 
- - From here you can now exit and backup the instance:
-
-		exit
-		exit
+ - From here you can now exit of the new Linux instance and make a backup:
 
 		multipass stop ${MY_NAME_IS}
 		multipass snapshot ${MY_NAME_IS} --name "e1"
