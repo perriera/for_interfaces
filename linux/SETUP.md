@@ -7,8 +7,7 @@
  3. **THEN** we build projects using g++, cmake and  CPM
 
 ### Prerequisites
-  - [How to install a Linux Platform (Ubuntu 20.04.4)](https://github.com/perriera/extras_dbo/blob/dev/docs/UBUNTU.md)
-  - [How to clone your project (with this template)](https://github.com/perriera/extras_dbo/blob/dev/docs/CLONE.md)
+  - [How to install Linux using multipass](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/MENU.md)
 
 ### Wish Case
 Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
