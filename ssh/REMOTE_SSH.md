@@ -17,7 +17,17 @@
 ### Wish Case
 Assuming you have a public SSH key on the client computer:
 
-  1. The following will show you the ssh command to connect to the Linux box:
+  - ON YOUR CLIENT machine open a Terminal box and display it's SSH key:
+
+            cat ~/.ssh/id_ed25519.pub 
+
+  - ON THE LINUX box Copy the contents to the clipboard and add them to the authorized_keys file on the Linux server (*take note of the username you using on the Linux box*)
+
+            echo <clipboard contents>
+            echo <clipboard contents> >> ~/.ssh/authorized_keys 
+            sudo systemctl restart ssh
+
+  - The following will show you the ssh command to connect to the Linux box:
 
             cd ~
             output=$(hostname -I)
@@ -25,29 +35,21 @@ Assuming you have a public SSH key on the client computer:
             ssh_cmd="ssh $(basename $PWD)@${output[0]}"
             echo $ssh_cmd
 
-      Assuming the username is perry the output might resemble this:
+   - Assuming the username is dev the output might resemble this:
 
-            ssh perry@211.56.210.32 
+            ssh dev@211.56.210.32 
 
-  5. ON YOUR CLIENT machine open a Terminal box and display it's SSH key:
+> Be sure to be in the desired user account for the above to work properly, (aka. **su dev**)
 
-            cat ~/.ssh/id_ed25519.pub 
+  - ON YOUR CLIENT machine open a Terminal box use the ssh command generated above:
 
-  6. ON THE LINUX box Copy the contents to the clipboard and add them to the authorized_keys file on the Linux server (*take note of the username you using on the Linux box*)
+            ssh dev@211.56.210.32 
 
-            echo <clipboard contents>
-            echo <clipboard contents> >> ~/.ssh/authorized_keys 
-            sudo systemctl restart ssh
-
-  7. ON YOUR CLIENT machine test to see if the client computer can access the Linux box (using the username where you added the client's SSH key):
-
-            ssh perry@<actual ip address of Linux box obtained in step 2>
-
-  8. When asked to add the fingerprint say 'yes'
+  - When asked to add the fingerprint say 'yes'
 
             Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 
-  9. In the case where everything is connected together properly you would see a terminal session showing user level access to the Linux box. You are now in a position to access the Linux box using Visual Studio Code (or any tool that can use the SSH protocol)
+  - In the case where everything is connected together properly you would see a terminal session showing user level access to the Linux box. You are now in a position to access the Linux box using Visual Studio Code or any tool that can use the SSH protocol, (see **Alternate Case** below)
 
 ### Alternate Case 
 #### Using Visual Studio Code (VSC or 'code') via Remote SSH
