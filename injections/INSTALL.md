@@ -10,7 +10,7 @@
 - [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/linux/INSTALL.md)
 - [How to install Linux using multipass](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/MENU.md)
 - [How to install Linux using multipass on Mac (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/mac/INSTALL.md)
-- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/linux/INSTALL.md)
+- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/linux/SETUP.md)
 
 ### Wish Case
 Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 projects (see above):
