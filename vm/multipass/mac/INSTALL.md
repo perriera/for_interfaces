@@ -63,6 +63,8 @@
 		multipass shell ${MY_NAME_IS}
 		su dev
 
+ - Now update it:
+
  		sudo apt update -y
 		sudo apt upgrade -y
 		sudo apt autoremove -y
