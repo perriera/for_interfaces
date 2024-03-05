@@ -41,12 +41,12 @@ Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 
 	- When asked to install C++ or CMake extensions say `Install` or `Yes`
 	- When asked to select a C++ dialect select anything early gcc
 
- - To the left of the VSC editor the forth large icon from the top will be the Extensions icon:
+ - To the left of the VSC editor the forth large icon from the top will be the `Extensions` icon:
 	- Add `Remote - SSH`
 	- Add `C++ TestMate`
 	- Add `GDB Debugger - Beyond`
 
- - Make a backup of the Linux box instance.
+ - Now exit out of the VSC, the user account and the Linux box itself and make backup of it.
 
 	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
 	
