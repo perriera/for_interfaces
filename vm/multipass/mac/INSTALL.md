@@ -29,7 +29,7 @@
 		MY_NAME_IS=observant-earwig
 
 	Whatever random name was listed (instead of `observant-earwig` was listed change the assignment to that random name)
-	
+
 - Now stop the instance:
 
 		multipass stop ${MY_NAME_IS}
@@ -43,7 +43,6 @@
 
 - Now restart the instance:
 
-		multipass start ${MY_NAME_IS}
 		multipass shell ${MY_NAME_IS}
 
  - Once inside the instance create a dev user:
