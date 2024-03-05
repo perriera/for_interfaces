@@ -46,7 +46,7 @@ Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 
 	- Add `C++ TestMate`
 	- Add `GDB Debugger - Beyond`
 
- - Now exit out of the VSC, the user account and the Linux box itself and make backup of it.
+ - Now exit out of VSC, the user account and the Linux box itself and make backup of it.
 
 	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
 	
