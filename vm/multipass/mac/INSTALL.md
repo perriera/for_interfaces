@@ -43,6 +43,14 @@
 
 	The system is now configured for 8GB of ram, 2 cpus and a 64GB hard disk. It will also mount your $HOME folder to a folder inside the new Linux instance (using a Parallels Desktop file naming convention as `/media/psf/home`). Feel free to change these parameters as you see fit. 
 
+ - Now update it:
+
+ 		sudo apt update -y
+		sudo apt upgrade -y
+		sudo apt autoremove -y
+		sudo apt autoclean -y
+		sudo reboot 
+
 - Now restart the instance:
 
 		multipass shell ${MY_NAME_IS}
@@ -67,13 +75,7 @@
 		multipass shell ${MY_NAME_IS}
 		su dev
 
- - Now update it:
-
- 		sudo apt update -y
-		sudo apt upgrade -y
-		sudo apt autoremove -y
-		sudo apt autoclean -y
-		sudo reboot 
+	You are now inside a user account on the new Linux instance. In the case where you expect to want to access the new Linux instance with a GUI from end see the **Alternate Case** below.
 
 ### Alternate Case
 #### Added GUI
