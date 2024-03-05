@@ -51,6 +51,11 @@ Assuming you have a public SSH key on the client computer:
 
   - In the case where everything is connected together properly you would see a terminal session showing user level access to the Linux box. You are now in a position to access the Linux box using Visual Studio Code or any tool that can use the SSH protocol, (see **Alternate Case** below)
 
+### Alternate Case
+#### (perriera) / injections
+In the case where you were in the middle of installing `(perriera) / injections` resume here:
+- see [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md)
+
 ### Alternate Case 
 #### Using Visual Studio Code (VSC or 'code') via Remote SSH
 In the case where you would like to access the Linux box via VSC over SSH:
