@@ -61,7 +61,11 @@ Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 
 
 ### Alternate Case
 #### `by-gdb` not supported
-This message shows up on VSC when running inside `Microsoft Remote Desktop`. It does not show up when running VSC connected using `Remote - SSH`. 
+This message shows up on VSC when running inside `Microsoft Remote Desktop`. It does not show up when running VSC connected using `Remote - SSH`. However, when you install `GDB Debugger - Beyond` (again) inside `Microsoft Remote Desktop` it appears to work fine. 
+
+### Alternate Case
+#### gdb breakpoints landing at random places
+Install `GDB Debugger - Beyond` 
 
 ### Alternate Case
 #### `Username for 'https://github.com':`
