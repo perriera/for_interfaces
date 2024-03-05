@@ -91,7 +91,7 @@
 	sudo apt update
 	sudo apt install ubuntu-desktop xrdp
 
-On macOS we can use the “Microsoft Remote Desktop” application, from the Mac App Store. Once installed use the username and password for `dev`:
+On macOS we can use the `Microsoft Remote Desktop` application, from the Mac App Store. Once installed use the username and password for `dev`:
 
 - for more see [How to set up a graphical interface](https://multipass.run/docs/set-up-a-graphical-interface)
 
