@@ -8,8 +8,6 @@
 
 ### Prerequisites
 - [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/vm/MENU.md)
-- [How to install Linux using multipass](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/MENU.md)
-- [How to install Linux using multipass on Mac (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/mac/INSTALL.md)
 - [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/INSTALL.md)
 - [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md)
 
