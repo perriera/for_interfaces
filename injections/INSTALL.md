@@ -1,6 +1,6 @@
 
 ## How to install (perriera) / injections 
-> In this step we need to install all the tools used by this project (that you may or may not already have installed).
+> This is how we install and configure a system for use with `(perriera) / injections `
 
  1. **GIVEN** we need to have develop injectX based projects
  2. **WHEN** we install (perriera) / injections onto Linux, OS X, WSL2
