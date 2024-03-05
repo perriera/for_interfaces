@@ -1,5 +1,5 @@
 
-## How to install (perriera) / injections 
+## How to install `(perriera) / injections`
 > This is how we install and configure a system for use with `(perriera) / injections `
 
  1. **GIVEN** we need to have develop injectX based projects
