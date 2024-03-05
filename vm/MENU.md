@@ -1,6 +1,7 @@
 ### How to install Linux 
-Linux comes in many flavours can be installed either natively or as a virtual machine.
+There are a number of ways to install Linux onto your computer with the variables being the type of computer you have and whatever operating system that is already on that hardware. In the case of install Linux as a virtual machine on top of a natively installed operating system is a preferred option when considering software development, (as this tends to be more practically). Installing Linux natively is an option but for development purposes can be more difficult with respect to restoring the Linux operating system from some form of malfunction. In effect it is a lot easier (and quicker) to restore a backup of a Linux instance and then retrace your steps to what may have caused the malfunction than it is try and isolate the malfuction. 
 #### Popular Linux distributions
+Linux comes in many flavours can be installed either natively or as a virtual machine. 
 - Debian-based
     - Ubuntu-based
     - Knoppix-based
