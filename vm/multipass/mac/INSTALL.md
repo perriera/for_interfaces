@@ -88,6 +88,37 @@ According to this posting [Remote Desktop App stuck on "Configuring remote sessi
 > "It appears to be a problem with the app. If you are trying to connect to an older PC, before it connects it has a screen that says "Identity of remote PC can't be verified." If you check the box "Never ask again for connections to this PC" and then connect, you will never be able to connect again (for my remote XP computer but not my remote Windows 10 computer). Apparently, it prevents asking and answering the question when it should automatically answer "Connect." The only solution I found on my Android was to delete all the App data (App Info, Storage, Clear Data). You lose all your connection data (PC's, Gateways, and User Accounts) so you're starting all over." -- George Bradley, Oct 20, 2023
 
 ### Alternate Case
+#### Sharing data with the host operating system
+The recommended way to share data between your host and an instance with Multipass is the mount command:
+`multipass mount $HOME $MY_NAME_IS:/media/psf/home` where `$MY_NAME_IS` is the name of the running instance
+```
+$ multipass mount $HOME keen-yak
+$ multipass info keen-yak
+…
+Mounts:         /home/michal => /home/michal
+```
+From this point on /home/michal will be available inside the instance.
+
+You can also specify the path inside the instance in which to mount the local path:
+
+```
+$ multipass mount $HOME keen-yak:/some/path
+```
+Mounts can also be specified as an option to the launch command:
+
+```
+multipass launch --mount /some/local/path:/some/instance/path
+```
+To unmount the mounted paths, use the umount command. You can either specify the desired path to unmount or unmount all of them by not specifying any:
+```
+$ multipass umount keen-yak
+$ multipass info keen-yak                
+…
+Mounts:         --
+```
+- see [How to share data with an instance](https://multipass.run/docs/share-data-with-an-instance)
+
+### Alternate Case
 #### Can't access the Internet? (but a `sudo update` still works?)
 OSX might have firewall setup:
  - see [How to troubleshoot networking](https://multipass.run/docs/troubleshoot-networking#heading--dns-problems)
@@ -114,7 +145,7 @@ Restore from a Snapshot
 
 ### Next Steps
 
-- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/linux/SETUP.md)
+- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/INSTALL.md)
 - [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md)
 - [How to create a VM with Multipass](https://ubuntu.com/server/docs/virtualization-multipass)
 - [How to run Ubuntu 22.04 VMs on Apple M1 ARM-based systems for free](https://multipass.run/docs/installing-on-macos)

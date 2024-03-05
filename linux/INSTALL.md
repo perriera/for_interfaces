@@ -12,7 +12,7 @@ There are a number of ways to install Linux onto your computer with the variable
 ### Wish Case
 Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
 
-  - [ ] Do [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/linux/SETUP.md)
+  - [ ] Do [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/INSTALL.md)
 
 ### Summary 
 Now you have installed the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).

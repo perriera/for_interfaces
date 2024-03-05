@@ -10,51 +10,50 @@
 - [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/linux/INSTALL.md)
 - [How to install Linux using multipass](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/MENU.md)
 - [How to install Linux using multipass on Mac (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/mac/INSTALL.md)
-- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/linux/SETUP.md)
+- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/INSTALL.md)
 - [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md)
 
 ### Wish Case
 Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 projects (see above):
 
-  - [ ] Open a Terminal box and install 
-	
+  - Open a Terminal box and install 
+
+	(**Note**: In the case where you have a SSH connection to the Github repository see **Alternate Case** below)
+
 		mkdir ~/dev
         cd ~/dev
         git clone https://github.com/perriera/injections.git
 		cd ~/dev/injections
 		bin/scripts/docs.sh
-	
- - [ ] Now build and run the test cases for 
+
+ - Now build and run the test cases for 
 
 		cd ~/dev/injections
         install -d build; cd build; cmake ..; make; cd ..
         build/run-unittests-injections
 
- - [ ] Now start Visual Studio Code
+ - Now start Visual Studio Code
 
 		cd ~/dev/injections
 		code .
 
-	- Select 'Yes' to 'Trust the Authors'
+	- Select **Yes** to **Trust the Authors**
+	- When asked to install C++ or CMake extensions say `Install` or `Yes`
+	- When asked to select a C++ dialect select anything early gcc
 
->- IMPORTANT: When asked to install C++ or CMake extensions say `Install` or `Yes`
->- MORE IMPORTANT: When asked to select a C++ dialect select anything early gcc, (*avoid newer versions of clang as the newer lint specifications creates insane warnings on builds*)
+ - Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
 
- - [ ] Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
-
- - [ ] Maximize your editor and place a breakpoint on `interfaces/system/test_interface.cpp` (at the first `ASSERT_INJECTX`)
+ - Maximize your editor and place a breakpoint on `interfaces/system/test_interface.cpp` (at the first `ASSERT_INJECTX`)
 
          REQUIRE_INJECTX(SomethingMessedUp, "some stderr diagnostics");
          ASSERT_INJECTX(SomethingMessedUp, "");
          REQUIRE_INJECTX(NothingSpecified, "");
 
- - [ ] Select the forth large icon from the top left (for `RUN AND DEBUG`) and press the Green arrow.
-
-	**Note**: For your initial run (*assuming the gdb issue mentioned below is not occuring*) the break point will be landed on **twice**. This is because both the mold_interface.cpp and the dock_instance.cpp source files make use of the same test_interface.cpp.
+ - Select the forth large icon from the top left (for `RUN AND DEBUG`) and press the Green arrow.
 
 > In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
 
- - [ ] Make a backup of the Linux box instance.
+ - Make a backup of the Linux box instance.
 
 	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
 	
