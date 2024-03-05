@@ -28,6 +28,8 @@
 
 		MY_NAME_IS=observant-earwig
 
+	Whatever random name was listed (instead of `observant-earwig` was listed change the assignment to that random name)
+	
 - Now stop the instance:
 
 		multipass stop ${MY_NAME_IS}
