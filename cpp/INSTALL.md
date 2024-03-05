@@ -12,6 +12,10 @@
 ### Wish Case
 Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
 
+  - [ ] Login as dev (options)
+	
+		su dev
+
   - [ ] First put **sudo** into ready-to-accept mode
 	
 		sudo ls
