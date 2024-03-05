@@ -14,9 +14,11 @@
 ### Wish Case
 Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 projects (see above):
 
-  - Open a Terminal box and install 
+  - pen a Terminal box and login in dev (optional)
 
-	(**Note**: In the case where you have a SSH connection to the Github repository see **Alternate Case** below)
+		su dev
+
+  - Now install `(perriera)/injections`:
 
 		mkdir ~/dev
         cd ~/dev
@@ -48,22 +50,12 @@ Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 
          REQUIRE_INJECTX(NothingSpecified, "");
 
  - Select the forth large icon from the top left (for `RUN AND DEBUG`) and press the Green arrow.
-
-> In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
+ - In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
 
  - Make a backup of the Linux box instance.
 
 	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
 	
-### Note
-#### (perriera) / injections bash scripts and binaries
-Upon the successful BUILD of `(perriera) / injections` the `~/.local/bin` folder is now populated similiar to the the following: 
-```
-cmake-annotate    docs.sh                  it_clean_cache.sh      it_paths.sh       it_test.sh               
-cmake-format      ex_sudo.sh               it_common_scripts.sh   it_post.sh        it_version.sh            cmake-genparsers  it_ansi_colors.sh        it_default_browser.sh  it_rebuild.sh     it_version.txt           ctest-to          it_build.sh              it_library_path.sh     it_show_title.sh         
-```
-These bash scripts and binaries are now available on the PATH (as long as `~/.local/bin` is part of PATH). The `it_help.sh` script gives a basic introduction to these tools. For more on this see **Next Steps** below.
-
 ### Note
 #### VSC Intergrated Debugger capabilties
 
