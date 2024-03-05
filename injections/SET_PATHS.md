@@ -135,7 +135,7 @@
 
  - [ ] Make a backup of the Linux box instance.
 
-	It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.
+	**It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.**
 
 ### Alternate Case
 #### Enchanced Shell Startup
