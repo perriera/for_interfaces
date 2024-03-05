@@ -41,16 +41,10 @@ Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 
 	- When asked to install C++ or CMake extensions say `Install` or `Yes`
 	- When asked to select a C++ dialect select anything early gcc
 
- - Now Press Shift-Ctrl-B in Linux (or Shift-Command-B on OSX)
-
- - Maximize your editor and place a breakpoint on `interfaces/system/test_interface.cpp` (at the first `ASSERT_INJECTX`)
-
-         REQUIRE_INJECTX(SomethingMessedUp, "some stderr diagnostics");
-         ASSERT_INJECTX(SomethingMessedUp, "");
-         REQUIRE_INJECTX(NothingSpecified, "");
-
- - Select the forth large icon from the top left (for `RUN AND DEBUG`) and press the Green arrow.
- - In the case VSC recommends adding *C/C++ Extention pack* and *CMake Tools* Extensions select **Install/Yes**
+ - To the left of the VSC editor the forth large icon from the top will be the Extensions icon:
+	- Add `Remote - SSH`
+	- Add `C++ TestMate`
+	- Add `GDB Debugger - Beyond`
 
  - Make a backup of the Linux box instance.
 
