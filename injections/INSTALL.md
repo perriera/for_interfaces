@@ -53,11 +53,15 @@ Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 
 ### Note
 #### VSC Intergrated Debugger capabilties
 
- - [ ] The C/C++ Extensions has to be installed and VSC usually detects that is it required and will ask your to allow it to be install, (select 'Install')
+ - [ ] The `C/C++ Extensions Pack` has to be installed and VSC usually detects that is it required and will ask your to allow it to be install, (select 'Install')
 
  - [ ] The `EXPLORER` panel (to the top left) will show you all files and folders in the injections project. The first large icon is that of a file copy operation, select it. On the list of files and folders shown select `interfaces/system/mold_interface.cpp` and place a break point on the line that says `system::Test(i);`
 
  - [ ] To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
+
+### Alternate Case
+#### `by-gdb` not supported
+This message shows up on VSC when running inside `Microsoft Remote Desktop`. It does not show up when running VSC connected using `Remote - SSH`. 
 
 ### Alternate Case
 #### `Username for 'https://github.com':`
