@@ -99,7 +99,7 @@
         nterface_tools.sh 
         it_paths.sh
 
-    As you can tell the duplicate PATH entries are removed.
+    **Note**: Remove all duplicate entries
 
  - [ ] Source the `~/. bashrc` script:
 
