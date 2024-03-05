@@ -1,5 +1,5 @@
 
-## How to install (perriera) / interfaces 
+## How to install `(perriera) / interfaces`
 > In this step we need to install all the tools used by this project (that you may or may not already have installed).
 
  1. **GIVEN** we need to have develop injectX based projects
@@ -11,7 +11,11 @@
 
 ### Wish Case
 
-  - [ ] Open a Terminal box and install 
+  - Open a Terminal box and login in dev (optional)
+
+		su dev
+
+  - [ ] Now install `(perriera) / interfaces`:
 	
         cd ~/dev
 		git clone https://github.com/perriera/interfaces.git

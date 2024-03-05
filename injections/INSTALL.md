@@ -14,7 +14,7 @@
 ### Wish Case
 Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 projects (see above):
 
-  - pen a Terminal box and login in dev (optional)
+  - Open a Terminal box and login in dev (optional)
 
 		su dev
 
