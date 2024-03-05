@@ -82,10 +82,10 @@
 		multipass shell ${MY_NAME_IS}
 		su dev
 
-	You are now inside a user account on the new Linux instance. In the case where you expect to want to access the new Linux instance with a GUI front end see the **Alternate Case** below.
+	You are now inside a user account on the new Linux instance. In the case where you expect to want to access the new Linux instance with a GUI front-end see the **Alternate Case** below.
 
 ### Alternate Case
-#### Added GUI
+#### Add a GUI
 `multipass` is very cutting edge in that it is possible to add gui access to the instance either using **x11** or even `Microsoft Remote Desktop` (available on the **App Store**) without too much trouble at all:
 
 	sudo apt update
