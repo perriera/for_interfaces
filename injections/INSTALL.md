@@ -38,8 +38,9 @@ Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 
 		code .
 
 	- Select **Yes** to **Trust the Authors**
-	- When asked to install C++ or CMake extensions say `Install` or `Yes`
-	- When asked to select a C++ dialect select anything early gcc
+	- When asked to install `C/C++ Extension Pack` say `Install` or `Yes`
+	- When asked to install `C++ CMake Extensions` say `Install` or `Yes`
+	- When asked to select a C++ dialect select **the earliest gcc version displayed**.
 
  - To the left of the VSC editor the forth large icon from the top will be the `Extensions` icon:
 	- Add `Remote - SSH`
