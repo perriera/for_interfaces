@@ -60,6 +60,15 @@ Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 
  - [ ] To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
 
 ### Alternate Case
+#### "Username for 'https://github.com': " comes up during build
+The cause of this issue is believed to be related to [Using SSH agent forwarding](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding). At present however this prompt will not display when building the code from within the VSC editor. Therefore, open VSC and then a Terminal window (or press Shift-Cmd-B).
+```
+cd ~/dev/interfaces
+code .
+```
+ - for more see [Using SSH agent forwarding](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding)
+
+### Alternate Case
 #### `by-gdb` not supported
 This message shows up on VSC when running inside `Microsoft Remote Desktop`. It does not show up when running VSC connected using `Remote - SSH`. However, when you install `GDB Debugger - Beyond` (again) inside `Microsoft Remote Desktop` it appears to work fine. 
 

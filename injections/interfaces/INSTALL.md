@@ -124,8 +124,12 @@ code .
  - for more see [Using SSH agent forwarding](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding)
 
 ### Alternate Case
-#### VSC Breakpoints and the **gdb** debugging tools
-VSC merely uses the Linux gdb for it's C++ debugging purposes. However certain quicks somewhere between the latest gcc compilers, VSC and how gdb works are causing occasional eratic behavior. For example trying to `step-over` `REQUIRE_` macros will force a jump out of the function and sometimes a breakpoint set in one source location will cause gdb to stop in another location. Nothing on the Internet is giving much in the way of how to resolve this (yet) but we are hoping something in the future will resolve this issue. 
+#### `by-gdb` not supported
+This message shows up on VSC when running inside `Microsoft Remote Desktop`. It does not show up when running VSC connected using `Remote - SSH`. However, when you install `GDB Debugger - Beyond` (again) inside `Microsoft Remote Desktop` it appears to work fine. 
+
+### Alternate Case
+#### gdb breakpoints landing at random places
+Install `GDB Debugger - Beyond` 
 
 ### Summary 
 Now you have installed *(perriera) / injections* f  the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
