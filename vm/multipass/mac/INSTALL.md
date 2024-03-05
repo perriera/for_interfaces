@@ -41,7 +41,7 @@
 		multipass set local.${MY_NAME_IS}.disk=64GB
 		multipass mount $HOME $MY_NAME_IS:/media/psf/home
 
-	The system is now configured for 8GB of ram, 2 cpus and a 64GB hard disk. It will also mount your $HOME folder to a folder inside the new Linux instance (using a Parallels Desktop file naming convention as `/media/psf/home`). Feel free to change these parameters as you see fit. 
+	The system is now configured for 8GB of ram, 2 cpus and a 64GB hard disk. It will also mount your $HOME folder to a folder inside the new Linux instance (using a Parallels Desktop file naming convention as `/media/psf/home`), (feel free to adjust the naming convention as necessary).
 
  - Now update it:
 
