@@ -74,6 +74,10 @@ These bash scripts and binaries are now available on the PATH (as long as `~/.lo
  - [ ] To the top left of the VSC editor you will see a list of large icons, the forth one down is for running/debugging. Select it and then press the green arrow, (it would have 'run-unittests' to the right of the green arrow)
 
 ### Alternate Case
+#### `Username for 'https://github.com':`
+This will come up when the `(perriera)/injections` is not yet public. Such that SSH access would be required, (see below)
+
+### Alternate Case
 #### When we are connecting via SSH key to Github
 In the case where we wish to make updates to the source repository we need to connect to Github via an SSH key:
 
