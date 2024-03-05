@@ -37,6 +37,7 @@
 		multipass set local.${MY_NAME_IS}.memory=8G
 		multipass set local.${MY_NAME_IS}.cpus=2   
 		multipass set local.${MY_NAME_IS}.disk=64GB
+		multipass mount $HOME $MY_NAME_IS:/media/psf/home
 
 - Now restart the instance:
 
