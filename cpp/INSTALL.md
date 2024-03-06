@@ -64,12 +64,17 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
  - [ ] Assuming that was successful, install CMake (on the new Linux box)
 
+ 		sudo apt install python3.11-venv
+		python3 -m venv .venv
+		source .venv/bin/activate
+
 		sudo apt-get -y install clang-format
 		pip install cmake-format
 		sudo apt-get update -y 
 		sudo apt-get install cmake -y
 		sudo apt-add-repository universe -y
 		sudo apt-get install cmake-extras -y
+		mkdir -p ~/.local/bin
 
  - [ ] Now open the vi editor 
 
