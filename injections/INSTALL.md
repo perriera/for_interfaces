@@ -1,6 +1,6 @@
 
-## How to install `(perriera) / injections`
-> This is how we install and configure a system for use with `(perriera) / injections `
+## How to install `(perriera)/injections`
+> This is how we install and configure a system for use with `(perriera)/injections`
 
  1. **GIVEN** we need to have develop injectX based projects
  2. **WHEN** we install (perriera) / injections onto Linux, OS X, WSL2
