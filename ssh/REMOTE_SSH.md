@@ -121,6 +121,18 @@ sudo systemctl restart ssh
 >  `git config --global user.name "My Name"`<br/>
 > `git config --global user.email "myemail@example.com"`
 
+### Alternate Case
+#### "Could not establish connection to "[server_name]": Remote host key has changed, port forwarding is disabled."
+It was something simple. Found while trying to review the question.
+```
+ssh-keygen -R "hostname"
+```
+
+"A supported OpenSSH compatible SSH client must also be installed." as listed in the system requirements of the documentation(linked in question). The key simply needs to be updated in said OpenSSH client before attempting the connection in Visual Studio again.
+
+In this exact case it was as simple as going to [local_path]/.ssh/known_hosts and removing the old entry for the IP address and then attempting the connection again which now allows the verification of the new key.
+- see [How to confirm a new remote host key in Visual Studio Code Remote - SSH extension?](https://stackoverflow.com/questions/64758096/how-to-confirm-a-new-remote-host-key-in-visual-studio-code-remote-ssh-extensio)
+
 ### Summary
 > This should setup your SSH keys for your command line git client access to your GitHub.com account
 
