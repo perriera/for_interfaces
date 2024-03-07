@@ -19,7 +19,7 @@
 tagit.sh
 
 cd ~/dev/for_interfaces
-it_post.sh v3.0.0 "removed obsolete bin/ folder"
+tagit.sh v3.9.9 "added curl to standard installs for C++11/17"
 firefox https://github.com/perriera/for_interfaces/tags &
 cd ~/dev/for_interfaces
 cat changelog.md | grep "*:" >/tmp/file1.txt
