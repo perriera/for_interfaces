@@ -21,9 +21,19 @@
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
     source ~/.bashrc
     nvm list-remote
-    nvm install v16.14.0
+    nvm install 18
+    nvm use 18
     nvm list
     sudo apt install npm -y
+    source ~/.bashrc
+    cat ~/.bashrc
+    echo "echo node, npm, nvm " >> ~/.bashrc
+    echo "node -v " >> ~/.bashrc
+    echo "node -v " >> ~/.bashrc
+    echo "nvm -v " >> ~/.bashrc
+    node -v
+    npm -v
+    nvm -v
 
 **Alternate Case**
 Special releases of (using nvm)
