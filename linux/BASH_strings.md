@@ -25,3 +25,18 @@ if [[ "$1" == "$2" ]]
     exit
 fi
 ```
+
+### is a directory
+```
+if [ -d /path/to/directory ]; then
+  echo "Directory exists."
+fi
+
+```
+
+### is not a file
+```
+if ! [ -f /path/to/file ]; then
+  echo "File does not exist."
+fi
+```
