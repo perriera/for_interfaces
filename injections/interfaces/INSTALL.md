@@ -121,7 +121,8 @@ The cause of this issue is believed to be related to [Using SSH agent forwarding
 cd ~/dev/interfaces
 code .
 ```
- - for more see [Using SSH agent forwarding](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding)
+- see [Using SSH agent forwarding](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding)
+- see [Steve Friedl's Unixwiz.net Tech Tips](http://www.unixwiz.net/techtips/ssh-agent-forwarding.html)
 
 ### Alternate Case
 #### `by-gdb` not supported
