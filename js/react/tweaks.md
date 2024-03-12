@@ -5,3 +5,4 @@
 > 3. [React Developer Tools](https://react.dev/learn/react-developer-tools)
 > 4. [Input](https://mui.com/joy-ui/react-input/)
 > 5. [React Components](https://www.w3schools.com/react/react_components.asp)
+> 6. [Create React App](https://bestofjs.org/projects/create-react-app)
