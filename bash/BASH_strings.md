@@ -40,3 +40,24 @@ if ! [ -f /path/to/file ]; then
   echo "File does not exist."
 fi
 ```
+
+### bash string loops
+```
+for databaseName in a b c d e f; do
+  # do something like: echo $databaseName
+done 
+```
+or
+```
+## declare an array variable
+declare -a arr=("element1" "element2" "element3")
+
+## now loop through the above array
+for i in "${arr[@]}"
+do
+   echo "$i"
+   # or do whatever with individual element of the array
+done
+
+# You can access them using echo "${arr[0]}", "${arr[1]}" also
+```
