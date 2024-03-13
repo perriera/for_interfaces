@@ -1,2 +1,3 @@
 #### Software tweak doubles computer processing speed, halves energy use
 >- [Software tweak doubles computer processing speed, halves energy use](https://newatlas.com/computers/smht-parallel-processing/)
+>- [Ask Microsoft: Are you using our personal data to train AI?](https://foundation.mozilla.org/en/campaigns/microsoft-ai/?utm_medium=firefox-desktop&utm_source=newtab&utm_campaign=23-MS-AI&utm_content=banner_I1-C1&utm_term=en) 
