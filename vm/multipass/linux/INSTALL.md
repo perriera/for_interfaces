@@ -105,7 +105,7 @@ Restore from a Snapshot
 ### Next Steps
 
 - [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/linux/INSTALL.md)
-- [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md)
+- [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/README.md)
 - [How to create a VM with Multipass](https://ubuntu.com/server/docs/virtualization-multipass)
 - [How to run Ubuntu 22.04 VMs on Apple M1 ARM-based systems for free](https://multipass.run/docs/installing-on-macos)
 - [How to create a VM with Multipass](https://ubuntu.com/server/docs/virtualization-multipass)

@@ -54,7 +54,7 @@ Assuming you have a public SSH key on the client computer:
 ### Alternate Case
 #### (perriera) / injections
 In the case where you were in the middle of installing `(perriera)/injections` resume here:
-- see [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md)
+- see [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/README.md)
 
 ### Alternate Case 
 #### Using Visual Studio Code (VSC or 'code') via Remote SSH

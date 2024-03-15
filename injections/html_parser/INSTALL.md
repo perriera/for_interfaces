@@ -7,7 +7,7 @@
  3. **THEN** the htmlforge.net framework can parse HTML pages
 
 ### Prerequisites
-- [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md)
+- [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/README.md)
 
 ### Wish Case
 
