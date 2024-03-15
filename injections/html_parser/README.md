@@ -17,7 +17,9 @@
 		git clone https://github.com/perriera/html_parser.git
 		cd html_parser
 
-	**NOTE**: do **not** run these instruction from inside a `VSC Terminal window`, (as the Java Extension manages to interfere with the installation process) 
+	**NOTE**
+	 - do **not** run these instruction from inside a `VSC Terminal window`
+	 - (as the Java Extension manages to interfere with the installation process) 
 
  - [ ] Now type the following:
  
