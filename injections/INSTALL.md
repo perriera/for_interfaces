@@ -7,9 +7,9 @@
  3. **THEN** we can build projects using g++, cmake, CPM and injectX
 
 ### Prerequisites
-- [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/vm/MENU.md)
-- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/INSTALL.md)
-- [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md)
+- You will need an Linux installation (see [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/vm/MENU.md))
+- You will need C++ tools installed (see [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/INSTALL.md))
+- You will need SSH credentials (see [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md))
 
 ### Wish Case
 Assuming you have set up a Ubuntu 22.04 instance and configured it for C++11/17 projects (see above):
