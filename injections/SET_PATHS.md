@@ -49,7 +49,7 @@
  
  - [ ]  To correct this issue do this:
 
-		it_paths.sh fix
+		it_paths.sh install
 
   - [ ] Something like this would display:
 
