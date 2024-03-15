@@ -1,22 +1,22 @@
-sudo vi /etc/apache2/sites-available/bigblueai.org.conf
+sudo vi /etc/apache2/sites-available/injections.io.conf
 
 <VirtualHost *:80>
-    ServerAdmin admin@bigblueai.org
-    ServerName bigblueai.org
-     <Directory /var/www/bigblueai.org/public_html>
+    ServerAdmin admin@injections.io
+    ServerName injections.io
+     <Directory /var/www/injections.io/public_html>
         Options Indexes FollowSymLinks MultiViews
         AllowOverride All
         Order allow,deny
         allow from all
      </Directory>
-    ServerAlias www.bigblueai.org 
-    DocumentRoot /var/www/bigblueai.org/public_html
+    ServerAlias www.injections.io 
+    DocumentRoot /var/www/injections.io/public_html
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 
-sudo mkdir -p /var/www/bigblueai.org/public_html
-sudo vi /var/www/bigblueai.org/public_html/index.html 
+sudo mkdir -p /var/www/injections.io/public_html
+sudo vi /var/www/injections.io/public_html/index.html 
 
 <html>
     <head>
@@ -27,11 +27,17 @@ sudo vi /var/www/bigblueai.org/public_html/index.html
     </body>
 </html>
 
-sudo a2ensite bigblueai.org.conf
+sudo a2ensite injections.io.conf
 sudo systemctl restart apache2
 
 sudo systemctl reload apache2
 sudo apache2ctl configtest
 
 sudo certbot --apache
+
+CNAME www.injections.io aliasof injections.io TTL 43200
+A injections.io directs to IP address TTL 450
+NS injections.io ns1.digitalocean.com. TTL 1800
+NS injections.io ns2.digitalocean.com. TTL 1800
+NS injections.io ns3.digitalocean.com. TTL 1800
 
