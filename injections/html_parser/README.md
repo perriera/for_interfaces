@@ -40,7 +40,7 @@
 
 	Recommended:
 
-		sudo apt install maven openjdk-11-jdk-headless  # version 11.0.20.1+1-0ubuntu1~22.04
+		sudo apt install maven openjdk-11-jdk-headless  # version 11.0.20.1+1-0ubuntu1~22.04 -y
 
 	Notice we are also installing `maven` here as well.
 	
