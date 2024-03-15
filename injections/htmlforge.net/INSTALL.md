@@ -9,7 +9,7 @@
 ### Prerequisites
 - [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/README.md)
 - [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/README.md)
-- [How to install (perriera) / html_parser](https://github.com/perriera/for_interfaces/blob/main/injections/html_parser/INSTALL.md)
+- [How to install (perriera) / html_parser](https://github.com/perriera/for_interfaces/blob/main/injections/html_parser/README.md)
 
 ### Wish Case
 
@@ -150,4 +150,4 @@ VSC merely uses the Linux gdb for it's C++ debugging purposes. However certain q
 Now you have installed *(perriera) / injections* f  the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
 
 ### Next Steps
-- [How to install (perriera) / html_parser](https://github.com/perriera/for_interfaces/blob/main/injections/html_parser/INSTALL.md)
+- [How to install (perriera) / html_parser](https://github.com/perriera/for_interfaces/blob/main/injections/html_parser/README.md)
