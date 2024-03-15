@@ -2,9 +2,9 @@
 ## How to install `(perriera)/injections`
 > This is how we install and configure a system for use with `(perriera)/injections`
 
- 1. **GIVEN** we need to have develop injectX based projects
- 2. **WHEN** we install (perriera) / injections onto Linux, OS X, WSL2
- 3. **THEN** we can build projects using g++, cmake, CPM and injectX
+ 1. **GIVEN** the need to develop software without the use of *if-then-else* 
+ 2. **WHEN** we install C++ and SSH tools onto a Linux instance
+ 3. **THEN** we can build projects [PLC style](https://en.wikipedia.org/wiki/Programmable_logic_controller) using (perriera)/injections
 
 ### Prerequisites
 - You will need an Linux installation (see [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/vm/MENU.md))
