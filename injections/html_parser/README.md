@@ -11,15 +11,17 @@
 
 ### Wish Case
 
-  - [ ] Open a Terminal box and install 
+  - [ ] From inside a `VSC Terminal box` run the following:
 	
         cd ~/dev
 		git clone https://github.com/perriera/html_parser.git
 		cd html_parser
 
-	**NOTE**
-	 - do **not** run these instruction from inside a `VSC Terminal window`
-	 - (as the Java Extension manages to interfere with the installation process) 
+	TODO: Until html_parser.git is made public (or we can figure out the SSH client for Github) we need to use VSC to clone the project.
+
+ - [ ] **NOT** from inside a `VSC Terminal box` run the following instructions
+
+	 *As the Java Extension manages to interfere with the installation process*
 
  - [ ] Now type the following:
  
