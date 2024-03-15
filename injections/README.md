@@ -171,5 +171,5 @@ In the case where you start up VSC and the title bar portion of the editor is Li
 Now you have installed *(perriera) / injections*, the development environment and VSC for a C++17 project (complete with cmake 3.21 support). 
 
 ### Next Steps
-- [How to install (perriera) / interfaces](https://github.com/perriera/for_interfaces/blob/main/injections/interfaces/INSTALL.md)
+- [How to install (perriera) / interfaces](https://github.com/perriera/for_interfaces/blob/main/injections/interfaces/README.md)
 
