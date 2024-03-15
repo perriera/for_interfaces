@@ -60,7 +60,6 @@
         -----------------------------------------------------------
         PATH=/home/perry/.local/bin
         PATH=${PATH}:/home/perry/.local/bin
-        PATH=${PATH}:/home/perry/.local/bin
         PATH=${PATH}:/usr/local/sbin
         PATH=${PATH}:/usr/local/bin
         PATH=${PATH}:/usr/sbin
@@ -70,86 +69,28 @@
         PATH=${PATH}:/usr/games
         PATH=${PATH}:/usr/local/games
         PATH=${PATH}:/snap/bin
-        PATH=${PATH}:/snap/bin
 
-    Copy the all `PATH=` entries above into the clipboard
+    *Notice no duplicate entries*
 
- - [ ]  Open your `./bashrc` (or equivalent):
+ - [ ] Follow the prompts from there.
 
         vi ~/.bashrc
 
- - [ ]  Make adjustments similar to the following:
+    *Unless there are specializations in the `.bashrc` script that you are aware of there would be no need to edit the base script.*
 
-        export PATH=$HOME/.local/bin:${PATH}
-        export CPM_SOURCE_CACHE=$HOME/.cache/CPM
-        export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
-
-        PATH=/home/perry/.local/bin
-        PATH=${PATH}:/usr/local/sbin
-        PATH=${PATH}:/usr/local/bin
-        PATH=${PATH}:/usr/sbin
-        PATH=${PATH}:/usr/bin
-        PATH=${PATH}:/sbin
-        PATH=${PATH}:/bin
-        PATH=${PATH}:/usr/games
-        PATH=${PATH}:/usr/local/games
-        PATH=${PATH}:/snap/bin
-
-        it_help.sh
-        nterface_tools.sh 
-        it_paths.sh
-
-    **Note**: Manually remove all duplicate entries
-
- - [ ] Source the `~/. bashrc` script:
+ - [ ] Now source  `.bashrc` (or open another Terminal session)
 
        source ~/.bashrc
 
- - [ ] Now run the `it_paths.sh` script again:
-
-		it_paths.sh 
-
- - [ ] Something like this would display:
-
-        IT_PATHS.SH injections::Blueprint (injectX) v5.49.11
-        -----------------------------------------------------------
-        desc: show current contents of PATH
-        desc: add a parameter to generate new PATH
-        -----------------------------------------------------------
-        /home/perry/.local/bin
-        /usr/local/sbin
-        /usr/local/bin
-        /usr/sbin
-        /usr/bin
-        /sbin
-        /bin
-        /usr/games
-        /usr/local/games
-        /snap/bin
-
     As you can verify with a `echo $PATH` your PATH variable is now free of duplicates and ordered in a manner where you can keep track of which binaries are now available on your command line:
 
-    `/home/perry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin`
+    `/home/dev/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin`
 
- - [ ] Do `Enchanced Shell Startup` below (**optional**)
+    Something like the above would display.
 
  - [ ] Make a backup of the Linux box instance.
 
 	**It might seem redundant but making a duplicate of the Linux box now gives you a convenient fall back.**
-
-### Alternate Case
-#### Enchanced Shell Startup
-There are many bash scripts and binaries that come with each component of the `(perrier) / injections` framework. To display these new tools at startup (of a new Terminal window) do this:
-
-    vi ~/.bashrc
-
-Append this:
-
-    it_help.sh
-    nterface_tools.sh 
-    it_paths.sh
-
-Now open a new Terminal window.
 
 ### Summary 
 Now you have just used your very first bash script from *(perriera) / injections*, one designed to `ensure` that the PATH variable is properly ordered and easily verifiable using `it_paths.sh` and the `~/.bashrc` 
