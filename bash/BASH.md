@@ -26,6 +26,7 @@ echo $OUTPUT
 ```
 OUTPUT="$(sudo apache2ctl configtest 2>&1)"
 ```
+- [Return value in a Bash function](https://stackoverflow.com/questions/17336915/return-value-in-a-bash-function)
 > - [Returning Values from Functions in Bash Shell Scripting](https://ioflood.com/blog/bash-function-return-value/)
 > - [Get return value of exe in script [duplicate]](https://stackoverflow.com/questions/18182977/get-return-value-of-exe-in-script)
 >- [Loop through an array of strings in Bash?](https://stackoverflow.com/questions/8880603/loop-through-an-array-of-strings-in-bash)
