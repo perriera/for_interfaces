@@ -1,4 +1,5 @@
 ### best links
+- [How To Install the Apache Web Server on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04)
 - [How To Set Up Apache Virtual Hosts](https://www.digitalocean.com/community/tutorial_collections/how-to-set-up-apache-virtual-hosts)
 - [How To Set Up Nginx Server Blocks (Virtual Hosts) on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04)
 - [How do I install an SSL Certificate on a Droplet?](https://docs.digitalocean.com/support/how-do-i-install-an-ssl-certificate-on-a-droplet/)
@@ -8,4 +9,3 @@
 - [Let’s Encrypt - Getting Started](https://letsencrypt.org/getting-started/)
 - [How To Secure Apache with Let's Encrypt on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-20-04)
 - [How to convert a simple HTML template into Angular Project](https://fahmidasclassroom.com/how-to-convert-a-simple-html-template-into-angular-project/)
-- [How To Install the Apache Web Server on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04)
