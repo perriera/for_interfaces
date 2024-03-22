@@ -8,3 +8,6 @@
  7. [https://create-react-app.dev/docs/getting-started/](https://create-react-app.dev/docs/getting-started/)
  8. [How to package your React Component for distribution via NPM](https://itnext.io/how-to-package-your-react-component-for-distribution-via-npm-d32d4bf71b4f)
  9. [React Deployment](https://create-react-app.dev/docs/deployment/)
+ 10. [Step-by-Step Guide: Deploying a React App on CentOS 7 Apache Web Server](https://www.linkedin.com/pulse/step-by-step-guide-deploying-react-app-centos-7-apache-grace-murigi-2v1zf/)
+ 11. [Easily build and test React Native projects](https://circleci.com/circleci-react/?utm_source=google&utm_medium=sem&utm_campaign=sem-google-dg--uscan-en-nbFrameworks-tCPA-auth-nb&utm_term=g_p-react%20deploy_c__rsa1_20231209&utm_content=sem-google-dg--uscan-en-nbFrameworks-tCPA-auth-nb_react&gad_source=1&gclid=Cj0KCQjw2PSvBhDjARIsAKc2cgO7UTeB3PNwy6IqFUWMof3QXXsDPWKqd3Eysh7uo500nvdVehIP2HIaArUtEALw_wcB)
+ 12. [How to Install React.js on Ubuntu 22.04](https://www.atlantic.net/dedicated-server-hosting/how-to-install-react-js-on-ubuntu-22-04/)
