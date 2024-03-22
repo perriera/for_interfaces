@@ -7,3 +7,5 @@
 > 5. [React Components](https://www.w3schools.com/react/react_components.asp)
 > 6. [Create React App](https://bestofjs.org/projects/create-react-app)
 > 7. [https://create-react-app.dev/docs/getting-started/](https://create-react-app.dev/docs/getting-started/)
+> 8. [How to package your React Component for distribution via NPM](https://itnext.io/how-to-package-your-react-component-for-distribution-via-npm-d32d4bf71b4f)
+> 9. [React Deployment](https://create-react-app.dev/docs/deployment/)
