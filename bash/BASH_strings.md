@@ -61,3 +61,12 @@ done
 
 # You can access them using echo "${arr[0]}", "${arr[1]}" also
 ```
+### string contains
+```
+### string contains
+```
+string='My long string'
+if [[ $string == *"My long"* ]]; then
+  echo "It's there!"
+fi
+```
