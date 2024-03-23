@@ -12,6 +12,7 @@
 
 ### SUBDOMAINS
 - [How to set up a subdomain on the same Apache web server as the main domain on Debian](https://msmtech.ca/en/blogs/technology-guides/how-to-set-up-a-subdomain-on-the-same-apache-web-server-as-the-main-domain)
+- [Understand DNS Propagation & Why it Takes so Long](https://www.siteground.co.uk/kb/dns-propagation/#:~:text=Typically%2C%20DNS%20propagation%20takes%2024,may%20cause%20DNS%20propagation%20delays.)
 
 <VirtualHost *:80> 
     ServerName staging.busfind.ca 
