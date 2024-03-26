@@ -45,7 +45,7 @@
 
  - [ ] Select the forth large icon from the top left (for `RUN AND DEBUG`) and press the Green arrow.
 
- - [ ] Now that you have successfully built `(perriera) / interfaces` there are now a few more entries made to the `~/.local/bin` folder including this one:
+ - [ ] Now that you have successfully built `(perriera)/interfaces` there are now a few more entries made to the `~/.local/bin` folder including this one:
 
 		nterface_tools.sh 
 

@@ -19,4 +19,4 @@ Now you have installed the development environment and editor for a C++17 projec
 
 ### Next Steps
  - [How to install (perriera)/injections](https://github.com/perriera/injections)
-- [How to install (perriera) / interfaces](https://github.com/perriera/for_interfaces/blob/main/injections/interfaces/README.md)
+- [How to install (perriera)/interfaces](https://github.com/perriera/interfaces)

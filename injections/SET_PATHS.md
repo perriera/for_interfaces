@@ -96,5 +96,5 @@
 Now you have just used your very first bash script from *(perriera) / injections*, one designed to `ensure` that the PATH variable is properly ordered and easily verifiable using `it_paths.sh` and the `~/.bashrc` 
 
 ### Next Steps
-- [How to install (perriera) / interfaces](https://github.com/perriera/for_interfaces/blob/main/injections/interfaces/README.md)
+- [How to install (perriera)/interfaces](https://github.com/perriera/interfaces)
 
