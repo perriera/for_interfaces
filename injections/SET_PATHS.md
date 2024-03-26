@@ -7,7 +7,7 @@
  3. **THEN** we can ensure the correct tools are accessible
 
 ### Prerequisites
-- [How to install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/README.md)
+- [How to install (perriera)/injections](https://github.com/perriera/injections)
 
 ### Wish Case
 `(perriera)/injections` is a Github project available here: [git@github.com:perriera/injections.git](https://github.com/perriera/injections)

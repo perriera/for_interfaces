@@ -7,7 +7,7 @@
 ### Wish Case
 - Do [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/vm/MENU.md)
 - You then [install C++17 development tools on a Linux instance](https://github.com/perriera/for_interfaces/blob/main/cpp/INSTALL.md)
-- You then [install (perriera) / injections](https://github.com/perriera/for_interfaces/blob/main/injections/README.md)
+- You then [install (perriera) / injections](https://github.com/perriera/injections)
 - You then [install (perriera) / interfaces](https://github.com/perriera/for_interfaces/blob/main/injections/interfaces/README.md)
 - You then create a project based on [**(perriera) / injections** (see **injections_cpp**)](https://github.com/perriera/injections_cpp)
 ### Alternate Case

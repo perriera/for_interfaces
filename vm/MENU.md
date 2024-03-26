@@ -29,4 +29,4 @@ For all intensive purposes we utilize the Ubuntu series of Linux distributions e
 - multipass
 #### Next Steps
 Unless you've chosen to install one of the Linux distributions above this article will now redirect you to the `multipass` method of installing an instance of Ubuntu 22.04:
-- [How to install Ubuntu 22.04 using `multipass` on Mac (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/mac/INSTALL.md)
+- [How to install Ubuntu 22.04 using `multipass` on Mac (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/mac/README.md)
