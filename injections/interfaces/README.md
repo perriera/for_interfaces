@@ -1,3 +1,3 @@
 
-## How to install `(perriera)/interfaces`
-see [How to install (perriera)/interfaces](https://github.com/perriera/interfaces)
+## How to install `injections.io(interfaces)`
+see [How to install injections.io(interfaces)](https://github.com/perriera/interfaces)
