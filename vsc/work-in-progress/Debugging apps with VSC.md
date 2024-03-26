@@ -2,7 +2,7 @@
 # Disclaimer
 > the following is a work in progress 
 
-## How to suse breakpoints with `(perriera)/interfaces` using Visual Studio Code (VSC)
+## How to use breakpoints with `(perriera)/interfaces` using Visual Studio Code (VSC)
 > **Given** the need to simplify complications with pre-existing large source code repositories **when** we add new features using [Interface (object-oriented programming)](https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)) best practices **then** we can save much time when trouble-shooting software glitches and/or adding more features later on, (see [Abstract factory pattern](https://en.wikipedia.org/wiki/Abstract_factory_pattern)).
 
 ### Prerequisites
