@@ -8,6 +8,7 @@
 ### Prerequisites
 - [How to install `multipass` on macOS](https://multipass.run/docs/installing-on-macos#heading--install-upgrade-uninstall)  
 - [Multipass Documentation](https://multipass.run/docs)
+- [Install Multipass](https://multipass.run/install)
 - OSX based computer
 - sudo privilages 
 
