@@ -148,6 +148,9 @@ There is an alternative method that might allow better GUI access for the multip
  - [Install Multipass](https://multipass.run/install)
  - [How to Get Lynx for Mac OS X](https://osxdaily.com/2011/07/26/get-lynx-for-mac-os-x-10-7-lion/)
  - [Homebrew Documentation](https://docs.brew.sh/Installation) 
+ - [MacPorts](https://www.macports.org/install.php)
+ - [How to Get Lynx for Mac OS X](https://osxdaily.com/2011/07/26/get-lynx-for-mac-os-x-10-7-lion/)
+ - ["sudo: port: command not found" after installing MacPorts on Snow leopard](https://superuser.com/questions/287713/sudo-port-command-not-found-after-installing-macports-on-snow-leopard)
 
 ### Alternate Case
 #### Rerunning Microsoft Remote Desktop appears to be stuck
