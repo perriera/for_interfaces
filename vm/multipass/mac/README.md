@@ -86,7 +86,19 @@
 		sudo apt autoclean -y
 		sudo reboot 
 
-- Now restart the instance (again):
+- Now with multipass (like Docker) it is possible to run commands inside a Ubuntu instance without going into a shell:
+
+		multipass exec $MY_NAME_IS -- lsb_release -a
+
+	The above will produce something like this:
+
+		No LSB modules are available.
+		Distributor ID:	Ubuntu
+		Description:	Ubuntu 22.04.4 LTS
+		Release:	22.04
+		Codename:	jammy
+
+- Now reenter the instance as a shell:
 
 		multipass shell ${MY_NAME_IS}
 
