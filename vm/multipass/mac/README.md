@@ -47,7 +47,37 @@
 
 		multipass shell ${MY_NAME_IS}
 
- - Once inside the instance update it:
+ - Once back inside the instance review it's start up page for the new memory, cpu count, disk size as well as the contents of the shared host directory:
+
+	You would see something like this:
+
+		Welcome to Ubuntu 22.04.4 LTS (GNU/Linux 5.15.0-101-generic x86_64)
+
+		* Documentation:  https://help.ubuntu.com
+		* Management:     https://landscape.canonical.com
+		* Support:        https://ubuntu.com/pro
+
+		System information as of Wed Mar 27 23:21:00 PDT 2024
+
+		System load:           0.080078125
+		Usage of /:            2.6% of 61.84GB
+		Memory usage:          2%
+		Swap usage:            0%
+		Processes:             133
+		Users logged in:       0
+		IPv4 address for ens3: 192.168.64.7
+		IPv6 address for ens3: fdf4:54a2:bb80:ad36:5054:ff:fed3:4f8f
+		
+ - Also checkout contents of the shared host directory:
+
+		ls /media/psf/home/
+
+	Which might look something like this:
+
+		'Applications (Parallels)'   Documents   Dropbox   Movies           
+    	Desktop   Downloads   Library   Music    Pictures  
+
+ - Now update the instance:
 
  		sudo apt update -y
 		sudo apt upgrade -y
