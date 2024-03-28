@@ -143,6 +143,13 @@ On macOS we can use the `Microsoft Remote Desktop` application, from the Mac App
 - for more see [How to set up a graphical interface](https://multipass.run/docs/set-up-a-graphical-interface)
 
 ### Alternate Case
+#### openhab
+There is an alternative method that might allow better GUI access for the multipass based Ubuntu instance.
+ - [Install Multipass](https://multipass.run/install)
+ - [How to Get Lynx for Mac OS X](https://osxdaily.com/2011/07/26/get-lynx-for-mac-os-x-10-7-lion/)
+ - [Homebrew Documentation](https://docs.brew.sh/Installation) 
+
+### Alternate Case
 #### Rerunning Microsoft Remote Desktop appears to be stuck
 According to this posting [Remote Desktop App stuck on "Configuring remote session" but works well on PC](https://learn.microsoft.com/en-us/answers/questions/649233/remote-desktop-app-stuck-on-configuring-remote-ses) the only solution (which is typical of Microsoft projects) is to remove it completely (with a proper software uninstaller) and then reinstall from the AppStore. 
 > "It appears to be a problem with the app. If you are trying to connect to an older PC, before it connects it has a screen that says "Identity of remote PC can't be verified." If you check the box "Never ask again for connections to this PC" and then connect, you will never be able to connect again (for my remote XP computer but not my remote Windows 10 computer). Apparently, it prevents asking and answering the question when it should automatically answer "Connect." The only solution I found on my Android was to delete all the App data (App Info, Storage, Clear Data). You lose all your connection data (PC's, Gateways, and User Accounts) so you're starting all over." -- George Bradley, Oct 20, 2023
