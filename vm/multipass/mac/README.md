@@ -124,7 +124,7 @@
 
 	There is no need to name your backups with the "e1" prefix. This is just how we are doing it here with the idea being that successive backups with be named "e2", "e3" etc, (feel free to adjust the naming convention as necessary).
 
- - Now restart the instance and update it:
+ - Now restart the instance:
 
 		multipass shell ${MY_NAME_IS}
 		su dev
