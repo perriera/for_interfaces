@@ -194,7 +194,7 @@ OSX might have firewall setup:
  - see [How to troubleshoot networking](https://multipass.run/docs/troubleshoot-networking#heading--dns-problems)
 
 ### Alternate Case
-#### Can do a restore from a backup?
+#### Can't do a restore from a backup?
 Backups with multipass are very fast but require the instance to be stopped first:
 
  Create a Snapshot
