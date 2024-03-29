@@ -70,7 +70,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
  - [ ] Assuming that was successful, install CMake (on the new Linux box)
 
- 		sudo apt install python3.11-venv
+ 		sudo apt install python3.11-venv -y
 		python3 -m venv .venv
 		source .venv/bin/activate
 
