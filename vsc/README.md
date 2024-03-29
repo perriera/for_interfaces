@@ -25,7 +25,7 @@ see [How to install `Visual Studio Code (VSC)` on macOS](https://github.com/perr
 
 ### Alternate Case
 #### Windows installion
-see [How to install `Visual Studio Code (VSC)` on Windowsx](https://github.com/perriera/for_interfaces/tree/main/vsc/windows)
+see [How to install `Visual Studio Code (VSC)` on Windows](https://github.com/perriera/for_interfaces/tree/main/vsc/windows)
 
 ### Summary
 Either of the above links would help you with your VSC installation, (including Remote SSH support)
