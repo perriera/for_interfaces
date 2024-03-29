@@ -23,6 +23,10 @@ Installation
 	- "Keep in Dock"
 
 ### Alternate Case
+#### Remote SSH
+VSC has an extension that pretty comes standard during the install process. To access a remote Linux box using the Remote SSH extension merely click on the bottom left icon where you will see a blue `><` icon. 
+
+### Alternate Case
 #### In the case it is an archive, extract the archive contents. ...
 Extract the archive contents. Use double-click for some browsers or select the 'magnifying glass' icon with Safari.
 
