@@ -38,7 +38,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server net-tools zip xterm curl ncdu
 
- - [ ] In the interest of simplicity set these temporary environment variables to your desired email address and username (for the purposes of the Linux box):
+ - [ ] Set the following environment variables (or customize for your particular case): 
 
 		MY_EMAIL_IS="myemail@email.com"
 		MY_NAME_IS="My Name"
