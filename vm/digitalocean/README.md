@@ -7,6 +7,7 @@
 
 ### Prerequisites
 - an account on digitalocean.com
+- note an account is not a free service, (but quite reasonable)
 
 ### Wish Case
 Assuming you have an account already setup on digitalocean.com
