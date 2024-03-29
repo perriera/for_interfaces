@@ -27,7 +27,23 @@ Assuming you have an account already setup on digitalocean.com
 #### Configur the Droplet
 - Find and select the `Access` button
 - Find and select the `Launch Drop Console` button 
-- Once inside the root terminal window proceed to Next Steps
+- Once inside the root terminal window and add a dev account:
+
+		sudo adduser dev
+
+	Give it a password and click to the Y button
+	Now add it to the sudo group
+
+		sudo adduser dev sudo
+
+- Update the instance and reboot
+
+		sudo apt update -y
+		sudo apt upgrade -y
+		sudo apt autoremove -y
+		sudo apt autoclean -y
+		sudo reboot 
+		
 
 ### Summary
 You have created a Ubuntu instance on Digital Ocean
