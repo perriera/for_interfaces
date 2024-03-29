@@ -7,7 +7,9 @@
 
 ### Prerequisites
 - an account on digitalocean.com
-- note an account is not a free service, (but quite reasonable)
+- note an account is not a free service
+- however it usually has a most excellent free trial period
+- at time of writing ($200 credit for 60 days)
 
 ### Wish Case
 Assuming you have an account already setup on digitalocean.com
