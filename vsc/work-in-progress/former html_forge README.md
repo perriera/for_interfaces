@@ -7,8 +7,8 @@
  3. **THEN** we can build projects using special bins/scripts to simplify using injections
 
 ### Prerequisites
-- [How to install (perriera)/injections](https://github.com/perriera/injections)
-- [How to install (perriera)/injections](https://github.com/perriera/injections)
+- [How to install injections.io](https://github.com/perriera/injections)
+- [How to install injections.io](https://github.com/perriera/injections)
 - [How to install (perriera) / html_parser](https://github.com/perriera/for_interfaces/blob/main/injections/html_parser/README.md)
 
 ### Wish Case

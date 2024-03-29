@@ -1,2 +1,2 @@
-## How to install `(perriera)/injections`
-see [How to install (perriera)/injections](https://github.com/perriera/injections)
+## How to install `injections.io`
+see [How to install injections.io](https://github.com/perriera/injections)

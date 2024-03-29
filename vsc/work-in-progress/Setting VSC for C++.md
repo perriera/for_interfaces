@@ -7,12 +7,12 @@
 
 ### Prerequisites
 - [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/vm/README.md)
-- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/INSTALL.md)
+- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/README.md)
 
 ### Wish Case
 Assuming you installed have opened a Terminal box as a non-root user:
 
-  - Now install `(perriera)/injections`:
+  - Now install `injections.io`:
 
 		mkdir ~/dev
         cd ~/dev
@@ -73,7 +73,7 @@ This message shows up on VSC when running inside `Microsoft Remote Desktop`. It 
 
 ### Alternate Case
 #### `Username for 'https://github.com':`
-This will come up when the `(perriera)/injections` is not yet public. Such that SSH access would be required, (see below)
+This will come up when the `injections.io` is not yet public. Such that SSH access would be required, (see below)
 
 ### Alternate Case
 #### When we are connecting via SSH key to Github

@@ -219,6 +219,8 @@ sudo apt-get install gcc-4.8-multilib g++-4.8-multilib
 ### Summary 
 Now you have installed the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
 
+### Resume Steps
+ - [How to install injections.io](https://github.com/perriera/injections)
+
 ### Next Steps
- - [How to install (perriera)/injections](https://github.com/perriera/injections)
 - [How to install injections.io(interfaces)](https://github.com/perriera/interfaces)

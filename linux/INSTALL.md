@@ -12,11 +12,11 @@ This how-to page is focused on Ubuntu 22 and C++11/17 installation details
 ### Wish Case
 Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
 
-  - [ ] Do [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/INSTALL.md)
+  - [ ] Do [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/README.md)
 
 ### Summary 
 Now you have installed the development environment and editor for a C++17 project (complete with cmake 3.21 support). The next steps are now to clone the project then setup your changelog.md (for accurate version control).
 
 ### Next Steps
- - [How to install (perriera)/injections](https://github.com/perriera/injections)
+ - [How to install injections.io](https://github.com/perriera/injections)
 - [How to install injections.io(interfaces)](https://github.com/perriera/interfaces)

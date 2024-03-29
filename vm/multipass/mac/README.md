@@ -215,12 +215,12 @@ Restore from a Snapshot
 
 ### Resume Steps
 
-- [How to install (perriera)/injections](https://github.com/perriera/injections)
+- [How to install injections.io](https://github.com/perriera/injections)
 
 ### Next Steps
 
-- [How to install (perriera)/injections](https://github.com/perriera/injections)
-- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/INSTALL.md)
+- [How to install injections.io](https://github.com/perriera/injections)
+- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/README.md)
 - [How to create a VM with Multipass](https://ubuntu.com/server/docs/virtualization-multipass)
 - [How to run Ubuntu 22.04 VMs on Apple M1 ARM-based systems for free](https://multipass.run/docs/installing-on-macos)
 - [How to create a VM with Multipass](https://ubuntu.com/server/docs/virtualization-multipass)
