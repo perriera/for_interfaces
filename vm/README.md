@@ -30,4 +30,4 @@ For all intensive purposes we utilize the Ubuntu series of Linux distributions e
 #### Next Steps
 Unless you've chosen to install one of the Linux distributions above this article will now redirect you to the `multipass` method of installing an instance of Ubuntu 22.04:
 - [How to install Ubuntu 22.04 using `multipass` on Mac (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/mac/README.md)
-- [How to install Ubuntu 22.04 or 23.10 using digitalocean](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
+- [How to install Ubuntu 22.04 or 23.10 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
