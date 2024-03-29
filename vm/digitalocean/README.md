@@ -34,9 +34,9 @@ You have created a Ubuntu instance on Digital Ocean
 
 ### Resume Steps
 
-- [How to install injections.io](https://github.com/perriera/injections)
+- [How to install injections.io(C++17)](https://github.com/perriera/injections)
 
 ### Next Steps
 
-- [How to install injections.io](https://github.com/perriera/injections)
+- [How to install injections.io(C++17)](https://github.com/perriera/injections)
 - [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/README.md)

@@ -12,7 +12,7 @@ Welcome to the **(perriera) / htmlforge_net** project.
 
 ## Who would want to use this?
 
-> Anyone with an interest in developing C++ applications using **injections.io**
+> Anyone with an interest in developing C++ applications using **injections.io(C++17)**
 
 ## Prerequisties
 
@@ -59,7 +59,7 @@ At the end of the `./RUNME.1st.sh` all identifiers in the `htmlforge_net` templa
 ```
 
 ### Documentation
-> For additional information see [How to install injections.io](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md) or the latest `htmlforge_net/docs/` folder (**run docs.sh from the project folder periodically for the latest docs/ folder updates**)
+> For additional information see [How to install injections.io(C++17)](https://github.com/perriera/for_interfaces/blob/main/injections/INSTALL.md) or the latest `htmlforge_net/docs/` folder (**run docs.sh from the project folder periodically for the latest docs/ folder updates**)
 
 ### Credits
 

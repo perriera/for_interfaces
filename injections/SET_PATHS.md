@@ -7,10 +7,10 @@
  3. **THEN** we can ensure the correct tools are accessible
 
 ### Prerequisites
-- [How to install injections.io](https://github.com/perriera/injections)
+- [How to install injections.io(C++17)](https://github.com/perriera/injections)
 
 ### Wish Case
-`injections.io` is a Github project available here: [git@github.com:perriera/injections.git](https://github.com/perriera/injections)
+`injections.io(C++17)` is a Github project available here: [git@github.com:perriera/injections.git](https://github.com/perriera/injections)
 
  - [ ] Open a Terminal window and display the current value of PATH:
 
@@ -20,7 +20,7 @@
 
     As you can see each of the PATH entries are not easy to decifer.
 
-  - [ ] Now that we have built successfully `injections.io` do this:
+  - [ ] Now that we have built successfully `injections.io(C++17)` do this:
 	
 		it_paths.sh 
 	
@@ -96,5 +96,5 @@
 Now you have just used your very first bash script from *(perriera) / injections*, one designed to `ensure` that the PATH variable is properly ordered and easily verifiable using `it_paths.sh` and the `~/.bashrc` 
 
 ### Next Steps
-- [How to install injections.io(interfaces)](https://github.com/perriera/interfaces)
+- [How to install injections.io(C++17)(interfaces)](https://github.com/perriera/interfaces)
 

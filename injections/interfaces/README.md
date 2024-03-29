@@ -1,3 +1,3 @@
 
-## How to install `injections.io(interfaces)`
-see [How to install injections.io(interfaces)](https://github.com/perriera/interfaces)
+## How to install `injections.io(C++17)(interfaces)`
+see [How to install injections.io(C++17)(interfaces)](https://github.com/perriera/interfaces)

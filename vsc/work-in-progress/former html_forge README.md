@@ -7,8 +7,8 @@
  3. **THEN** we can build projects using special bins/scripts to simplify using injections
 
 ### Prerequisites
-- [How to install injections.io](https://github.com/perriera/injections)
-- [How to install injections.io](https://github.com/perriera/injections)
+- [How to install injections.io(C++17)](https://github.com/perriera/injections)
+- [How to install injections.io(C++17)](https://github.com/perriera/injections)
 - [How to install (perriera) / html_parser](https://github.com/perriera/for_interfaces/blob/main/injections/html_parser/README.md)
 
 ### Wish Case
@@ -45,7 +45,7 @@
 
  - [ ] Select the forth large icon from the top left (for `RUN AND DEBUG`) and press the Green arrow.
 
- - [ ] Now that you have successfully built `injections.io(interfaces)` there are now a few more entries made to the `~/.local/bin` folder including this one:
+ - [ ] Now that you have successfully built `injections.io(C++17)(interfaces)` there are now a few more entries made to the `~/.local/bin` folder including this one:
 
 		nterface_tools.sh 
 

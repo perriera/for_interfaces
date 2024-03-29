@@ -7,7 +7,7 @@
  3. **THEN** the htmlforge.net framework can parse HTML pages
 
 ### Prerequisites
-- [How to install injections.io](https://github.com/perriera/injections)
+- [How to install injections.io(C++17)](https://github.com/perriera/injections)
 
 ### Wish Case
 

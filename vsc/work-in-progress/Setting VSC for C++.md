@@ -2,8 +2,8 @@
 # Disclaimer
 > the following is a work in progress 
 
-## How to install `injections.io(C++17)`
-> **Given** the need to make source code much easier to develop, reuse and understand between developers **when** we use the techniques exemplified in the `injections.io(C++17)` framework **then** we save time and resources compliments lessons learned from [IBM RPG](https://en.wikipedia.org/wiki/IBM_RPG) and [Modicon & Allen-Bradley PLC](https://en.wikipedia.org/wiki/Programmable_logic_controller) best practices.
+## How to install `injections.io(C++17)(C++17)`
+> **Given** the need to make source code much easier to develop, reuse and understand between developers **when** we use the techniques exemplified in the `injections.io(C++17)(C++17)` framework **then** we save time and resources compliments lessons learned from [IBM RPG](https://en.wikipedia.org/wiki/IBM_RPG) and [Modicon & Allen-Bradley PLC](https://en.wikipedia.org/wiki/Programmable_logic_controller) best practices.
 
 ### Prerequisites
 - [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/vm/README.md)
@@ -12,7 +12,7 @@
 ### Wish Case
 Assuming you installed have opened a Terminal box as a non-root user:
 
-  - Now install `injections.io`:
+  - Now install `injections.io(C++17)`:
 
 		mkdir ~/dev
         cd ~/dev
@@ -73,7 +73,7 @@ This message shows up on VSC when running inside `Microsoft Remote Desktop`. It 
 
 ### Alternate Case
 #### `Username for 'https://github.com':`
-This will come up when the `injections.io` is not yet public. Such that SSH access would be required, (see below)
+This will come up when the `injections.io(C++17)` is not yet public. Such that SSH access would be required, (see below)
 
 ### Alternate Case
 #### When we are connecting via SSH key to Github

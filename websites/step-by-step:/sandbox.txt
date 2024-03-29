@@ -1,22 +1,22 @@
-sudo vi /etc/apache2/sites-available/injections.io.conf
+sudo vi /etc/apache2/sites-available/injections.io(C++17).conf
 
 <VirtualHost *:80>
-    ServerAdmin admin@injections.io
-    ServerName injections.io
-     <Directory /var/www/injections.io/public_html>
+    ServerAdmin admin@injections.io(C++17)
+    ServerName injections.io(C++17)
+     <Directory /var/www/injections.io(C++17)/public_html>
         Options Indexes FollowSymLinks MultiViews
         AllowOverride All
         Order allow,deny
         allow from all
      </Directory>
-    ServerAlias www.injections.io 
-    DocumentRoot /var/www/injections.io/public_html
+    ServerAlias www.injections.io(C++17) 
+    DocumentRoot /var/www/injections.io(C++17)/public_html
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 
-sudo mkdir -p /var/www/injections.io/public_html
-sudo vi /var/www/injections.io/public_html/index.html 
+sudo mkdir -p /var/www/injections.io(C++17)/public_html
+sudo vi /var/www/injections.io(C++17)/public_html/index.html 
 
 <html>
     <head>
@@ -27,7 +27,7 @@ sudo vi /var/www/injections.io/public_html/index.html
     </body>
 </html>
 
-sudo a2ensite injections.io.conf
+sudo a2ensite injections.io(C++17).conf
 sudo systemctl restart apache2
 
 sudo systemctl reload apache2
@@ -35,9 +35,9 @@ sudo apache2ctl configtest
 
 sudo certbot --apache
 
-CNAME www.injections.io aliasof injections.io TTL 43200
-A injections.io directs to IP address TTL 450
-NS injections.io ns1.digitalocean.com. TTL 1800
-NS injections.io ns2.digitalocean.com. TTL 1800
-NS injections.io ns3.digitalocean.com. TTL 1800
+CNAME www.injections.io(C++17) aliasof injections.io(C++17) TTL 43200
+A injections.io(C++17) directs to IP address TTL 450
+NS injections.io(C++17) ns1.digitalocean.com. TTL 1800
+NS injections.io(C++17) ns2.digitalocean.com. TTL 1800
+NS injections.io(C++17) ns3.digitalocean.com. TTL 1800
 
