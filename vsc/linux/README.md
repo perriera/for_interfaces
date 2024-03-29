@@ -1,12 +1,12 @@
-## How to install `Visual Studio Code (VSC)` on macOS
-> In this step we show how to install Visual Studio Code (VSC) on OS X (mac)
+## How to install `Visual Studio Code (VSC)` on Linux
+> In this step we show how to install Visual Studio Code (VSC) on Linux
 
  1. **GIVEN** we need to use Visual Studio Code (VSC) on Linux 
  2. **WHEN** we install Visual Studio Code (VSC) on Linux 
  3. **THEN** we can launch Visual Studio Code (VSC) on Linux
 
 ### Prerequisites
-- [Visual Studio Code on macOS](https://code.visualstudio.com/docs/setup/linux) (review)
+- [Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux) (review)
 - Linux instance
 - sudo privilages 
 
