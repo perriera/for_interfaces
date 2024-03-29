@@ -12,7 +12,7 @@
 ### Wish Case
 Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
 
-  - [ ] Login as dev (options)
+  - [ ] Login as dev 
 	
 		su dev
 
@@ -27,6 +27,12 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		sudo apt autoremove -y
 		sudo apt autoclean -y
 		sudo reboot 
+
+	Wait for the instance to reboot ... 
+
+  - [ ] Login as dev (again)
+	
+		su dev
 
  - [ ] Now install gcc build tools
 
