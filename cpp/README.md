@@ -96,10 +96,6 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		source ~/.bashrc
 
- - [ ] Now install Visual Studio Code (**optional**)
-
-		sudo snap install --classic code # or code-insiders
-
  - [ ] Now close any apps (including browsers) and remove all unnecessary files 
 
 		sudo apt-get autoremove -y
@@ -154,6 +150,12 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		mkdir sample_project
 		cd sample_project
 		code .
+
+### Alternate Case
+#### Visual Studio Code (VSC)
+In the case that you the Ubuntu instance has x11/GUI access feel free to install VSC at this point time:
+
+	sudo snap install --classic code # or code-insiders
 
 ### Alternate Case
 #### Visual Studio could not be installed or started (directly)
