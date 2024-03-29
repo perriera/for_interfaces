@@ -24,12 +24,9 @@ VSC has an extension that pretty comes standard during the install process. To a
 ### Summary
 `Visual Studio Code (VSC)` has been installed on Linux.
 
-### Resume Steps
+### Next Steps
 
 - [How to install injectons.io](https://github.com/perriera/injections)
 
-### Next Steps
-
-- [Visual Studio Code on macOS](https://code.visualstudio.com/docs/setup/mac) (review)
 
 
