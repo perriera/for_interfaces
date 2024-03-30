@@ -86,11 +86,13 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		vi ~/.bashrc
 		
- - [ ] APPEND these environment variables to `~/.bashrc `
+ - [ ] `Down arrow` to the bottom and press `a` then paste these environment variables:
 		
 		export PATH=$HOME/.local/bin:${PATH}
 		export CPM_SOURCE_CACHE=$HOME/.cache/CPM
 		export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
+
+	Assuming you are new to vi press ESCAPE and then `SHIFT z` button twice. 
 
  - [ ] Then source it ... 
 
@@ -150,6 +152,20 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		mkdir sample_project
 		cd sample_project
 		code .
+
+### Alternate Case
+#### Are you new to the vi editor?
+As cyptic as the vi editor seems it's simplicity in design and use allows to be utilized where most graphical based editors fail, (as it can operate in a text only environmen). To use vi (for our purposes) make a note of the following:
+- To append text press `a`
+- To insert test press `i`
+- To escape back into command mode press ESC
+- To delete a character press `x`
+- To delete a whole line press `dd`
+- To save your changes press ESC, hold down SHIFT and press `z` twice
+- To quit without making any changes press ESC then `:q!`
+- Also, it's always good to make a copy of your file before making changes to any configuraion file as one single character (added or deleted) could knock the entire configuration:
+
+ 		cp ~/.bashrc ~/.bashrc.bak
 
 ### Alternate Case
 #### Visual Studio Code (VSC)
