@@ -41,7 +41,7 @@ There are a number of ways to install Linux onto your computer with the variable
 
 #### Alternate Case
 #### DigitalOcean
-[digitalocean.com](https://www.digitalocean.com) offers a 60 day $200 coupon to new users, (which would be the easiest method to test drive everything documented here)
+[digitalocean.com](https://www.digitalocean.com) offers a 60 day $200 coupon to new users:
 - [How to install Ubuntu 22.04 or 23.10 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 
 #### Alternate Case
