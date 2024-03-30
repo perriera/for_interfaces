@@ -7,7 +7,12 @@ As cyptic as the vi editor seems it's simplicity in design and use allows it to 
 - To edit a file:
 
         vi <name of text file>
-        
+
+- Navigate any displayed text with the standard cursor keys
+
+>`vi` has a command mode that can be selected whenever you press the ESC key. For example whenever you are done adding text press ESC and either enter another mode, save your changes (or quit without saving any changes, see below):
+
+- vi has multiple modes that is, one 
 - To append text press `a`
 - To insert test press `i`
 - To escape back into command mode press ESC
