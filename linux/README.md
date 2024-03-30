@@ -53,11 +53,18 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 
 #### Alternate Case
 #### VirtualBox
-[virtualbox](virtualbox.org) has been around for quite some time and their developers have been pretty diligent in keeping it up to date. The step-by-ste
+[virtualbox](virtualbox.org) has been around for quite some time and their developers have been pretty diligent in keeping it up to date. The following are instructions on how to install VirtualBox for one particular situation. However, what is written there can be applicable for newer versions of Ubuntu, (upgrades expected shortly): 
+- [How to setup ubuntu-20.04.4-desktop-amd64 (on VirtualBox)](https://github.com/perriera/for_interfaces/tree/main/vm/virtualbox)
 
-For all intensive purposes we utilize the Ubuntu series of Linux distributions either as a native installation or through a popular VM provider such as:
-- Parallels Desktop
-- VirtualBox
-- multipass
+#### Alternate Case
+#### Parallels Desktop
+[parallels desktop](parallels.com) is essentially a much more modern approach to setting virtual machines for the desktop however there is a modertately low yearly subscription required. But for that rather low and insignificant significant subscription price you tend to get a service that works out of the box. As you a small army of professional developers taking care of all the tiny little issues for you. 
+- A dedicated How-to page for Paralles will be provided shortly
+- But the website is already very straight forward
+- see [Find the Parallels solution that works best for you](parallels.com)
+
+### Summary
+You now have a selection of methods of setting up a Linux distribution.
+
 #### Next Steps
-Unless you've chosen to install one of the Linux distributions above this article will now redirect you to the `multipass` method of installing an instance of Ubuntu 22.04:
+- [How to install injections.io(C++17)](https://github.com/perriera/injections)
