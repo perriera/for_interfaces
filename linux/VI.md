@@ -1,7 +1,10 @@
 ## How to use the VI editor (basic instructions)
 > **Given** we need to be able to make changes to Linux text files quickly and easily **when** we use the Linux standard vi editor (it actually originated with Unix from the 1970s) **then** we can make changes to configuration files without the need for more advanced editing tools 
 
-### Alternate Case
+### Prerequisites
+- Linux environment
+
+### Wish Case
 #### Are you new to the vi editor?
 As cyptic as the vi editor seems it's simplicity in design and use allows it to be the hero where most graphical based editors fail, (as it can operate in a text only environment). To use vi (for our purposes) take a note of the following:
 - To edit a file:
