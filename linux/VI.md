@@ -22,10 +22,22 @@ As cyptic as the vi editor seems it's simplicity in design and use allows it to 
 - To delete a whole line press `dd`
 - To save your changes press ESC, hold down SHIFT and press `z` twice
 - To quit without making any changes press ESC then `:q!`
-- Also, it's always good to make a copy of your file before making changes to any configuraion file as one single character (added or deleted) could knock out the entire configuration:
+
+### Altenate Case
+It's always good to make a copy of your file before making changes to any configuraion file as one single character (added or deleted) could knock out the entire configuration:
 
  		cp ~/.bashrc ~/.bashrc.bak
 
-	In the case where you already did manage to knock a configuration, no worries. All you have to do is restore your last working version. 
+    Then in the event something screwed up:
 
-		- See [How to make a last working version (of your Linux instance)](https://github.com/perriera/for_interfaces/blob/main/linux/LWV.md)
+        cp ~/.bashrc.bak ~/.bashrc
+
+### Alternate Case
+In the case where you already did manage to knock a configuration, no worries. All you have to do is restore your last working version. 
+- see [How to make a last working version (of your Linux instance)](https://github.com/perriera/for_interfaces/blob/main/linux/LWV.md)
+
+### Summary
+Now you know enough about the vi editor for it to become your #1 text editing tool whenever you find yourself in a pinch.
+
+### Next Steps
+- [How to install injections.io(C++17)](https://github.com/perriera/injections)

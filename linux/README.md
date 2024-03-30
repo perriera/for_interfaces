@@ -67,5 +67,5 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 ### Summary
 You now have a selection of methods of setting up a Linux distribution.
 
-#### Next Steps
+### Next Steps
 - [How to install injections.io(C++17)](https://github.com/perriera/injections)
