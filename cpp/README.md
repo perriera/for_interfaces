@@ -167,7 +167,7 @@ In certain cases VSC cannot be installed (in the case of no gui support or proce
 
 ### Alternate Case
 #### /home/perry/.local/bin/xsnap.sh: 8: [[: not found
-Make sure the first line of the bash script copies over as "#!/bin/bash" and not " #!/bin/bash" 
+Make sure the first line of the bash script copies over as `#!/bin/bash` and not ` #!/bin/bash` 
 
 ### Alternate Case 
 #### Dark Theme
