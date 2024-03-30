@@ -22,7 +22,7 @@ Assuming you have an account already setup on digitalocean.com
 - Change the Hostname to something much shorter (aka. `ubuntu4g`)
 - Press `Create Droplet`
 - After a few moments the droplet will dislay, (click it)
-#### Configur the Droplet
+#### Configure the Droplet
 - Find and select the `Access` button
 - Find and select the `Launch Drop Console` button 
 - Once inside the root terminal window and add a dev account:
