@@ -58,7 +58,7 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 
 #### Alternate Case
 #### Parallels Desktop
-[parallels desktop](https://parallels.com) is essentially a much more modern approach to setting up virtual machines for the desktop however there is a modertately low yearly subscription required. But for that rather low and insignificant significant subscription price you tend to get a service that works out of the box. As you a small army of professional developers taking care of all the tiny little issues for you. 
+[parallels desktop](https://parallels.com) is essentially a much more modern approach to setting up virtual machines for the desktop however there is a modertately low yearly subscription required. But for that rather low and insignificant significant subscription price you tend to get a service that works out of the box. As you have at your disposal a small army of professional developers taking care of all the tiny little issues for you. 
 - A dedicated How-to page for Paralles will be provided shortly
 - But the website is already very straight forward
 - see [Find the Parallels solution that works best for you](https://parallels.com)
