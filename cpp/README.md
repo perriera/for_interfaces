@@ -7,7 +7,7 @@
  3. **THEN** we build projects using g++, cmake and  CPM
 
 ### Prerequisites
-  - [How to install Linux using multipass](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/MENU.md)
+- [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/linux/README.md)
 
 ### Wish Case
 Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
