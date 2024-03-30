@@ -6,8 +6,8 @@
  3. **THEN** we can create and launch a Ubuntu instance
 
 ### Prerequisites
-- an paid or evaluation account on [digitalocean.com](digitalocean.com)
-- at time of writing [DigitalOcean is offering a $200 credit for 60 days](digitalocean.com)
+- an paid or evaluation account on [digitalocean.com](https://www.digitalocean.com)
+- at time of writing [DigitalOcean is offering a $200 credit for 60 days](https://www.digitalocean.com)
 
 ### Wish Case
 Assuming you have an account already setup on digitalocean.com

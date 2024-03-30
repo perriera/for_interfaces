@@ -41,7 +41,7 @@ There are a number of ways to install Linux onto your computer with the variable
 
 #### Alternate Case
 #### DigitalOcean
-[digitalocean.com](digitalocean.com) offers a 60 day $200 coupon to new users, (which would be the easiest method to test drive everything documented here)
+[digitalocean.com](https://www.digitalocean.com) offers a 60 day $200 coupon to new users, (which would be the easiest method to test drive everything documented here)
 - [How to install Ubuntu 22.04 or 23.10 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 
 #### Alternate Case
@@ -53,15 +53,15 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 
 #### Alternate Case
 #### VirtualBox
-[virtualbox](virtualbox.org) has been around for quite some time and their developers have been pretty diligent in keeping it up to date. The following are instructions on how to install VirtualBox for one particular situation. However, what is written there can be applicable for newer versions of Ubuntu, (upgrades expected shortly): 
+[virtualbox](https://virtualbox.org) has been around for quite some time and their developers have been pretty diligent in keeping it up to date. The following are instructions on how to install VirtualBox for one particular situation. However, what is written there can be applicable for newer versions of Ubuntu, (upgrades expected shortly): 
 - [How to setup ubuntu-20.04.4-desktop-amd64 (on VirtualBox)](https://github.com/perriera/for_interfaces/tree/main/vm/virtualbox)
 
 #### Alternate Case
 #### Parallels Desktop
-[parallels desktop](parallels.com) is essentially a much more modern approach to setting virtual machines for the desktop however there is a modertately low yearly subscription required. But for that rather low and insignificant significant subscription price you tend to get a service that works out of the box. As you a small army of professional developers taking care of all the tiny little issues for you. 
+[parallels desktop](https://parallels.com) is essentially a much more modern approach to setting virtual machines for the desktop however there is a modertately low yearly subscription required. But for that rather low and insignificant significant subscription price you tend to get a service that works out of the box. As you a small army of professional developers taking care of all the tiny little issues for you. 
 - A dedicated How-to page for Paralles will be provided shortly
 - But the website is already very straight forward
-- see [Find the Parallels solution that works best for you](parallels.com)
+- see [Find the Parallels solution that works best for you](https://parallels.com)
 
 ### Summary
 You now have a selection of methods of setting up a Linux distribution.
