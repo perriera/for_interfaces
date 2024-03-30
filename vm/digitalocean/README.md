@@ -52,7 +52,7 @@ A SSH key is basically an automated password. Such that the computer takes care 
 - copy the contents of the SSH key `PUBLIC` file (usually `~/.ssh/id_ed25519.pub`) to the clipboard
 - click on the `New SSH Key` button (on the digitalocean Create Droplet page)
 - paste the contents of the clipboard in the dialog provided
-> Windows may have a quirky way of storing the public key, (too many details over here). Simply lookup YouTube again for a Windows video on where your version of Windows stores SSH keys.
+> Windows may have a quirky way of storing the public key, (too many details to cover here). Simply lookup YouTube again for a Windows video on where your version of Windows stores SSH keys.
 
 ### Alternate Case
 #### Your computer doesn't know anything about SSH public keys either?
