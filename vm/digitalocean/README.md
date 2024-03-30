@@ -44,7 +44,7 @@ Assuming you have an account already setup on digitalocean.com
 		
 ### Alternate Case
 #### Don't know anything about SSH Keys?
-A SSH key is basically an automated password. Such that the computer takes care of all the password validation processing for you. That is, without needing an actual password provided you never specific a pass phrase, (never use a phrase unless you are in a production environment).
+A SSH key is basically an automated password. Such that the computer takes care of all the password validation processing for you. That is, without needing an actual password provided you never specify a pass phrase, (never use a phrase unless you are in a production environment).
 - [How to setup a SSH key on Windows](https://www.youtube.com/watch?v=oAbYL3bktMA)
 - [How to setup a SSH key on Mac](https://www.youtube.com/watch?v=a6tbQRNyfss)
 - [How to setup a SSH key on Linux](https://www.youtube.com/watch?v=eUwOlc9HfZs)
