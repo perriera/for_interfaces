@@ -147,7 +147,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		sudo ~/.local/bin/xsnap.sh
 		
-	See *Next Steps* below ... 
+	See *Resume Steps* or *Next Steps* below ... 
 
 ### Alternate Case
 #### Are you new to the vi editor?
