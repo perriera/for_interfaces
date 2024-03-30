@@ -49,7 +49,7 @@ A SSH key is basically an automated password. Such that the computer takes care 
 - [How to setup a SSH key on Mac](https://www.youtube.com/watch?v=a6tbQRNyfss)
 - [How to setup a SSH key on Linux](https://www.youtube.com/watch?v=eUwOlc9HfZs)
 > Once you generate a SSH key for your machine:
-- copy the contents of this SSH key PUBLIC file (usually `~/.ssh/id_ed25519.pub`) to the clipboard
+- copy the contents of the SSH key `PUBLIC` file (usually `~/.ssh/id_ed25519.pub`) to the clipboard
 - click on the `New SSH Key` button (on the digitalocean Create Droplet page)
 - paste the contents of the clipboard in the dialog provided
 
