@@ -18,7 +18,7 @@ Assuming you have an account already setup on digitalocean.com
 - Select `Ubuntu`
 - Select either 23.10 or 22.04
 - Review Droplet Type, CPU, Addional Storage and make any changes but the default selections are fine
-- Add a SSH key for the machine you are using (or click `New SSH Key`)
+- click `New SSH Key` to add your computer's SSH public key
 - Change the Hostname to something much shorter (aka. `ubuntu4g`)
 - Press `Create Droplet`
 - After a few moments the droplet will dislay, (click it)
@@ -43,7 +43,7 @@ Assuming you have an account already setup on digitalocean.com
 		sudo reboot 
 		
 ### Alternate Case
-#### Don't know anything about SSH Keys?
+#### Don't know anything about SSH public keys?
 A SSH key is basically an automated password. Such that the computer takes care of all the password validation processing for you. That is, without needing an actual password provided you never specify a pass phrase, (never specify a pass phrase unless you are in a production environment).
 - [How to setup a SSH key on Windows](https://www.youtube.com/watch?v=oAbYL3bktMA)
 - [How to setup a SSH key on Mac](https://www.youtube.com/watch?v=a6tbQRNyfss)
