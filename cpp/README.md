@@ -147,13 +147,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		sudo ~/.local/bin/xsnap.sh
 		
- - [ ] Now start Visual Studio Code (**optional**)
-
-		mkdir ~/dev
-		cd ~/dev
-		mkdir sample_project
-		cd sample_project
-		code .
+	See *Next Steps* below ... 
 
 ### Alternate Case
 #### Are you new to the vi editor?
