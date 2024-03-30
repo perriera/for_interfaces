@@ -163,10 +163,14 @@ As cyptic as the vi editor seems it's simplicity in design and use allows to be 
 - To delete a whole line press `dd`
 - To save your changes press ESC, hold down SHIFT and press `z` twice
 - To quit without making any changes press ESC then `:q!`
-- Also, it's always good to make a copy of your file before making changes to any configuraion file as one single character (added or deleted) could knock the entire configuration:
+- Also, it's always good to make a copy of your file before making changes to any configuraion file as one single character (added or deleted) could knock out the entire configuration:
 
  		cp ~/.bashrc ~/.bashrc.bak
 
+	In the case where you already did manage to knock a configuration, no worries. All you have to do is restore your last working version. 
+
+		- See How to make a last working version (of your Linux instance)
+		
 ### Alternate Case
 #### Visual Studio Code (VSC)
 In the case that you the Ubuntu instance has x11/GUI access feel free to install VSC at this point time:
