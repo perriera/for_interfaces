@@ -169,8 +169,8 @@ As cyptic as the vi editor seems it's simplicity in design and use allows to be 
 
 	In the case where you already did manage to knock a configuration, no worries. All you have to do is restore your last working version. 
 
-		- See How to make a last working version (of your Linux instance)
-		
+		- See [How to make a last working version (of your Linux instance)](https://github.com/perriera/for_interfaces/blob/main/linux/LWV.md)
+
 ### Alternate Case
 #### Visual Studio Code (VSC)
 In the case that you the Ubuntu instance has x11/GUI access feel free to install VSC at this point time:
