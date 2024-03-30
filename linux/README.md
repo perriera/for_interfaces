@@ -62,7 +62,7 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 - A dedicated How-to page for Paralles will be provided shortly
 - But the website is already very straight forward
 - see [Find the Parallels solution that works best for you](https://parallels.com)
-- Currently Parallels Desktop does offer an evaluation period, (free for 14 days)
+- Currently Parallels Desktop does offer an evaluation period, ([free for 14 days](https://www.parallels.com/products/desktop/trial/?clientId=2032879761.1711828844&sessionId=1711828844&_gl=1*1nadzln*_up*MQ..*_ga*MjAzMjg3OTc2MS4xNzExODI4ODQ0*_ga_RYHBN2XNLK*MTcxMTgyODg0NC4xLjAuMTcxMTgyODg0NC4wLjAuMA..))
 
 ### Summary
 You now have a selection of methods of setting up a Linux distribution.
