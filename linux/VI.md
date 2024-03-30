@@ -3,7 +3,7 @@
 
 ### Alternate Case
 #### Are you new to the vi editor?
-As cyptic as the vi editor seems it's simplicity in design and use allows to be utilized where most graphical based editors fail, (as it can operate in a text only environmen). To use vi (for our purposes) make a note of the following:
+As cyptic as the vi editor seems it's simplicity in design and use allows it to be the hero where most graphical based editors fail, (as it can operate in a text only environment). To use vi (for our purposes) take a note of the following:
 - To append text press `a`
 - To insert test press `i`
 - To escape back into command mode press ESC
