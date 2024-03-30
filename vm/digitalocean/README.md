@@ -53,6 +53,14 @@ A SSH key is basically an automated password. Such that the computer takes care 
 - click on the `New SSH Key` button (on the digitalocean Create Droplet page)
 - paste the contents of the clipboard in the dialog provided
 
+### Alternate Case
+#### Your computer doesn't know anything about SSH public keys either?
+Windows computers may not support SSH keys as part of their standard disribution, (Mac and Linux distributions usually do). In any event there are too many changing variables to provide standard instructions here, so we'll rely on YouTube (again) to fill that gap:
+- [How to setup a SSH server on Windows](https://www.youtube.com/watch?v=KLN2bY0dTtQ)
+- [How to setup a SSH server on Mac](https://www.youtube.com/watch?v=h8zq6rGjSKA)
+- [How to setup a SSH server on Linux](https://www.youtube.com/watch?v=Wlmne44M6fQ)
+> In the case where the video links provided do not resolve the issue do a search on YouTube using either of the questions provide here, (ex. `How to setup a SSH server on Windows 11`)
+
 ### Summary
 You have created a Ubuntu instance on Digital Ocean
 
