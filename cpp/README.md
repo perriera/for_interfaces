@@ -156,7 +156,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 ### Alternate Case
 #### Are you new to the vi editor?
 
-		- See [How to use the VI editor (basic instructions)](https://github.com/perriera/for_interfaces/blob/main/linux/VI.md)
+ - see [How to use the VI editor (basic instructions)](https://github.com/perriera/for_interfaces/blob/main/linux/VI.md)
 
 ### Alternate Case
 #### Visual Studio Code (VSC)
