@@ -1,5 +1,5 @@
 ## How to use the VI editor (basic instructions)
-> todo: fill in the details here
+> **Given** we need to be able to make changes to Linux text files quickly and easily **when** we use the Linux standard vi editor (it actually originated with Unix from the 1970s) **then** we can make changes to configuration files without the need for more advanced editing tools 
 
 ### Alternate Case
 #### Are you new to the vi editor?
@@ -12,7 +12,6 @@ As cyptic as the vi editor seems it's simplicity in design and use allows it to 
 
 >`vi` has a command mode that can be selected whenever you press the ESC key. For example whenever you are done adding text press ESC and either enter another mode, save your changes (or quit without saving any changes, see below):
 
-- vi has multiple modes that is, one 
 - To append text press `a`
 - To insert test press `i`
 - To escape back into command mode press ESC
