@@ -16,5 +16,6 @@ Windows computers may not support SSH keys as part of their standard disribution
 - [How to setup a SSH server on Windows](https://www.youtube.com/watch?v=KLN2bY0dTtQ)
 - [How to setup a SSH server on Mac](https://www.youtube.com/watch?v=h8zq6rGjSKA)
 - [How to setup a SSH server on Linux](https://www.youtube.com/watch?v=Wlmne44M6fQ)
-> In the case where the video links provided do not resolve the issue do a search on YouTube using either of the questions provide here, (ex. `How to setup a SSH server on Windows 11`)
+> In the case where the video links provided do not resolve the issue do a search on YouTube using either of the questions provide here simply refine your search string. In the YouTube search bar type something like `How to setup a SSH server on Windows 11` and click enter.
+
 
