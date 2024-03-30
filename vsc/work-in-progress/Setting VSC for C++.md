@@ -6,7 +6,7 @@
 > **Given** the need to make source code much easier to develop, reuse and understand between developers **when** we use the techniques exemplified in the `injections.io(C++17)(C++17)` framework **then** we save time and resources compliments lessons learned from [IBM RPG](https://en.wikipedia.org/wiki/IBM_RPG) and [Modicon & Allen-Bradley PLC](https://en.wikipedia.org/wiki/Programmable_logic_controller) best practices.
 
 ### Prerequisites
-- [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/vm/README.md)
+- [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/linux/README.md)
 - [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/README.md)
 
 ### Wish Case

@@ -5,7 +5,7 @@
 - C++17 compliant compiler
 - Access to **(perriera) / injections** repository
 ### Wish Case
-- Do [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/vm/README.md)
+- Do [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/linux/README.md)
 - You then [install C++17 development tools on a Linux instance](https://github.com/perriera/for_interfaces/blob/main/cpp/README.md)
 - You then [install (perriera) / injections](https://github.com/perriera/injections)
 - You then [install injections.io(C++17)(interfaces)](https://github.com/perriera/interfaces)
