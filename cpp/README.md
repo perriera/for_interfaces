@@ -17,7 +17,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		su dev
 		cd ~
 
-  - [ ] First put **sudo** into ready-to-accept mode
+  - [ ] Go into *sudo* mode
 	
 		sudo ls
 	
@@ -29,7 +29,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		sudo apt autoclean -y
 		sudo reboot 
 
-	Wait for the instance to reboot ... 
+	**Note**: You can skip this step in the case where you just upgraded
 
   - [ ] Login as dev (again)
 	
