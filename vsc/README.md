@@ -54,6 +54,8 @@ In some cases the Linux box does not have x11/gui support. Hence, connecting to 
  - Here you can navigate to the dev folder or just select the home folder
  - Select 'Yes' to `I trust the authors`
 
+    See *Resume/Next* steps below ... 
+    
 ### Summary
 Either of the above links would help you with your VSC installation, (including Remote SSH support)
 
