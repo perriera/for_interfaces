@@ -38,9 +38,13 @@ In some cases the Linux box does not have x11/gui support. Hence, connecting to 
 
 - Do [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md) and return here
 - Do install VSC using one of the three methods listed above (*Linux, Mac, Windows*) and return here
- - Open a **new** Terminal box:
+ - Open a **new** Terminal box and start a Visual Studio instance
 
-        code . 
+    - On Windows or Mac you open it using a graphical menu
+    - On Linux you can open it like this:
+
+            code . 
+
 
  - In the bottom left corner there should be a little blue icon with these two symbols resembling this '><'
  - In the case that that symbol '><' is not present type `Remote - SSH` in the the `Search Extensions` box of the Extensions window (click the 5th large icon on the top left of the VSC editor) and install it, (wait for it to be installed)
