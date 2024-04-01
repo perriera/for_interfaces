@@ -39,9 +39,13 @@ Assuming you have an account already setup on digitalocean.com
 		sudo apt autoremove -y
 		sudo apt autoclean -y
 		sudo reboot 
-		
-### Summary
-You have created a Ubuntu instance on Digital Ocean
+
+#### Relog into the Linux instance (using DigitalOcean)
+- After a minute or two attempt to relogin to the Linux instance:
+	- Find and select the `Access` button
+	- Find and select the `Launch Drop Console` button 
+
+	See *Next Steps* ... 
 
 ### Alternate Case
 #### You didn't see the chance to specify your own password?
@@ -55,6 +59,9 @@ Redo (and resume from) that step of the *Wish Case* ...
 ### Alternate Case
 #### Don't know anything about SSH public keys?
 - see [How to setup a SSH public key](https://github.com/perriera/for_interfaces/blob/main/ssh)
+
+### Summary
+You have created a Ubuntu instance on Digital Ocean
 
 ### Resume Steps
 
