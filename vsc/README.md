@@ -11,7 +11,6 @@
 - **sudo** privilages 
 
 ### Wish Case
-To install VSC locally
 
 - To install VSC locally: [Download Visual Studio Code](https://code.visualstudio.com/download)
 
