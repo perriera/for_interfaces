@@ -28,6 +28,9 @@ Assuming you have a public SSH key on the client computer:
   - ON THE LINUX box add the `SSH public key` to the Linux server:
 
             echo <paste clipboard contents here> >> ~/.ssh/authorized_keys 
+
+      Restart the SSH server:
+
             sudo systemctl restart ssh
 
   - The following will show you the ssh command to connect to the Linux box:
