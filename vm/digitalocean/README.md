@@ -48,7 +48,7 @@ You have created a Ubuntu instance on Digital Ocean
 
 	sudo deluser dev
 
-Redo and resume that step of the *Wish Case* ... 
+Redo (and resume from) that step of the *Wish Case* ... 
 
 - see [How do I create a user with a password in one line, in Bash, on Redhat?](https://serverfault.com/questions/868092/how-do-i-create-a-user-with-a-password-in-one-line-in-bash-on-redhat)
 
