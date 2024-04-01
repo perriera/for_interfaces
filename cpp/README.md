@@ -135,6 +135,10 @@ Now that you have your project cloned we need to make sure you have the tools ne
 ### Alternate Case
 #### Something didn't install correctly?
 You might need to update/upgrade the system first:
+- Go into *sudo* mode:
+
+		sudo ls
+
 - Update the instance and reboot
 
 		sudo apt update -y
@@ -142,6 +146,8 @@ You might need to update/upgrade the system first:
 		sudo apt autoremove -y
 		sudo apt autoclean -y
 		sudo reboot 
+
+- Relogin as dev
 
 ### Alternate Case
 #### Are you new to the vi editor?
