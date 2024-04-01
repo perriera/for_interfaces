@@ -19,8 +19,9 @@ Assuming you have a public SSH key on the client computer:
 
   - ON YOUR CLIENT machine open a Terminal box and display it's SSH key:
 
-            su dev
             cat ~/.ssh/id_ed25519.pub 
+
+      **Note**: Usually you want to use a user account to do this (aka *dev*)
 
   - ON THE LINUX box Copy the contents to the clipboard and add them to the authorized_keys file on the Linux server (*take note of the username you using on the Linux box*)
 
