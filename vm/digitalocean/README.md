@@ -41,7 +41,7 @@ Assuming you have an account already setup on digitalocean.com
 		sudo reboot 
 
 #### Relog into the Linux instance (using DigitalOcean)
-- After a minute or two attempt to relogin to the Linux instance:
+- After a minute or two attempt to relogin into the Linux instance:
 	- Find and select the `Access` button
 	- Find and select the `Launch Drop Console` button 
 
