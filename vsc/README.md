@@ -8,7 +8,7 @@
 ### Prerequisites
 - Linux instance
 - Internet access
-- sudo privilages 
+- **sudo** privilages 
 
 ### Wish Case
 Installation on Visual Studio Code (VSC) for each modern operating systems (Linux, OSX, Windows) has been made possible here: [Download Visual Studio Code](https://code.visualstudio.com/download). However, in the case where Linux does not have x11/gui support Remote SSH access is possible. 
