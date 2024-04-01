@@ -33,9 +33,11 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		git config --global user.email ${MY_EMAIL_IS}
 		git config --global user.name ${MY_NAME_IS}
 
-  - [ ] Now create an SSH key for the Linux box (**do not supply a different filename and leave the pass phrase blank**)
+  - [ ] Now create an SSH key for the Linux box:
 
 		ssh-keygen -t ed25519 -C ${MY_EMAIL_IS}
+
+	**Note**: *neither* supply a different filename *nor* specify a pass phrase
 
   - [ ] Show the SSH public key and remember how to display it when it is needed later on (for SSH authentication)
 
