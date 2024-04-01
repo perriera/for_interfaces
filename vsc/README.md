@@ -11,7 +11,7 @@
 - **sudo** privilages 
 
 ### Wish Case
-Installation on Visual Studio Code (VSC) for each modern operating systems (Linux, OSX, Windows) has been made possible here: [Download Visual Studio Code](https://code.visualstudio.com/download). However, in the case where Linux is text/console only then remote access (via SSH) is actually a preferred method of interacting with the Linux instance, (see *Alternate Case* below). 
+To install VSC locally
 
 - To try your own hand at installing VSC go here: [Download Visual Studio Code](https://code.visualstudio.com/download)
 
