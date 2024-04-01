@@ -149,6 +149,8 @@ You might need to update/upgrade the system first:
 
 - Relogin as dev
 
+		su dev
+
 ### Alternate Case
 #### Are you new to the vi editor?
 
