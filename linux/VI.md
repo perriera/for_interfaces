@@ -26,9 +26,9 @@ As cyptic as the vi editor seems it's simplicity in design and use allows it to 
 ### Altenate Case
 It's always good to make a copy of your file before making changes to any configuraion file as one single character (added or deleted) could knock out the entire configuration:
 
- 	cp ~/.bashrc ~/.bashrc.bak
+        cp ~/.bashrc ~/.bashrc.bak
 
-    Then in the event something screwed up:
+Then in the event something messes up:
 
         cp ~/.bashrc.bak ~/.bashrc
 
