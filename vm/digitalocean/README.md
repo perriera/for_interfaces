@@ -62,7 +62,6 @@ Redo (and resume from) that step of the *Wish Case* ...
 
 ### Next Steps
 
-- [How to install injections.io(C++17)](https://github.com/perriera/injections)
 - [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/README.md)
 
 ### Disclaimer
