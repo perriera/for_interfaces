@@ -117,6 +117,8 @@ Now that you have your project cloned we need to make sure you have the tools ne
 			echo -e "local SNAPS cache not deleted"
 		fi
 
+	**Optional**: This step is just meant to save space 
+
 	See *Resume/Next Steps* below ... 
 
 ### Alternate Case
