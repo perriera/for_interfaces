@@ -65,7 +65,7 @@ In the case where you were in the middle of installing `injections.io(C++17)` re
 ### Alternate Case 
 #### Using Visual Studio Code (VSC or 'code') via Remote SSH
 In the case where you would like to access the Linux box via VSC over SSH:
- - Open VSC (ON YOUR CLIENT) 
+ - Open VSC (ON YOUR LOCAL COMPUTER) 
  - In the bottom left corner there should be a little blue icon with these two symbols '><' (almost).
  - In the case that that symbol '><' is not present add 'Remote - SSH' using the Extensions (usually the 5th large icon on the top left of the VSC editor)
  - Click that icon and select 'Connect Current Window to Host ...' add the same ssh connection parameters used earlier (to test the SSH connection ex. 'perry@10.211.55.32' *not to be confused with this 'ssh perry@10.211.55.32')
