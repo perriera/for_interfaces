@@ -17,7 +17,7 @@
 ### Wish Case
 Assuming you have a public SSH key on the client computer:
 
-  - ON YOUR CLIENT machine open a Terminal box and display it's SSH key:
+  - ON YOUR CLIENT machine (not the remote Linx box) open a Terminal box and display it's SSH key:
 
             cat ~/.ssh/id_ed25519.pub 
 
@@ -25,7 +25,7 @@ Assuming you have a public SSH key on the client computer:
 
   - Copy the displayed `SSH public key` to the clipboard
 
-  - ON THE LINUX box add the `SSH public key` to the Linux server:
+  - ON THE LINUX box (not your local computer) add the `SSH public key` to the Linux server:
 
             echo <paste clipboard contents here> >> ~/.ssh/authorized_keys 
 
