@@ -48,7 +48,7 @@ In some cases the Linux box does not have x11/gui support. Hence, connecting to 
 
  - In the bottom left corner there should be a little blue icon with these two symbols resembling this '><'
  - In the case that that symbol '><' is not present type `Remote - SSH` in the the `Search Extensions` box of the Extensions window (click the 5th large icon on the top left of the VSC editor) and install it, (wait for it to be installed)
- - Now click the blue `><` icon and select 'Connect Current Window to Host ...'
+ - Now click the blue `><` icon and select `Connect Current Window to Host ... `
  - Add the same ssh parameter (leave out the `ssh ` prefix) for example `dev@10.211.55.32`
  - Once connected open the File menu on VSC and select 'Open Folder'
  - Here you can navigate to the dev folder or just select the home folder
