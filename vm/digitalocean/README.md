@@ -66,4 +66,4 @@ Redo (and resume from) that step of the *Wish Case* ...
 - [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/README.md)
 
 ### Disclaimer
-> The word **if** should not appear anywhere on this page, [(except here)](https://www.britannica.com/topic/Monty-Pythons-Flying-Circus)
+> That **word** is not to appear anywhere on this page, [(except here)](https://www.britannica.com/topic/Monty-Pythons-Flying-Circus)
