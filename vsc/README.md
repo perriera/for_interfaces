@@ -38,7 +38,7 @@ In some cases the Linux box does not have x11/gui support. Hence, connecting to 
 
 - Do [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md) and return here
 - Do install VSC using one of the three methods listed above (*Linux, Mac, Windows*) and return here
- - Open a Terminal box:
+ - Open a **new** Terminal box:
 
         code . 
 
