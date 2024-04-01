@@ -12,7 +12,7 @@
 
 ### Wish Case
 
-- To install VSC locally: [Download Visual Studio Code](https://code.visualstudio.com/download)
+- To install VSC you can following the latest instructions here: [Download Visual Studio Code](https://code.visualstudio.com/download)
 
 - Once installed open a Terminal box:
 
