@@ -117,10 +117,6 @@ Now that you have your project cloned we need to make sure you have the tools ne
 			echo -e "local SNAPS cache not deleted"
 		fi
 
-	**Note**
-	- Make sure the above `#!/bin/bash` is not copied over as ` #!/bin/bash` 
-	- Any leading space will cause the bash interpretor to think it is not a bash script.
-		
 	See *Resume/Next Steps* below ... 
 
 ### Alternate Case
