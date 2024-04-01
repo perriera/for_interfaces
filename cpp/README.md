@@ -96,14 +96,9 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		sudo journalctl --vacuum-time=3d
 		du -h /var/lib/snapd/snaps
 		rm -rf ~/.cache 
-
- - [ ] Create the following script: 
- 
- 		vi ~/.local/bin/xsnap.sh
 		
- - [ ] Add the following content
+ - [ ] Now remove any unnecessary snap images:
 
-		#!/bin/bash
 		echo Removes old revisions of snaps
 		echo CLOSE ALL SNAPS BEFORE RUNNING THIS
 		echo Attention: **experimental optimization** 
