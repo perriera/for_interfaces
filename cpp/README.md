@@ -120,18 +120,8 @@ Now that you have your project cloned we need to make sure you have the tools ne
 	**Note**
 	- Make sure the above `#!/bin/bash` is not copied over as ` #!/bin/bash` 
 	- Any leading space will cause the bash interpretor to think it is not a bash script.
-
- > The above script might free up to 5 GB of unnecessary files. However, be sure to use it only after a backup of the Linux box as it has been known to screw up the snap utility.
-
- - [ ] Change it's exe mode
-
-		chmod +x ~/.local/bin/xsnap.sh
-
- - [ ] Execute it
-
-		sudo ~/.local/bin/xsnap.sh
 		
-	See *Resume Steps* or *Next Steps* below ... 
+	See *Resume/Next Steps* below ... 
 
 ### Alternate Case
 #### Something didn't install correctly?
