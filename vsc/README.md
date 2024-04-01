@@ -1,4 +1,4 @@
-## How to install `Visual Studio Code (VSC)` on macOS
+## How to install `Visual Studio Code (VSC)` 
 > In this step we show how to install Visual Studio Code (VSC) 
 
  1. **GIVEN** we need to use Visual Studio Code (VSC)  
