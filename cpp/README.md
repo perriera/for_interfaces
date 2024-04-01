@@ -28,7 +28,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 	**Optional**: *feel free* to customize to use a real email and username
 
- - [ ] Now setup the git utility for regular access (change "your_email@example.com" and "Your Name" accordingly)
+ - [ ] Now configure the git utility:
 
 		git config --global user.email ${MY_EMAIL_IS}
 		git config --global user.name ${MY_NAME_IS}
