@@ -130,6 +130,10 @@ In this exact case it was as simple as going to [local_path]/.ssh/known_hosts an
 ### Summary
 > This should setup your SSH keys for your command line git client access to your GitHub.com account
 
+### Resume Steps
+
+[How to install Visual Studio Code (VSC)](https://github.com/perriera/for_interfaces/tree/main/vsc)
+
 ### Next Steps
 - [How to clone your project (with this template)](https://github.com/perriera/extras_dbo/blob/dev/docs/CLONE.md)
 - [How To Configure SSH Key-Based Authentication on a Linux Server](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
