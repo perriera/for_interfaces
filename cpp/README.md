@@ -133,6 +133,17 @@ Now that you have your project cloned we need to make sure you have the tools ne
 	See *Resume Steps* or *Next Steps* below ... 
 
 ### Alternate Case
+#### Something didn't install correctly?
+You might need to update/upgrade the system first:
+- Update the instance and reboot
+
+		sudo apt update -y
+		sudo apt upgrade -y
+		sudo apt autoremove -y
+		sudo apt autoclean -y
+		sudo reboot 
+
+### Alternate Case
 #### Are you new to the vi editor?
 
  - see [How to use the VI editor (basic instructions)](https://github.com/perriera/for_interfaces/blob/main/linux/VI.md)
