@@ -13,6 +13,13 @@
 ### Wish Case
 Installation on Visual Studio Code (VSC) for each modern operating systems (Linux, OSX, Windows) has been made possible here: [Download Visual Studio Code](https://code.visualstudio.com/download). However, in the case where Linux is text/console only then remote access (via SSH) is actually a preferred method of interacting with the Linux instance, (see *Alternate Case* below). 
 
+- Install VSC using instructions provided on the website
+- Once installed open a Terminal box:
+
+        code .
+
+    See *Resume/Next* steps below ...
+
 1. To try your own hand at installing VSC go here: [Download Visual Studio Code](https://code.visualstudio.com/download)
 
 ### Alternate Case
@@ -31,7 +38,19 @@ see [How to install `Visual Studio Code (VSC)` on Windows](https://github.com/pe
 #### SSH access
 In some cases the Linux box does not have x11/gui support. Hence, connecting to it via Remote SSH would be required. Each of the Linux, Mac and Windows installion instructions above descibe how to setup VSC on that type of operating system yet access a Linux box using SSH protocol.
 
-- see [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md)
+- Do [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md) and return here
+- Do install VSC using one of the three methods listed above (*Linux, Mac, Windows*) and return here
+ - Open a Terminal box:
+
+        code . 
+
+ - In the bottom left corner there should be a little blue icon with these two symbols resembling this '><'
+ - In the case that that symbol '><' is not present type `Remote - SSH` in the the `Search Extensions` box of the Extensions window (click the 5th large icon on the top left of the VSC editor) and install it, (wait for it to be installed)
+ - Now click the blue `><` icon and select 'Connect Current Window to Host ...'
+ - Add the same ssh parameter (leave out the `ssh ` prefix) for example `dev@10.211.55.32`
+ - Once connected open the File menu on VSC and select 'Open Folder'
+ - Here you can navigate to the dev folder or just select the home folder
+ - Select 'Yes' to `I trust the authors`
 
 ### Summary
 Either of the above links would help you with your VSC installation, (including Remote SSH support)

@@ -62,18 +62,6 @@ Assuming you have a public SSH key on the client computer:
 In the case where you were in the middle of installing `injections.io(C++17)` resume here:
 - see [How to install injections.io(C++17)](https://github.com/perriera/injections)
 
-### Alternate Case 
-#### Using Visual Studio Code (VSC or 'code') via Remote SSH
-In the case where you would like to access the Linux box via VSC over SSH:
- - Open VSC (ON YOUR LOCAL COMPUTER) 
- - In the bottom left corner there should be a little blue icon with these two symbols '><' (almost).
- - In the case that that symbol '><' is not present add 'Remote - SSH' using the Extensions (usually the 5th large icon on the top left of the VSC editor)
- - Click that icon and select 'Connect Current Window to Host ...' add the same ssh connection parameters used earlier (to test the SSH connection ex. 'perry@10.211.55.32' *not to be confused with this 'ssh perry@10.211.55.32')
- - Once connected open the File menu on VSC and select 'Open Folder'
- - Here you can navigate to the dev folder and select the project of your choice, (in this case it would be `dev/injections')
- - Select 'Yes' to `I trust the authors`
- > When asked 'Install C/C++ Extension Pack' say 'Yes'
-
 ### Alternate Case
 No SSH key on your client machine, create one (**do not change the name of the SSH key file and do not supply a pass phrase**):
 ```
