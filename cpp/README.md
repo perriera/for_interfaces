@@ -15,6 +15,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
   - [ ] Login as dev 
 	
 		su dev
+		cd ~
 
   - [ ] First put **sudo** into ready-to-accept mode
 	
