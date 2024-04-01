@@ -139,7 +139,7 @@ You might need to update/upgrade the system first:
 
 		sudo ls
 
-- Update the instance and reboot
+- Update the instance and reboot:
 
 		sudo apt update -y
 		sudo apt upgrade -y
@@ -147,7 +147,7 @@ You might need to update/upgrade the system first:
 		sudo apt autoclean -y
 		sudo reboot 
 
-- Relogin as dev
+- When rebooted relogin as dev:
 
 		su dev
 
