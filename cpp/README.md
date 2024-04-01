@@ -69,9 +69,11 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		sudo apt-get install cmake-extras -y
 		mkdir -p ~/.local/bin
 
- - [ ] Now open the vi editor 
+ - [ ] Now open the vi editor:
 
 		vi ~/.bashrc
+
+	**Note**: [Are you new to the `vi` editor?](https://github.com/perriera/for_interfaces/blob/main/linux/VI.md)
 		
  - [ ] `Down arrow` to the bottom and press `a` then paste these environment variables:
 		
