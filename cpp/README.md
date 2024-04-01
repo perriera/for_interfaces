@@ -69,7 +69,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		sudo apt-get install cmake-extras -y
 		mkdir -p ~/.local/bin
 
- - [ ] Now open the vi editor:
+ - [ ] Now edit the startup script with the vi editor:
 
 		vi ~/.bashrc
 
