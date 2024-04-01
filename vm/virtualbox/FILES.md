@@ -133,4 +133,10 @@ Then add the dev user to vboxsf group
 > Adding local file access to an Ubuntu image through VirtualBox is not a trivial matter. As the procedure to actually link to a shared directory is actually a little bit more detailed in the video supplied on YouTube. 
 
 ### Next Steps
+
 	•	How to add the ...
+
+		sudo adduser dev sudo
+
+	**Optional**: Replace `password` with a password of choice
+

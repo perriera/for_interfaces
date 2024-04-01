@@ -27,12 +27,10 @@ Assuming you have an account already setup on digitalocean.com
 - Find and select the `Launch Drop Console` button 
 - Once inside the root terminal window and add a dev account:
 
-		sudo adduser dev
-
-	Give it a password and click to the Y button
-	Now add it to the sudo group
-
+		sudo useradd -p $(openssl passwd -1 password) dev
 		sudo adduser dev sudo
+
+	**Optional**: Replace `password` with a password of choice
 
 - Update the instance and reboot
 
@@ -44,6 +42,13 @@ Assuming you have an account already setup on digitalocean.com
 		
 ### Summary
 You have created a Ubuntu instance on Digital Ocean
+
+### Alternate Case
+#### You didn't see the chance to specify your own password?
+
+	sudo deluser dev
+
+- see [How do I create a user with a password in one line, in Bash, on Redhat?](https://serverfault.com/questions/868092/how-do-i-create-a-user-with-a-password-in-one-line-in-bash-on-redhat)
 
 ### Alternate Case
 #### Don't know anything about SSH public keys?

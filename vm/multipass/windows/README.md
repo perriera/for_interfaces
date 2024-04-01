@@ -59,14 +59,13 @@
 		IPv4 address for ens3: 192.168.64.3
 		IPv6 address for ens3: fdf4:54a2:bb80:ad36:5054:ff:feea:532a
 
- - Once inside the instance create a dev user:
+- Once inside the root terminal window and add a dev account:
 
-		sudo adduser dev
-
- - Added dev to the sudo group and make sure it works:
-
+		sudo useradd -p $(openssl passwd -1 password) dev
 		sudo adduser dev sudo
 		su dev
+
+	**Optional**: Replace `password` with a password of choice
 
  - Now go into `sudo mode`:
 
