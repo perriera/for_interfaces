@@ -15,10 +15,10 @@ Now that you have your project cloned we need to make sure you have the tools ne
   - [ ] Login as dev 
 	
 		su dev
-		cd ~
 	
  - [ ] Now install gcc and other necessary build tools:
 
+		cd ~
 		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server net-tools zip xterm curl ncdu
 
  - [ ] Set the following environment variables (or customize for your particular case): 
