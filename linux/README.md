@@ -10,7 +10,7 @@
 - An interest in [Interface-driven programming](https://en.wikipedia.org/wiki/Interface-based_programming)
 
 ### Wish Case
-There are a number of ways to install Linux onto your computer with the variables being the type of computer you have and whatever operating system that is already on that hardware. In the case of install Linux as a virtual machine on top of a natively installed operating system is a preferred option when considering software development, (as this tends to be more practically). Installing Linux natively is an option but for development purposes can be more difficult with respect to restoring the Linux operating system from some form of malfunction. In effect it is a lot easier (and quicker) to restore a backup of a Linux instance and then retrace your steps to what may have caused the malfunction than it is try and isolate the malfuction. 
+There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred, especially for software development purposes, as it proves to be more practical. While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it's much simpler and faster to restore a backup of a Linux instance and retrace your steps to identify the cause of the malfunction than to attempt to isolate the issue. 
 
 - Pick a distribtion from the list below and install it on your machine (using a VM such as Virtual Box, Parallels Desktop or multipass):
 
