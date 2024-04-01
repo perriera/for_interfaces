@@ -37,7 +37,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 
 		ssh-keygen -t ed25519 -C ${MY_EMAIL_IS}
 
-	**Note**: *neither* supply a different filename *nor* specify a pass phrase
+	**Note**: *neither* supply another `filename` *nor* specify a `passphrase`
 
   - [ ] Show the SSH public key and remember how to display it when it is needed later on (for SSH authentication)
 
