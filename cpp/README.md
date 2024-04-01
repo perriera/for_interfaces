@@ -16,26 +16,8 @@ Now that you have your project cloned we need to make sure you have the tools ne
 	
 		su dev
 		cd ~
-
-  - [ ] Go into *sudo* mode
 	
-		sudo ls
-	
- - [ ] Now bring Ubuntu up to date
-
-		sudo apt update -y
-		sudo apt upgrade -y
-		sudo apt autoremove -y
-		sudo apt autoclean -y
-		sudo reboot 
-
-	**Note**: You can skip this step in the case where you just upgraded
-
-  - [ ] Login as dev (again)
-	
-		su dev
-
- - [ ] Now install gcc build tools
+ - [ ] Now install gcc and other necessary build tools:
 
 		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server net-tools zip xterm curl ncdu
 
