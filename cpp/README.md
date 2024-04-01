@@ -21,10 +21,12 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		cd ~
 		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server net-tools zip xterm curl ncdu
 
- - [ ] Set the following environment variables (*feel free to customize to use a real email and username*): 
+ - [ ] Set the following environment variables:
 
 		MY_EMAIL_IS="myemail@email.com"
 		MY_NAME_IS="My Name"
+
+	**Optional**: *feel free* to customize to use a real email and username
 
  - [ ] Now setup the git utility for regular access (change "your_email@example.com" and "Your Name" accordingly)
 
