@@ -23,10 +23,11 @@ Assuming you have a public SSH key on the client computer:
 
       **Note**: Usually you want to use a user account to do this (aka *dev*)
 
-  - ON THE LINUX box Copy the contents to the clipboard and add them to the authorized_keys file on the Linux server (*take note of the username you using on the Linux box*)
+  - Copy the displayed `SSH public key` to the clipboard
 
-            echo <clipboard contents>
-            echo <clipboard contents> >> ~/.ssh/authorized_keys 
+  - ON THE LINUX box add the `SSH public key` to the Linux server:
+
+            echo <*paste clipboard contents here*> >> ~/.ssh/authorized_keys 
             sudo systemctl restart ssh
 
   - The following will show you the ssh command to connect to the Linux box:
