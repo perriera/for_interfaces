@@ -132,7 +132,7 @@ In this exact case it was as simple as going to [local_path]/.ssh/known_hosts an
 
 ### Resume Steps
 
-[How to install Visual Studio Code (VSC)](https://github.com/perriera/for_interfaces/tree/main/vsc)
+- [How to install Visual Studio Code (VSC)](https://github.com/perriera/for_interfaces/tree/main/vsc)
 
 ### Next Steps
 - [How to clone your project (with this template)](https://github.com/perriera/extras_dbo/blob/dev/docs/CLONE.md)
