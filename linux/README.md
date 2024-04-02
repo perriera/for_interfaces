@@ -42,7 +42,7 @@ There are various methods to install Linux on your computer, depending on the ty
 #### Alternate Case
 #### DigitalOcean
 [digitalocean.com](https://www.digitalocean.com) offers a 60 day $200 coupon to new users:
-- [How to install Ubuntu 22.04 or 23.10 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
+- [How to install Ubuntu 22.04 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 
 #### Alternate Case
 #### multipass
