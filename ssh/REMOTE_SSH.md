@@ -47,9 +47,17 @@ Assuming you have a public SSH key on the client computer:
 
     - **Keep tract the SSH PARAMETERS value for use with VSC's Remote SSH**
 
-  - ON YOUR LOCAL COMPUTER (**not the remote Linx box**) start a SSH session:
+  - ON THE REMOTE LINUX BOX (**not the remote Linx box**) show the ssh command to use:
 
-            ssh ${ssh_params}
+            echo ssh ${ssh_params}
+
+      Copy the displayed string to the clipboard
+
+  - ON YOUR LOCAL COMPUTER (**not the remote Linx box**) paste the clipboard:
+
+            ssh dev@111.222.333.444
+
+      Where 111.222.333.444 will be the correct IP address
 
   - When asked to add the fingerprint say 'yes'
 
@@ -67,6 +75,11 @@ Assuming you have a public SSH key on the client computer:
             dev@ubuntu-4g:~$ 
 
   See *Resume/Next* steps below ... 
+
+### Alternate Case
+#### Permission denied (publickey).
+You tried to execute the `ssh ${ssh_params}` on the  the remote Linx box itself, (the very thing you are trying to SSH connect to). 
+- 
 
 ### Alternate Case
 #### (perriera) / injections
