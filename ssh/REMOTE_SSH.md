@@ -43,14 +43,13 @@ Assuming you have a public SSH key on the client computer:
             ssh_params="$(basename $PWD)@${output[0]}"
             echo -e "${ANSI_BLUE}COPY THE FOLLOWING TO A NOTEPAD"
             echo -e "AS IT IS THE SSH PARAMETERS NEEDED BY VSC:${ANSI_GREEN}"
-            echo $ssh_params
-            echo -e "${ANSI_BLUE}COPY THE FOLLOWING TO THE TERMINAL"
-            echo -e "ON YOUR LOCAL COMPUTER TO START SSH SESSION:${ANSI_GREEN}"
-            ssh_cmd="ssh $ssh_params"
-            echo -e "$ssh_cmd${ANSI_RESET}"
+            echo -e "${ssh_params}${ANSI_RESET}"
 
-    - Copy the last line displayed to your local computer Terminal box to start a SSH session
     - **Keep tract the SSH PARAMETERS value for use with VSC's Remote SSH**
+
+  - Copy the last line displayed to your local computer Terminal box to start a SSH session:
+
+            ssh ${ssh_params}
 
   - When asked to add the fingerprint say 'yes'
 
