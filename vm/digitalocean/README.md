@@ -55,10 +55,12 @@ Assuming you have an account already setup on digitalocean.com
 	- Find and select the `Access` button
 	- Find and select the `Launch Drop Console` button 
 
+	**Recommended** you do the Backup/Restore *Alternate Case*  
+
 	See *Resume/Next* steps ... 
 
 ### Alternate Case
-#### Backup / Restore you instance
+#### Backup/Restore you instance
 In order to backup or restore your droplet you'll have to depend on the sevices provided by DigitalOcean.
 - Click on Droplets (in the blue side bar)
 - Click on the droplet you are working on
