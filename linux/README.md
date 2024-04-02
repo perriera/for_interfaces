@@ -64,6 +64,13 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 - see [Find the Parallels solution that works best for you](https://parallels.com)
 - Currently Parallels Desktop does offer an evaluation period, ([free for 14 days](https://www.parallels.com/products/desktop/trial/?clientId=2032879761.1711828844&sessionId=1711828844&_gl=1*1nadzln*_up*MQ..*_ga*MjAzMjg3OTc2MS4xNzExODI4ODQ0*_ga_RYHBN2XNLK*MTcxMTgyODg0NC4xLjAuMTcxMTgyODg0NC4wLjAuMA..))
 
+#### Alternate Case
+#### Windows 10/11
+It is recommended that using Linux onto Windows 10/11 be through [multipass](https://multipass.run/), [virtualbox](https://virtualbox.org), [parallels desktop](https://parallels.com). However, [WSL/WSL2](How to install Linux on Windows with WSL) is an option as is [Docker](https://www.docker.com)
+- [How to install Ubuntu 22.04 using `multipass` on Linux (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/linux/README.md)
+- [How to setup ubuntu-20.04.4-desktop-amd64 (on VirtualBox)](https://github.com/perriera/for_interfaces/tree/main/vm/virtualbox)
+- [Find the Parallels solution that works best for you](https://parallels.com)
+
 ### Summary
 You now have a selection of methods of setting up a Linux distribution.
 
