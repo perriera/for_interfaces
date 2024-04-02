@@ -37,6 +37,8 @@ Assuming you have a public SSH key on the client computer:
             output=$(hostname -I)
             output=($output)
             ssh_cmd="ssh $(basename $PWD)@${output[0]}"
+            echo COPY THE FOLLOWING TO THE TERMINAL
+            echo ON YOUR LOCAL COMPUTER:
             echo $ssh_cmd
 
    - Assuming the username is dev the output might resemble this:
