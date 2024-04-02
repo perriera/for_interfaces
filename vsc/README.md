@@ -60,8 +60,12 @@ In some cases the Linux box does not have x11/gui support. Hence, connecting to 
  - Select 'Yes' to `I trust the authors`
  - In the top menu go `Terminal->New Terminal` to open a Terminal box (inside VSC)
  
-    You would se
+    You would see the name of the server your created in the prompt:
 
+        dev@ubuntu-4g:~$ _ 
+
+    You are now connected remotely to the Linux box
+    
 ### Summary
 Either of the above links would help you with your VSC installation, (including Remote SSH support)
 
