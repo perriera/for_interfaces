@@ -58,8 +58,7 @@ Assuming you have a public SSH key on the client computer:
 
             dev@ubuntu-4g:~$ 
 
-
-  - In the case where everything is connected together properly you would see a terminal session showing user level access to the Linux box. You are now in a position to access the Linux box using Visual Studio Code or any tool that can use the SSH protocol, (see **Alternate Case** below)
+  See *Resume/Next* steps below ... 
 
 ### Alternate Case
 #### (perriera) / injections
