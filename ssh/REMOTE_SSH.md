@@ -17,15 +17,13 @@
 ### Wish Case
 Assuming you have a public SSH key on the client computer:
 
-  - ON YOUR LOCAL COMPUTER (*not the remote Linx box*) display it's SSH public key:
+  - ON YOUR LOCAL COMPUTER (**not the remote Linx box**) display it's SSH public key:
 
             cat ~/.ssh/id_ed25519.pub 
 
-      **Note**: Usually you want to use a user account to do this (aka *dev*)
-
   - Copy the displayed `SSH public key` to the clipboard
 
-  - ON THE REMOTE LINUX BOX (*not your local computer*) add the `SSH public key` to *authorized_keys*:
+  - ON THE REMOTE LINUX BOX (**not your local computer**) add the `SSH public key` to *authorized_keys*:
 
             echo <paste clipboard contents here> >> ~/.ssh/authorized_keys 
 
