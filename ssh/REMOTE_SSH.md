@@ -77,11 +77,6 @@ Assuming you have a public SSH key on the client computer:
   See *Resume/Next* steps below ... 
 
 ### Alternate Case
-#### Permission denied (publickey).
-You tried to execute the `ssh ${ssh_params}` on the  the remote Linx box itself, (the very thing you are trying to SSH connect to). 
-- 
-
-### Alternate Case
 #### (perriera) / injections
 In the case where you were in the middle of installing `injections.io(C++17)` resume here:
 - see [How to install injections.io(C++17)](https://github.com/perriera/injections)
