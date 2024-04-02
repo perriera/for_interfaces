@@ -68,7 +68,7 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 #### Windows 10/11
 It is recommended that using Linux onto Windows 10/11 be through [multipass](https://multipass.run/), [virtualbox](https://virtualbox.org), [parallels desktop](https://parallels.com). However, [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) is an option as is [Docker](https://www.docker.com)
 - [How to install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
-- [How to install Ubuntu 22.04 using `multipass` on Linux (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/linux/README.md)
+- [How to install Ubuntu 22.04 using `multipass` on Windows (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/windows/README.md)
 - [How to setup ubuntu-20.04.4-desktop-amd64 (on VirtualBox)](https://github.com/perriera/for_interfaces/tree/main/vm/virtualbox)
 - [Find the Parallels solution that works best for you](https://parallels.com)
 - [Docker](https://www.docker.com)

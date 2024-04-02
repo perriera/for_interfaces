@@ -1,11 +1,5 @@
 ## How to install `multipass` on Windows 
-[Work-in-progress](aka. not ready yet)
-
-> In this step we show how to install multipass on Windows 10/11
-
- 1. **GIVEN** we need to be able to run Linux apps on OSX and Windows
- 2. **WHEN** we install multipass on OSX or Windows 
- 3. **THEN** we can launch an instance of Ubuntu 22.04 
+> **Given** we need to be able to run Linux apps Windows **when** we install multipass on Windows **then** we install a instance of Linux 
 
 ### Prerequisites
 - [How to install Multipass on macOS](https://multipass.run/docs/installing-on-macos#heading--install-upgrade-uninstall) (reviewed)
