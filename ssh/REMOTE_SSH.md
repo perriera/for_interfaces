@@ -77,11 +77,6 @@ Assuming you have a public SSH key on the client computer:
   See *Resume/Next* steps below ... 
 
 ### Alternate Case
-#### (perriera) / injections
-In the case where you were in the middle of installing `injections.io(C++17)` resume here:
-- see [How to install injections.io(C++17)](https://github.com/perriera/injections)
-
-### Alternate Case
 No SSH key on your client machine, create one (**do not change the name of the SSH key file and do not supply a pass phrase**):
 ```
 		ssh-keygen -t ed25519 -C "your_email@example.com"
