@@ -50,11 +50,20 @@ In some cases the Linux box does not have x11/gui support. Hence, connecting to 
 
             code . 
 
-
  - In the bottom left corner there should be a little blue icon with these two symbols resembling this '><'
  - In the case that that symbol '><' is not present type `Remote - SSH` in the the `Search Extensions` box of the Extensions window (click the 5th large icon on the top left of the VSC editor) and install it, (wait for it to be installed)
+ - Now figure out the ssh connection string needed by VSC:
+
+            cd ~
+            output=$(hostname -I)
+            output=($output)
+            ssh_cmd="$(basename $PWD)@${output[0]}"
+            echo USE THE FOLLOWING SSH CONNECTION STRING
+            echo FOR THE REMOTE SSH PARAMETER
+            echo $ssh_cmd
+
  - Now click the blue `><` icon and select `Connect Current Window to Host ... `
- - Add the same ssh parameter (leave out the `ssh ` prefix) for example `dev@10.211.55.32`
+ - Use the SSH PARAMETER when asked for ssh connection string and click enter
  - Once connected open the File menu on VSC and select `Open Folder`
  - Here you can navigate to the dev folder or just select the home folder
  - Select 'Yes' to `I trust the authors`
@@ -65,7 +74,7 @@ In some cases the Linux box does not have x11/gui support. Hence, connecting to 
         dev@ubuntu-4g:~$ _ 
 
     You are now connected remotely to the Linux box
-    
+
 ### Summary
 Either of the above links would help you with your VSC installation, (including Remote SSH support)
 
