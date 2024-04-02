@@ -58,6 +58,18 @@ Assuming you have an account already setup on digitalocean.com
 	See *Resume/Next* steps ... 
 
 ### Alternate Case
+#### Backup / Restore you instance
+In order to backup or restore your droplet you'll have to depend on the sevices provided by DigitalOcean.
+- Click on Droplets (in the blue side bar)
+- Click on the droplet you are working on
+- Click on either Backups or Snapshots
+> Snapshots are better for intermediate backups
+> Whereas Backups are for regular weekly backups 
+> For our purposes a Snapshot will be fine
+- Click on Snapshots
+- Click on `Take live  snapshot`
+
+### Alternate Case
 #### You didn't see the chance to specify your own password?
 
 	passwd
