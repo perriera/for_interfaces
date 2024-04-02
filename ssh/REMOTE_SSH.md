@@ -19,7 +19,7 @@ Assuming you have a public SSH key on the client computer:
 
   - ON YOUR LOCAL COMPUTER (**not the remote Linx box**) display it's SSH public key:
 
-            cat ~/.ssh/id_ed25519.pub 
+        cat ~/.ssh/id_ed25519.pub 
 
   - Copy the displayed `SSH public key` to the clipboard
 
