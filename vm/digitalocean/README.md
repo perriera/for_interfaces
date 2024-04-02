@@ -1,4 +1,4 @@
-## How to install Ubuntu 22.04 or 23.10 using `digitalocean`
+## How to install Ubuntu 22.04 using `digitalocean`
 > In this step we show how to install Ubuntu on digitalocean.com
 
  1. **GIVEN** we need to be able to run Linux apps on the cloud
@@ -16,7 +16,7 @@ Assuming you have an account already setup on digitalocean.com
 - Click the `Create Droplet` button
 - Select a server farm closet to your current location
 - Select `Ubuntu`
-- Select either 23.10 or 22.04
+- Select `22.04`
 - Review Droplet Type, CPU, Addional Storage and make any changes but the default selections are fine
 - click `New SSH Key` to add your computer's SSH public key
 - Change the Hostname to something much shorter (aka. `ubuntu4g`)
