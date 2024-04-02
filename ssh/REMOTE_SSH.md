@@ -47,7 +47,7 @@ Assuming you have a public SSH key on the client computer:
 
     - **Keep tract the SSH PARAMETERS value for use with VSC's Remote SSH**
 
-  - Copy the last line displayed to your local computer Terminal box to start a SSH session:
+  - ON YOUR LOCAL COMPUTER (**not the remote Linx box**) start a SSH session:
 
             ssh ${ssh_params}
 
