@@ -77,10 +77,9 @@ Assuming you have a public SSH key on the client computer:
   See *Resume/Next* steps below ... 
 
 ### Alternate Case
-No SSH key on your client machine, create one (**do not change the name of the SSH key file and do not supply a pass phrase**):
-```
-		ssh-keygen -t ed25519 -C "your_email@example.com"
-```
+No SSH key on your client machine, create one:
+
+ - see [Don't know anything about SSH public keys?](https://github.com/perriera/for_interfaces/blob/main/ssh/README.md)
 
 ### Alternate Case
 No ip address shows up on ifconfig?
