@@ -47,7 +47,7 @@ Assuming you have a public SSH key on the client computer:
 
             Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 
-  - ON YOUR CLIENT you would now see something like this:
+  - ON YOUR LOCAL COMPUTER you would now see something like this:
 
             The programs included with the Ubuntu system are free software;
             the exact distribution terms for each program are described in the
