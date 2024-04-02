@@ -57,8 +57,10 @@ In some cases the Linux box does not have x11/gui support. Hence, connecting to 
  - Add the same ssh parameter (leave out the `ssh ` prefix) for example `dev@10.211.55.32`
  - Once connected open the File menu on VSC and select `Open Folder`
  - Here you can navigate to the dev folder or just select the home folder
- - In the top menu go `Terminal->New Terminal` to open a Terminal box (inside VSC)
  - Select 'Yes' to `I trust the authors`
+ - In the top menu go `Terminal->New Terminal` to open a Terminal box (inside VSC)
+ 
+    You would se
 
 ### Summary
 Either of the above links would help you with your VSC installation, (including Remote SSH support)
