@@ -34,6 +34,8 @@ Assuming you have an account already setup on digitalocean.com
 - Then create a user like this:
 
 		sudo useradd -p $(openssl passwd -1 ${MY_PASSWORD_IS}) dev
+		sudo mkdir /home/dev
+		sudo chown dev:dev /home/dev
 		sudo adduser dev sudo
 		unset MY_PASSWORD_IS
 
