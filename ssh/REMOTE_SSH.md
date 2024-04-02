@@ -41,19 +41,23 @@ Assuming you have a public SSH key on the client computer:
             echo ON YOUR LOCAL COMPUTER:
             echo $ssh_cmd
 
-   - Assuming the username is dev the output might resemble this:
-
-            ssh dev@211.56.210.32 
-
-> Be sure to be in the desired user account for the above to work properly, (aka. **su dev**)
-
-  - ON YOUR CLIENT machine open a Terminal box use the ssh command generated above:
-
-            ssh dev@211.56.210.32 
+    Copy the last line displayed to your local computer Terminal box
 
   - When asked to add the fingerprint say 'yes'
 
             Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+
+  - ON YOUR CLIENT you would now see something like this:
+
+            The programs included with the Ubuntu system are free software;
+            the exact distribution terms for each program are described in the
+            individual files in /usr/share/doc/*/copyright.
+
+            Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+            applicable law.
+
+            dev@ubuntu-4g:~$ 
+
 
   - In the case where everything is connected together properly you would see a terminal session showing user level access to the Linux box. You are now in a position to access the Linux box using Visual Studio Code or any tool that can use the SSH protocol, (see **Alternate Case** below)
 
