@@ -1,9 +1,5 @@
 ## How to install `Visual Studio Code (VSC)` on Windows
-> In this step we show how to install Visual Studio Code (VSC) on Windows
-
- 1. **GIVEN** we need to use Visual Studio Code (VSC) on Windows 
- 2. **WHEN** we install Visual Studio Code (VSC) on Windows 
- 3. **THEN** we can launch Visual Studio Code (VSC) on Windows
+> **Given** we need to install Visual Studio Code (VSC) on Windows 10/11 **when** we install VSC from the browser inside Windows 10/11 **then** we can have VSC and all the extensions necessary to edit and build projects.
 
 ### Prerequisites
 - [How to Install Visual Studio Code on Windows?](https://www.geeksforgeeks.org/how-to-install-visual-studio-code-on-windows/) (review)
