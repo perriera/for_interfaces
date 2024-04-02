@@ -65,9 +65,9 @@ In order to backup or restore your droplet you'll have to depend on the sevices 
 - Click on Droplets (in the blue side bar)
 - Click on the droplet you are working on
 - Click on either Backups or Snapshots
-> Snapshots are better for intermediate backups
-> Whereas Backups are for regular weekly backups 
-> For our purposes a Snapshot will be fine
+	- Snapshots are better for intermediate backups
+	- Whereas Backups are for regular weekly backups 
+	- For our purposes a Snapshot will be fine
 - Click on Snapshots
 - Click on `Take live snapshot`
 
