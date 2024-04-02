@@ -26,7 +26,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		MY_EMAIL_IS="myemail@email.com"
 		MY_NAME_IS="My Name"
 
-	**Optional**: *feel free* to customize to use a real email and username
+	**Optional**: *feel free* to customize to use a preferred email and username
 
  - [ ] Now configure the git utility:
 
