@@ -25,19 +25,15 @@ Assuming you have an account already setup on digitalocean.com
 #### Configure the Droplet
 - Find and select the `Access` button
 - Find and select the `Launch Drop Console` button 
-- Once inside the root terminal window set your password like this:
+- Once inside the root terminal window create a user like this:
 
-		MY_PASSWORD_IS=wordpass
+		sudo adduser dev 
 
-	Where you can use anything in place of `wordpass`
+	Specify a password and hit enter on everything else
 
-- Then create a user like this:
+- Now add dev to the **sudo** group:
 
-		sudo useradd -p $(openssl passwd -1 ${MY_PASSWORD_IS}) dev
-		sudo mkdir /home/dev
-		sudo chown dev:dev /home/dev
 		sudo adduser dev sudo
-		unset MY_PASSWORD_IS
 
 - Update the instance and reboot
 
