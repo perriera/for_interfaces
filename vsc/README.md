@@ -41,7 +41,8 @@ see [How to install `Visual Studio Code (VSC)` on Windows](https://github.com/pe
 #### SSH access
 In some cases the Linux box does not have x11/gui support. Hence, connecting to it via Remote SSH would be required. Each of the Linux, Mac and Windows installion instructions above descibe how to setup VSC on that type of operating system yet access a Linux box using SSH protocol.
 
-- Do [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md) and return here
+- Do [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md) 
+- when return here you would have kept the SSH PARAMETERS generated using that Wish Case:
 - Do install VSC using one of the three methods listed above (*Linux, Mac, Windows*) and return here
  - Open a **new** Terminal box and start a Visual Studio instance
 
@@ -52,19 +53,8 @@ In some cases the Linux box does not have x11/gui support. Hence, connecting to 
 
  - In the bottom left corner there should be a little blue icon with these two symbols resembling this '><'
  - In the case that that symbol '><' is not present type `Remote - SSH` in the the `Search Extensions` box of the Extensions window (click the 5th large icon on the top left of the VSC editor) and install it, (wait for it to be installed)
- - Now on the top VSC menu go `Terminal->New Terminal`:
- - Now in Terminal box for the remote Linux box figure out the ssh connection string needed by VSC:
-
-            cd ~
-            output=$(hostname -I)
-            output=($output)
-            ssh_cmd="$(basename $PWD)@${output[0]}"
-            echo USE THE FOLLOWING SSH CONNECTION STRING
-            echo FOR THE REMOTE SSH PARAMETER
-            echo $ssh_cmd
-
- - Now click the blue `><` icon and select `Connect Current Window to Host ... `
- - Use the SSH PARAMETER when asked for ssh connection string and click enter
+ - Now using the SSH PARAMETERS you acquired a few steps earlier click the blue `><` icon and select `Connect Current Window to Host ... `
+ - Use the SSH PARAMETERS when asked for ssh connection string and click enter
  - Once connected open the File menu on VSC and select `Open Folder`
  - Here you can navigate to the dev folder or just select the home folder
  - Select 'Yes' to `I trust the authors`
