@@ -71,6 +71,7 @@ It is recommended that using Linux onto Windows 10/11 be through [multipass](htt
 - [How to install Ubuntu 22.04 using `multipass` on Linux (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/linux/README.md)
 - [How to setup ubuntu-20.04.4-desktop-amd64 (on VirtualBox)](https://github.com/perriera/for_interfaces/tree/main/vm/virtualbox)
 - [Find the Parallels solution that works best for you](https://parallels.com)
+- [Docker](https://www.docker.com)
 
 ### Summary
 You now have a selection of methods of setting up a Linux distribution.
