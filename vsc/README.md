@@ -52,7 +52,7 @@ In some cases the Linux box does not have x11/gui support. Hence, connecting to 
 
  - In the bottom left corner there should be a little blue icon with these two symbols resembling this '><'
  - In the case that that symbol '><' is not present type `Remote - SSH` in the the `Search Extensions` box of the Extensions window (click the 5th large icon on the top left of the VSC editor) and install it, (wait for it to be installed)
- - Now figure out the ssh connection string needed by VSC:
+ - Now in Terminal box for the remote Linux box figure out the ssh connection string needed by VSC:
 
             cd ~
             output=$(hostname -I)
