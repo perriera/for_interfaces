@@ -51,9 +51,7 @@ Now that you have your project cloned we need to make sure you have the tools ne
 		ssh_cmd="ssh $(basename $PWD)@${output[0]}"
 		echo $ssh_cmd
 
-	Something like this should display:
-
-		ssh dev@192.168.0.1
+	Something like this would display: `ssh dev@192.168.0.1`
 
  - [ ] Assuming that was successful, install CMake (on the new Linux box)
 
