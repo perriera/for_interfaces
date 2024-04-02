@@ -12,7 +12,7 @@
 ### Wish Case
 Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
 
-  - [ ] Login as dev 
+  - [ ] Login as dev (unless you are already `dev`):
 	
 		su dev
 	
