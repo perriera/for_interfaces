@@ -2,10 +2,10 @@
 > **Given** we need to be able to run Linux apps Windows **when** we install multipass on Windows **then** we install a instance of Linux 
 
 ### Prerequisites
-- [How to install Multipass on macOS](https://multipass.run/docs/installing-on-macos#heading--install-upgrade-uninstall) (reviewed)
+- [How to install Multipass on Windows](https://multipass.run/docs/installing-on-windows)  
 - [Multipass Documentation](https://multipass.run/docs)
-- OSX based computer
-- sudo privilages 
+- Windows 10/11 based operating system
+- admin privilages 
 
 ### Wish Case
 
