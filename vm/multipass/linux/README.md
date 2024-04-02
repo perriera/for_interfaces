@@ -8,14 +8,14 @@
  3. **THEN** we can launch an instance of Ubuntu 22.04 
 
 ### Prerequisites
-- [How to install Multipass on macOS](https://multipass.run/docs/installing-on-macos#heading--install-upgrade-uninstall) (reviewed)
+- [How to install Multipass on macOS](https://multipass.run/download/macos) (reviewed)
 - [Multipass Documentation](https://multipass.run/docs)
 - OSX based computer
 - sudo privilages 
 
 ### Wish Case
 
-  - Go to the [website and download the installer for OSX](https://multipass.run/docs/installing-on-macos#heading--install-upgrade-uninstall)
+  - Go to the [website and download the installer for OSX](https://multipass.run/download/macos)
   - Once installed successfully do this:
 	
 		multipass launch

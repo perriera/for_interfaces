@@ -8,10 +8,26 @@
 - admin privilages 
 
 ### Wish Case
+#### Install
+  - [Download the latest installer for Windows 10/11](https://multipass.run/download/windows) 
+  - Run the installer and it will guide you through the steps necessary. 
+  - You will need to allow the installer to gain Administrator privileges.
+  - You will need either Hyper-V enabled (only Windows 10 Professional or Enterprise), or VirtualBox installed.
 
-  - Go to the [website and download the installer for OSX](https://multipass.run/docs/installing-on-macos#heading--install-upgrade-uninstall)
-  - Once installed successfully do this:
-	
+	- **Note**: Enabling the Hyper-V is an important step
+	- Depending on how you installed Windows 10/11 it must be activated
+	- On Parallels Desktop do a Search (in the Configuration) for `Hyper`
+
+  - To upgrade, just [download the latest installer](https://multipass.run/download/windows) and run it.
+  - You will be asked to uninstall the old version, and a second question about whether to remove all data when uninstalling. 
+  - If you want to keep your instances, answer “No” (the default).
+
+#### Run
+
+  - Now, to run normal Multipass commands, open either Command Prompt (cmd.exe) or PowerShell as a regular user. 
+  - Use multipass version to check your version or multipass launch to create your first instance.
+  - Multipass defaults to using Hyper-V as its virtualization provider. If you’d like to use VirtualBox, you can do so with:
+
 		multipass launch
 		multipass list
 
@@ -85,6 +101,15 @@
 		multipass shell ${MY_NAME_IS}
 		su dev
 
+### Alternate Case
+#### pre-release versions from our GitHub releases
+You can also get pre-release versions from [our GitHub releases page](https://github.com/CanonicalLtd/multipass/releases/) - it’s the .exe file
+
+### Alternate Case
+#### In the case you’d like to use VirtualBox
+You can do so with:
+
+	multipass set local.driver=virtualbox
 
 ### Alternate Case
 #### Added GUI
