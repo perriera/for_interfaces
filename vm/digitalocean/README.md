@@ -67,7 +67,7 @@ In order to backup or restore your droplet you'll have to depend on the sevices 
 > Whereas Backups are for regular weekly backups 
 > For our purposes a Snapshot will be fine
 - Click on Snapshots
-- Click on `Take live  snapshot`
+- Click on `Take live snapshot`
 
 ### Alternate Case
 #### You didn't see the chance to specify your own password?
