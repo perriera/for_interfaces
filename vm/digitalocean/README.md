@@ -52,7 +52,7 @@ Assuming you have an account already setup on digitalocean.com
 	- Find and select the `Access` button
 	- Find and select the `Launch Drop Console` button 
 
-	See *Resume/Next Steps* ... 
+	See *Resume/Next* steps ... 
 
 ### Alternate Case
 #### You didn't see the chance to specify your own password?
