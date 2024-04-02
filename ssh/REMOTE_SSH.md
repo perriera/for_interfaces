@@ -47,13 +47,13 @@ Assuming you have a public SSH key on the client computer:
 
     - **Keep tract the SSH PARAMETERS value for use with VSC's Remote SSH**
 
-  - ON THE REMOTE LINUX BOX (**not the remote Linx box**) show the ssh command to use:
+  - Now show the ssh command to use:
 
             echo ssh ${ssh_params}
 
       Copy the displayed string to the clipboard
 
-  - ON YOUR LOCAL COMPUTER (**not the remote Linx box**) paste the clipboard:
+  - ON YOUR LOCAL COMPUTER (**not the remote Linx box**) paste the ssh command:
 
             ssh dev@111.222.333.444
 
