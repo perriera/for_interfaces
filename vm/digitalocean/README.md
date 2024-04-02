@@ -57,7 +57,7 @@ Assuming you have an account already setup on digitalocean.com
 ### Alternate Case
 #### You didn't see the chance to specify your own password?
 
-	sudo deluser dev
+	passwd
 
 Redo (and resume from) that step of the *Wish Case* ... 
 
