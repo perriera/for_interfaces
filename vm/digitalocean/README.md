@@ -43,6 +43,9 @@ Assuming you have an account already setup on digitalocean.com
 		sudo apt autoclean -y
 		sudo reboot 
 
+	- A few dialog boxes might appear
+	- Just TAB till you hightlight the `Ok` button and hit enter
+
 #### Relog into the Linux instance (using DigitalOcean)
 - At present the console box would display a `Reload` or `Close` button
 
