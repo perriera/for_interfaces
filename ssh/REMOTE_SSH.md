@@ -34,14 +34,23 @@ Assuming you have a public SSH key on the client computer:
   - The following will show you the ssh command to connect to the Linux box:
 
             cd ~
+            clear
+            ANSI_BLUE="\e[34m"
+            ANSI_GREEN="\e[32m"
+            ANSI_RESET="\e[0m"
             output=$(hostname -I)
             output=($output)
-            ssh_cmd="ssh $(basename $PWD)@${output[0]}"
-            echo COPY THE FOLLOWING TO THE TERMINAL
-            echo ON YOUR LOCAL COMPUTER:
-            echo $ssh_cmd
+            ssh_params="$(basename $PWD)@${output[0]}"
+            echo -e "${ANSI_BLUE}COPY THE FOLLOWING TO A NOTEPAD"
+            echo -e "AS IT IS THE SSH PARAMETERS NEEDED BY VSC:${ANSI_GREEN}"
+            echo $ssh_params
+            echo -e "${ANSI_BLUE}COPY THE FOLLOWING TO THE TERMINAL"
+            echo -e "ON YOUR LOCAL COMPUTER TO START SSH SESSION:${ANSI_GREEN}"
+            ssh_cmd="ssh $ssh_params"
+            echo -e "$ssh_cmd${ANSI_RESET}"
 
     Copy the last line displayed to your local computer Terminal box
+    **Keep tract the SSH PARAMETERS value for use with VSC's Remote SSH**
 
   - When asked to add the fingerprint say 'yes'
 
