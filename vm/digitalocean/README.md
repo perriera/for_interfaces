@@ -21,7 +21,7 @@ Assuming you have an account already setup on digitalocean.com
 - click `New SSH Key` to add your computer's SSH public key
 - Change the Hostname to something much shorter (aka. `ubuntu4g`)
 - Press `Create Droplet`
-- After a few moments the droplet will display, (click it)
+- After a few moments the droplet will display, (click on it)
 #### Configure the Droplet
 - Find and select the `Access` button
 - Find and select the `Launch Drop Console` button 
@@ -53,9 +53,19 @@ Assuming you have an account already setup on digitalocean.com
 
 	- Give it a minute and hit `Reload` 
 	- When the instance comes back up you are ready to login remotely 
-	- Use `dev` + the IP address of the Droplet, (ex. `dev@111.222.333.444`)
-	- You will see the IP address on the Droplet window (next to `ipv4:`)
-	- Keep the IP address handy as Visual Studio Code will need it to login
+
+### Login in remotely using CMD.exe
+
+	- Select the DigitalOcean display for the Droplet again
+	- Next to the `ipv4:` tag is a number
+	- Copy that number to the clipboard
+	- In the CMD.exe box do this:
+
+		ssh dev@<paste clipboard contents>
+
+	- When the prompt displays with the name of drop let you are connected.
+
+	- Keep the `dev@IP_address` handy as Visual Studio Code will need it to login
 	- Feel free to close the `Access` dialog box
 
 #### Backup/Restore you instance
