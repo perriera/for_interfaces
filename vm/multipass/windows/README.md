@@ -4,6 +4,7 @@
 ### Prerequisites
 - [How to install Multipass on Windows](https://multipass.run/docs/installing-on-windows)  
 - [Multipass Documentation](https://multipass.run/docs)
+- [Install Hyper-V on Windows 10](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
 - Windows 10/11 based operating system
 - admin privilages 
 
@@ -25,9 +26,9 @@
 #### Run
 
   - Now, to run normal Multipass commands, open either Command Prompt (cmd.exe) or PowerShell as a regular user. 
-  - Use multipass version to check your version or multipass launch to create your first instance.
-  - Multipass defaults to using Hyper-V as its virtualization provider. If you’d like to use VirtualBox, you can do so with:
+  - Use `multipass version` to check your version or `multipass launch` to create your first instance.
 
+		multipass version
 		multipass launch
 		multipass list
 
