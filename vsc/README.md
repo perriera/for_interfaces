@@ -71,10 +71,6 @@ In some cases the Linux box does not have x11/gui support. Hence, connecting to 
 ### Summary
 Either of the above links would help you with your VSC installation, (including Remote SSH support)
 
-### Resume Steps
-
-- [How to install the tools necessary for C++11/17 projects](https://github.com/perriera/for_interfaces/blob/main/cpp/README.md)
-
 ### Next Steps
 
 - [How to install injectons.io](https://github.com/perriera/injections)
