@@ -70,8 +70,6 @@ While is possible that using Linux onto Windows 10/11 be through [multipass](htt
 > However, this is the recommended approach:
 - Install Windows 10/11 on your computer natively
 - Install Visual Studio Code (VSC) on top of your Windows installation
-- Create an instance of Ubuntu somewhere on the cloud
-    - see [How to install Ubuntu 22.04 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 - Create a SSH public key for your account (using CMD.exe is fine).
 
         ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -81,11 +79,11 @@ While is possible that using Linux onto Windows 10/11 be through [multipass](htt
         cd .ssh
         type id_ed25519.pub
 
-    Copy the whole line of text to the clipboard
-- Add your SSH public key to that instance.
+    - Copy the whole line of text to the clipboard
+    - When you see the `New SSH Key` button paste the clipboard contents
 
-        cd ~
-        echo <paste clipboard contents here> >> ~/.ssh/authorized_keys
+- Create an instance of Ubuntu somewhere on the cloud
+    - see [How to install Ubuntu 22.04 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 
 - Connect to the Ubuntu instance using VSC.
     - see [How to install injections.io(C++17)](https://github.com/perriera/injections)
