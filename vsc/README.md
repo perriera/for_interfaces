@@ -56,6 +56,7 @@ In some cases the Linux box does not have x11/gui support. Hence, connecting to 
  - In the case that that symbol '><' is not present type `Remote - SSH` in the the `Search Extensions` box of the Extensions window (click the 5th large icon on the top left of the VSC editor) and install it, (wait for it to be installed)
  - Now using the SSH PARAMETERS you acquired a few steps earlier click the blue `><` icon and select `Connect Current Window to Host ... `
  - Use the SSH PARAMETERS when asked for ssh connection string and click enter
+ - Select `Linux` as the operating system type
  - Once connected open the File menu on VSC and select `Open Folder`
  - Here you can navigate to the dev folder or just select the home folder
  - Select 'Yes' to `I trust the authors`
