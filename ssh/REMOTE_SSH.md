@@ -15,7 +15,7 @@
  2. [How To Configure SSH Key-Based Authentication on a Linux Server](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
 
 ### Note
-Before you begin you need to ensure that you do not already have an SSH connection from your local computer to the remote Ubuntu instance already established. To verify this might be the case open a Terminal box locally and `ssh` the IP address for the remote Ubuntu instance, (aka. `ssh dev@111.222.333.444`). Keep the `dev@IP_address` string in the clipboard as this is your **SSH PARAMETERS** value.
+Before you begin you need to ensure that you do not already have an SSH connection from your local computer to the remote Ubuntu instance already established. To verify this might be the case open a Terminal box locally and `ssh` the IP address for the remote Ubuntu instance, (aka. `ssh dev@111.222.333.444`). Copy the `dev@IP_address` string to the clipboard as this is your **SSH PARAMETERS** value.
 
 ### Wish Case
 Assuming you have a public SSH key on the client computer:
