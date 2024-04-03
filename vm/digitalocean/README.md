@@ -56,17 +56,22 @@ Assuming you have an account already setup on digitalocean.com
 
 ### Login in remotely using CMD.exe
 
-	- Select the DigitalOcean display for the Droplet again
-	- Next to the `ipv4:` tag is a number
-	- Copy that number to the clipboard
-	- In the CMD.exe box do this:
+- Select the DigitalOcean display for the Droplet again
+- Next to the `ipv4:` tag is a number
+- Copy that number to the clipboard
+- In the CMD.exe box do this:
 
 		ssh dev@<paste clipboard contents>
 
-	- When the prompt displays with the name of drop let you are connected.
+- When the prompt displays with the name of Droplet you are connected.
 
-	- Keep the `dev@IP_address` handy as Visual Studio Code will need it to login
-	- Feel free to close the `Access` dialog box
+		To run a command as administrator (user "root"), use "sudo <command>".
+		See "man sudo_root" for details.
+
+		dev@ubuntu-4g:~$
+
+- Keep the `dev@IP_address` handy as Visual Studio Code will need it to login
+- Feel free to close the `Access` dialog box
 
 #### Backup/Restore you instance
 In order to backup or restore your droplet you'll have to depend on the sevices provided by DigitalOcean.
