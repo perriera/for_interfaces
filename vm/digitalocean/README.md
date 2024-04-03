@@ -35,7 +35,7 @@ Assuming you have an account already setup on digitalocean.com
 
 		sudo adduser dev sudo
 		cp -r .ssh /home/dev
-		chown dev:dev -r /home/dev/.ssh/
+		chown -R dev:dev /home/dev/.ssh/
 
 - Update the instance and reboot
 
