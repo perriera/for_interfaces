@@ -53,18 +53,6 @@ Assuming you have an account already setup on digitalocean.com
 
 	Give it a minute and hit `Reload` 
 
-	**Recommended** you do the Backup/Restore *Alternate Case*  
-
-	See *Resume/Next* steps ... 
-
-### Alternate Case
-#### How to relog into you Droplet 
-After logging into the DigitalOcean.com account:
-- Click on the Droplet you were working on 
-- Find and select the `Access` button
-- Find and select the `Launch Drop Console` button 
-
-### Alternate Case
 #### Backup/Restore you instance
 In order to backup or restore your droplet you'll have to depend on the sevices provided by DigitalOcean.
 - Click on Droplets (in the blue side bar)
@@ -75,6 +63,15 @@ In order to backup or restore your droplet you'll have to depend on the sevices 
 	- For our purposes a Snapshot will be fine
 - Click on Snapshots
 - Click on `Take live snapshot`
+
+	See *Resume/Next* steps ... 
+
+### Alternate Case
+#### How to relog into you Droplet 
+After logging into the DigitalOcean.com account:
+- Click on the Droplet you were working on 
+- Find and select the `Access` button
+- Find and select the `Launch Drop Console` button 
 
 ### Alternate Case
 #### You didn't see the chance to specify your own password?
