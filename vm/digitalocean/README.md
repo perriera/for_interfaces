@@ -51,15 +51,18 @@ Assuming you have an account already setup on digitalocean.com
 #### Relog into the Linux instance (using DigitalOcean)
 - At present the console box would display a `Reload` or `Close` button
 
-	Give it a minute and hit `Reload` or ... 
-
-- After a minute or two attempt to relogin into the Linux instance:
-	- Find and select the `Access` button
-	- Find and select the `Launch Drop Console` button 
+	Give it a minute and hit `Reload` 
 
 	**Recommended** you do the Backup/Restore *Alternate Case*  
 
 	See *Resume/Next* steps ... 
+
+### Alternate Case
+#### How to relog into you Droplet 
+After logging into the DigitalOcean.com account:
+- Click on the Droplet you were working on 
+- Find and select the `Access` button
+- Find and select the `Launch Drop Console` button 
 
 ### Alternate Case
 #### Backup/Restore you instance
