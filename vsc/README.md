@@ -35,7 +35,8 @@ see [How to install `Visual Studio Code (VSC)` on macOS](https://github.com/perr
 
 ### Alternate Case
 #### Windows installion
-see [How to install `Visual Studio Code (VSC)` on Windows](https://github.com/perriera/for_interfaces/tree/main/vsc/windows)
+In the case of using Windows 10/11 to access DigitalOcean based Ubuntu instances do the `SSH access` after installing VSC for Windows locally
+- see [How to install `Visual Studio Code (VSC)` on Windows](https://github.com/perriera/for_interfaces/tree/main/vsc/windows)
 
 ### Alternate Case
 #### SSH access
