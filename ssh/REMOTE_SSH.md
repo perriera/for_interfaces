@@ -15,7 +15,7 @@
  2. [How To Configure SSH Key-Based Authentication on a Linux Server](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
 
 ### Wish Case
-Assuming you have a public SSH key on the client computer:
+Before you begin you need to ensure that you do not already have an SSH connection from your local computer to the remote Ubuntu instance already established. In such a case you have already accomplished the goal of this wish case. Otherwise, assuming you have a public SSH key on the client computer:
 
   - ON YOUR LOCAL COMPUTER (**not the remote Linx box**) display it's SSH public key:
 
