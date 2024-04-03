@@ -43,7 +43,7 @@ In the case of using Windows 10/11 to access DigitalOcean based Ubuntu instances
 In some cases the Linux box does not have x11/gui support. Hence, connecting to it via Remote SSH would be required. Each of the Linux, Mac and Windows installion instructions above descibe how to setup VSC on that type of operating system yet access a Linux box using SSH protocol.
 
 - Do [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md) 
-- when you return here you would have kept the SSH PARAMETERS generated using that Wish Case:
+- When you return here you would have kept the SSH PARAMETERS generated using that Wish Case:
 - Do install VSC using one of the three methods listed above (*Linux, Mac, Windows*) and return here
  - Open a **new** Terminal box and start a Visual Studio instance
 
