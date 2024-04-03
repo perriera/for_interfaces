@@ -21,7 +21,7 @@ Assuming you have an account already setup on digitalocean.com
 - click `New SSH Key` to add your computer's SSH public key
 - Change the Hostname to something much shorter (aka. `ubuntu4g`)
 - Press `Create Droplet`
-- After a few moments the droplet will dislay, (click it)
+- After a few moments the droplet will display, (click it)
 #### Configure the Droplet
 - Find and select the `Access` button
 - Find and select the `Launch Drop Console` button 
