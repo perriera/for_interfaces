@@ -14,8 +14,11 @@
  1. [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
  2. [How To Configure SSH Key-Based Authentication on a Linux Server](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
 
+### Note
+Before you begin you need to ensure that you do not already have an SSH connection from your local computer to the remote Ubuntu instance already established. In such a case you have already accomplished the goal of this wish case. 
+
 ### Wish Case
-Before you begin you need to ensure that you do not already have an SSH connection from your local computer to the remote Ubuntu instance already established. In such a case you have already accomplished the goal of this wish case. Otherwise, assuming you have a public SSH key on the client computer:
+Assuming you have a public SSH key on the client computer:
 
   - ON YOUR LOCAL COMPUTER (**not the remote Linx box**) display it's SSH public key:
 
