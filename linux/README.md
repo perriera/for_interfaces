@@ -66,7 +66,7 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 
 #### Alternate Case
 #### Windows 10/11
-It is recommended that using Linux onto Windows 10/11 be through [multipass](https://multipass.run/), [virtualbox](https://virtualbox.org), [parallels desktop](https://parallels.com), (along with [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) is an option as is [Docker](https://www.docker.com)). Any of these methods are fine but you will have to work out the details on your own as they keep changing with each upgrade of Windows. However, this is the recommended approach:
+It is recommended that using Linux onto Windows 10/11 be through [multipass](https://multipass.run/), [virtualbox](https://virtualbox.org), [parallels desktop](https://parallels.com), (along with [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) and [Docker](https://www.docker.com)). Any of these methods are fine but you will have to work out the details on your own as they keep changing with each upgrade of Windows. However, this is the recommended approach:
 - Install Windows 10/11 on your computer natively
 - Install Visual Studio Code (VSC) on top of your Windows installation
 - Create a SSH public key for your account.
