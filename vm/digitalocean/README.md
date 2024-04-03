@@ -51,7 +51,12 @@ Assuming you have an account already setup on digitalocean.com
 #### Relog into the Linux instance (using DigitalOcean)
 - At present the console box would display a `Reload` or `Close` button
 
-	Give it a minute and hit `Reload` 
+	- Give it a minute and hit `Reload` 
+	- When the instance comes back up you are ready to login remotely 
+	- Use `dev` + the IP address of the Droplet, (ex. `dev@111.222.333.444`)
+	- You will see the IP address on the Droplet window (next to `ipv4:`)
+	- Keep the IP address handy as Visual Studio Code will need it to login
+	- Feel free to close the `Access` dialog box
 
 #### Backup/Restore you instance
 In order to backup or restore your droplet you'll have to depend on the sevices provided by DigitalOcean.
