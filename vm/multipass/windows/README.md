@@ -32,6 +32,10 @@
 		multipass launch
 		multipass list
 
+ Note: As of this writing the Hyper-V activation has issues. 
+       Until this is resolved we will recommend setting up a Linux box 
+	   to be accessed from Windows 10/11 using another method.
+
 - Right here identify the name of the newly created Ubuntu 22 instance, (for example):
 
 		Name                    State             IPv4             Image
