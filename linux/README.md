@@ -75,6 +75,7 @@ While is possible that using Linux onto Windows 10/11 be through [multipass](htt
     - see [How to install Ubuntu 22.04 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 - Add your SSH public key to that instance.
 - Connect to the Ubuntu instance using VSC.
+    - see [How to install injections.io(C++17)](https://github.com/perriera/injections)
 
 ### Summary
 You now have a selection of methods of setting up a Linux distribution.
