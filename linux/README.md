@@ -73,6 +73,9 @@ While is possible that using Linux onto Windows 10/11 be through [multipass](htt
 - Create a SSH public key for your account (using CMD.exe is fine).
 
         ssh-keygen -t ed25519 -C "your_email@example.com"
+
+    Just hit enter till you see the prompt again then:
+    
         cd ~
         cd .ssh
         type id_ed25519.pub
@@ -85,7 +88,6 @@ While is possible that using Linux onto Windows 10/11 be through [multipass](htt
 
         cd ~
         echo <paste clipboard contents here> >> ~/.ssh/authorized_keys
-
 
 - Connect to the Ubuntu instance using VSC.
     - see [How to install injections.io(C++17)](https://github.com/perriera/injections)
