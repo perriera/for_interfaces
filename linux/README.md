@@ -71,7 +71,7 @@ While is possible that using Linux onto Windows 10/11 be through [multipass](htt
 - Install Windows 10/11 on your computer natively
 - Install Visual Studio Code (VSC) on top of your Windows installation
 - Create a SSH public key for your account.
-- Create an instance of Ubuntu on the cloud
+- Create an instance of Ubuntu somewhere on the cloud
     - see [How to install Ubuntu 22.04 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 - Add your SSH public key to that instance.
 - Connect to the Ubuntu instance using VSC.
