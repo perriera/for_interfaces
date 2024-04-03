@@ -75,8 +75,7 @@ While is possible that using Linux onto Windows 10/11 be through [multipass](htt
         ssh-keygen -t ed25519 -C "your_email@example.com"
 
     Just hit enter till you see the prompt again then:
-    
-        cd ~
+
         cd .ssh
         type id_ed25519.pub
 
