@@ -123,9 +123,12 @@ Simplified instructions:
 - On your local computer open a shell (Terminal box or CMD.exe)
 - Inside that shell paste the contents of the clipboard
 - Hit `Enter` and select `yes` for the fingerprint
-- Provided the SSH public key was added correctly this would display:
+- Provided the SSH public key was added correctly something like this would display:
 
-		ssh dev@<paste clipboard contents>
+		To run a command as administrator (user "root"), use "sudo <command>".
+		See "man sudo_root" for details.
+
+		dev@ubuntu-4g2:~$ 
 
 - When the prompt displays with the name of Droplet you are connected.
 
