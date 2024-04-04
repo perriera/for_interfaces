@@ -75,7 +75,9 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 
 	**Note**: [Are you new to the `vi` editor?](https://github.com/perriera/for_interfaces/blob/main/linux/VI.md)
 		
- - [ ] `Down arrow` to the bottom and press `a` then paste these environment variables:
+ - [ ] `Down arrow` to the bottom of the script
+ - [ ] `Right arrow` till you are at the end of the line
+ - [ ]  Copy the following to the clipboard and press `a` and paste these environment variables:
 		
 		export PATH=$HOME/.local/bin:${PATH}
 		export CPM_SOURCE_CACHE=$HOME/.cache/CPM
