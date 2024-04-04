@@ -70,11 +70,12 @@ Simplified instructions:
 - Now supply a name then `Add SSH Key` 
 - Change the Hostname to something much shorter (aka. `ubuntu4g`)
 - Press `Create Droplet`
-- After a few moments the droplet will display, (click on it)
+- After a few moments the droplet will display 
 
 ### Alternate Case
 #### Configure the Droplet
 Simplified instructions:
+- From the main menu select the droplet you just created (click on it)
 - Find and select the `Access` button
 - Find and select the `Launch Drop Console` button 
 - Once inside the root terminal window create a user like this:
