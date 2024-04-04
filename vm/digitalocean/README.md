@@ -1,12 +1,46 @@
 ## How to install Ubuntu 22.04 using `digitalocean`
-> **Given** we need to be able to run Linux apps on the cloud **when** we have a digitalocean account **then** we can create and launch a Ubuntu instance (to access via SSH)
+> **Given** we need to be able to run Linux apps on the cloud **when** we have a digitalocean account **then** we can create and launch an Ubuntu instance (to access via SSH)
 
 ### Prerequisites
 - an paid or evaluation account on [digitalocean.com](https://www.digitalocean.com)
 - at time of writing [DigitalOcean is offering a $200 credit for 60 days](https://www.digitalocean.com)
 
 ### Wish Case
-Assuming you have an account already setup on digitalocean.com
+To run Linux apps on the cloud using a DigitalOcean account, you can follow these steps to create and launch a Ubuntu instance:
+
+1. **Sign up for DigitalOcean**: If you haven't already, sign up for a DigitalOcean account at https://www.digitalocean.com/.
+
+2. **Log in to DigitalOcean**: After signing up, log in to your DigitalOcean account.
+
+3. **Create a Droplet**:
+   - Click on the "Create" button and select "Droplets".
+   - Choose Ubuntu as the distribution. You can select the version you prefer, such as Ubuntu 20.04 LTS.
+   - Choose a plan based on your requirements. DigitalOcean offers various plans with different resources like CPU, RAM, and storage.
+   - Choose a datacenter region closest to your location for optimal performance.
+   - Optionally, you can add additional options like backups, monitoring, and block storage if needed.
+   - Finally, click on the "Create Droplet" button.
+
+4. **Access the Droplet via SSH**:
+   - Once the Droplet is created, you'll receive an email with the root password and IP address.
+   - Use an SSH client (e.g., PuTTY on Windows, Terminal on macOS/Linux) to connect to your Droplet. You can use the command:
+     ```
+     ssh root@your_droplet_ip
+     ```
+     Replace `your_droplet_ip` with the actual IP address of your Droplet.
+   - Enter the root password provided in the email when prompted.
+
+5. **Set up your environment**:
+   - Once logged in, you can install any necessary software or packages for your Linux apps. You can use the `apt` package manager to install software on Ubuntu.
+   - Configure any firewall rules, security settings, or other configurations required for your apps.
+
+6. **Upload and Run Your Linux Apps**:
+   - You can now upload your Linux apps to the Droplet using SCP or SFTP, or by cloning your project from a Git repository.
+   - Follow any specific installation or configuration instructions for your apps.
+   - Run your apps as needed.
+
+ - see *Resume/Next* steps below ... 
+
+### Alternate Case
 #### Create the Droplet
 - Look for the `Droplets` menu selection (click it)
 - Click the `Create Droplet` button
@@ -18,6 +52,8 @@ Assuming you have an account already setup on digitalocean.com
 - Change the Hostname to something much shorter (aka. `ubuntu4g`)
 - Press `Create Droplet`
 - After a few moments the droplet will display, (click on it)
+
+### Alternate Case
 #### Configure the Droplet
 - Find and select the `Access` button
 - Find and select the `Launch Drop Console` button 
@@ -103,7 +139,7 @@ Redo (and resume from) that step of the *Wish Case* ...
 - see [How to setup a SSH public key](https://github.com/perriera/for_interfaces/blob/main/ssh)
 
 ### Summary
-You have created a Ubuntu instance on Digital Ocean
+Remember to secure your Droplet by setting up a firewall, disabling root login, and keeping your system and applications updated regularly. Additionally, always follow best practices for security and data protection.
 
 ### Resume Steps
 
