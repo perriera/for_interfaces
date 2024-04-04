@@ -91,7 +91,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 - Select the DigitalOcean display for the Droplet again
 - Next to the `ipv4:` tag is a number
 - Copy that number to the clipboard
-- In the CMD.exe box do this:
+- In the shell do this:
 
 		ssh dev@<paste clipboard contents>
 
