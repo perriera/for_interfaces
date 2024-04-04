@@ -84,8 +84,8 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		export CPM_SOURCE_CACHE=$HOME/.cache/CPM
 		export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
 
-	- Now paste these environment variables into the shell:.
-	- Now press ESCAPE and then `SHIFT z` button twice. 
+	- Now paste these environment variables into the shell
+	- Now press ESCAPE and then `SHIFT z` button twice
 
  - [ ] Then source it ... 
 
