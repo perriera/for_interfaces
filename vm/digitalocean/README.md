@@ -66,7 +66,8 @@ Simplified instructions:
 		cd .ssh
 		type id_ed25519.pub
 
-- click `New SSH Key` and paste your computer's `SSH public key` in the space provided (hit enter)
+- Click `New SSH Key` and paste your computer's `SSH public key` 
+- Now supply a name then `Add SSH Key` 
 - Change the Hostname to something much shorter (aka. `ubuntu4g`)
 - Press `Create Droplet`
 - After a few moments the droplet will display, (click on it)
