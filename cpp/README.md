@@ -46,10 +46,12 @@ Assuming you have a Linux instance and are currently logged into it (either loca
   - [ ] Now determine the ssh command you'd need to log into this Linux box (once you add the clients SSH key): 
 
 		cd ~
+		ANSI_GREEN="\e[32m"
+		ANSI_RESET="\e[0m"
 		output=$(hostname -I)
 		output=($output)
 		ssh_cmd="ssh $(basename $PWD)@${output[0]}"
-		echo $ssh_cmd
+		echo -e "${ANSI_GREEN}$ssh_cmd${ANSI_RESET}"
 
 	Something like this would display: `ssh dev@192.168.0.1`
 
