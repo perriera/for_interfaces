@@ -6,8 +6,6 @@
 - Windows, Linux or Mac based computer
 - sudo privilages on that computer
 - Adequate ram and disk space
-- An interest in [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- An interest in [Interface-driven programming](https://en.wikipedia.org/wiki/Interface-based_programming)
 
 ### Wish Case
 There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred, especially for software development purposes, as it proves to be more practical. While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it's much simpler and faster to restore a backup of a Linux instance and retrace your steps to identify the cause of the malfunction than to attempt to isolate the issue. 
