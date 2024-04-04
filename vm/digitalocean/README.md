@@ -118,12 +118,12 @@ Simplified instructions:
 	Everything that displays in green copy to the clipboard
 
 
-#### Login in remotely using a shell (Terminal box or CMD.exe)
+#### Login in remotely using a shell
 
-- Select the DigitalOcean display for the Droplet again
-- Next to the `ipv4:` tag is a number
-- Copy that number to the clipboard
-- In the shell do this:
+- On your local computer open a shell (Terminal box or CMD.exe)
+- Inside that shell paste the contents of the clipboard
+- Hit `Enter` and select `yes` for the fingerprint
+- Provided the SSH public key was added correctly this would display:
 
 		ssh dev@<paste clipboard contents>
 
