@@ -10,7 +10,7 @@
 - [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/linux/README.md)
 
 ### Wish Case
-Now that you have your project cloned we need to make sure you have the tools necessary to compile properly:
+Assuming you have a Linux instance and are currently logged into it (either locally or remotely):
 
   - [ ] Login as dev (unless you are already `dev`):
 	
