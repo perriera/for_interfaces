@@ -75,7 +75,7 @@ Simplified instructions:
 ### Alternate Case
 #### Configure the Droplet
 Simplified instructions:
-- From the main menu select the droplet you just created (click on it)
+- Select the droplet you just created (or select `Droplets`)
 - Find and select the `Access` button
 - Find and select the `Launch Drop Console` button 
 - Once inside the root terminal window create a user like this:
