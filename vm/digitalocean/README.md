@@ -14,7 +14,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 
 3. **Create a Droplet**:
    - Click on the "Create" button and select "Droplets".
-   - Choose Ubuntu as the distribution. You can select the version you prefer, such as Ubuntu 20.04 LTS.
+   - Choose Ubuntu as the distribution. You can select the version you prefer, such as Ubuntu 22.04 LTS.
    - Choose a plan based on your requirements. DigitalOcean offers various plans with different resources like CPU, RAM, and storage.
    - Choose a datacenter region closest to your location for optimal performance.
    - Optionally, you can add additional options like backups, monitoring, and block storage when needed.
@@ -46,7 +46,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 - Click the `Create Droplet` button
 - Select a server farm closet to your current location
 - Select `Ubuntu`
-- Select `22.04`
+- Select perferred version (`22.04` recommended)
 - Review Droplet Type, CPU, Addional Storage and make any changes but the default selections are fine
 - click `New SSH Key` to add your computer's SSH public key
 - Change the Hostname to something much shorter (aka. `ubuntu4g`)
