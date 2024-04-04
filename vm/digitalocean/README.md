@@ -42,6 +42,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 
 ### Alternate Case
 #### Create the Droplet
+Simplified instructions:
 - Look for the `Droplets` menu selection (click it)
 - Click the `Create Droplet` button
 - Select a server farm closet to your current location
@@ -55,6 +56,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 
 ### Alternate Case
 #### Configure the Droplet
+Simplified instructions:
 - Find and select the `Access` button
 - Find and select the `Launch Drop Console` button 
 - Once inside the root terminal window create a user like this:
