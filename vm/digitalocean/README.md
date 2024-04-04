@@ -86,7 +86,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 	- Give it a minute and hit `Reload` 
 	- When the instance comes back up you are ready to login remotely 
 
-### Login in remotely using CMD.exe
+#### Login in remotely using CMD.exe
 
 - Select the DigitalOcean display for the Droplet again
 - Next to the `ipv4:` tag is a number
