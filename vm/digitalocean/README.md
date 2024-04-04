@@ -52,6 +52,20 @@ Simplified instructions:
 - Select `Ubuntu`
 - Select perferred version (`22.04` recommended)
 - Review Droplet Type, CPU, Addional Storage and make any changes but the default selections are fine
+- Unless you have already done so create a SSH key for your local computer:
+
+		ssh-keygen -t ed25519 -C "your_name@your_email.com"
+
+	Do not supply a `passphrase` or change the filename
+- Display the `SSH public key` and copy it to the clipboard:
+
+		cat ~/.ssh/id_ed25519.pub
+
+	For Windows users:
+
+		cd .ssh
+		type ~/.ssh/id_ed25519.pub
+
 - click `New SSH Key` to add your computer's SSH public key
 - Change the Hostname to something much shorter (aka. `ubuntu4g`)
 - Press `Create Droplet`
