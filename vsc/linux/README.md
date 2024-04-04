@@ -1,9 +1,5 @@
 ## How to install `Visual Studio Code (VSC)` on Linux
-> In this step we show how to install Visual Studio Code (VSC) on Linux
-
- 1. **GIVEN** we need to use Visual Studio Code (VSC) on Linux 
- 2. **WHEN** we install Visual Studio Code (VSC) on Linux 
- 3. **THEN** we can launch Visual Studio Code (VSC) on Linux
+> **Given** we need to edit text files, source code and build projects **when** we install Visual Studio Code (VSC) **then** we can build and edit any projects that require a text file editor  
 
 ### Prerequisites
 - [Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux) (review)

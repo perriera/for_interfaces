@@ -1,5 +1,5 @@
 ## How to install `Visual Studio Code (VSC)` on Windows
-> **Given** we need to install Visual Studio Code (VSC) on Windows 10/11 **when** we install VSC from the browser inside Windows 10/11 **then** we can have VSC and all the extensions necessary to edit and build projects.
+> **Given** we need to edit text files, source code and build projects **when** we install Visual Studio Code (VSC) **then** we can build and edit any projects that require a text file editor  
 
 ### Prerequisites
 - [How to Install Visual Studio Code on Windows?](https://www.geeksforgeeks.org/how-to-install-visual-studio-code-on-windows/) (review)
