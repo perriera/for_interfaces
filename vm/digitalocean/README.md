@@ -131,7 +131,7 @@ Simplified instructions:
 		dev@ubuntu-4g2:~$ 
 
 - Keep the `dev@IP_address` handy as Visual Studio Code will need the same parameters to login as well.
-- That is, without the leading `ssh` command, (aka. `dev@IP_address` not `ssh dev@IP_address`)
+	That is, without the leading `ssh` command, (aka. `dev@IP_address` not `ssh dev@IP_address`)
 - Feel free to close the `Access` dialog box
 
 #### Backup/Restore you instance
