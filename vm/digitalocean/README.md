@@ -1,9 +1,5 @@
 ## How to install Ubuntu 22.04 using `digitalocean`
-> In this step we show how to install Ubuntu on digitalocean.com
-
- 1. **GIVEN** we need to be able to run Linux apps on the cloud
- 2. **WHEN** we have a digitalocean account  
- 3. **THEN** we can create and launch a Ubuntu instance
+> **Given** we need to be able to run Linux apps on the cloud **when** we have a digitalocean account **then** we can create and launch a Ubuntu instance (to access via SSH)
 
 ### Prerequisites
 - an paid or evaluation account on [digitalocean.com](https://www.digitalocean.com)
