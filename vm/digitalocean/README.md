@@ -64,7 +64,7 @@ Simplified instructions:
 	For Windows users:
 
 		cd .ssh
-		type ~/.ssh/id_ed25519.pub
+		type id_ed25519.pub
 
 - click `New SSH Key` to add your computer's SSH public key
 - Change the Hostname to something much shorter (aka. `ubuntu4g`)
