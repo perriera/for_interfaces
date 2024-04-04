@@ -38,6 +38,9 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
    - Follow any specific installation or configuration instructions for your apps.
    - Run your apps as needed.
 
+ 7. **For the purposes of injections(C++17)**
+   - Carry out the Alternate Cases below for creating and configuring the droplet
+   
  - see *Resume/Next* steps below ... 
 
 ### Alternate Case
