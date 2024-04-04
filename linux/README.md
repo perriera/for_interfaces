@@ -67,7 +67,8 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 #### Alternate Case
 #### Windows 10/11
 While is possible that using Linux onto Windows 10/11 be through [multipass](https://multipass.run/), [virtualbox](https://virtualbox.org), [parallels desktop](https://parallels.com), [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) or [Docker](https://www.docker.com) you will have to work out the details on your own as they keep changing with each upgrade of Windows. 
-> However, this is the recommended approach:
+> However the approach recommended is to merely install VSC onto the Windows 10/11 environment by itself. With just a SSH public key generated for remotely accessing a Linux box either on the web or anywhere on the network. In this way almost no additional packages or modifications to settings are required for the delicate Windows 10/11 environment. Moreover, backing up and restoring the actual development environment is all but completely independent of Windows 10/11.
+
 - Install Windows 10/11 on your computer natively
 - Install [Visual Studio Code (VSC) on Windows](https://code.visualstudio.com/docs/setup/windows) installation
 - Create a SSH public key for your account (using CMD.exe is fine).
