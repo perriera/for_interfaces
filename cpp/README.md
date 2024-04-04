@@ -77,13 +77,15 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		
  - [ ] `Down arrow` to the bottom of the script
  - [ ] `Right arrow` till you are at the end of the line
- - [ ]  Copy the following to the clipboard and press `a` and paste these environment variables:
+ - [ ] Press `a` to go into `append` mode and press ENTER (twice)
+ - [ ] Now copy the following to the clipboard:
 		
 		export PATH=$HOME/.local/bin:${PATH}
 		export CPM_SOURCE_CACHE=$HOME/.cache/CPM
 		export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
 
-	Assuming you are new to vi press ESCAPE and then `SHIFT z` button twice. 
+	- Now paste these environment variables into the shell:.
+	- Now press ESCAPE and then `SHIFT z` button twice. 
 
  - [ ] Then source it ... 
 
