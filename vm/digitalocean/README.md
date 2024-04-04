@@ -105,7 +105,18 @@ Simplified instructions:
 - At present the console box would display a `Reload` or `Close` button
 
 	- Give it a minute and hit `Reload` 
-	- When the instance comes back up you are ready to login remotely 
+	- When the instance comes back up do this:
+
+			cd ~
+			ANSI_GREEN="\e[32m"
+			ANSI_RESET="\e[0m"
+			output=$(hostname -I)
+			output=($output)
+			ssh_cmd="ssh dev@${output[0]}"
+			echo -e "${ANSI_GREEN}$ssh_cmd${ANSI_RESET}"
+
+	Everything that displays in green copy to the clipboard
+
 
 #### Login in remotely using a shell (Terminal box or CMD.exe)
 
