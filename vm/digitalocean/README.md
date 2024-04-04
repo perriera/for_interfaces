@@ -130,14 +130,7 @@ Simplified instructions:
 
 		dev@ubuntu-4g2:~$ 
 
-- When the prompt displays with the name of Droplet you are connected.
-
-		To run a command as administrator (user "root"), use "sudo <command>".
-		See "man sudo_root" for details.
-
-		dev@ubuntu-4g:~$
-
-- Keep the `dev@IP_address` handy as Visual Studio Code will need it to login
+- Keep the `dev@IP_address` handy as Visual Studio Code will need the same parameters to login as well. That is, with the leading `ssh` command, (aka. `dev@IP_address` not `ssh dev@IP_address`)
 - Feel free to close the `Access` dialog box
 
 #### Backup/Restore you instance
