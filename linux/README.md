@@ -9,6 +9,32 @@
 
 ### Wish Case: 
 #### Installing Linux on a New System (native install)
+
+    #### Popular Linux distributions
+    
+        - Debian-based
+            - Ubuntu-based
+            - Knoppix-based
+            - Other Debian-based
+        - Pacman-based
+            - Arch Linux-based
+            - Other Pacman-based
+        - RPM-based
+            - Fedora-based
+            - RHEL-based
+            - Other Fedora-based
+            - openSUSE-based
+            - Mandriva-based
+            - Other RPM-based
+        - Gentoo-based
+        - Slackware-based
+        - Android-based
+        - Source-based
+    
+    Linux comes in many flavours can be installed either natively or as a virtual machine. 
+
+    - see [List of Linux distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
+
 - Step 1: Choose a Linux Distribution
     - Research and choose a Linux distribution that suits your needs. 
     - Popular options include [Ubuntu, Fedora, Debian, and CentOS](https://en.wikipedia.org/wiki/List_of_Linux_distributions).
@@ -61,31 +87,6 @@ When you encounter any issues during the installation process, such as driver co
 There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred. Especially for software development purposes, (as it proves to be more practical). While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it proves to be much simpler to restore a backup and retrace your steps (to recreate the malfunction) than to attempt to isolate the issue. 
 
 - Pick a distribtion from the list below and install it on your machine (using a VM such as [multipass](https://multipass.run/), [VirtualBox](https://virtualbox.org), [Parallels Desktop](https://parallels.com), [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) or [Docker](https://www.docker.com)):
-
-    #### Popular Linux distributions
-    
-        - Debian-based
-            - Ubuntu-based
-            - Knoppix-based
-            - Other Debian-based
-        - Pacman-based
-            - Arch Linux-based
-            - Other Pacman-based
-        - RPM-based
-            - Fedora-based
-            - RHEL-based
-            - Other Fedora-based
-            - openSUSE-based
-            - Mandriva-based
-            - Other RPM-based
-        - Gentoo-based
-        - Slackware-based
-        - Android-based
-        - Source-based
-    
-    Linux comes in many flavours can be installed either natively or as a virtual machine. 
-
-    - see [List of Linux distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
 #### Alternate Case
 #### DigitalOcean
