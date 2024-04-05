@@ -48,12 +48,12 @@
 ### Alternate Case
 #### Troubleshooting (native install)
 When you encounter any issues during the installation process, such as driver compatibility problems or partitioning errors, refer to the official documentation of your chosen Linux distribution for troubleshooting steps. Alternatively, you can seek help from online forums and communities dedicated to Linux users, where experienced users can provide assistance and guidance.
+- [Linus Torvalds](https://github.com/torvalds)
 - [Slack.com](https://www.slack.com) (best)
 - [Slack AI](https://app.slack.com/features/ai) (AI)
 - [LinuxQuestions.org](https://www.linuxquestions.org/) (free)
 - [Linux.org](https://www.linux.org/forums/) (free)
 - [FeedSpot.com/](https://www.feedspot.com/) (ads)
-- [Linus Torvalds](https://github.com/torvalds)
 - [craftypenguins.net](https://www.craftypenguins.net/) (paid)
 
 ### Alternate Case
