@@ -8,35 +8,32 @@
 - Adequate ram and disk space
 
 ### Wish Case: 
+Linux comes in many flavours can be installed either natively or as a virtual machine. 
+
 #### Installing Linux on a New System (native install)
 - Step 1: Choose a Linux Distribution
     - Research and choose a Linux distribution that suits your needs. 
-    - Popular options include [Ubuntu, Fedora, Debian, and CentOS](https://en.wikipedia.org/wiki/List_of_Linux_distributions).
+    - Popular Linux distributions:
 
-#### Popular Linux distributions
-
-    - Debian-based
-        - Ubuntu-based
-        - Knoppix-based
-        - Other Debian-based
-    - Pacman-based
-        - Arch Linux-based
-        - Other Pacman-based
-    - RPM-based
-        - Fedora-based
-        - RHEL-based
-        - Other Fedora-based
-        - openSUSE-based
-        - Mandriva-based
-        - Other RPM-based
-    - Gentoo-based
-    - Slackware-based
-    - Android-based
-    - Source-based
-
-Linux comes in many flavours can be installed either natively or as a virtual machine. 
-
-- see [List of Linux distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
+        - Debian-based
+            - Ubuntu-based
+            - Knoppix-based
+            - Other Debian-based
+        - Pacman-based
+            - Arch Linux-based
+            - Other Pacman-based
+        - RPM-based
+            - Fedora-based
+            - RHEL-based
+            - Other Fedora-based
+            - openSUSE-based
+            - Mandriva-based
+            - Other RPM-based
+        - Gentoo-based
+        - Slackware-based
+        - Android-based
+        - Source-based
+        - see [List of Linux distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
 - Step 2: Download the Installation Media
     - Visit the official website of the chosen Linux distribution and download the ISO image for installation.
