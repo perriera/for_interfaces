@@ -52,6 +52,7 @@ When you encounter any issues during the installation process, such as driver co
 - [LinuxQuestions.org](https://www.linuxquestions.org/) (free)
 - [Linux.org](https://www.linux.org/forums/) (free)
 - [FeedSpot.com/](https://www.feedspot.com/) (ads)
+- [Linus, (aka. Mr. T)](https://github.com/torvalds)
 - [craftypenguins.net](https://www.craftypenguins.net/) (paid)
 
 ### Alternate Case
