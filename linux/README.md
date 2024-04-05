@@ -10,30 +10,30 @@
 ### Wish Case: 
 #### Installing Linux on a New System (native install)
 
-    #### Popular Linux distributions
-    
-        - Debian-based
-            - Ubuntu-based
-            - Knoppix-based
-            - Other Debian-based
-        - Pacman-based
-            - Arch Linux-based
-            - Other Pacman-based
-        - RPM-based
-            - Fedora-based
-            - RHEL-based
-            - Other Fedora-based
-            - openSUSE-based
-            - Mandriva-based
-            - Other RPM-based
-        - Gentoo-based
-        - Slackware-based
-        - Android-based
-        - Source-based
-    
-    Linux comes in many flavours can be installed either natively or as a virtual machine. 
+#### Popular Linux distributions
 
-    - see [List of Linux distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
+    - Debian-based
+        - Ubuntu-based
+        - Knoppix-based
+        - Other Debian-based
+    - Pacman-based
+        - Arch Linux-based
+        - Other Pacman-based
+    - RPM-based
+        - Fedora-based
+        - RHEL-based
+        - Other Fedora-based
+        - openSUSE-based
+        - Mandriva-based
+        - Other RPM-based
+    - Gentoo-based
+    - Slackware-based
+    - Android-based
+    - Source-based
+
+Linux comes in many flavours can be installed either natively or as a virtual machine. 
+
+- see [List of Linux distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
 - Step 1: Choose a Linux Distribution
     - Research and choose a Linux distribution that suits your needs. 
