@@ -47,7 +47,12 @@
 
 ### Alternate Case
 #### Troubleshooting (native install)
-When you encounter any issues during the installation process, such as driver compatibility problems or partitioning errors, refer to the official documentation of your chosen Linux distribution for troubleshooting steps. Alternatively, you can seek help from online forums and communities dedicated to Linux users, where experienced users can provide assistance and guidance.
+When you encounter any issues during the installation process, such as driver compatibility problems or partitioning errors, refer to the official documentation of your chosen Linux distribution for troubleshooting steps. 
+- [Top 20 Linux Forums in 2024](https://forums.feedspot.com/linux_forums/)
+- [craftypenguins.net](https://www.craftypenguins.net/)
+- [LinuxQuestions.org](https://www.linuxquestions.org/)
+- [Linux.org](https://www.linux.org/forums/)
+Alternatively, you can seek help from online forums and communities dedicated to Linux users, where experienced users can provide assistance and guidance.
 
 ### Alternate Case
 #### Installing Linux on a New System (virtual machine)
