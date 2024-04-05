@@ -30,7 +30,7 @@
 You'll be prompted to select language, time zone, keyboard layout, and other basic settings.
 - Step 7: Partitioning
     - Decide on the disk partitioning scheme. 
-    - For beginners, choosing the option to install Linux alongside existing operating systems (if any) is recommended.
+    - For beginners, choosing the option to install Linux alongside existing operating systems (when any) is recommended.
 - Step 8: Create User Account
     - Provide necessary information to create a user account, including username and password.
 - Step 9: Complete Installation
@@ -47,7 +47,7 @@ You'll be prompted to select language, time zone, keyboard layout, and other bas
 
 ### Alternate Case
 #### Troubleshooting (native install)
-If you encounter any issues during the installation process, such as driver compatibility problems or partitioning errors, refer to the official documentation of your chosen Linux distribution for troubleshooting steps. Alternatively, you can seek help from online forums and communities dedicated to Linux users, where experienced users can provide assistance and guidance.
+When you encounter any issues during the installation process, such as driver compatibility problems or partitioning errors, refer to the official documentation of your chosen Linux distribution for troubleshooting steps. Alternatively, you can seek help from online forums and communities dedicated to Linux users, where experienced users can provide assistance and guidance.
 
 ### Alternate Case
 #### Installing Linux on a New System (virtual machine)
@@ -135,3 +135,6 @@ You now have a selection of methods of setting up a Linux distribution.
 
 ### Next Steps
 - [How to install injections.io(C++17)](https://github.com/perriera/injections)
+
+### Disclaimer
+> That `word` is not to appear anywhere on this page, ([except here](https://en.wikipedia.org/wiki/Knights_Who_Say_%22Ni!%22))
