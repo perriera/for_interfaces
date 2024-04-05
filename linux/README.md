@@ -9,6 +9,9 @@
 
 ### Wish Case: 
 #### Installing Linux on a New System (native install)
+- Step 1: Choose a Linux Distribution
+    - Research and choose a Linux distribution that suits your needs. 
+    - Popular options include [Ubuntu, Fedora, Debian, and CentOS](https://en.wikipedia.org/wiki/List_of_Linux_distributions).
 
 #### Popular Linux distributions
 
@@ -35,9 +38,6 @@ Linux comes in many flavours can be installed either natively or as a virtual ma
 
 - see [List of Linux distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
-- Step 1: Choose a Linux Distribution
-    - Research and choose a Linux distribution that suits your needs. 
-    - Popular options include [Ubuntu, Fedora, Debian, and CentOS](https://en.wikipedia.org/wiki/List_of_Linux_distributions).
 - Step 2: Download the Installation Media
     - Visit the official website of the chosen Linux distribution and download the ISO image for installation.
 - Step 3: Create Installation Media
