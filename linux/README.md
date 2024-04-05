@@ -83,7 +83,12 @@ When you encounter any issues during the installation process, such as driver co
 #### Installing Linux on a New System (virtual machine)
 There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred. Especially for software development purposes, (as it proves to be more practical). While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it proves to be much simpler to restore a backup and retrace your steps (to recreate the malfunction) than to attempt to isolate the issue. 
 
-- Pick a distribtion from the list below and install it on your machine (using a VM such as [multipass](https://multipass.run/), [VirtualBox](https://virtualbox.org), [Parallels Desktop](https://parallels.com), [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) or [Docker](https://www.docker.com)):
+- Pick a distribtion from the list below:
+    - [multipass](https://multipass.run/)
+    - [VirtualBox](https://virtualbox.org)
+    - [Parallels Desktop](https://parallels.com)
+    - [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)
+    - [Docker](https://www.docker.com)
 
 #### Alternate Case
 #### DigitalOcean
