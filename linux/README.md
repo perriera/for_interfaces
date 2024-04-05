@@ -89,7 +89,7 @@ There are various methods to install Linux on your computer, depending on the ty
 
 #### Alternate Case
 #### DigitalOcean
-We recommend setting up a virtual machine that can be accessed remotely (via SSH) using [digitalocean.com](https://www.digitalocean.com) as it offers a 60-day, $200 coupon to new users:
+We recommend setting up a virtual machine that can be accessed remotely (via SSH) using [digitalocean.com](https://www.digitalocean.com) as it offers a 60-day, $200 coupon to new users (*credit card required*):
 - [How to install Ubuntu 22.04 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 
 #### Alternate Case
