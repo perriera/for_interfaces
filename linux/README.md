@@ -58,7 +58,7 @@ When you encounter any issues during the installation process, such as driver co
 
 ### Alternate Case
 #### Installing Linux on a New System (virtual machine)
-There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred, especially for software development purposes, as it proves to be more practical. While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it's much simpler and faster to restore a backup of a Linux instance and retrace your steps to identify the cause of the malfunction than to attempt to isolate the issue. 
+There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred. Especially for software development purposes, (as it proves to be more practical). While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it's much simpler and faster to restore a backup and retrace your steps (to recreate the malfunction) than to attempt to isolate the issue. 
 
 - Pick a distribtion from the list below and install it on your machine (using a VM such as Virtual Box, Parallels Desktop or multipass):
 
