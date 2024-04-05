@@ -60,7 +60,7 @@ When you encounter any issues during the installation process, such as driver co
 #### Installing Linux on a New System (virtual machine)
 There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred. Especially for software development purposes, (as it proves to be more practical). While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it proves to be much simpler to restore a backup and retrace your steps (to recreate the malfunction) than to attempt to isolate the issue. 
 
-- Pick a distribtion from the list below and install it on your machine (using a VM such as [multipass](https://multipass.run/), [VirtualBox](https://virtualbox.org), [Parallels Desktop](https://parallels.com), [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) or [Docker](https://www.docker.com)):
+- Pick a distribtion from the list below and install it on your machine (using a VM such as [multipass](https://multipass.run/), [VirtualBox](https://virtualbox.org), [Parallels Desktop](https://parallels.com), [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) or [Docker](https://www.docker.com)):
 
     #### Popular Linux distributions
     
@@ -114,7 +114,7 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 
 #### Alternate Case
 #### Windows 10/11
-While it is possible to use Linux on Windows 10/11 through [multipass](https://multipass.run/), [VirtualBox](https://virtualbox.org), [Parallels Desktop](https://parallels.com), [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) or [Docker](https://www.docker.com) you will have to work out the details on your own as the specific steps to do so keep changing with each and every upgrade. 
+While it is possible to use Linux on Windows 10/11 through [multipass](https://multipass.run/), [VirtualBox](https://virtualbox.org), [Parallels Desktop](https://parallels.com), [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) or [Docker](https://www.docker.com) you will have to work out the details on your own as the specific steps to do so keep changing with each and every upgrade. 
 > However the approach recommended is to merely install VSC onto the Windows 10/11 environment by itself. With just a SSH public key generated for remotely accessing a Linux box,  (either on the web or anywhere on the network). In this way almost no additional packages or modifications to settings are required for the delicate Windows 10/11 environment. Moreover, backing up and restoring the actual development environment is all but completely independent of Windows 10/11.
 
 - Install Windows 10/11 on your computer natively
