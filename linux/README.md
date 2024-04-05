@@ -27,7 +27,7 @@
     - Choose the "Install" option.
 - Step 6: Follow Installation Wizard
     - Follow the on-screen instructions provided by the installation wizard.
-You'll be prompted to select language, time zone, keyboard layout, and other basic settings.
+    - You'll be prompted to select language, time zone, keyboard layout, and other basic settings.
 - Step 7: Partitioning
     - Decide on the disk partitioning scheme. 
     - For beginners, choosing the option to install Linux alongside existing operating systems (when any) is recommended.
