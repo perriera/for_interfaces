@@ -16,7 +16,7 @@
     - Visit the official website of the chosen Linux distribution and download the ISO image for installation.
 - Step 3: Create Installation Media
     - Create a bootable USB drive using the downloaded ISO image. 
-    - You can use tools like Rufus (for Windows) or Etcher (for Linux and macOS) for this purpose.
+    - You can use tools like [Rufus (for Windows)](https://rufus.ie/en/) or Etcher (for Linux and macOS) for this purpose.
 - Step 4: Boot from Installation Media
     - Insert the bootable USB drive into your system and restart it.
     - Access the BIOS or UEFI settings and set the boot order to prioritize booting from the USB drive.
