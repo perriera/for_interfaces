@@ -10,39 +10,46 @@
 ### Wish Case: 
 #### Installing Linux on a New System (native install)
 - Step 1: Choose a Linux Distribution
-Research and choose a Linux distribution that suits your needs. Popular options include Ubuntu, Fedora, Debian, and CentOS.
+    - Research and choose a Linux distribution that suits your needs. 
+    - Popular options include Ubuntu, Fedora, Debian, and CentOS.
 - Step 2: Download the Installation Media
-Visit the official website of the chosen Linux distribution and download the ISO image for installation.
+    - Visit the official website of the chosen Linux distribution and download the ISO image for installation.
 - Step 3: Create Installation Media
-Create a bootable USB drive using the downloaded ISO image. You can use tools like Rufus (for Windows) or Etcher (for Linux and macOS) for this purpose.
+    - Create a bootable USB drive using the downloaded ISO image. 
+    - You can use tools like Rufus (for Windows) or Etcher (for Linux and macOS) for this purpose.
 - Step 4: Boot from Installation Media
-Insert the bootable USB drive into your system and restart it.
-Access the BIOS or UEFI settings and set the boot order to prioritize booting from the USB drive.
-Save the changes and exit the BIOS/UEFI settings.
-Your system should now boot from the installation media.
+    - Insert the bootable USB drive into your system and restart it.
+    - Access the BIOS or UEFI settings and set the boot order to prioritize booting from the USB drive.
+    - Save the changes and exit the BIOS/UEFI settings.
+    - Your system should now boot from the installation media.
 - Step 5: Begin Installation
-Once the installation media boots up, you'll be presented with the option to try Linux or install it. Choose the "Install" option.
+    - Once the installation media boots up, you'll be presented with the option to try Linux or install it. 
+    - Choose the "Install" option.
 - Step 6: Follow Installation Wizard
-Follow the on-screen instructions provided by the installation wizard.
+    - Follow the on-screen instructions provided by the installation wizard.
 You'll be prompted to select language, time zone, keyboard layout, and other basic settings.
 - Step 7: Partitioning
-Decide on the disk partitioning scheme. For beginners, choosing the option to install Linux alongside existing operating systems (if any) is recommended.
+    - Decide on the disk partitioning scheme. 
+    - For beginners, choosing the option to install Linux alongside existing operating systems (if any) is recommended.
 - Step 8: Create User Account
-Provide necessary information to create a user account, including username and password.
+    - Provide necessary information to create a user account, including username and password.
 - Step 9: Complete Installation
-Once all required information is provided, proceed with the installation process.
-The installer will copy necessary files and configure the system.
+    - Once all required information is provided, proceed with the installation process.
+    - The installer will copy necessary files and configure the system.
 - Step 10: Reboot
-After the installation completes, you'll be prompted to reboot your system. Remove the installation media and restart your computer.
+    - After the installation completes, you'll be prompted to reboot your system. 
+    - Remove the installation media and restart your computer.
 - Step 11: Log In
-Upon rebooting, you'll be presented with the login screen. Enter the username and password you created during the installation process.
+     - Upon rebooting, you'll be presented with the login screen. 
+     - Enter the username and password you created during the installation process.
 - Step 12: Post-Installation Setup
-After logging in, you may need to perform additional setup tasks, such as installing updates, drivers, and software packages.
-- Alternate Case: Troubleshooting
-If you encounter any issues during the installation process, such as driver compatibility problems or partitioning errors, refer to the official documentation of your chosen Linux distribution for troubleshooting steps.
-Alternatively, you can seek help from online forums and communities dedicated to Linux users, where experienced users can provide assistance and guidance.
+    - After logging in, you may need to perform additional setup tasks, such as installing updates, drivers, and software packages.
 
-### Wish Case
+### Alternate Case
+#### Troubleshooting (native install)
+If you encounter any issues during the installation process, such as driver compatibility problems or partitioning errors, refer to the official documentation of your chosen Linux distribution for troubleshooting steps. Alternatively, you can seek help from online forums and communities dedicated to Linux users, where experienced users can provide assistance and guidance.
+
+### Alternate Case
 #### Installing Linux on a New System (virtual machine)
 There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred, especially for software development purposes, as it proves to be more practical. While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it's much simpler and faster to restore a backup of a Linux instance and retrace your steps to identify the cause of the malfunction than to attempt to isolate the issue. 
 
