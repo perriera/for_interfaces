@@ -95,10 +95,10 @@ There are various methods to install Linux on your computer, depending on the ty
     | [DigitalOcean](https://www.digitalocean.com)      | no  | yes | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/DigitalOcean) |
     | [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/Docker_(software)) |
     | [multipass](https://multipass.run/)               | yes | no  | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Canonical_(company)) |
-    | [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  |
+    | [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/VirtualBox)
 
-    | Mac only      | Free | Eval | GUI | x11 |MRDT |
-    | ----------- | ------| -----| --- |  --- |--- |
+    | Mac only      | Free | Eval | GUI | x11 |MRDT |Wiki |
+    | ----------- | ------| -----| --- |  --- |--- |--- |
     | [Parallels Desktop](https://parallels.com)        | no  | yes | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac)
 
     | Windows only      | Free | Eval | GUI | x11 |MRDT |
