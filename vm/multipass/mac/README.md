@@ -1,9 +1,5 @@
 ## How to install Ubuntu 22.04 using `multipass` on Mac (OS X)
-> In this step we show how to install multipass on OS X (mac)
-
- 1. **GIVEN** we need to be able to run Linux apps on OSX and Windows
- 2. **WHEN** we install multipass on OSX or Windows 
- 3. **THEN** we can launch an instance of Ubuntu 22.04 
+> **Given** we need to develop Linux apps using Linux (as you would) but need the ability to recover from a malfunction quickly and easily **when** we install `multipass` for macOS on top of the natively installed macOS **then** we can easily backup and restore instances of any given Linux distribution quickly and easily  
 
 ### Prerequisites
 - [How to install `multipass` on macOS](https://multipass.run/docs/installing-on-macos#heading--install-upgrade-uninstall)  
