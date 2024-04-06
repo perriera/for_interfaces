@@ -88,7 +88,7 @@ There are various methods to install Linux on your computer, depending on the ty
     | VM distributor      | Free | Eval | GUI | x11 | MRDT | Wiki |
     | ----------- | ------| -----| --- |  --- | --- | --- |
     | [DigitalOcean](https://www.digitalocean.com)      | no  | yes | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/DigitalOcean) |
-    | [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  |
+    | [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/Docker_(software)) |
     | [multipass](https://multipass.run/)               | yes | no  | no  | yes | yes |
     | [Parallels Desktop](https://parallels.com)        | no  | yes | yes | yes | no  |
     | [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  |
