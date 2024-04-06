@@ -93,13 +93,13 @@ There are various methods to install Linux on your computer, depending on the ty
     | [Docker](https://www.docker.com)             | yes | no  | no  | yes | no |
     | [VirtualBox](https://virtualbox.org)         | yes | no  | yes | yes | no |
 
-    | Windows only      | Free | Eval | Gui | x11 |
-    | ----------- | ------| -----| --- |  --- |
-    | [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |
-  | [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |
+    | Windows only      | Free | Eval | Gui | x11 |MRDT |
+    | ----------- | ------| -----| --- |  --- |--- |
+    | [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |no |
+  | [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |no |
 
     - **x11**: Gui support *possible* (using x11 protocol)
-    - **MRDT**: *Microsoft Remote Desktop* tested 
+    - **MRDT**: *Microsoft Remote Desktop* tested (by the author)
 
 - Which ever VM platform you choose make sure that platform is installed properly onto your native operating system, (using the documentation supplied on their respective websites). 
 - However, below you will find Wish Cases for select VM platforms and select Linux distributions (usually Ubuntu) that will have step-by-step instructions for that particular version of VM platform and Linux distribution. 
