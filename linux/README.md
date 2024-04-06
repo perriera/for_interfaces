@@ -85,10 +85,10 @@ There are various methods to install Linux on your computer, depending on the ty
 
 - Pick a virtual machine distribution from the list below:
 
-    | Cross-platform API      | Free | Eval | GUI |
-    | ----------- | ------| -----| --- |  
-    | [Flutter](https://flutter.dev/)                   | yes | no  | yes  | yes | 
-    | [Qt](https://www.qt.io/)                          | no  | yes | yes | yes | no  |
+    | Cross-platform API      | Free | Eval | GUI |Wiki |
+    | ----------- | ------| -----| --- | --- |  
+    | [Flutter](https://flutter.dev/)                   | yes | no  | yes  | [wiki](https://en.wikipedia.org/wiki/Flutter_(software)) | 
+    | [Qt](https://www.qt.io/)                          | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Qt_(software))
 
     | VM distributor      | Free | Eval | GUI | x11 | MRDT | Wiki |
     | ----------- | ------| -----| --- |  --- | --- | --- |
