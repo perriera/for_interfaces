@@ -98,7 +98,7 @@ There are various methods to install Linux on your computer, depending on the ty
     | [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |
   | [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |
 
-    - **x11**: Gui support possible (using x11 protocol)
+    - **x11**: Gui support *possible* (using x11 protocol)
     - **MRDT**: *Microsoft Remote Desktop* tested 
 
 - Which ever VM platform you choose make sure that platform is installed properly onto your native operating system, (using the documentation supplied on their respective websites). 
