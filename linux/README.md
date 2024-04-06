@@ -173,7 +173,7 @@ You now have a selection of methods for setting up a Linux distribution, (either
 - **Cross-platform tool**: `Qt` certainly is an option to consider as it promises to be an all-in-one solution for all three major operating systems plus strong Android support, (but requires a paid subscription and a strong learning curve).
 - **Qt courses available on Udemy**: [click here](https://www.udemy.com/courses/search/?src=ukw&q=qt)
  - **Cross-platform tool**: `Flutter` is an open-source UI software development kit created by Google. It can be used to develop cross platform applications from a single codebase for the web, Fuchsia, Android, iOS, Linux, macOS, and Windows.
-- **Flutter courses available on Udemy**: [click here](https://www.udemy.com/courses/search/?src=ukw&q=qt)
+- **Flutter courses available on Udemy**: [click here](https://www.udemy.com/courses/search/?src=ukw&q=flutter)
 
 ### Next Steps
 - [How to install injections.io(C++17)](https://github.com/perriera/injections)
