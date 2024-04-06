@@ -90,7 +90,7 @@ There are various methods to install Linux on your computer, depending on the ty
     - [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)
     - [Docker](https://www.docker.com)
 - Which ever VM platform you choose make sure that platform is installed properly onto your native operating system, (using the documentation supplied on their respective websites). 
-- Howeverm below you will find Wish Cases for select VM platforms and select Linux distributions (usually Ubuntu) that will have step-by-step instructions for that particular version of VM platform and Linux distribution. 
+- However, below you will find Wish Cases for select VM platforms and select Linux distributions (usually Ubuntu) that will have step-by-step instructions for that particular version of VM platform and Linux distribution. 
 
 #### Alternate Case
 #### DigitalOcean
