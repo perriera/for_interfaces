@@ -101,10 +101,9 @@ There are various methods to install Linux on your computer, depending on the ty
     | ----------- | ------| -----| --- |  --- |--- |--- |
     | [Parallels Desktop](https://parallels.com)        | no  | yes | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac)
 
-    | Windows only      | Free | Eval | GUI | x11 |MRDT |
-    | ----------- | ------| -----| --- |  --- |--- |
-    | [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |no |
-  | [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |no |
+    | Windows only      | Free | Eval | GUI | x11 |MRDT | Wiki |
+    | ----------- | ------| -----| --- |  --- |--- |--- |
+    | [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |no | [wiki](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux)
 
 
     - **x11**: GUI support *possible* (using x11 protocol)
