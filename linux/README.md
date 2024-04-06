@@ -85,13 +85,14 @@ There are various methods to install Linux on your computer, depending on the ty
 
 - Pick a virtual machine distribution from the list below:
 
-    | Vendor      | Free | Eval | GUI | x11 | MRDT |
+    | VM distributor      | Free | Eval | GUI | x11 | MRDT |
     | ----------- | ------| -----| --- |  --- | --- |
     | [DigitalOcean](https://www.digitalocean.com)      | no  | yes | no  | yes | no  |
     | [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  |
+    | [Flutter](https://flutter.dev/)                   | yes | no  | no  | yes | no  |
     | [multipass](https://multipass.run/)               | yes | no  | no  | yes | yes |
     | [Parallels Desktop](https://parallels.com)        | no  | yes | yes | yes | no  |
-    | [Qt](https://en.wikipedia.org/wiki/Qt_(software)) | no  | yes | yes | yes | no  |
+    | [Qt](https://www.qt.io/)                          | no  | yes | yes | yes | no  |
     | [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  |
 
     | Windows only      | Free | Eval | GUI | x11 |MRDT |
@@ -156,7 +157,7 @@ While it is possible to use Linux on Windows 10/11 through [multipass](https://m
     - see [How to install injections.io(C++17)](https://github.com/perriera/injections)
 
 ### Summary
-You now have a selection of methods of setting up a Linux distribution. At this point in time the number one recommendation is to utilize `DigitalOcean` provided you have a good Internet connection and a credit card. The number two recommendation is `multipass` as it is free and can support a GUI interface via Microsoft Remote Desktop, (albeit somewhat laggy). `VirtualBox` comes in as a strong number three as it also free and does do a fairly good GUI interface (but takes longer to setup properly and much more fragile compared to `Parallels Desktop`). `Docker` (a forerunner to `multipass`) is number five but requires a course off [Udemy.com](https://www.udemy.com/courses/search/?src=ukw&q=docker) to know how to use it properly. `WSl/WSL2` provides a Linux-style interface to a natively-installed Windows instance but is dependent on the ever-changing Windows desktop environment to make it practical for software development (when compared to Linux). Down (but not out)`Qt` certainly is an option to consider as it promises to be an all-in-one solution, (but requires a paid subscription and a strong learning curve).
+You now have a selection of methods of setting up a Linux distribution. At this point in time the number one recommendation is to utilize `DigitalOcean` provided you have a good Internet connection and a credit card. The number two recommendation is `multipass` as it is free and can support a GUI interface via Microsoft Remote Desktop, (albeit somewhat laggy). `VirtualBox` comes in as a strong number three as it also free and does do a fairly good GUI interface (but takes longer to setup properly and much more fragile compared to `Parallels Desktop`). `Docker` (a forerunner to `multipass`) is number five but requires a course off [Udemy.com](https://www.udemy.com/courses/search/?src=ukw&q=docker) to know how to use it properly. `WSl/WSL2` provides a Linux-style interface to a natively-installed Windows instance but is dependent on the ever-changing Windows desktop environment to make it practical for software development (when compared to Linux). Down (but not out) `Qt` certainly is an option to consider as it promises to be an all-in-one solution for all three major operating systems plus strong Android support, (but requires a paid subscription and a strong learning curve).
 
 ### Next Steps
 - [How to install injections.io(C++17)](https://github.com/perriera/injections)
