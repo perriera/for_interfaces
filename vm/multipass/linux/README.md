@@ -1,11 +1,5 @@
 ## How to install Linux using `multipass` on Linux 
-[Work-in-progress](aka. not ready yet)
-
-> In this step we show how to install multipass on Linux
-
- 1. **GIVEN** we need to be able to run Linux apps on OSX and Windows
- 2. **WHEN** we install multipass on OSX or Windows (or Ubuntu)
- 3. **THEN** we can launch an instance of Ubuntu 22.04 
+> **Given** we need to develop Linux apps on top native of a natively installed Linux distribution **when** we install multipass for Linux on top of the natively installed Linux **then** we can easily backup and restore other Linux distributions quickly and easily  
 
 ### Prerequisites
 - [How to install Multipass on macOS](https://multipass.run/download/macos) (reviewed)
