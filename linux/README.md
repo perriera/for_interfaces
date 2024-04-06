@@ -83,14 +83,14 @@ When you encounter any issues during the installation process, such as driver co
 #### Installing Linux on a New System (virtual machine)
 There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred. Especially for software development purposes, (as it proves to be more practical). While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it proves to be much simpler to restore a backup and retrace your steps (to recreate the malfunction) than to attempt to isolate the issue. 
 
-- Pick a virtual machine distribution from the list below:
+- Pick a virtual machine (VM) manager or Cross-platform distributor below:
 
-    | Cross-platform API      | Free | Eval | GUI |Wiki |
+    | Cross-platform distributor      | Free | Eval | GUI |Wiki |
     | ----------- | ------| -----| --- | --- |  
     | [Flutter](https://flutter.dev/)                   | yes | no  | yes  | [wiki](https://en.wikipedia.org/wiki/Flutter_(software)) | 
     | [Qt](https://www.qt.io/)                          | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Qt_(software))
 
-    | VM distributor      | Free | Eval | GUI | x11 | MRDT | Wiki |
+    | VM manager      | Free | Eval | GUI | x11 | MRDT | Wiki |
     | ----------- | ------| -----| --- |  --- | --- | --- |
     | [DigitalOcean](https://www.digitalocean.com)      | no  | yes | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/DigitalOcean) |
     | [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/Docker_(software)) |
