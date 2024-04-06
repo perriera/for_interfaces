@@ -106,6 +106,7 @@ There are various methods to install Linux on your computer, depending on the ty
 
     - **x11**: GUI support *possible* (using x11 protocol)
     - **MRDT**: *Microsoft Remote Desktop tested* (by the author)
+    - **Cross-platform API**: means it is a tool to develop apps that will run on a target operating system, (but is not a VM manager in it of itself)
 
 - Which ever VM platform you choose make sure that platform is installed properly onto your native operating system, (using the documentation supplied on their respective websites). 
 - However, below you will find Wish Cases for select VM platforms and select Linux distributions (usually Ubuntu) that will have step-by-step instructions for that particular version of VM platform and Linux distribution. 
