@@ -96,9 +96,9 @@ Before we list the VM managers that have been tested with `injections.io(C++17)`
 | VM manager      | Free | Eval | GUI | x11 | MRDT | Wiki | Gurus |
 | ----------- | ------| -----| --- |  --- | --- | --- | --- |
 | [DigitalOcean](https://www.digitalocean.com)      | no  | yes | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/DigitalOcean) | [udemy](https://www.udemy.com/courses/search/?src=ukw&q=digitalocean)
-| [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/Docker_(software)) |[udemy](https://www.udemy.com/courses/search/?src=ukw&q=docker)
-| [multipass](https://multipass.run/)               | yes | no  | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Canonical_(company)) |
-| [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/VirtualBox)
+| [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/Docker_(software)) | [udemy](https://www.udemy.com/courses/search/?src=ukw&q=docker)
+| [multipass](https://multipass.run/)               | yes | no  | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Canonical_(company)) | [udemy](https://www.udemy.com/courses/search/?src=ukw&q=multipass)
+| [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/VirtualBox) | [udemy](https://www.udemy.com/courses/search/?src=ukw&q=VirtualBox)
 
 | Mac only      | Free | Eval | GUI | x11 |MRDT |Wiki |
 | ----------- | ------| -----| --- |  --- |--- |--- |
