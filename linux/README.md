@@ -85,18 +85,21 @@ There are various methods to install Linux on your computer, depending on the ty
 
 - Pick a virtual machine distribution from the list below:
 
-    | VM distributor      | Free | Eval | GUI | x11 | MRDT | Wiki |
-    | ----------- | ------| -----| --- |  --- | --- | --- |
-    | [DigitalOcean](https://www.digitalocean.com)      | no  | yes | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/DigitalOcean) |
-    | [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/Docker_(software)) |
-    | [multipass](https://multipass.run/)               | yes | no  | no  | yes | yes |
-    | [Parallels Desktop](https://parallels.com)        | no  | yes | yes | yes | no  |
-    | [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  |
-
     | Cross-platform API      | Free | Eval | GUI |
     | ----------- | ------| -----| --- |  
     | [Flutter](https://flutter.dev/)                   | yes | no  | yes  | yes | 
     | [Qt](https://www.qt.io/)                          | no  | yes | yes | yes | no  |
+
+    | VM distributor      | Free | Eval | GUI | x11 | MRDT | Wiki |
+    | ----------- | ------| -----| --- |  --- | --- | --- |
+    | [DigitalOcean](https://www.digitalocean.com)      | no  | yes | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/DigitalOcean) |
+    | [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/Docker_(software)) |
+    | [multipass](https://multipass.run/)               | yes | no  | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Canonical_(company)) |
+    | [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  |
+
+    | Mac only      | Free | Eval | GUI | x11 |MRDT |
+    | ----------- | ------| -----| --- |  --- |--- |
+    | [Parallels Desktop](https://parallels.com)        | no  | yes | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac)
 
     | Windows only      | Free | Eval | GUI | x11 |MRDT |
     | ----------- | ------| -----| --- |  --- |--- |
