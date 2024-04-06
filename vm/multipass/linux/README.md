@@ -1,5 +1,5 @@
 ## How to install Linux using `multipass` on Linux 
-> **Given** we need to develop Linux apps on top native of a natively installed Linux distribution **when** we install multipass for Linux on top of the natively installed Linux **then** we can easily backup and restore other Linux distributions quickly and easily  
+> **Given** we need to develop Linux apps using Linux (as you would) but need the ability to recover from a malfunction quickly and easily **when** we install multipass for Linux on top of the natively installed Linux **then** we can easily backup and restore other Linux distributions quickly and easily  
 
 ### Prerequisites
 - [How to install Multipass on macOS](https://multipass.run/download/macos) (reviewed)
