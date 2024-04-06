@@ -83,32 +83,36 @@ When you encounter any issues during the installation process, such as driver co
 #### Installing Linux on a New System (virtual machine)
 There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred. Especially for software development purposes, (as it proves to be more practical). While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it proves to be much simpler to restore a backup and retrace your steps (to recreate the malfunction) than to attempt to isolate the issue. 
 
-- Pick a cross-platform distributor or virtual machine below:
+**Cross-platform API**: 
+Before we list the VM managers that have been tested with `injections.io(C++17)` it is important to mention that it is possible to develop applications on one type of operating system for use on another type of operating system without being inside the target environment itself. 
 
-    | Cross-platform distributor      | Free | Eval | GUI |Wiki |
-    | ----------- | ------| -----| --- | --- |  
-    | [Flutter](https://flutter.dev/)                   | yes | no  | yes  | [wiki](https://en.wikipedia.org/wiki/Flutter_(software)) | 
-    | [Qt](https://www.qt.io/)                          | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Qt_(software))
+| Cross-platform API      | Free | Eval | GUI |Wiki |
+| ----------- | ------| -----| --- | --- |  
+| [Flutter](https://flutter.dev/)                   | yes | no  | yes  | [wiki](https://en.wikipedia.org/wiki/Flutter_(software)) | 
+| [Qt](https://www.qt.io/)                          | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Qt_(software))
 
-    | VM manager      | Free | Eval | GUI | x11 | MRDT | Wiki |
-    | ----------- | ------| -----| --- |  --- | --- | --- |
-    | [DigitalOcean](https://www.digitalocean.com)      | no  | yes | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/DigitalOcean) |
-    | [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/Docker_(software)) |
-    | [multipass](https://multipass.run/)               | yes | no  | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Canonical_(company)) |
-    | [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/VirtualBox)
-
-    | Mac only      | Free | Eval | GUI | x11 |MRDT |Wiki |
-    | ----------- | ------| -----| --- |  --- |--- |--- |
-    | [Parallels Desktop](https://parallels.com)        | no  | yes | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac)
-
-    | Windows only      | Free | Eval | GUI | x11 |MRDT | Wiki |
-    | ----------- | ------| -----| --- |  --- |--- |--- |
-    | [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |no | [wiki](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux)
+**List of VM managers** that have been tested for use with `injections.io(C++17)`
 
 
-    - **x11**: GUI support *possible* (using x11 protocol)
-    - **MRDT**: *[Microsoft Remote Desktop tested](https://apps.microsoft.com/detail/9wzdncrfj3ps?hl=en-US&gl=US)* (by the author)
-    - **Cross-platform API**: means it is a tool to develop apps that will run on a target operating system, (but is not a VM manager in it of itself)
+| VM manager      | Free | Eval | GUI | x11 | MRDT | Wiki |
+| ----------- | ------| -----| --- |  --- | --- | --- |
+| [DigitalOcean](https://www.digitalocean.com)      | no  | yes | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/DigitalOcean) |
+| [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/Docker_(software)) |
+| [multipass](https://multipass.run/)               | yes | no  | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Canonical_(company)) |
+| [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/VirtualBox)
+
+| Mac only      | Free | Eval | GUI | x11 |MRDT |Wiki |
+| ----------- | ------| -----| --- |  --- |--- |--- |
+| [Parallels Desktop](https://parallels.com)        | no  | yes | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac)
+
+| Windows only      | Free | Eval | GUI | x11 |MRDT | Wiki |
+| ----------- | ------| -----| --- |  --- |--- |--- |
+| [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |no | [wiki](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux)
+
+
+- **x11**: GUI support *possible* (using x11 protocol)
+- **MRDT**: *[Microsoft Remote Desktop tested](https://apps.microsoft.com/detail/9wzdncrfj3ps?hl=en-US&gl=US)* (by the author)
+    
 
 - Which ever VM platform you choose make sure that platform is installed properly onto your native operating system, (using the documentation supplied on their respective websites). 
 - However, below you will find Wish Cases for select VM platforms and select Linux distributions (usually Ubuntu) that will have step-by-step instructions for that particular version of VM platform and Linux distribution. 
