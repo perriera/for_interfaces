@@ -91,7 +91,7 @@ Before we list the VM managers that have been tested with `injections.io(C++17)`
 | [Flutter](https://flutter.dev/)                   | yes | no  | yes  | [wiki](https://en.wikipedia.org/wiki/Flutter_(software)) | [udemy](https://www.udemy.com/courses/search/?src=ukw&q=Flutter)
 | [Qt](https://www.qt.io/)                          | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Qt_(software))| [udemy](https://www.udemy.com/courses/search/?src=ukw&q=Qt)
 
-**List of VM managers**: Being inside the target operating system when developing applications for that operating system has the advantage being able to contain everything the new application is experiencing during it's development. In additional to being able to backup/restore entire operating systems (as mere zip files) quickly and easily (in the event of a malfunction):
+**List of VM managers**: Being inside the target operating system when developing applications for that operating system has the advantage being able to contain everything the new application is experiencing during it's development, (even freeze/capture the entire instance in the event of a malfunction). Managing multiple instances of entire operating systems (as mere zip files) quickly and easily.
 
 | VM manager      | Free | Eval | GUI | x11 | MRDT | Wiki | Gurus |
 | ----------- | ------| -----| --- |  --- | --- | --- | --- |
