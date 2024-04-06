@@ -1,5 +1,5 @@
 ## How to install `multipass` on Windows 
-> **Given** we need to be able to run Linux apps Windows **when** we install multipass on Windows **then** we install a instance of Linux 
+> **Given** we need to develop Linux apps using Linux (as you would) but need the ability to recover from a malfunction quickly and easily **when** we install `multipass` for Windows on top of the natively installed Windows **then** we can easily backup and restore instances of any given Linux distribution quickly and easily  
 
 ### Prerequisites
 - [How to install Multipass on Windows](https://multipass.run/docs/installing-on-windows)  
