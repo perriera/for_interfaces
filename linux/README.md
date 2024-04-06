@@ -87,11 +87,12 @@ There are various methods to install Linux on your computer, depending on the ty
 
     | Vendor      | Free | Eval | GUI | x11 | MRDT |
     | ----------- | ------| -----| --- |  --- | --- |
-    | [DigitalOcean](https://www.digitalocean.com) | no  | yes | no  | yes | no |
-    | [multipass](https://multipass.run/)          | yes | no  | no  | yes | yes |
-    | [Parallels Desktop](https://parallels.com)   | no  | yes | yes | yes | no |
-    | [Docker](https://www.docker.com)             | yes | no  | no  | yes | no |
-    | [VirtualBox](https://virtualbox.org)         | yes | no  | yes | yes | no |
+    | [DigitalOcean](https://www.digitalocean.com)      | no  | yes | no  | yes | no  |
+    | [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  |
+    | [multipass](https://multipass.run/)               | yes | no  | no  | yes | yes |
+    | [Parallels Desktop](https://parallels.com)        | no  | yes | yes | yes | no  |
+    | [Qt](https://en.wikipedia.org/wiki/Qt_(software)) | no  | yes | yes | yes | no  |
+    | [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  |
 
     | Windows only      | Free | Eval | GUI | x11 |MRDT |
     | ----------- | ------| -----| --- |  --- |--- |
