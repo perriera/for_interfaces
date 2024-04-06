@@ -155,7 +155,7 @@ While it is possible to use Linux on Windows 10/11 through [multipass](https://m
     - see [How to install injections.io(C++17)](https://github.com/perriera/injections)
 
 ### Summary
-You now have a selection of methods of setting up a Linux distribution. At this point in time the number one recommendation is to utilize `DigitalOcean` provided you have a good Internet connection and a credit card. The number two recommendation is `multipass` as it is free and can support a GUI interface via Microsoft Remote Desktop, (albeit somewhat laggy). `VirtualBox` comes in as a strong number three as it also free and does do a fairly good Gui interface (but takes longer to setup properly)
+You now have a selection of methods of setting up a Linux distribution. At this point in time the number one recommendation is to utilize `DigitalOcean` provided you have a good Internet connection and a credit card. The number two recommendation is `multipass` as it is free and can support a GUI interface via Microsoft Remote Desktop, (albeit somewhat laggy). `VirtualBox` comes in as a strong number three as it also free and does do a fairly good Gui interface (but takes longer to setup properly and much more fragile compared to `Parallels Desktop`)
 
 ### Next Steps
 - [How to install injections.io(C++17)](https://github.com/perriera/injections)
