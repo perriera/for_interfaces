@@ -83,18 +83,23 @@ When you encounter any issues during the installation process, such as driver co
 #### Installing Linux on a New System (virtual machine)
 There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred. Especially for software development purposes, (as it proves to be more practical). While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it proves to be much simpler to restore a backup and retrace your steps (to recreate the malfunction) than to attempt to isolate the issue. 
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-
 - Pick a virtual machine distribtion from the list below (in order of recommendation):
-    - [DigitalOcean](https://www.digitalocean.com)
-    - [multipass](https://multipass.run/)
-    - [Parallels Desktop](https://parallels.com)
-    - [Docker](https://www.docker.com)
-    - [VirtualBox](https://virtualbox.org)
-    - [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+    | Vendor      | Free | Eval | Gui | x11 |
+    | ----------- | ------| -----| --- |  --- |
+    | [DigitalOcean](https://www.digitalocean.com) | no  | yes | no  | yes |
+    | [multipass](https://multipass.run/)          | yes | no  | no  | yes |
+    | [Parallels Desktop](https://parallels.com)   | no  | yes | yes | yes |
+    | [Docker](https://www.docker.com)             | yes | no  | no  | yes |
+    | [VirtualBox](https://virtualbox.org)         | yes | no  | yes | yes |
+
+    | Windows only      | Free | Eval | Gui | x11 |
+    | ----------- | ------| -----| --- |  --- |
+    | [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |
+
+    - **x11** Gui support possible (using x11 protocol)
+    - **Microsoft Remote Desktop** is possible via SSH protocal 
+
 - Which ever VM platform you choose make sure that platform is installed properly onto your native operating system, (using the documentation supplied on their respective websites). 
 - However, below you will find Wish Cases for select VM platforms and select Linux distributions (usually Ubuntu) that will have step-by-step instructions for that particular version of VM platform and Linux distribution. 
 
