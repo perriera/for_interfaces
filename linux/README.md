@@ -93,10 +93,10 @@ Before we list the VM managers that have been tested with `injections.io(C++17)`
 
 **List of VM managers**: Being inside the target operating system when developing applications for that operating system has the advantage being able to contain everything the new application is experiencing during it's development. In additional to being able to backup/restore entire operating systems (as mere zip files) quickly and easily (in the event of a malfunction):
 
-| VM manager      | Free | Eval | GUI | x11 | MRDT | Wiki | Info |
+| VM manager      | Free | Eval | GUI | x11 | MRDT | Wiki | Gurus |
 | ----------- | ------| -----| --- |  --- | --- | --- | --- |
-| [DigitalOcean](https://www.digitalocean.com)      | no  | yes | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/DigitalOcean) | [udemy](https://www.udemy.com/courses/search/?src=ukw&q=digitialocean)
-| [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/Docker_(software)) |
+| [DigitalOcean](https://www.digitalocean.com)      | no  | yes | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/DigitalOcean) | [udemy](https://www.udemy.com/courses/search/?src=ukw&q=digitalocean)
+| [Docker](https://www.docker.com)                  | yes | no  | no  | yes | no  | [wiki](https://en.wikipedia.org/wiki/Docker_(software)) |[udemy](https://www.udemy.com/courses/search/?src=ukw&q=docker)
 | [multipass](https://multipass.run/)               | yes | no  | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Canonical_(company)) |
 | [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/VirtualBox)
 
