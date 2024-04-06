@@ -99,7 +99,7 @@ There are various methods to install Linux on your computer, depending on the ty
   | [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |no |
 
     - **x11**: Gui support *possible* (using x11 protocol)
-    - **MRDT**: *Microsoft Remote Desktop* tested (by the author)
+    - **MRDT**: *Microsoft Remote Desktop tested* (by the author)
 
 - Which ever VM platform you choose make sure that platform is installed properly onto your native operating system, (using the documentation supplied on their respective websites). 
 - However, below you will find Wish Cases for select VM platforms and select Linux distributions (usually Ubuntu) that will have step-by-step instructions for that particular version of VM platform and Linux distribution. 
