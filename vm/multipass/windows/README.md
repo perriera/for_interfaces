@@ -107,6 +107,11 @@
 		su dev
 
 ### Alternate Case
+#### Hyper-V is not activating as documented?
+This is an ongoing issue with Windows but typically can be resolved by investing sufficient time searching Google on the latest solutions, (as each and every Microsoft upgrade to the operating system can effect this issue).
+- Search [Google for the latest Windows 10/11 Hyper-V solutions](https://www.google.com/search?channel=fs&client=ubuntu-sn&q=linux%2C+hyper-v%2C+windows+10%2F11)
+
+### Alternate Case
 #### pre-release versions from our GitHub releases
 You can also get pre-release versions from [our GitHub releases page](https://github.com/CanonicalLtd/multipass/releases/) - it’s the .exe file
 
