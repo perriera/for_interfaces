@@ -85,7 +85,7 @@ There are various methods to install Linux on your computer, depending on the ty
 
 - Pick a virtual machine distribution from the list below:
 
-    | Vendor      | Free | Eval | Gui | x11 | MRDT |
+    | Vendor      | Free | Eval | GUI | x11 | MRDT |
     | ----------- | ------| -----| --- |  --- | --- |
     | [DigitalOcean](https://www.digitalocean.com) | no  | yes | no  | yes | no |
     | [multipass](https://multipass.run/)          | yes | no  | no  | yes | yes |
@@ -93,12 +93,12 @@ There are various methods to install Linux on your computer, depending on the ty
     | [Docker](https://www.docker.com)             | yes | no  | no  | yes | no |
     | [VirtualBox](https://virtualbox.org)         | yes | no  | yes | yes | no |
 
-    | Windows only      | Free | Eval | Gui | x11 |MRDT |
+    | Windows only      | Free | Eval | GUI | x11 |MRDT |
     | ----------- | ------| -----| --- |  --- |--- |
     | [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |no |
   | [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |no |
 
-    - **x11**: Gui support *possible* (using x11 protocol)
+    - **x11**: GUI support *possible* (using x11 protocol)
     - **MRDT**: *Microsoft Remote Desktop tested* (by the author)
 
 - Which ever VM platform you choose make sure that platform is installed properly onto your native operating system, (using the documentation supplied on their respective websites). 
@@ -155,7 +155,7 @@ While it is possible to use Linux on Windows 10/11 through [multipass](https://m
     - see [How to install injections.io(C++17)](https://github.com/perriera/injections)
 
 ### Summary
-You now have a selection of methods of setting up a Linux distribution. At this point in time the number one recommendation is to utilize `DigitalOcean` provided you have a good Internet connection and a credit card. The number two recommendation is `multipass` as it is free and can support a GUI interface via Microsoft Remote Desktop, (albeit somewhat laggy). `VirtualBox` comes in as a strong number three as it also free and does do a fairly good Gui interface (but takes longer to setup properly and much more fragile compared to `Parallels Desktop`)
+You now have a selection of methods of setting up a Linux distribution. At this point in time the number one recommendation is to utilize `DigitalOcean` provided you have a good Internet connection and a credit card. The number two recommendation is `multipass` as it is free and can support a GUI interface via Microsoft Remote Desktop, (albeit somewhat laggy). `VirtualBox` comes in as a strong number three as it also free and does do a fairly good GUI interface (but takes longer to setup properly and much more fragile compared to `Parallels Desktop`)
 
 ### Next Steps
 - [How to install injections.io(C++17)](https://github.com/perriera/injections)
