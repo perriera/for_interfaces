@@ -86,10 +86,10 @@ There are various methods to install Linux on your computer, depending on the ty
 **Cross-platform API**: 
 Before we list the VM managers that have been tested with `injections.io(C++17)` it is important to mention that it is possible to develop applications on one type of operating system for use on another type of operating system without being inside the target environment itself. **Note**: One key disadvantage to this approach is that a failure in the host operating system itself (aka. mere spamware) can often be mistaken as a malfunction in the beta software functionality under development.
 
-| Cross-platform API      | Free | Eval | GUI |Wiki |
-| ----------- | ------| -----| --- | --- |  
-| [Flutter](https://flutter.dev/)                   | yes | no  | yes  | [wiki](https://en.wikipedia.org/wiki/Flutter_(software)) | 
-| [Qt](https://www.qt.io/)                          | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Qt_(software))
+| Cross-platform API      | Free | Eval | GUI |Wiki | Gurus |
+| ----------- | ------| -----| --- | --- |   --- |
+| [Flutter](https://flutter.dev/)                   | yes | no  | yes  | [wiki](https://en.wikipedia.org/wiki/Flutter_(software)) | [udemy](https://www.udemy.com/courses/search/?src=ukw&q=Flutter)
+| [Qt](https://www.qt.io/)                          | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Qt_(software))| [udemy](https://www.udemy.com/courses/search/?src=ukw&q=Qt)
 
 **List of VM managers**: Being inside the target operating system when developing applications for that operating system has the advantage being able to contain everything the new application is experiencing during it's development. In additional to being able to backup/restore entire operating systems (as mere zip files) quickly and easily (in the event of a malfunction):
 
@@ -100,13 +100,13 @@ Before we list the VM managers that have been tested with `injections.io(C++17)`
 | [multipass](https://multipass.run/)               | yes | no  | no  | yes | yes | [wiki](https://en.wikipedia.org/wiki/Canonical_(company)) | [ubuntu](https://multipass.run/docs)
 | [VirtualBox](https://virtualbox.org)              | yes | no  | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/VirtualBox) | [udemy](https://www.udemy.com/courses/search/?src=ukw&q=VirtualBox)
 
-| Mac only      | Free | Eval | GUI | x11 |MRDT |Wiki |
-| ----------- | ------| -----| --- |  --- |--- |--- |
-| [Parallels Desktop](https://parallels.com)        | no  | yes | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac)
+| Mac only      | Free | Eval | GUI | x11 |MRDT |Wiki | Gurus |
+| ----------- | ------| -----| --- |  --- |--- | --- | --- |
+| [Parallels Desktop](https://parallels.com)        | no  | yes | yes | yes | no  | [wiki](https://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac) | [udemy](https://www.udemy.com/courses/search/?src=ukw&q=Parallels)
 
-| Windows only      | Free | Eval | GUI | x11 |MRDT | Wiki |
-| ----------- | ------| -----| --- |  --- |--- |--- |
-| [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |no | [wiki](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux)
+| Windows only      | Free | Eval | GUI | x11 |MRDT | Wiki | Gurus |
+| ----------- | ------| -----| --- |  --- |--- |--- | --- |
+| [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/install)         | yes | no  | no | yes |no | [wiki](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux)  | [udemy](https://www.udemy.com/courses/search/?src=ukw&q=WSL)
 
 
 - **x11**: GUI support *possible* (using x11 protocol)
