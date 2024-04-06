@@ -132,7 +132,8 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 #### VirtualBox
 [VirtualBox](https://virtualbox.org) has been around for quite some time and their developers have been pretty [diligent in keeping it up to date](http://download.virtualbox.org/virtualbox/). The following are instructions on how to install VirtualBox for one particular situation. However, what is written there can be applicable for newer versions of Ubuntu: 
 - [How to setup ubuntu-20.04.4-desktop-amd64 (on VirtualBox)](https://github.com/perriera/for_interfaces/tree/main/vm/virtualbox)
-- [Complete listing of latest VirtualBox releases](http://download.virtualbox.org/virtualbox/) [latest stable version](http://download.virtualbox.org/virtualbox/LATEST-STABLE.TXT)
+- [Complete listing of latest VirtualBox releases](http://download.virtualbox.org/virtualbox/) 
+- [Latest stable version](http://download.virtualbox.org/virtualbox/LATEST-STABLE.TXT)
 
 #### Alternate Case
 #### Parallels Desktop
