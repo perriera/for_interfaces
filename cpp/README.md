@@ -1,10 +1,6 @@
 
 ## How to install the tools necessary for C++11/17 projects
-> In this step we need to install all the  C++11/17 (gcc/g++) tools for software development
-
- 1. **GIVEN** we need to have C++11/17 (gcc/g++) tools installed 
- 2. **WHEN** we update the Ubuntu install and install the tools required
- 3. **THEN** we build projects using g++, cmake and  CPM
+> **Given** we wish build software using C++11/17 based tools for the Ubuntu platform **when** we update Ubuntu and install the `GNU Compiler Collection` and other supported tools for Linux **then** we build projects using g++ with support from automake, git, clangd cppcheck, checkinstall, gdb, ssh, net-tools, zip, xterm, curl plus others
 
 ### Prerequisites
 - [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/linux/README.md)
@@ -19,6 +15,8 @@ Assuming you have a Linux instance and are currently logged into it (either loca
  - [ ] Now install gcc and other necessary build tools:
 
 		cd ~
+		sudo apt update -y
+		sudo apt upgrade -y 
 		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd cppcheck clang-tidy python3-pip checkinstall gdb xclip openssh-server net-tools zip xterm curl ncdu
 
  - [ ] Set the following environment variables:
