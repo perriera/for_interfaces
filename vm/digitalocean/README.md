@@ -132,6 +132,7 @@ Simplified instructions:
 
 	**Note**: You are now logged in as `dev` over a SSH connection to a remote Linux box.
 	- Write down the `ssh dev@ip_address` for later connection to that paticular Linux box.
+	- Whenever the instructions require you to `login as dev` you open a shell (Terminal box or CMD.exe) and log into it with that string.
 	- Also, use the `dev@ip_address` portion to log into the Linux box when a client app (such as `Visual Code Studio (VSC)`).
 - Feel free to close the `Access` dialog box
 
