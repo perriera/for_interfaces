@@ -48,7 +48,7 @@ Assuming you have a Linux instance and are currently logged into it (either loca
   - [ ] Now determine the ssh command you'd need to log into this Linux box (once you add the clients SSH key): 
 
 		cd ~
-		ANSI_YELLOW="\e[33m"
+		ANSI_YELLOW="\e[33;1m"
 		ANSI_RESET="\e[0m"
 		output=$(hostname -I)
 		output=($output)
