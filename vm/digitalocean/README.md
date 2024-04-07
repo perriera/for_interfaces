@@ -108,7 +108,7 @@ Simplified instructions:
 	- When the instance comes back up do this:
 
 			cd ~
-			ANSI_GREEN="\e[32m"
+			ANSI_GREEN="\e[32;1m"
 			ANSI_RESET="\e[0m"
 			output=$(hostname -I)
 			output=($output)
