@@ -12,6 +12,10 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 	
 		su dev
 	
+	**Note**: In the case of a accessing remote Linux box type:
+
+		ssh dev@ip_address 
+
  - [ ] Now install gcc and other necessary build tools:
 
 		cd ~
