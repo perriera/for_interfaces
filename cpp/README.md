@@ -128,6 +128,12 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 	See *Resume/Next Steps* below ... 
 
 ### Alternate Case
+#### client_loop: send disconnect: Broken pipe
+You SSH connection went down (part of the Internet experience).
+- Just relog in with the same SSH string
+- Typically you would just `up arrow` and hit `enter`
+
+### Alternate Case
 #### Something didn't install correctly?
 You might need to update/upgrade the system first:
 - Go into *sudo* mode:
