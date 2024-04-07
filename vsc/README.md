@@ -5,9 +5,10 @@
 - Linux instance
 - Internet access
 - **sudo** privilages 
+- x11 or SSH access
 
 ### Wish Case
-
+Visual Studio Code is a text editor that gives the user the ability to edit files using a GUI. In the case of accessing a remote Linux box the preferred method to do this is over SSH, (see *Alternate Case* below):
 - To install VSC you can following the latest instructions [here](https://code.visualstudio.com/download) or check out one the *Alternate Cases* below:
 
 - Once installed open a Terminal box:
