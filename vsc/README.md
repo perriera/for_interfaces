@@ -14,6 +14,14 @@ Visual Studio Code is a text editor that gives the user the ability to edit file
 
         code .
 
+TODO: added these Extensions
+- Doxygen
+- C/C++ 
+- C/C++ Extensions
+- CMake
+- Beyond: GDB
+
+
  - Once started open the File menu on VSC and select `Open Folder`
  - Here you can navigate to the dev folder or just select the home folder
  - Select 'Yes' to `I trust the authors`
