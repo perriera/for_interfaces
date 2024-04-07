@@ -8,8 +8,7 @@
 - x11 or SSH access
 
 ### Wish Case
-Visual Studio Code is a text editor that gives the user the ability to edit files using a GUI. In the case of accessing a remote Linux box the preferred method to do this is over SSH, (see *Alternate Case* below):
-- To install VSC (on a locally installed Linux box) you can following the latest instructions [here](https://code.visualstudio.com/download) or check out one the *Alternate Cases* below:
+Visual Studio Code is a text editor that gives the user the ability to edit files using a GUI. In the case where you have already setup a SSH connection to the remote Linux box all you have to do now is install VSC locally (see Alternate Case below for your native operating system)
 
 - Once installed open a Terminal box:
 
@@ -32,38 +31,28 @@ see [How to install `Visual Studio Code (VSC)` on macOS](https://github.com/perr
 
 ### Alternate Case
 #### Windows installion
-In the case of using Windows 10/11 to access DigitalOcean based Ubuntu instances do the `SSH access` after installing VSC for Windows locally
-- see [How to install `Visual Studio Code (VSC)` on Windows](https://github.com/perriera/for_interfaces/tree/main/vsc/windows)
+see [How to install `Visual Studio Code (VSC)` on Windows](https://github.com/perriera/for_interfaces/tree/main/vsc/windows)
 
 ### Alternate Case
-#### SSH access
-In some cases the Linux box does not have x11/gui support. Hence, connecting to it via Remote SSH would be required. Each of the Linux, Mac and Windows installion instructions above descibe how to setup VSC on that type of operating system yet access a Linux box using SSH protocol.
+#### SSH access already setup
+In the bottom left hand corner you will see a little blue box with a symbol resembling this `><` in it, (click on it).
+- Now select the `Connection Current Window to Host ...` option.
+- When asked paste the `dev@ip_address` portion of the SSH 
+connection string, (leave out the leading `ssh `)
+- Wait a moment for the SSH connection to happen
+- As soon as it connects on the top menu do this `File->Open Folder` then select `/home/dev`
+- Select `Yes, I trust the authors`
+- Now on the top menu do this `Terminal->New Terminal`
 
-- Do [How to remote connect to your Linux box via SSH](https://github.com/perriera/for_interfaces/blob/main/ssh/REMOTE_SSH.md) 
-- When you return here you would have kept the SSH PARAMETERS generated using that Wish Case:
-- Do install VSC using one of the three methods listed above (*Linux, Mac, Windows*) and return here
- - Open a **new** Terminal box and start a Visual Studio instance
+    **Note**: You are now inside the `dev` home folder of the remote Linux box. 
 
-    - On Windows or Mac you open it using a graphical menu
-    - On Linux you can open it like this:
+- Optionally: In the case where you are asked to select `Linux, Mac and Windows` select `Linux`
 
-            code . 
+### Alternate Case
+#### SSH access not already setup
+The best way to resolve this issue is to follow the steps required when setting up a new remote Linux box over SSH (see [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/linux/README.md)).
+- For more options on setting up SSH see [SSH Alternate Case(s)](https://github.com/perriera/for_interfaces/blob/main/ssh/README.md)
 
- - In the bottom left corner there should be a little blue icon with these two symbols resembling this '><'
- - In the case that that symbol '><' is not present type `Remote - SSH` in the the `Search Extensions` box of the Extensions window (click the 5th large icon on the top left of the VSC editor) and install it, (wait for it to be installed)
- - Now using the SSH PARAMETERS you acquired a few steps earlier click the blue `><` icon and select `Connect Current Window to Host ... `
- - Use the SSH PARAMETERS when asked for ssh connection string and click enter
- - Select `Linux` as the operating system type
- - Once connected open the File menu on VSC and select `Open Folder`
- - Here you can navigate to the dev folder or just select the home folder
- - Select 'Yes' to `I trust the authors`
- - In the top menu go `Terminal->New Terminal` to open a Terminal box (inside VSC)
- 
-    You would see the name of the server your created in the prompt:
-
-        dev@ubuntu-4g:~$ _ 
-
-    You are now connected remotely to the Linux box
 
 ### Summary
 Either of the above links would help you with your VSC installation, (including Remote SSH support)
