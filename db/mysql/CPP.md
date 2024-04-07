@@ -7,6 +7,7 @@
 
 ### Prerequisites
   - [How to install mysql onto Ubuntu)](https://github.com/perriera/extras_dbo/blob/dev/docs/mysql/INSTALL.md)
+  - [https://ubuntu.com/server/docs/databases-mysql](https://ubuntu.com/server/docs/databases-mysql)
 
  
 ### Wish Case
