@@ -130,8 +130,9 @@ Simplified instructions:
 
 		dev@ubuntu-4g2:~$ 
 
-- Keep the `dev@IP_address` handy as Visual Studio Code will need the same parameters to login as well.
-	That is, without the leading `ssh` command, (aka. `dev@IP_address` not `ssh dev@IP_address`)
+	**Note**: You are now logged in as `dev` over a SSH connection to a remote Linux box.
+	- Write down the `ssh dev@ip_address` for later connection to that paticular Linux box.
+	- Also, use the `dev@ip_address` portion to log into the Linux box when a client app (such as `Visual Code Studio (VSC)`).
 - Feel free to close the `Access` dialog box
 
 #### Backup/Restore you instance
