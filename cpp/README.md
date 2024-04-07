@@ -1,6 +1,6 @@
 
 ## How to install the tools necessary for C++11/17 projects
-> **Given** we wish build software using C++11/17 based tools for the Ubuntu platform **when** we update Ubuntu and install the []`GNU Compiler Collection`](https://en.wikipedia.org/wiki/GNU_Compiler_Collection) and other build tools for Linux **then** we can build projects using g++ with support from automake, git, clangd cppcheck, checkinstall, gdb, ssh, net-tools, zip, xterm, curl plus others
+> **Given** we wish build software using C++11/17 based tools for the Ubuntu platform **when** we update Ubuntu and install the [`GNU Compiler Collection`](https://en.wikipedia.org/wiki/GNU_Compiler_Collection) and other build tools for Linux **then** we can build projects using g++ with support from automake, git, clangd cppcheck, checkinstall, gdb, ssh, net-tools, zip, xterm, curl plus others
 
 ### Prerequisites
 - [How to install Linux](https://github.com/perriera/for_interfaces/blob/main/linux/README.md)
