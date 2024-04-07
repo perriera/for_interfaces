@@ -46,7 +46,7 @@ connection string, (leave out the leading `ssh `)
 
     **Note**: You are now inside the `dev` home folder of the remote Linux box. 
 
-- Optionally: In the case where you are asked to select `Linux, Mac and Windows` select `Linux`
+- Optionally: In the case where you are asked to select between `Linux, Mac and Windows` select `Linux`
 
 ### Alternate Case
 #### SSH access not already setup
