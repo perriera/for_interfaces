@@ -208,7 +208,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
 		mysql -u sammy -p 
 
- - [ ] By default, a table called _message will be created and it will have a single record containing the words "Hello, world". To verify this while inside mysql do this:
+ - [ ] To verify the data we retrieved in our C++ program is the same:
 
 		mysql> SELECT 'Hello World!' AS _message
 
