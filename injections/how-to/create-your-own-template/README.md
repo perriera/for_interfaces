@@ -7,6 +7,8 @@
  - a good computer and a decent Internet connection
 
 ### Wish Case
+Let's assume that you set out to incorporate the `MySQL` database support into a project and you successfully completed your own project to that effect (and you called it `x4`). Now other people in your department want to use it (even when it only has basic capabilities at the moment).
+
 The popular and well-established `mysql` database api will be used as an example of how to do this
 - Do [How to install `MySQL` onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
 - Do [How to install `MySQL Connector/C++` support (using CPM/CMakeLists.txt syntax)](https://github.com/perriera/for_interfaces/blob/main/db/mysql/CPP.md)
