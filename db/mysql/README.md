@@ -42,10 +42,10 @@ Setting up mysql software onto Ubuntu is not that difficult. However, there are 
 		DELETE, SELECT, REFERENCES, RELOAD on *.* TO 
 		'sammy'@'localhost' WITH GRANT OPTION;
 		FLUSH PRIVILEGES;
-		exit
 
  - [ ] Now exit mysql as root and relog as the new user
 
+		exit
 		mysql -u sammy -p
 
  - [ ] Enter the password (as 'password' in this case) and you should see the mysql prompt
