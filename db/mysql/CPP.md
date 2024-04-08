@@ -119,7 +119,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
                      /* Access column data by numeric offset, 1 is the first column */
                      std::cout << res->getString(1) << std::endl;
               }
-              
+
               delete res;
               delete stmt;
               delete con;
@@ -190,6 +190,19 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
   - Save your changes and rerun the test cases:
 
          it_test.sh
+
+  - You would see something to the effect:
+
+              [ 37%] Linking CXX executable run-unittests-x4
+              [ 75%] Built target run-unittests-x4
+              Consolidate compiler generated dependencies of target sample_console
+              [ 87%] Linking CXX executable sample_console
+              [100%] Built target sample_console
+              [100%] Built target injections-bash-scripts-install
+                     ... MySQL replies: Hello World!
+                     ... MySQL says it again: Hello World!
+              ===============================================================================
+              All tests passed (2 assertions in 1 test case)
 
 
  - At the moment we only need to test the mold
