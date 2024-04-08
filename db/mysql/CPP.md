@@ -204,10 +204,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
               ===============================================================================
               All tests passed (2 assertions in 1 test case)
 
-
- - At the moment we only need to test the mold
-
- - [ ] If you used the same username and password as the previous how to then the above test code should fail (that is, till you manually add a test database to mysql). So, add a test database first then try the test case again:
+ - To double check that the database contains the correct data:
 
 		mysql -u sammy -p 
 		create database test;
@@ -217,10 +214,29 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
 		mysql> SELECT 'Hello World!' AS _message
 
- - [ ] You have just accessed a mysql from C++ and a record was retrieved
+ - [ ] You have just accessed MySQL data using the MySQL Linux utility (the same data that the `x4` `exec` method retrieved)
 
 		exit
-	
+
+### Alternate Case 
+#### Debug the program with VSC? 
+To debug this program with VSC:
+- Open the VSC editor to `interfaces/mold_interface.cpp`
+- Place the cursor on line 79:
+
+        85 |     driver = get_driver_instance();
+
+- To the left of `85` **click** on the margin area to set a breakpoint (you would see a red dot appear). Click a couple of times to toggle the breakpoint but make sure the red dot is there for the purposes of this test. 
+- Make sure the `GDB Debugger - Beyond` extension has been added (click on the 5th largest icon from the top left menu and type `Beyond` in the search box. In the case were you see a small blue box with the word `Install` next to it, click on that blue box)
+- Now start the program (in debug mode) using the top menu: Go `Run-> Start Debugging`.
+- The program would run and land on the breakpoint.
+- A little box will appear on the screen remembling a remote control. 
+- Click on the 2nd button (the step-over) button to see the VSC editor update the display.
+- To the left of the source code you will see the VARIABLES update with each step-over operation.
+- In the `TERMINAL` window you would see text output from the C++ program.
+- Press the green arrow button to let the program complete it's run. 
+- To the top left you would see another small green arrow that you can press to restart the test.
+- Play with the controls that you see to become familair with the VSC debugging environment.
 
 ### Alternate Case 
 > **You need something more advanced?** </br>
