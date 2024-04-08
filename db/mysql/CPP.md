@@ -81,11 +81,13 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
        When(Method(dock, exec)).AlwaysDo([&_history]
        (const sample::Cmd& cmd) {
+
               injectx(sample::NothingSpecified, cmd);
               auto dup = cmd + " 2>/dev/null";
               auto status = ::system(dup.c_str());
               inject2(sample::CmdFailure, status, dup);
               _history.push_back(cmd);
+              
        });
 
  - [ ] To this:
@@ -117,7 +119,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
               delete res;
               delete stmt;
               delete con;
-              
+
        });
 
 
