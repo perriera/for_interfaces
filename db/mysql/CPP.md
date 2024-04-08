@@ -1,4 +1,4 @@
-## How to install `mysql` API support (using `CPM/CMakeLists.txt` syntax)
+## How to install `mysql` 3rd party api support (using `CPM/CMakeLists.txt` syntax)
 > **Given** we need to access a MySQL database from C++ (Ubuntu style) **when** we install MySQL's Connector/C++  **then** we can access data from a MySQL database into C++ program
 
 ### Prerequisites
