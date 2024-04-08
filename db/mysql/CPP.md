@@ -119,6 +119,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
                      /* Access column data by numeric offset, 1 is the first column */
                      std::cout << res->getString(1) << std::endl;
               }
+              
               delete res;
               delete stmt;
               delete con;
