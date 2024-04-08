@@ -1,5 +1,9 @@
-## How to add a 3rd party static library using `CPM/CMakeLists.txt` syntax
-**Given** the need to add 3rd party party library (for example `mysql`) support to your `injections.io(injections_cpp)` based project **when** we use adding `mysql` as an example of how to do this **then** we will have a working example of how to add 3rd party libraires using `CPM/CMakeLists.txt` syntax.
+## How to create a template using injections.io(**your_project**)
+**Given** the need to allow other developers to use your `injections.io(**your_project**)`
+
+
+
+add 3rd party party library (for example `mysql`) support to your `injections.io(injections_cpp)` based project **when** we use adding `mysql` as an example of how to do this **then** we will have a working example of how to add 3rd party libraires using `CPM/CMakeLists.txt` syntax.
 
 ### Prerequisites
  - a project created using `injections.io(injections_cpp)` as a template
