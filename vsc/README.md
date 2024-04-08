@@ -14,18 +14,29 @@ Visual Studio Code is a text editor that gives the user the ability to edit file
 
         code .
 
-TODO: added these Extensions
-- Doxygen
-- C/C++ 
-- C/C++ Extensions
-- CMake
-- Beyond: GDB
-
-
  - Once started open the File menu on VSC and select `Open Folder`
  - Here you can navigate to the dev folder or just select the home folder
  - Select 'Yes' to `I trust the authors`
  - In the top menu go `Terminal->New Terminal` to open a Terminal box (inside VSC)
+
+- Now that you have VSC up and running (and connected to the Linux box) it is time to load it up with all the Extentions it will need:
+
+- Click on the 5th large icon from the top left (it is the Extensions icon)
+
+    Add the following extensions by typing the name in the search box (some may already be installed):
+
+    - C/C++ 
+    - C/C++ Extensions Pack
+    - C/C++ Themes
+    - CMake 
+    - CMake Language Support
+    - CMake Tools
+    - Remote SSH
+    - Doxygen
+    - GDB Debugger - Beyond 
+    - C++ TestMate
+
+    It is usually just a matter of typing in the name and then hitting the install button
 
     See *Resume/Next* steps below ...
 
