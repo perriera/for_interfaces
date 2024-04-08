@@ -92,6 +92,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
        When(Method(dock, exec)).AlwaysDo([&_history]
        (const sample::Cmd&) {
+
               sql::Driver* driver;
               sql::Connection* con;
               sql::Statement* stmt;
@@ -116,6 +117,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
               delete res;
               delete stmt;
               delete con;
+              
        });
 
 
