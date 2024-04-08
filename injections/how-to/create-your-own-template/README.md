@@ -9,6 +9,11 @@
 ### Wish Case
 Let's assume that you set out to incorporate the `MySQL` database support into a project and you successfully completed your own project to that effect (and you called it `x4`). Now other people in your department want to use it (even when it only has basic capabilities at the moment). You plan on adding more features to `x4` but today all your people need is basic functionality (for example just to be able to read from a `MySQL` database). Adding the ability to write to the `MySQL` database can be accomplished on your own time, (but right now your people have to know that at least the company can read from a `MySQL` database).
 
+This is what you do:
+- Go to [`injections.io(intefaces_cpp)`](https://github.com/perriera/interfaces_cpp) ] and press the green button labelled `Use this template`
+
+
+
 The popular and well-established `mysql` database api will be used as an example of how to do this
 - Do [How to install `MySQL` onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
 - Do [How to install `MySQL Connector/C++` support (using CPM/CMakeLists.txt syntax)](https://github.com/perriera/for_interfaces/blob/main/db/mysql/CPP.md)
