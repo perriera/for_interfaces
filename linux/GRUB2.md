@@ -6,3 +6,4 @@ sudo add-apt-repository ppa:danielrichter2007/grub-customizer
 sudo apt-get update
 sudo apt-get install grub-customizer
 ```
+- [How can I repair grub? (How to get Ubuntu back after installing Windows?)](https://askubuntu.com/questions/88384/how-can-i-repair-grub-how-to-get-ubuntu-back-after-installing-windows)
