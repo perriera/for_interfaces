@@ -8,8 +8,25 @@
  
 ### Wish Case
 Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact details on how to do this vary with each and every version of Linux. We have assembled instructions here that work well for the Ubuntu 18.x to Ubuntu 22.x series of Linux vendors:
-	
- - Add mysql C++ support, (aka. Connector/C++)
+
+#### Tutorial setup
+
+  - Create an example project using `injections.io(injections_cpp)` as the template and call it `x4`
+
+  - Be sure to clone and then brand the project:
+
+              mkdir ~/dev
+              cd ~/dev
+              git clone git@github.com:perriera/x4.git
+              cd x4
+              ./RUNME.1st.sh
+
+  - Now make sure the test cases run successfully:
+
+              it_test.sh
+
+#### Add MySQL Connector/C++
+ - To add `MySQL Connector/C++` support
 
 		sudo apt-get install libmysqlcppconn-dev -y
 
@@ -40,7 +57,6 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
        set(X4_LIBS_COMMON stdc++fs ${X4_THIRD_PARTY_LIBRARIES} Threads::Threads)
        set(X4_LIBS_NEEDED injections ${BUILT_UPON_LIBRARY} ${X4_LIBS_COMMON})
 
- - Let us assume that the name of your project is `x4`. 
  - In the above code block of `CMakeLists.txt` we need to uncomment this line:
 
        # set(X4_THIRD_PARTY_LIBRARIES ldap gcrypt gnutls uuid microhttpd)
@@ -49,8 +65,9 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
        set(X4_THIRD_PARTY_LIBRARIES mysqlcppconn)
 
-- That's all that needs to be done for `CMakeLists.txt`
+- That's all that needs to be done for `CMakeLists.txt`, (in VSC go `Terminal->Run Build Task...`) to see a successful build.
 
+#### Test MySQL Connector/C++ support 
 
  - [ ] In your header includes you need to add:
 		
