@@ -230,7 +230,7 @@ To debug this program with VSC:
 - Make sure the `GDB Debugger - Beyond` extension has been added (click on the 5th largest icon from the top left menu and type `Beyond` in the search box. In the case were you see a small blue box with the word `Install` next to it, click on that blue box)
 - Now start the program (in debug mode) using the top menu: Go `Run-> Start Debugging`.
 - The program would run and land on the breakpoint.
-- A little box will appear on the screen remembling a remote control. 
+- A little box will appear on the screen resembling a `remote control`. 
 - Click on the 2nd button (the step-over) button to see the VSC editor update the display.
 - To the left of the source code you will see the VARIABLES update with each step-over operation.
 - In the `TERMINAL` window you would see text output from the C++ program.
