@@ -119,17 +119,15 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
 ### Alternate Case 
 > **You need something more advanced?** </br>
->	Check out this external how-to from which this page derived for more info on the more refined aspects of setting up mysql (on Ubuntu):
-[How To Install MySQL on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
+> - [How To Install MySQL on Ubuntu 20.04 (digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
+>  - [Install and configure a MySQL server (ubuntu.com)](https://ubuntu.com/server/docs/databases-mysql)
+
 
 ### Summary 
 You have just accessed a mysql from C++ and a record was retrieved.
 
 ### Next Steps
  - [How to create a project using injections.io(injections_cpp)](https://github.com/perriera/injections_cpp)
-
-### Further Reading
- - [Install and configure a MySQL server](https://ubuntu.com/server/docs/databases-mysql)
 
 ### Disclaimer
 > That `word` is not to appear anywhere on this page, ([except here](https://en.wikipedia.org/wiki/Knights_Who_Say_%22Ni!%22))
