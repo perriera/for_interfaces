@@ -11,7 +11,7 @@ Let's assume that you set out to incorporate the `MySQL` database support into a
 
 This is what you do:
 - Do [How to add a 3rd party static library using CPM/CMakeLists.txt syntax](https://github.com/perriera/for_interfaces/blob/main/injections/how-to/add-a-3rd-party/static-library/README.md) 
-- Assuming you called the project `x4` go to [`injections.io(intefaces_cpp)`](https://github.com/perriera/interfaces_cpp) ] and press the green button labelled `Use this template`
+- Assuming you called the project `x4` go to [`injections.io(intefaces_cpp)`](https://github.com/perriera/interfaces_cpp) and press the green button labelled `Use this template`
 - Call the new project `x4_cpp`
 
 
