@@ -20,7 +20,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
               cd x4
               ./RUNME.1st.sh
 
- - **Note**: Your repo won't say `git@github.com:perriera/x4.git` (so use the URL for your `x4` repo)
+ - **Note**: Your repo URL won't be `git@github.com:perriera/x4.git` (so use the URL for your `x4` repo)
 
   - Now make sure the test cases run successfully:
 
