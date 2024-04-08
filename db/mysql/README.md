@@ -38,7 +38,9 @@ Setting up mysql software onto Ubuntu is not that difficult. However, there are 
 
  - [ ] Now grant certain privileges to that user
 
-		GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'sammy'@'localhost' WITH GRANT OPTION;
+		GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, 
+		SELECT, REFERENCES, RELOAD on *.* TO 
+		'sammy'@'localhost' WITH GRANT OPTION;
 		FLUSH PRIVILEGES;
 		exit
 
