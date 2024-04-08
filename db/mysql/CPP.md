@@ -278,7 +278,7 @@ We didn't insert any data of our own into the MySQL database however this is act
 You have just accessed a mysql database from C++ and a record was retrieved.
 
 ### Next Steps
- - [How to create a project using injections.io(injections_cpp)](https://github.com/perriera/injections_cpp)
+ - [How to add a 3rd party static library using CPM/CMakeLists.txt syntax](https://github.com/perriera/for_interfaces/blob/main/injections/how-to/add-a-3rd-party/static-library/README.md)
 
 ### Disclaimer
 > That `word` is not to appear anywhere on this page, ([except here](https://en.wikipedia.org/wiki/Knights_Who_Say_%22Ni!%22))
