@@ -239,10 +239,23 @@ To debug this program with VSC:
 - Play with the controls that you see to become familair with the VSC debugging environment.
 
 ### Alternate Case 
+#### You want to save the changes to `x4` to your Github project repository?
+Logically, it would be good to keep these changes. To do so merely stop the debugger by pressing the red square (or let it complete by pressing the green arrow) then press enter (to see the Terminal prompt again) and type:
+
+       upgrade_menu 4
+       tagit.sh
+
+Whatever number is displayed (in this case it will be v`v0.2.1`)
+- Just bump the patch number:
+
+       tagit.sh v0.2.2
+
+Now your Github repo for `x4` is updated.
+
+### Alternate Case 
 > **You need something more advanced?** </br>
 > - [How To Install MySQL on Ubuntu 20.04 (digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
 >  - [Install and configure a MySQL server (ubuntu.com)](https://ubuntu.com/server/docs/databases-mysql)
-
 
 ### Summary 
 You have just accessed a mysql from C++ and a record was retrieved.
