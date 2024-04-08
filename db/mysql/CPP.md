@@ -1,5 +1,5 @@
 ## How to install `mysql` 3rd party api support (using `CPM/CMakeLists.txt` syntax)
-> **Given** we need to access a MySQL database from C++ (Ubuntu style) **when** we install `MySQL Connector/C++`  **then** we can access data from a MySQL database into C++ program
+> **Given** we need to access a MySQL database from C++ (Ubuntu style) **when** we install `MySQL Connector/C++`  **then** we can retrieve data from a MySQL database into a C++ object
 
 ### Prerequisites
   - [How to install MySQL onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
