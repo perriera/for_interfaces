@@ -1,9 +1,5 @@
 ## How to install `mysql` API support (using `CPM/CMakeLists.txt` syntax)
-> In this step we need to install mysql software onto a Ubuntu 20.04 platform
-
- 1. **GIVEN** we need to access a mysql database from C++ (on a Ubuntu platform)
- 2. **WHEN** we install mysql's Connector/C++  available from mysql support
- 3. **THEN** we can access a mysql database from C++
+> **Given** we need to access a mysql database from C++ (Ubuntu style) **when** we install mysql's Connector/C++  available from mysql support **then** we can access a mysql database from C++
 
 ### Prerequisites
   - [How to install mysql onto Ubuntu)](https://github.com/perriera/extras_dbo/blob/dev/docs/mysql/INSTALL.md)
@@ -94,14 +90,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. It basically con
 You have just accessed a mysql from C++ and a record was retrieved.
 
 ### Next Steps
- - [How to install mysql C++ support onto Ubuntu](https://github.com/perriera/extras_dbo/blob/dev/docs/mysql/CPP.md)
- - https://www.learnsqlonline.org/en/Hello,_World!
- - https://blog.devart.com/creating-a-new-database-in-mysql-tutorial-with-examples.html
- - https://aaronxu17.github.io/blog/install-mysql-connector/
- - https://askubuntu.com/questions/165868/installing-mysql-connector-c
- - https://dev.mysql.com/doc/connector-cpp/1.1/en/connector-cpp-examples-complete-example-1.html
- - https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04
- 
+ - [How to create a project using injections.io(injections_cpp)](https://github.com/perriera/injections_cpp)
 
-
-
+### Disclaimer
+> That `word` is not to appear anywhere on this page, ([except here](https://en.wikipedia.org/wiki/Knights_Who_Say_%22Ni!%22))

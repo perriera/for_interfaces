@@ -10,10 +10,11 @@ The popular and well-established `mysql` database api will be used as an example
 - Do [How to install mysql onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
 - Do [How to install mysql API support (using CPM/CMakeLists.txt syntax)](https://github.com/perriera/for_interfaces/blob/main/db/mysql/CPP.md)
 
+### Summary
+You now have installed a 3rd party static library to your `injections.io(injections_cpp)` based project
 
+### Next Steps
+ - [How to create a project using injections.io(injections_cpp)](https://github.com/perriera/injections_cpp)
 
-
-write better software for real world applications **when** we develop source code with `no if-then-else` constructs **then** source code becomes more predicable and easier to manage
-### Redirect
-- see [injections.io(C++17)](https://github.com/perriera/injections)
-
+### Disclaimer
+> That `word` is not to appear anywhere on this page, ([except here](https://en.wikipedia.org/wiki/Knights_Who_Say_%22Ni!%22))

@@ -89,3 +89,5 @@ Now you have installed the mysql database (as a service) on Ubuntu 20.04 as well
  - [How to install mysql API support (using CPM/CMakeLists.txt syntax)](https://github.com/perriera/for_interfaces/blob/main/db/mysql/CPP.md)
 
 
+### Disclaimer
+> That `word` is not to appear anywhere on this page, ([except here](https://en.wikipedia.org/wiki/Knights_Who_Say_%22Ni!%22))
