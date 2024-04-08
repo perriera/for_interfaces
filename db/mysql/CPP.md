@@ -135,6 +135,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
        Verify(Method(dock, exec));
        # Verify(Method(dock, history));
 
+ - In VSC change the name of this file from `interfaces/dock_instance.cpp` to this `interfaces/dock_instance.cxx`
 
  - [ ] If you used the same username and password as the previous how to then the above test code should fail (that is, till you manually add a test database to mysql). So, add a test database first then try the test case again:
 
