@@ -1,7 +1,7 @@
 
 
 
-## How to install MySQL onto Ubuntu
+## How to install `MySQL` onto Ubuntu
 > **Given** we need to use a mysql database on a Ubuntu platform **when** we activate the mysql support available from the Ubuntu repos **then** we can access all the features of mysql
 
 ### Prerequisites
