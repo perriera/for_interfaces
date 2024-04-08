@@ -77,7 +77,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
         using namespace x4;
 
- - [ ] Now change the dock'd `exec()` method from:
+ - [ ] Now change the dock'd `exec()` method from this:
 
        When(Method(dock, exec)).AlwaysDo([&_history]
        (const sample::Cmd& cmd) {
