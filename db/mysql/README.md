@@ -1,16 +1,11 @@
 
 
 
-## How to install mysql onto Ubuntu
-> In this step we need to install mysql software onto a Ubuntu 20.04 platform
-
- 1. **GIVEN** we need to use a mysql database on a Ubuntu platform
- 2. **WHEN** we activate the mysql support available from the Ubuntu repos
- 3. **THEN** we can access all the features of mysql
+## How to install MySQL onto Ubuntu
+> **Given** we need to use a mysql database on a Ubuntu platform **when** we activate the mysql support available from the Ubuntu repos **then** we can access all the features of mysql
 
 ### Prerequisites
-  - [How to install a Linux Platform (Ubuntu 20.04.4)](https://github.com/perriera/extras_dbo/blob/dev/docs/UBUNTU.md)
-  - [How to clone your project (with this template)](https://github.com/perriera/extras_dbo/blob/dev/docs/CLONE.md)
+ - [How to create a project using `injections.io(injections_cpp)`](https://github.com/perriera/injections_cpp)
 
  
 ### Wish Case

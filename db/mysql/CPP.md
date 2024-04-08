@@ -2,7 +2,7 @@
 > **Given** we need to access a mysql database from C++ (Ubuntu style) **when** we install mysql's Connector/C++  available from mysql support **then** we can access a mysql database from C++
 
 ### Prerequisites
-  - [How to install mysql onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
+  - [How to install MySQL onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
  
  
 ### Wish Case
