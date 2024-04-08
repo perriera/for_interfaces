@@ -12,13 +12,15 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
   - Create an example project using `injections.io(injections_cpp)` as the template and call it `x4`
 
-  - Be sure to clone and then brand the project:
+  - Be sure to clone and then brand the project: 
 
               mkdir ~/dev
               cd ~/dev
               git clone git@github.com:perriera/x4.git
               cd x4
               ./RUNME.1st.sh
+
+ - **Note**: Your repo won't say `git@github.com:perriera/x4.git` (so use the URL for your `x4` repo)
 
   - Now make sure the test cases run successfully:
 
