@@ -112,12 +112,12 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
               stmt = con->createStatement();
               res = stmt->executeQuery("SELECT 'Hello World!' AS _message");
               while (res->next()) {
-                     cout << "\t... MySQL replies: ";
+                     std::cout << "\t... MySQL replies: ";
                      /* Access column data by alias or column name */
-                     cout << res->getString("_message") << endl;
-                     cout << "\t... MySQL says it again: ";
+                     std::cout << res->getString("_message") << std::endl;
+                     std::cout << "\t... MySQL says it again: ";
                      /* Access column data by numeric offset, 1 is the first column */
-                     cout << res->getString(1) << endl;
+                     std::cout << res->getString(1) << std::endl;
               }
               delete res;
               delete stmt;
@@ -133,9 +133,65 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
  - To this:
 
        Verify(Method(dock, exec));
-       # Verify(Method(dock, history));
+       // Verify(Method(dock, history));
 
  - In VSC change the name of this file from `interfaces/dock_instance.cpp` to this `interfaces/dock_instance.cxx`
+
+  - In VSC display this file: `interfaces/test_interface.cpp` and change this:
+
+        REQUIRE_INJECTION(i.exec("ls /root"), CmdFailure);
+
+         try {
+            i.exec("");
+            FAIL("sample::NothingSpecified expected");
+         }
+         resolve(sample::NothingSpecified) {
+            // echo(ex);
+            SUCCEED(ex.what());
+         }
+         resolve_all_injections() {
+            FAIL("sample::NothingSpecified expected");
+         }
+
+         try {
+            i.exec("ls /root");
+            FAIL("sample::CmdFailure expected");
+         }
+         resolve(sample::CmdFailure) {
+            // echo(ex);
+            SUCCEED(ex.what());
+         }
+         resolve_all_injections() {
+            FAIL("sample::CmdFailure expected");
+         }
+
+         /**
+          * @test sample::Blueprint::history() method
+          *
+          */
+
+         try {
+            i.exec("ls >/dev/null");
+            SUCCEED("no exception generated");
+            REQUIRE(i.history().size() == 1);
+            REQUIRE(i.history()[0] == "ls >/dev/null");
+            // std::std::cout << i;
+         }
+         resolve_all_injections() {
+            echo(ex);
+            FAIL("no exception expected");
+         }
+
+  - To this:
+
+         i.exec("");
+
+  - Save your changes and rerun the test cases:
+
+         it_test.sh
+
+
+ - At the moment we only need to test the mold
 
  - [ ] If you used the same username and password as the previous how to then the above test code should fail (that is, till you manually add a test database to mysql). So, add a test database first then try the test case again:
 
