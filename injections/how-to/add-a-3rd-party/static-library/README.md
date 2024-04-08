@@ -26,6 +26,7 @@ You now have installed a 3rd party static library to your `injections.io(injecti
 
 ### Next Steps
  - [How to create a project using injections.io(injections_cpp)](https://github.com/perriera/injections_cpp)
+ - [How to create a project using injections.io(interfaces_cpp)](https://github.com/perriera/interfaces_cpp) **recommended**
 
 ### Disclaimer
 > That `word` is not to appear anywhere on this page, ([except here](https://en.wikipedia.org/wiki/Knights_Who_Say_%22Ni!%22))
