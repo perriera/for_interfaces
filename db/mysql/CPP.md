@@ -1,4 +1,4 @@
-## How to install mysql C++ support onto Ubuntu
+## How to install mysql C++ support (using `CPM/CMakeLists.txt` syntax)
 > In this step we need to install mysql software onto a Ubuntu 20.04 platform
 
  1. **GIVEN** we need to access a mysql database from C++ (on a Ubuntu platform)

@@ -9,6 +9,10 @@
 The popular and well-established `mysql` database api will be used as an example of how to do this
 #### Setup `mysql` for incorporation
 - Do [How to install mysql onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
+#### Add `mysql api` support using `CPM/CMakeLists.txt` syntax
+
+
+
 
 write better software for real world applications **when** we develop source code with `no if-then-else` constructs **then** source code becomes more predicable and easier to manage
 ### Redirect
