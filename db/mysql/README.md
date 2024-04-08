@@ -24,7 +24,7 @@ Setting up mysql software onto Ubuntu is not that difficult. However, there are 
 
 		sudo apt install mysql-server -y 
 
- - [ ] Now start myself-server as a service
+ - [ ] Now start `myself-server` as a service
 
 		sudo systemctl start mysql.service
 
