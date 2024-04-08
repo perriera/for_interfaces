@@ -252,6 +252,10 @@ Now your Github repo for `x4` is updated.
 - Check your Github repo for `x4` to see these changes saved.
 
 ### Alternate Case 
+#### Is this a true MySQL test?
+We didn't insert any data of our own into the MySQL database however this is actually a standard test performed on new MySQL installations to prove functionality. see [Kirt Undercoffer's Tech Notes Blog ](https://kirtu.wordpress.com/2013/01/27/hello-world-in-mysql-theres-more-than-one-way/)
+
+### Alternate Case 
 > **You need something more advanced?** </br>
 > - [How To Install MySQL on Ubuntu 20.04 (digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
 >  - [Install and configure a MySQL server (ubuntu.com)](https://ubuntu.com/server/docs/databases-mysql)
