@@ -275,7 +275,7 @@ We didn't insert any data of our own into the MySQL database however this is act
 >  - [Install and configure a MySQL server (ubuntu.com)](https://ubuntu.com/server/docs/databases-mysql)
 
 ### Summary 
-You have just accessed a mysql from C++ and a record was retrieved.
+You have just accessed a mysql database from C++ and a record was retrieved.
 
 ### Next Steps
  - [How to create a project using injections.io(injections_cpp)](https://github.com/perriera/injections_cpp)
