@@ -208,13 +208,25 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
 		mysql -u sammy -p 
 
- - [ ] To verify the data we retrieved in our C++ program is the same:
+ - To verify the data we retrieved in our C++ program is the same:
 
 		mysql> SELECT 'Hello World!' AS _message;
 
- - [ ] You have just accessed MySQL data using the MySQL Linux utility (the same data that the `x4` `exec` method retrieved)
+ - You would see:
 
-		exit
+       +--------------+
+       | _message     |
+       +--------------+
+       | Hello World! |
+       +--------------+
+       1 row in set (0.00 sec)
+
+ - You have just accessed MySQL data using the MySQL Linux utility (the same data that the `x4` `exec` method retrieved)
+
+		mysql> exit
+
+See *Next Steps* below ... 
+
 
 ### Alternate Case 
 #### Debug the program with VSC? 
