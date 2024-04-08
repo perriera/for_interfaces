@@ -220,7 +220,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 #### Debug the program with VSC? 
 To debug this program with VSC:
 - Open the VSC editor to `interfaces/mold_interface.cpp`
-- Place the cursor on line 79:
+- Place the cursor on line 85:
 
         85 |     driver = get_driver_instance();
 
