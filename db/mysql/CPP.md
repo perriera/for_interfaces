@@ -64,7 +64,10 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
        set(X4_THIRD_PARTY_LIBRARIES mysqlcppconn)
 
-- That's all that needs to be done for `CMakeLists.txt`, (in VSC go `Terminal->Run Build Task...`) to see a successful build.
+- That's all that needs to be done for `CMakeLists.txt`, (in VSC go `Terminal->Run Build Task...`) to see a successful build and run the test cases again:
+
+       it_test.sh
+
 
 #### Test MySQL Connector/C++ support 
 
@@ -122,6 +125,15 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
        });
 
+ - Down under comment out one of the method verifications from this:
+
+       Verify(Method(dock, exec));
+       Verify(Method(dock, history));
+
+ - To this:
+
+       Verify(Method(dock, exec));
+       # Verify(Method(dock, history));
 
 
  - [ ] If you used the same username and password as the previous how to then the above test code should fail (that is, till you manually add a test database to mysql). So, add a test database first then try the test case again:
