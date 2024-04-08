@@ -19,7 +19,6 @@ Setting up mysql software onto Ubuntu is not that difficult. However, there are 
 	
 		sudo apt update -y
 		sudo apt upgrade -y
-		sudo reboot
 	
  - [ ] Now mysql support onto Ubuntu
 
