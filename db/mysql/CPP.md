@@ -204,10 +204,9 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
               ===============================================================================
               All tests passed (2 assertions in 1 test case)
 
- - To double check that the database contains the correct data:
+ - To double check that the database contains the correct data (the password is `password`):
 
 		mysql -u sammy -p 
-		create database test;
 		exit
 
  - [ ] By default, a table called _message will be created and it will have a single record containing the words "Hello, world". To verify this while inside mysql do this:
