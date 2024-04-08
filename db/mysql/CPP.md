@@ -2,9 +2,8 @@
 > **Given** we need to access a mysql database from C++ (Ubuntu style) **when** we install mysql's Connector/C++  available from mysql support **then** we can access a mysql database from C++
 
 ### Prerequisites
-  - [How to install mysql onto Ubuntu)](https://github.com/perriera/extras_dbo/blob/dev/docs/mysql/INSTALL.md)
-  - [Install and configure a MySQL server](https://ubuntu.com/server/docs/databases-mysql)
-
+  - [How to install mysql onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
+ 
  
 ### Wish Case
 Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact details on how to do this vary with each and every version of Linux. We have assembled instructions here that work well for the Ubuntu 18.x to Ubuntu 22.x series of Linux vendors:
@@ -128,6 +127,9 @@ You have just accessed a mysql from C++ and a record was retrieved.
 
 ### Next Steps
  - [How to create a project using injections.io(injections_cpp)](https://github.com/perriera/injections_cpp)
+
+### Further Reading
+ - [Install and configure a MySQL server](https://ubuntu.com/server/docs/databases-mysql)
 
 ### Disclaimer
 > That `word` is not to appear anywhere on this page, ([except here](https://en.wikipedia.org/wiki/Knights_Who_Say_%22Ni!%22))
