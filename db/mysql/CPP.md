@@ -9,28 +9,48 @@
 ### Wish Case
 Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact details on how to do this vary with each and every version of Linux. We have assembled instructions here that work well for the Ubuntu 18.x to Ubuntu 22.x series of Linux vendors:
 	
- - [ ] Add mysql C++ support, (aka. Connector/C++)
+ - Add mysql C++ support, (aka. Connector/C++)
 
 		sudo apt-get install libmysqlcppconn-dev -y
 
- - [ ] Now check out the standard include directory
+ - Now check out the standard include directory
 
 		ls /usr/include/cppconn/
 
- - [ ] Now check out mysql C++ extensions went
+ - Now check out mysql C++ extensions went
 
 		find /usr -name mysql
 		
- - [ ] You should see something like
+ - You should see something like
 		
 		/usr/lib/mysql
 		/usr/share/bash-completion/completions/mysql
 		/usr/share/mysql
 		/usr/bin/mysql
 
- - [ ] In your CMakeLists.txt you need to add **mysqlcppconn**:
+ - In your `CMakeLists.txt` you need to add **mysqlcppconn**:
 		
-        set(EXTRAS_DBO_LIBS_NEEDED stdc++fs extras occi clntsh mysqlcppconn Threads::Threads)
+       # 
+       # X4_THIRD_PARTY_LIBRARIES
+       #
+       # list here any 3rd party libraries that you want that were
+       # installed using sudo apt install ....
+       #
+       # set(X4_THIRD_PARTY_LIBRARIES ldap gcrypt gnutls uuid microhttpd)
+       set(X4_LIBS_COMMON stdc++fs ${X4_THIRD_PARTY_LIBRARIES} Threads::Threads)
+       set(X4_LIBS_NEEDED injections ${BUILT_UPON_LIBRARY} ${X4_LIBS_COMMON})
+
+ - Let us assume that the name of your project is `x4`. 
+ - In the above code block of `CMakeLists.txt` we need to uncomment this line:
+
+       # set(X4_THIRD_PARTY_LIBRARIES ldap gcrypt gnutls uuid microhttpd)
+       
+-  Then change it's contents to this:
+
+       set(X4_THIRD_PARTY_LIBRARIES mysqlcppconn)
+
+- That's all that needs to be done for `CMakeLists.txt`
+
 
  - [ ] In your header includes you need to add:
 		
