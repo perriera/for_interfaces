@@ -87,7 +87,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
               auto status = ::system(dup.c_str());
               inject2(sample::CmdFailure, status, dup);
               _history.push_back(cmd);
-              
+
        });
 
  - [ ] To this:
@@ -109,12 +109,12 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
               stmt = con->createStatement();
               res = stmt->executeQuery("SELECT 'Hello World!' AS _message");
               while (res->next()) {
-              cout << "\t... MySQL replies: ";
-              /* Access column data by alias or column name */
-              cout << res->getString("_message") << endl;
-              cout << "\t... MySQL says it again: ";
-              /* Access column data by numeric offset, 1 is the first column */
-              cout << res->getString(1) << endl;
+                     cout << "\t... MySQL replies: ";
+                     /* Access column data by alias or column name */
+                     cout << res->getString("_message") << endl;
+                     cout << "\t... MySQL says it again: ";
+                     /* Access column data by numeric offset, 1 is the first column */
+                     cout << res->getString(1) << endl;
               }
               delete res;
               delete stmt;
