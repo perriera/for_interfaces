@@ -251,6 +251,7 @@ Whatever number is displayed (in this case it will be v`v0.2.1`)
        tagit.sh v0.2.2
 
 Now your Github repo for `x4` is updated.
+- Check your Github repo for `x4` to see these changes saved.
 
 ### Alternate Case 
 > **You need something more advanced?** </br>
