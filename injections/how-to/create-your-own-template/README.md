@@ -1,5 +1,5 @@
 ## How to create a template using injections.io(**your_project**)
-**Given** the need to allow other developers to use your `injections.io(**your_project**)`
+**Given** the need to allow other developers to use your `injections.io(**your_project**)` **when** we make a clone of `injections.io(intefaces_cpp)` (and adjust CMakelists.txt accordingly) **then** anyone wishing to use your injections.io(**your_project**) can do so quickly and easily
 
 
 
