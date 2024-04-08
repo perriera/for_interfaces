@@ -20,7 +20,7 @@ This exercise shows how to add a third party library with MySQL. It is just a ma
     - `injections.io(injections_cpp)` (for just injections.io(C++17) support)
     - `injections.io(interfaces_cpp)` (for injections.io(interfaces) support) **recommended**
 - Then and only then substitute all the steps documented here for `MySQL` with the vendor that you have tested and documented.  
-- Upon successfull intergration of the 3rd party library include your **README.me** file with the Github.com repo.
+- Upon successfull intergration of the 3rd party library add your **README.me** file to your Github.com repo (for the project).
 
 
 ### Summary
