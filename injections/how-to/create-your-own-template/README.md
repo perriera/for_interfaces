@@ -16,7 +16,15 @@ This is what you do:
 - Select `Create a new repository`
 - Call the new project `x4_cpp`
 - Copy the URL from `Code->SSH` to the clipboard
-- Clone the project to your Linux box
+- Clone the project to your Linux box (do **not** run the `~/RUNME.1st.sh` script)
+
+        cd ~/dev
+        git clone git@github.com:perriera/x4_cpp.git
+
+ - **Note**: Your repo URL won't be `git@github.com:perriera/x4.git` (so use the URL for your `x4` repo)
+
+- **Optional**: Open `~/dev/x4_cpp` with VSC (go `File->Open Folder ...`) 
+
 
 
 
