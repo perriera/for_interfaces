@@ -15,6 +15,8 @@ This is what you do:
 - Press the green button labelled `Use this template`
 - Select `Create a new repository`
 - Call the new project `x4_cpp`
+- Copy the URL from `Code->SSH` to the clipboard
+- Clone the project to your Linux box
 
 
 
