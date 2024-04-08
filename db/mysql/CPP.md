@@ -33,7 +33,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
 		ls /usr/include/cppconn/
 
- - Now check out where the `mysql` C++ additions went
+ - Now check out where the `mysql` C++ additions to the operating system were installed:
 
 		find /usr -name mysql
 		
