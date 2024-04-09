@@ -82,7 +82,7 @@ Setting up mysql software onto Ubuntu is not that difficult. However, there are 
 [How To Install MySQL on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
 
 ### Summary 
-Now you have installed the mysql database (as a service) on Ubuntu 20.04 as well as have added a user with basic privileges. The next step now maybe to add C++ support as well as setting up a test databse.
+Now you have installed the mysql database (as a service) on Ubuntu 20.04 as well as have added a user with basic privileges. 
 
 ### Next Steps
  - [How to install `MySQL Connector/C++` API support (using CPM/CMakeLists.txt syntax)](https://github.com/perriera/for_interfaces/blob/main/db/mysql/CPP.md)
