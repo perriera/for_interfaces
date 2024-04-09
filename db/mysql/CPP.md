@@ -370,7 +370,7 @@ Molds allow the developer to work out details of a given interface independant o
 
        it_test.sh
 
-- Now that we have change the method signature anywhere in the code where that method is being used will **immediately** inform you of the change. 
+- Now that we have *changed* the method signature (compliments the sample::Blueprint *interface*) anywhere in the code where that method is being used will **immediately** inform you of the change. 
 
        const’ marked ‘override’, but does not override
        67 |          virtual void exec(
