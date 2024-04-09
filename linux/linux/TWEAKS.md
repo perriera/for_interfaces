@@ -4,3 +4,4 @@
 ```
 ncdu
 ```
+- [No access to system settings from GUI in Ubuntu 22.04](https://askubuntu.com/questions/1464364/no-access-to-system-settings-from-gui-in-ubuntu-22-04)
