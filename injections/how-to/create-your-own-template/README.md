@@ -229,7 +229,7 @@ This is what you do:
 - Then go `Run->Start Debugging` ... 
 
  see *Resume/Next Steps* below ...
- 
+
 ### Alternate Case
 #### Oracle support?
 This exercise shows how to add a third party library with MySQL. It is just a matter of doing the following to add Oracle support (or any other 3rd party software product available on the Internet):
@@ -244,7 +244,18 @@ This exercise shows how to add a third party library with MySQL. It is just a ma
 
 
 ### Summary
-You now have installed a 3rd party static library to your `injections.io(injections_cpp)` based project
+You now have accomplished setting up `injections.io(**x4**)`:
+- Incorporating a 3rd party static library to your `x4 repo`
+- You have created a template for `x4 repo`
+- This will allow you to have full control over all the source files for `x4 repo`
+- At the same time this will allow developers wishing to use `x4 repo` right down to the preferred version number:
+
+        cmake_minimum_required(VERSION 3.21)
+        set(BUILT_UPON_LIBRARY "x4")
+        set(BUILT_UPON_VERSION "0.2.3")
+
+- Of course any developers now importing `x4 repo` into their `x4_app` can just as easily add value to `x4 repo` then create their own template for other developers to use.
+- Welcome to the world of `CPM/CMakeLists.txt` and `injections.io(C++17)`
 
 ### Next Steps
  - [How to create a project using injections.io(injections_cpp)](https://github.com/perriera/injections_cpp)
