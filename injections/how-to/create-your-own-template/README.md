@@ -258,8 +258,7 @@ You now have accomplished:
 
 **Note**: Developing apps using `dock/molds` has an interesting effect on builds. As all `dock/mold` code usually ends up in the `.hpp` files the building of shared libraries now happens in milliseconds. So, even were you to daisy chain about a dozen different shared libraries, each library could be built in less than a second. To see a demonstration of this:
 
-        rm -rf build
-        it_test.sh
+        it_rebuild.sh
 
 Then watch the build process.
 
