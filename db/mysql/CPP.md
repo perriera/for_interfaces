@@ -543,6 +543,7 @@ You have just accessed a mysql database from C++ and a record was retrieved.
 - The next major step now is to setup another Github repo to allow other developers to use it.
 
 ### Next Steps
+- [How to create a template for your injections.io(your_project)](https://github.com/perriera/for_interfaces/tree/main/injections/how-to/create-your-own-template)
  - [How to add a 3rd party static library using CPM/CMakeLists.txt syntax](https://github.com/perriera/for_interfaces/blob/main/injections/how-to/add-a-3rd-party/static-library/README.md)
 
 ### Disclaimer
