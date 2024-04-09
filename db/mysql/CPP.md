@@ -392,7 +392,7 @@ Molds allow the developer to work out details of a given interface independant o
          virtual void prove_MySQL_is_working()
             const override
 
-- The same holds true the **mold**:
+- The same holds true for the method declaration in the **mold** as well:
 
        error: ‘exec’ is not a member of ‘std::remove_reference<x4::sample::Blueprint&>::type’ {aka ‘x4::sample::Blueprint’}
        75 |    When(Method(dock, exec)).AlwaysDo([&_history]
