@@ -9,7 +9,7 @@
 **Note**: Once imported a project can have it's classes *overridden* but that does not affect the original class in your project.
 
 ### Wish Case
-Let's assume that you set out to incorporate the `MySQL` database support into a project and you successfully completed your own project to that effect (and you called it `x4`). Now other people in your department want to use it (even when it only has basic capabilities at the moment). You plan on adding more features to `x4` but today all your people need is basic functionality (for example just to be able to read from a `MySQL` database). Adding the ability to write to the `MySQL` database can be accomplished on your own time, (but right now your people have to know that at least the company can read from a `MySQL` database).
+Let's assume that you set out to incorporate the `MySQL` database support into a project and you successfully completed your own project to that effect (and you called it `x4`). Now other people in your department want to use it (even when it only has basic capabilities at the moment). You plan on adding more features to `x4` but today all your people need is basic functionality (for example just to be able to read from a `MySQL` database). Adding the ability to write to the `MySQL` database can be accomplished on your own time, (but right now your people have to see that at least the company can read from a `MySQL` database).
 
 This is what you do:
 - Do [How to add a 3rd party static library using CPM/CMakeLists.txt syntax](https://github.com/perriera/for_interfaces/blob/main/injections/how-to/add-a-3rd-party/static-library/README.md) 
