@@ -25,11 +25,45 @@ This is what you do:
 
  - **Note**: Your repo URL won't be `git@github.com:perriera/x4.git` (so use the URL for your `x4` repo)
 
-- **Optional**: Open `~/dev/x4_cpp` with VSC (go `File->Open Folder ...`) 
+- Using VSC go `File->Open Folder ...`) and select `/home/dev/dev/x4_cpp` 
 
+- Using VSC open a Terminal window (go `Terminal->New Terminal`) and build the project:
 
+    it_test.sh
 
+- It would build and run with no errors.
 
+- However there are no tags so `tagit.sh` reports that is can't find any:
+
+        injections.io (v5.55.6)
+        --------------------------------------------------------------------
+        TAGIT.SH
+        desc: show the current version tag (from Github) repo
+        info: (or set the next version tag for the project)
+        --------------------------------------------------------------------
+        No arguments supplied
+        Syntax: tagit.sh tag comment1 comment2 ... comment9
+        tag should be major.minor.patch 
+        for example here's the last tag:
+        fatal: No names found, cannot describe anything.
+
+- Which is precisely what we want as this is going to be the template for other developers to use to create applications based on `injections.io(**your_project**)`
+
+- Now navigate to `CMakeLists.txt` and view this code:
+
+        cmake_minimum_required(VERSION 3.21)
+        set(BUILT_UPON_LIBRARY "injections")
+        set(BUILT_UPON_VERSION "5.55.6")
+        set(BUILT_UPON_VENDOR "perriera")
+
+- Here we now link up your `x4` project:
+
+        cmake_minimum_required(VERSION 3.21)
+        set(BUILT_UPON_LIBRARY "x4")
+        set(BUILT_UPON_VERSION "0.2.3")
+        set(BUILT_UPON_VENDOR "perriera")
+
+**Note**: In your case you would substitute `perriera` for the name on your Github account.
 
 The popular and well-established `mysql` database api will be used as an example of how to do this
 - Do [How to install `MySQL` onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
