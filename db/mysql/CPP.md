@@ -314,7 +314,6 @@ Molds allow the developer to work out details of a given interface independant o
 
 - Now take a copy of all the header files required for the above code and place it just below the `interface.hpp` declaration:
 
-       #ifndef _X4_SAMPLE_CLAZZ_HPP
        #define _X4_SAMPLE_CLAZZ_HPP
 
        #include <x4/sample/interface.hpp>
