@@ -260,6 +260,89 @@ Now in this case we only tested that the `MySQL` shared libraries could be acces
 
 - The latest changes to the repo are now committed and a new tag `v0.2.2` has been created for it.
 
+#### Now we dock our molded interface into a C++ class
+Molds allow the developer to work out details of a given interface independant of the implementation. Once the finite details of the molded interface meet the primary objective(s) of the interface the working code is promoted to the C++ class level. We call this process of copying working code from the mold to the dock **docking**. 
+
+- To **dock** your first blueprint open the `incude/x4/sample/class.hpp` file using your favorite code editor, (which is VSC) in this example:
+
+         virtual void exec(
+            const sample::Cmd& cmd)
+            const override
+         {
+            injectx(sample::NothingSpecified, cmd);
+            auto dup = cmd + " 2>/dev/null";
+            auto status = ::system(dup.c_str());
+            inject2(sample::CmdFailure, status, dup);
+            _history.push_back(cmd);
+         }
+
+- Now take a copy of all the code for this method `exec` and replace the current source code with it:
+
+         virtual void exec(
+            const sample::Cmd& cmd)
+            const override
+         {
+
+              sql::Driver* driver;
+              sql::Connection* con;
+              sql::Statement* stmt;
+              sql::ResultSet* res;
+
+              /* Create a connection */
+              driver = get_driver_instance();
+              con = driver->connect("tcp://127.0.0.1:3306", "sammy", "password");
+              /* Connect to the MySQL test database */
+              con->setSchema("test");
+
+              stmt = con->createStatement();
+              res = stmt->executeQuery("SELECT 'Hello World!' AS _message");
+              while (res->next()) {
+                     std::cout << "\t... MySQL replies: ";
+                     /* Access column data by alias or column name */
+                     std::cout << res->getString("_message") << std::endl;
+                     std::cout << "\t... MySQL says it again: ";
+                     /* Access column data by numeric offset, 1 is the first column */
+                     std::cout << res->getString(1) << std::endl;
+              }
+
+              delete res;
+              delete stmt;
+              delete con;
+
+         }
+
+- Now take a copy of all the header files required for the above code and place it just below the `interface.hpp` declaration:
+
+       #ifndef _X4_SAMPLE_CLAZZ_HPP
+       #define _X4_SAMPLE_CLAZZ_HPP
+
+       #include <x4/sample/interface.hpp>
+       #include <cppconn/driver.h>
+       #include <cppconn/exception.h>
+       #include <cppconn/resultset.h>
+       #include <cppconn/statement.h>
+
+       namespace x4 {
+
+- Now change the extenion on the dock file itself back from `.cxx` to `.cpp`
+
+       interfaces/sample/dock_instance.cxx
+
+- This will allow the dock to be included with the next build:
+
+       interfaces/sample/dock_instance.cpp
+
+- Now build and run the test cases:
+
+       it_test.sh
+
+- Your build process would come back with a warning:
+
+       warning: unused parameter ‘cmd’ [-Wunused-parameter]
+       68 |             const sample::Cmd& cmd)
+       |             ~~~~~~~~~~~~~~~~~~~^~~
+
+- While we can ignore this warning the whole point of molding interfaces is to identify any unnecessary code. So, why don't we refine our interface by make two changes. The first one being to remove this unused parameter from `sample::Blueprint`:
 
 
 
