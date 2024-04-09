@@ -32,7 +32,7 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		output=($output)
 		email_address="ssh $(basename $PWD)@${output[0]}"
 		echo -e "${ANSI_YELLOW}MY_EMAIL_IS=$email_address${ANSI_RESET}"
-		echo -e "${ANSI_YELLOW}MY_NAME_IS=$(basename $PWD){ANSI_RESET}"
+		echo -e "${ANSI_YELLOW}MY_NAME_IS=$(basename $PWD)${ANSI_RESET}"
 
 	**Note**: Copy everything in `yellow` (or `orange`) to the clipboard
 
@@ -42,7 +42,7 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		MY_NAME_IS=dev
  
 	It would like something like the above
-	
+
  - [ ] Now configure the git utility:
 
 		git config --global user.email ${MY_EMAIL_IS}
