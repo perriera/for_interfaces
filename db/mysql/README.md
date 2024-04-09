@@ -74,6 +74,7 @@ Setting up mysql software onto Ubuntu is not that difficult. However, there are 
 
 		exit
 	
+    See *Resume/Next* steps below ...
 
 ### Alternate Case 
 > **You need something more advanced?** </br>
