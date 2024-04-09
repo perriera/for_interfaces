@@ -525,7 +525,7 @@ To debug this program with VSC:
 True, we didn't actually insert any data of our own into the MySQL database, (as we had so much ground to cover). However, this is actually a standard test performed on new MySQL installations to prove functionality. 
 - see [Kirt Undercoffer's Tech Notes Blog ](https://kirtu.wordpress.com/2013/01/27/hello-world-in-mysql-theres-more-than-one-way/) 
 - Feel free to create SQL INSERT statements to that effect (as an exercise).
-- Further, (as an exercise) add new methods to `sample::Blueprint` one for each type of SQL operation. Get them working in the mold first, then refined the test() cases for it. Then add the new methods to the C++ class. Then take a shot at testing these methods as part of the `sample_console` app complete with parameter passing. 
+- Further, (as an exercise) add new methods to `sample::Blueprint` one for each type of SQL operation, (that interests you). Get them working in the mold first, then refined the test() cases for it. Then add the new methods to the C++ class. Then take a shot at testing these methods as part of the `sample_console` app complete with parameter passing. 
 - Remember, whatever you do we never was that `word` any where in the C++ code base.
 > *aka*: " It is not a matter of ... it is a matter of `when` " -- Anonymous 
 - Happy coding with `injections.io(C++17)`
