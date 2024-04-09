@@ -148,7 +148,7 @@ Now would be a good time to open your project with the VSC editor:
        Verify(Method(dock, exec));
        // Verify(Method(dock, history));
 
- - In VSC change the name of this file from `interfaces/dock_instance.cpp` to this `interfaces/dock_instance.cxx`
+ - In VSC change the name of this file from `interfaces/sample/dock_instance.cpp` to this `interfaces/sample/dock_instance.cxx`
 
   - In VSC display this file: `interfaces/test_interface.cpp` and change this:
 
