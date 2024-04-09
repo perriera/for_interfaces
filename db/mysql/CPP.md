@@ -148,7 +148,7 @@ Now would be a good time to open your project with the VSC editor:
        Verify(Method(dock, exec));
        // Verify(Method(dock, history));
 
- - Now we need to *temporarily* disable the dock for sample::Blueprint:
+ - Now we need to *temporarily* disable the dock for `sample::Blueprint`:
  
        mv interfaces/sample/dock_instance.cpp interfaces/sample/dock_instance.cxx
 
@@ -322,7 +322,7 @@ Molds allow the developer to work out details of a given interface independant o
 
          }
 
-- Now take a copy of all the header files required for the above code and place it just below the `interface.hpp` declaration:
+- Now take a copy of all the header files required for the above code and place it just below the `#include <x4/sample/interface.hpp>` declaration, like this:
 
        #define _X4_SAMPLE_CLAZZ_HPP
 
@@ -334,9 +334,9 @@ Molds allow the developer to work out details of a given interface independant o
 
        namespace x4 {
 
-- Now change the extension on the dock file itself back from `.cxx` to `.cpp`
-
-       interfaces/sample/dock_instance.cxx
+ - Now we need to *temporarily* re-enable the dock for `sample::Blueprint`:
+ 
+       mv interfaces/sample/dock_instance.cxx interfaces/sample/dock_instance.cpp
 
 - This will allow the dock to be included with the next build:
 
