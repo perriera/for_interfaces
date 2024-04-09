@@ -507,7 +507,7 @@ Your `SSH public key` has not been added to your Github account, (in the `GPG an
        cat ~/.ssh/id_ed25519.pub 
 
 - Copy the displayed key to the clipboard
-- In your Github account add that value to `GPG and SSH Keys` (under `Settings`)
+- In your Github account paste that value to `GPG and SSH Keys` (under `Settings`)
 - see [More about SSH public keys](https://github.com/perriera/for_interfaces/blob/main/ssh/README.md) 
 
 ### Alternate Case 
