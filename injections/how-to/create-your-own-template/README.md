@@ -18,7 +18,7 @@ This is what you do:
 - Select `Create a new repository`
 - Call the new project `x4_cpp`
 - Copy the URL from `Code->SSH` to the clipboard
-- Clone the project to your Linux box (do **not** run the `~/RUNME.1st.sh` script)
+- Clone the project to your Linux box (do **not** run the `./RUNME.1st.sh` script)
 
         cd ~/dev
         git clone git@github.com:perriera/x4_cpp.git
@@ -144,6 +144,71 @@ This is what you do:
 - Now build the project again:
 
         it_test.sh
+
+- Now this time we get a `linker diagnostic`:
+
+        undefined reference to `get_driver_instance'
+
+- This is clearly a method from `MySQL Connector/C++` which means that the `MySQL` shared library has to be referenced from `CMakeLists.txt` in order for this to work. 
+
+- So in `CMakeLists.txt` change this: 
+
+        # set(INJECTIONS_CPP_THIRD_PARTY_LIBRARIES ldap gcrypt gnutls uuid microhttpd)
+
+- To this: 
+
+        set(INJECTIONS_CPP_THIRD_PARTY_LIBRARIES mysqlcppconn)
+
+- Now build the project again:
+
+        it_test.sh
+
+- Now it built successfully but because this is a `template` the bash script couldn't find the test cases. So, in this case we run them directly:
+
+        build/run-unittests-injections_cpp
+
+- Now we see a familiar message:
+
+        dev@ubuntu-4g:~/dev/x4_cpp$ build/run-unittests-injections_cpp
+                ... MySQL replies: Hello World!
+                ... MySQL says it again: Hello World!
+        ===============================================================================
+        All tests passed (16 assertions in 2 test cases)
+
+#### Almost done!
+
+- Commit the working template to your Github repository:
+
+        git add .; git commit -m "template ready"; git push
+
+- Notice no tags were added here. 
+
+### Now test your template.
+
+- Assuming you called the project `x4_cpp` go to `https://github.com/perriera/x4_cpp`
+
+ - **Note**: Your repo URL won't be `git@github.com:perriera/x4_cpp.git` (so use the URL for your `x4_cpp` repo)
+
+- Press the green button labelled `Use this template`
+- Select `Create a new repository`
+- Call the new project `x4_app`
+- Copy the URL from `Code->SSH` to the clipboard
+- Clone the project to your Linux box (this time we run the `./RUNME.1st.sh` script)
+
+        cd ~/dev
+        git clone git@github.com:perriera/x4_app.git
+        cd x4_app
+        ./RUNME.1st.sh
+
+ - **Note**: Your repo URL won't be `git@github.com:perriera/x4.git` (so use the URL for your `x4` repo)
+
+- Using VSC go `File->Open Folder ...`) and select `/home/dev/dev/x4_app` 
+
+- Using VSC open a Terminal window (go `Terminal->New Terminal`) and build the project:
+
+      it_test.sh
+
+- It would build and run with no errors.
 
 The popular and well-established `mysql` database api will be used as an example of how to do this
 - Do [How to install `MySQL` onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
