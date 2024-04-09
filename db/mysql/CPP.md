@@ -212,7 +212,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
  - To verify the data we retrieved in our C++ program is the same:
 
-		mysql> SELECT 'Hello World!' AS _message;
+		SELECT 'Hello World!' AS _message;
 
  - You would see:
 
