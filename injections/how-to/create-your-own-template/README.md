@@ -244,7 +244,7 @@ This exercise shows how to add a third party library with MySQL. It is just a ma
 
 
 ### Summary
-You now have accomplished setting up `injections.io(**x4**)`:
+You now have accomplished setting up your own `injections.io(**x4**)`:
 - Incorporating a 3rd party static library to your `x4 repo`
 - You have created a template for `x4 repo`
 - This will allow you to have full control over all the source files for `x4 repo`
