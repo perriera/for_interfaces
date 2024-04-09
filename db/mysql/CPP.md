@@ -432,7 +432,7 @@ Molds allow the developer to work out details of a given interface independant o
 
          i.prove_MySQL_is_working();
 
-- Not only did we make the method more meaningful (to it's actual purpose) but we removed an unnecessary parameter, (hence the interface now has this issue resolved and won't find it's way into production code causing confusion for the next developer to look at it).
+- Not only did we make the method more meaningful (to it's actual purpose) but we removed an unnecessary parameters, (hence the interface now has this issue resolved and won't find it's way into production code causing confusion for the next developer to look at it).
 
        it_test.sh
 
