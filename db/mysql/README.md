@@ -44,7 +44,7 @@ Setting up mysql software onto Ubuntu is not that difficult. However, there are 
 		FLUSH PRIVILEGES;
 		exit
 
- - [ ] Now exit mysql as root and relog as the new user
+ - [ ] Now exit mysql as root and relog as a `non-root` user:
 
 		mysql -u sammy -p
 
