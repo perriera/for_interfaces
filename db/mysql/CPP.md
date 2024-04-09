@@ -46,6 +46,8 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 		/usr/share/mysql
 		/usr/bin/mysql
 
+#### Test MySQL Connector/C++ (shared library linkage) support 
+
  - In your `CMakeLists.txt` you need to add **mysqlcppconn**:
 		
        # 
@@ -70,8 +72,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
        it_test.sh
 
-
-#### Test MySQL Connector/C++ support 
+#### Test MySQL Connector/C++ (header file) support 
 
  - [ ] In VSC display this file: `interfaces/mold_interface.cpp` and add these lines just above where it says `using namespace x4;`
 		
@@ -206,6 +207,8 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
               ===============================================================================
               All tests passed (2 assertions in 1 test case)
 
+#### Test MySQL Connector/C++ (database accuracy) support 
+
  - To double check that the database contains the correct data (the password is `password`):
 
 		mysql -u sammy -p 
@@ -226,6 +229,39 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
  - You have just accessed MySQL data using the MySQL Linux utility (the same data that the `x4` `exec` method retrieved)
 
 		exit
+
+#### Commit to Github project our changes
+Now in this case we only tested that the `MySQL` shared libraries could be accessed and that the `MySQL` header files could be used inside `x4`. Our aim here is just to show that we can link to the '`MySQL` shared libraries and retrieve data from a `MySQL` database, (we could call this the *proof-of-concept* phase of the **molding the interface** process). Now we need to need to take it up a notch, we need to incorporate our successful mold into a dock. 
+
+- Before we do that let's commit our changes to the repo:
+
+       upgrades_menu 4
+       tagit.sh
+
+- Whatever number tagit.sh spits out just add one to the *minor* value (as `upgrades_menu 4` bumps it up by one). 
+
+- So, when `tagit.sh` byitself displays this:
+
+       injections.io (v5.55.2)
+       --------------------------------------------------------------------
+       TAGIT.SH
+       desc: show the current version tag (from Github) repo
+       info: (or set the next version tag for the project)
+       --------------------------------------------------------------------
+       No arguments supplied
+       Syntax: tagit.sh tag comment1 comment2 ... comment9
+       tag should be major.minor.patch 
+       for example here's the last tag:
+       v0.2.1
+
+- We now want to bump up the *minor* value:
+
+       tagit.sh v0.2.2 
+
+- The latest changes to the repo are now committed and a new tag `v0.2.2` has been created for it.
+
+
+
 
 See *Next Steps* below ... 
 
@@ -249,21 +285,6 @@ To debug this program with VSC:
 - Press the green arrow button to let the program complete it's run. 
 - To the top left you would see another small green arrow that you can press to restart the test.
 - Play with the controls that you see to become familair with the VSC debugging environment.
-
-### Alternate Case 
-#### You want to save the changes to `x4` to your Github project repository?
-Logically, it would be good to keep these changes. To do so merely stop the debugger by pressing the red square (or let it complete by pressing the green arrow) then press enter (to see the Terminal prompt again) and type:
-
-       upgrades_menu 4
-       tagit.sh
-
-Whatever number is displayed (in this case it will be v`v0.2.1`)
-- Just bump the patch number:
-
-       tagit.sh v0.2.2
-
-Now your Github repo for `x4` is updated.
-- Check your Github repo for `x4` to see these changes saved.
 
 ### Alternate Case 
 #### Is this a true MySQL test?
