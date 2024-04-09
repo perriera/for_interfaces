@@ -148,9 +148,11 @@ Now would be a good time to open your project with the VSC editor:
        Verify(Method(dock, exec));
        // Verify(Method(dock, history));
 
- - In VSC change the name of this file from `interfaces/sample/dock_instance.cpp` to this `interfaces/sample/dock_instance.cxx`
+ - Now we need to *temporarily* disable the dock for sample::Blueprint:
+ 
+       mv interfaces/sample/dock_instance.cpp interfaces/sample/dock_instance.cxx
 
-  - In VSC navigate to this file: `interfaces/sample/test_interface.cpp` and change this:
+ - In VSC navigate to this file: `interfaces/sample/test_interface.cpp` and change this:
 
         REQUIRE_INJECTION(i.exec("ls /root"), CmdFailure);
 
