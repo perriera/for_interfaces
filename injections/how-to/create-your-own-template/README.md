@@ -65,6 +65,10 @@ This is what you do:
 
 **Note**: In your case you would substitute `perriera` for the name on your Github account.
 
+- Now build the project again:
+
+        it_test.sh
+
 The popular and well-established `mysql` database api will be used as an example of how to do this
 - Do [How to install `MySQL` onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
 - Do [How to install `MySQL Connector/C++` support (using CPM/CMakeLists.txt syntax)](https://github.com/perriera/for_interfaces/blob/main/db/mysql/CPP.md)
