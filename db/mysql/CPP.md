@@ -12,6 +12,7 @@ Setting up `MySQL Connector/C++` support onto Ubuntu is not that difficult. Howe
 #### Tutorial setup
 
   - Create an example project using `injections.io(injections_cpp)` as the template and call it `x4`
+       - see [How to create a project using injections.io(injections_cpp)](https://github.com/perriera/injections_cpp)
 
   - Be sure to clone and then brand the project: 
 
