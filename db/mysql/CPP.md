@@ -537,6 +537,10 @@ True, we didn't actually insert any data of our own into the MySQL database, (as
 
 ### Summary 
 You have just accessed a mysql database from C++ and a record was retrieved.
+- You also performed your very first **dock/mold** exercise
+- You also learned how to tag source files to your own repo
+- You also incorporated the `MySQL` database api into your own `injections.io(C++17)` project
+- The next major step now is to setup another Github repo to allow other developers to use it.
 
 ### Next Steps
  - [How to add a 3rd party static library using CPM/CMakeLists.txt syntax](https://github.com/perriera/for_interfaces/blob/main/injections/how-to/add-a-3rd-party/static-library/README.md)
