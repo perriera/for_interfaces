@@ -31,8 +31,8 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		output=$(hostname -I)
 		output=($output)
 		email_address="$(basename $PWD)@${output[0]}"
-		echo -e "${ANSI_YELLOW}MY_EMAIL_IS=`$email_address`${ANSI_RESET}"
-		echo -e "${ANSI_YELLOW}MY_NAME_IS=`$(basename $PWD)`${ANSI_RESET}"
+		echo -e "${ANSI_YELLOW}MY_EMAIL_IS="\"$email_address\""${ANSI_RESET}"
+		echo -e "${ANSI_YELLOW}MY_NAME_IS="\"$(basename $PWD)\""${ANSI_RESET}"
 
 	**Note**: Copy everything in `yellow` (or `orange`) to the clipboard
 
