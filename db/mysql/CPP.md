@@ -540,7 +540,7 @@ You have just accessed a mysql database from C++ and a record was retrieved.
 - You also performed your very first **dock/mold** exercise
 - You also learned how to tag source files to your own repo
 - You also incorporated the `MySQL` database api into your own `injections.io(C++17)` project
-- The next major step now is to setup another Github repo to allow other developers to use it.
+- The next major step now is to setup another Github repo to act as a template for this repo.
 
 ### Next Steps
 - [How to create a template for your injections.io(your_project)](https://github.com/perriera/for_interfaces/tree/main/injections/how-to/create-your-own-template)
