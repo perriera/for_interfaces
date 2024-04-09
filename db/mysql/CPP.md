@@ -4,7 +4,7 @@
 ### Prerequisites
   - [How to install MySQL onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
  
-**Note**: This Wish Case doubles as an introduction to the world of **dock/molds** and how this technique plays an intergral part in the formation of `injection.io(C++17) Blueprints`.
+**Note**: This Wish Case doubles as an introduction to the world of **dock/molds** and how this technique plays an intergral part in the formation of `injection.io(sample)::Blueprints`.
 
 ### Wish Case
 Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact details on how to do this vary with each and every version of Linux. We have assembled instructions here that work well for the Ubuntu 18.x to Ubuntu 22.x series of Linux vendors:
