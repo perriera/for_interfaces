@@ -12,7 +12,7 @@ The popular and well-established `mysql` database api will be used as an example
 - Do [How to install `MySQL Connector/C++` support (using CPM/CMakeLists.txt syntax)](https://github.com/perriera/for_interfaces/blob/main/db/mysql/CPP.md)
 
 ### Alternate Case
-#### Which template to use?
+#### Alternative Template selections
 By `injections.io(injections_cpp)` based this would mean any template that is based off this original project. Which includes:
 -  `injections.io(interfaces_cpp)`
 -  `injections.io(htmlforge_cpp)`
