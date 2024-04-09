@@ -65,6 +65,82 @@ This is what you do:
 
 **Note**: In your case you would substitute `perriera` for the name on your Github account.
 
+- Now before we build we need add a parameter to the CPM specification, (scroll down to see it):
+
+        CPMAddPackage(
+            NAME ${BUILT_UPON_LIBRARY}
+            GITHUB_REPOSITORY ${BUILT_UPON_VENDOR}/${BUILT_UPON_LIBRARY}
+            VERSION ${BUILT_UPON_VERSION}
+            OPTIONS "MAKE_SPDLOG_SHARED OFF"
+            OPTIONS "MAKE_EXTRAS_LIBRARY_ONLY ON"
+            OPTIONS "MAKE_INJECTIONS_LIBRARY_ONLY ON"
+            OPTIONS "MAKE_INTERFACES_LIBRARY_ONLY ON"
+            OPTIONS "MAKE64BITONLY ON"
+        )
+
+- Change it to this:
+
+        CPMAddPackage(
+            NAME ${BUILT_UPON_LIBRARY}
+            GITHUB_REPOSITORY ${BUILT_UPON_VENDOR}/${BUILT_UPON_LIBRARY}
+            VERSION ${BUILT_UPON_VERSION}
+            OPTIONS "MAKE_SPDLOG_SHARED OFF"
+            OPTIONS "MAKE_EXTRAS_LIBRARY_ONLY ON"
+            OPTIONS "MAKE_INJECTIONS_LIBRARY_ONLY ON"
+            OPTIONS "MAKE_INTERFACES_LIBRARY_ONLY ON"
+            OPTIONS "MAKE_X4_LIBRARY_ONLY ON"
+            OPTIONS "MAKE64BITONLY ON"
+        )
+
+- The `MAKE_X4_LIBRARY_ONLY` parameter tells the `x4` build files to only build the shared library (and nothing else).
+
+- Now build the project again:
+
+        it_test.sh
+
+- The build and run is successful however we didn't do anything with your `x4` library. To make sure that `x4` and the `MySQL` test cases are linked up properly let us add something to make sure everything is connected.
+
+- Navigate to `interfaces/sample/dock_instance.cpp` and change this:
+
+        #include <iostream>
+        #include <injections_cpp/sample/clazz.hpp>
+        #include <injections/scripts/clazz.hpp>
+        #include "../../test/vendor/catch.hpp"
+
+- To this:
+
+        #include <iostream>
+        #include <injections_cpp/sample/clazz.hpp>
+        #include <x4/sample/clazz.hpp>
+        #include <injections/scripts/clazz.hpp>
+        #include "../../test/vendor/catch.hpp"
+
+- And down below change this:
+
+        /**
+        * @note the following line is from the libinjections.so shared library
+        * @see CMakeLists.txt
+        *
+        */
+        scripts::Instance dock2;
+
+- To this:
+
+        /**
+        * @note the following line is from the libinjections.so shared library
+        * @see CMakeLists.txt
+        *
+        */
+        scripts::Instance dock2;
+
+        /**
+        * @note the following line is from the libx4.so shared library
+        * @see CMakeLists.txt
+        *
+        */
+        x4::sample::Instance dock3;
+        dock3.prove_MySQL_is_working();
+
 - Now build the project again:
 
         it_test.sh
