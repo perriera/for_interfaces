@@ -29,7 +29,7 @@ This is what you do:
 
 - Using VSC open a Terminal window (go `Terminal->New Terminal`) and build the project:
 
-    it_test.sh
+      it_test.sh
 
 - It would build and run with no errors.
 
