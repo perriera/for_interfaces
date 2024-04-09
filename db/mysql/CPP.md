@@ -494,6 +494,8 @@ Molds allow the developer to work out details of a given interface independant o
 
 - Now everything is committed to your Github repo, (take a quick peek there to see that everything is in line). 
 
+- As an exercise `feel free` to remove `history()` method from `sample::Blueprint`, then the mold, then dock (along with any other code not in use) then tag the repo again.
+
 See *Next Steps* below ... 
 
 
