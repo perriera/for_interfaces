@@ -1,10 +1,12 @@
 ## How to create a template for your injections.io(**your_project**)
-**Given** the need to allow other developers to import your_project (but not make changes to it) **when** we make a clone of `injections.io(intefaces_cpp)` (and adjust `CMakelists.txt` to include enhancements like 3rd party libraries) **then** anyone wishing to use your `injections.io(**your_project**)` can do so quickly and easily
+**Given** the need to allow other developers to import your_project (but not make *direct* changes to it) **when** we make a clone of `injections.io(intefaces_cpp)` (and adjust `CMakelists.txt` to include enhancements like 3rd party libraries) **then** anyone wishing to use your `injections.io(**your_project**)` can do so quickly and easily
 
 ### Prerequisites
  - a project created using `injections.io(injections_cpp)` as a template
  - a project now known as `injections.io(**your_project**)` 
  - a good computer and a decent Internet connection
+
+**Note**: Once imported a project can have it's classes *overridden* but that does not affect the original class in your project.
 
 ### Wish Case
 Let's assume that you set out to incorporate the `MySQL` database support into a project and you successfully completed your own project to that effect (and you called it `x4`). Now other people in your department want to use it (even when it only has basic capabilities at the moment). You plan on adding more features to `x4` but today all your people need is basic functionality (for example just to be able to read from a `MySQL` database). Adding the ability to write to the `MySQL` database can be accomplished on your own time, (but right now your people have to know that at least the company can read from a `MySQL` database).
