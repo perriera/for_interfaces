@@ -501,6 +501,16 @@ See *Next Steps* below ...
 
 
 ### Alternate Case 
+#### `git@github.com: Permission denied (publickey).`
+Your `SSH public key` has not been added to your Github account, (in the `GPG and SSH Keys` section)
+
+       cat ~/.ssh/id_ed25519.pub 
+
+- Copy the displayed key to the clipboard
+- In your Github account add that value to `GPG and SSH Keys` (under `Settings`)
+- see [More about SSH public keys](https://github.com/perriera/for_interfaces/blob/main/ssh/README.md) 
+
+### Alternate Case 
 #### Debug the program with VSC? 
 To debug this program with VSC:
 - Open the VSC editor to `interfaces/mold_interface.cpp`
