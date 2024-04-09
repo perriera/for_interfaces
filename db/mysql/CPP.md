@@ -475,7 +475,7 @@ Molds allow the developer to work out details of a given interface independant o
 
        build/sample_console
 
-- That's because the current CMakeLists.txt is wired to automatically copy all successfully built binaries to the `~/.local/bin` folder:
+- That's because the current CMakeLists.txt is wired to automatically copy *select* successfully built binaries to the `~/.local/bin` folder:
 
        nterface_tools.sh 
 
