@@ -248,7 +248,7 @@ You now have accomplished setting up your own `injections.io(**x4**)`:
 - Incorporating a 3rd party static library to your `x4 repo`, (in this case `MySQL`)
 - You have created a template for `x4 repo`
 - This will allow you to have full control over all the source files for `x4 repo`
-- At the same time this will allow developers wishing to use `x4 repo` right down to the preferred version number:
+- At the same time this will allow developers wishing to use your `x4 repo` right down to the preferred version number:
 
         cmake_minimum_required(VERSION 3.21)
         set(BUILT_UPON_LIBRARY "x4")
