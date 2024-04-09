@@ -263,6 +263,19 @@ You now have accomplished:
 
 Then watch the build process.
 
+        -- Building tests
+        -- Configuring done
+        -- Generating done
+        -- Build files have been written to: /home/dev/dev/x4_app/build
+        [ 10%] Linking CXX shared library libinjections.so
+        [ 10%] Built target injections
+        [ 20%] Linking CXX shared library libx4.so
+        [ 20%] Built target x4
+        [ 30%] Linking CXX shared library libx4_app.so
+        [ 30%] Built target x4_app
+        [ 30%] Built target x4_app-bash-scripts-install
+
+
 
 ### Next Steps
  - [How to create a project using injections.io(injections_cpp)](https://github.com/perriera/injections_cpp)
