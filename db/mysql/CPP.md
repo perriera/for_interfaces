@@ -90,6 +90,8 @@ Now would be a good time to open your project with the VSC editor:
 
         using namespace x4;
 
+**Note**: When asked to install `C/C++ Extension Pack` say `yes`
+
  - [ ] Now change the dock'd `exec()` method from this:
 
        When(Method(dock, exec)).AlwaysDo([&_history]
