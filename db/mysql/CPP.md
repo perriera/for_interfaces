@@ -225,7 +225,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 
  - You have just accessed MySQL data using the MySQL Linux utility (the same data that the `x4` `exec` method retrieved)
 
-		mysql> exit
+		exit
 
 See *Next Steps* below ... 
 
