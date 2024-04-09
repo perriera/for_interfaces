@@ -254,7 +254,7 @@ To debug this program with VSC:
 #### You want to save the changes to `x4` to your Github project repository?
 Logically, it would be good to keep these changes. To do so merely stop the debugger by pressing the red square (or let it complete by pressing the green arrow) then press enter (to see the Terminal prompt again) and type:
 
-       upgrade_menu 4
+       upgrades_menu 4
        tagit.sh
 
 Whatever number is displayed (in this case it will be v`v0.2.1`)
