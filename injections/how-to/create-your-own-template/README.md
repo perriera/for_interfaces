@@ -1,5 +1,5 @@
 ## How to create a template for your injections.io(**your_project**)
-**Given** the need to allow other developers to *import* `injections.io(**your_project**)` (but not make *direct* changes to it) **when** we make a clone of the `injections.io(injections_cpp)` template (and adjust `CMakelists.txt` to include any enhancements like 3rd party libraries) **then** anyone wishing to use your `injections.io(**your_project**)` can do so quickly and easily
+**Given** the need to allow other developers to *import* `injections.io(**your_project**)` (but not make *direct* changes to it) **when** we make a clone of the `injections.io(injections_cpp)` template (and adjust `CMakelists.txt` to include any enhancements like 3rd party libraries) **then** anyone wishing to import your `injections.io(**your_project**)` can do so quickly and easily
 
 ### Prerequisites
  - a project created using `injections.io(injections_cpp)` as a template
