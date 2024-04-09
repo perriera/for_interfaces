@@ -264,7 +264,7 @@ Now in this case we only tested that the `MySQL` shared libraries could be acces
 #### Now we dock our molded interface into a C++ class
 Molds allow the developer to work out details of a given interface independant of the implementation. Once the finite details of the molded interface meet the primary objective(s) of the JIRA entry the working code is then promoted to the C++ class level. We call this process of copying working code from the mold to the dock **docking**. 
 
-- To **dock** your first blueprint open the `incude/x4/sample/class.hpp` file using your favorite code editor, (which is VSC in this example):
+- To **dock** your first blueprint open the `incude/x4/sample/class.hpp` file using your favorite code editor, (we use VSC in this example):
 
          virtual void exec(
             const sample::Cmd& cmd)
