@@ -28,11 +28,11 @@ Setting up mysql software onto Ubuntu is not that difficult. However, there are 
 
 		sudo systemctl start mysql.service
 
- - [ ] Now open mysql as root 
+ - [ ] Now open `mysql` as root 
 
 		sudo mysql
 		
- - [ ] Now add a user to the it
+ - [ ] Now add a database user to it:
 		
 		CREATE USER 'sammy'@'localhost' IDENTIFIED BY 'password';
 
