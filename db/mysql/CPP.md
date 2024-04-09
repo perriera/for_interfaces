@@ -542,7 +542,7 @@ True, we didn't actually insert any data of our own into the MySQL database, (as
 You have just accessed a mysql database from C++ and a record was retrieved.
 - You also performed your very first **dock/mold** exercise
 - You also learned how to tag source files to your own repo
-- You also incorporated the `MySQL Connector/C++` using `CPM/CMakeLists.txt` syntax.
+- You also to incorporate `MySQL Connector/C++` using `CPM/CMakeLists.txt` syntax.
 - The next major step now is to setup another Github repo to act as a template for this repo.
 
 ### Next Steps
