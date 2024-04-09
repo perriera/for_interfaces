@@ -48,6 +48,8 @@ Setting up mysql software onto Ubuntu is not that difficult. However, there are 
 
 		mysql -u sammy -p
 
+	When asked for a password: `password`
+	
  - [ ] Enter the password (as 'password' in this case) and you should see the mysql prompt
 
 		Welcome to the MySQL monitor.  Commands end with ; or \g.
