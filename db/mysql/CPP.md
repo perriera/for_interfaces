@@ -20,7 +20,7 @@ Setting up `MySQL Connector/C++` support onto Ubuntu is not that difficult. Howe
               cd ~/dev
               git clone git@github.com:perriera/x4.git
               cd ~/dev/x4
-              ./RUNME.1st.sh
+              install -d build; cd build; cmake ..; make; cd ..; ls build
 
  - **Note**: Your repo URL won't be `git@github.com:perriera/x4.git` (so use the URL for your `x4` repo)
 
