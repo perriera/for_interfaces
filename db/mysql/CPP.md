@@ -231,7 +231,7 @@ Setting up mysql C++ support onto Ubuntu is not that difficult. However, exact d
 		exit
 
 #### Commit to Github project our changes
-Now in this case we only tested that the `MySQL` shared libraries could be accessed and that the `MySQL` header files could be used inside `x4`. Our aim here is just to show that we can link to the '`MySQL` shared libraries and retrieve data from a `MySQL` database, (we could call this the *proof-of-concept* phase of the **molding the interface** process). Now we need to need to take it up a notch, we need to incorporate our successful mold into a dock. 
+Now in this case we only tested that the `MySQL` shared libraries could be accessed and that the `MySQL` header files could be used inside `x4`. Our aim here is just to show that we can link to the '`MySQL` shared libraries and retrieve data from a `MySQL` database, (we could call this the *proof-of-concept* phase of the **molding the interface** process). Now we need to take it up a notch, we need to incorporate our successful mold into a dock. 
 
 - Before we do that let's commit our changes to the repo:
 
