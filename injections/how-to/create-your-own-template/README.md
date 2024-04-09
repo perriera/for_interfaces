@@ -246,7 +246,7 @@ This exercise shows how to add a third party library with MySQL. It is just a ma
 ### Summary
 You now have accomplished setting up your own `injections.io(**x4**)`:
 - Incorporating a 3rd party static library to your `x4 repo`, (in this case `MySQL`)
-- You have created a template for `x4 repo`
+- In additionl you have created a template for `x4 repo` (known as `x4_cpp`)
 - This will allow you to have full control over all the source files (complete with full revision control) for your `x4 repo`
 - At the same time this will allow developers wishing to use your `x4 repo` right down to the preferred version number:
 
