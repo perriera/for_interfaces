@@ -354,7 +354,7 @@ Molds allow the developer to work out details of a given interface independant o
        68 |             const sample::Cmd& cmd)
        |             ~~~~~~~~~~~~~~~~~~~^~~
 
-- While we can ignore this warning the whole point of molding interfaces is to identify any unnecessary code. So, why don't we refine our interface by make two changes. The first one being to remove this unused parameter from `sample::Blueprint`.
+**Note**: While we can ignore this warning the whole point of molding interfaces is to identify any unnecessary code. So, why don't we refine our interface by make two changes. The first one being to remove this unused parameter from `sample::Blueprint`.
 
 - In the file  `incude/x4/sample/interface.hpp` change the method signature from this:
 
