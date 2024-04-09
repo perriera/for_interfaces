@@ -81,7 +81,7 @@ Now would be a good time to open your project with the VSC editor:
 
 #### Test MySQL Connector/C++ (header file) support 
 
- - [ ] In VSC display this file: `interfaces/mold_interface.cpp` and add these lines just above where it says `using namespace x4;`
+ - [ ] In VSC display this file: `interfaces/sample/mold_interface.cpp` and add these lines just above where it says `using namespace x4;`
 		
         #include <cppconn/driver.h>
         #include <cppconn/exception.h>
