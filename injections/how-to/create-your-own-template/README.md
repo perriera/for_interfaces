@@ -175,7 +175,7 @@ This is what you do:
         ===============================================================================
         All tests passed (16 assertions in 2 test cases)
 
-#### Almost done!
+#### Almost done: Save your template to your Github account, (without tags)
 
 - Commit the working template to your Github repository:
 
@@ -183,11 +183,15 @@ This is what you do:
 
 - Notice no tags were added here. 
 
-### Now test your template.
+### Now test your template:
 
 - Assuming you called the project `x4_cpp` go to `https://github.com/perriera/x4_cpp`
 
  - **Note**: Your repo URL won't be `git@github.com:perriera/x4_cpp.git` (so use the URL for your `x4_cpp` repo)
+
+ - Before you do anything else click on `Settings` and then click on `Template repository`. This will allow your new template to show up as an option for developers wishing to use your template. 
+
+ - Now click on your `x4_cpp` again.
 
 - Press the green button labelled `Use this template`
 - Select `Create a new repository`
@@ -202,18 +206,30 @@ This is what you do:
 
  - **Note**: Your repo URL won't be `git@github.com:perriera/x4.git` (so use the URL for your `x4` repo)
 
+- Your `x4_app` would build and run fine.
+
 - Using VSC go `File->Open Folder ...`) and select `/home/dev/dev/x4_app` 
 
 - Using VSC open a Terminal window (go `Terminal->New Terminal`) and build the project:
 
       it_test.sh
 
-- It would build and run with no errors.
+- It would build and run with no errors again.
 
-The popular and well-established `mysql` database api will be used as an example of how to do this
-- Do [How to install `MySQL` onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
-- Do [How to install `MySQL Connector/C++` support (using CPM/CMakeLists.txt syntax)](https://github.com/perriera/for_interfaces/blob/main/db/mysql/CPP.md)
+- Feel free to activate the `GDB Debugger- Beyond` extension and then place a breakpoint on line 77 of `interfaces/sample/dock_instance.cpp`:
 
+        /**
+        * @note the following line is from the libx4.so shared library
+        * @see CMakeLists.txt
+        *
+        */
+        x4::sample::Instance dock3;
+        dock3.prove_MySQL_is_working();
+
+- Then go `Run->Start Debugging` ... 
+
+ see *Resume/Next Steps* below ...
+ 
 ### Alternate Case
 #### Oracle support?
 This exercise shows how to add a third party library with MySQL. It is just a matter of doing the following to add Oracle support (or any other 3rd party software product available on the Internet):
