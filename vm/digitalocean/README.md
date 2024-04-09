@@ -115,7 +115,7 @@ Simplified instructions:
 			ssh_cmd="ssh dev@${output[0]}"
 			echo -e "${ANSI_GREEN}$ssh_cmd${ANSI_RESET}"
 
-	Everything that displays in green copy to the clipboard
+	**Note**: Copy everything that displays in `green` to the clipboard
 
 
 #### Login in remotely using a shell
