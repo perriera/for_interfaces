@@ -49,6 +49,7 @@ Setting up `MySQL Connector/C++` support onto Ubuntu is not that difficult. Howe
 		/usr/bin/mysql
 
 #### Test MySQL Connector/C++ (shared library linkage) support 
+Now would be a good time to open your project with the VSC editor, (to do so tart VSC and go `File->Open Folder...` and navigate to `/home/dev/dev/x4`).
 
  - In your `CMakeLists.txt` you need to add **mysqlcppconn**:
 		
