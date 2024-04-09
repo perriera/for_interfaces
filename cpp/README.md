@@ -25,10 +25,16 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 
  - [ ] Set the following environment variables:
 
-		MY_EMAIL_IS="myemail@email.com"
-		MY_NAME_IS="My Name"
+		cd ~
+		ANSI_YELLOW="\e[33;1m"
+		ANSI_RESET="\e[0m"
+		output=$(hostname -I)
+		output=($output)
+		email_address="ssh $(basename $PWD)@${output[0]}"
+		echo -e "${ANSI_YELLOW}MY_EMAIL_IS=$email_address${ANSI_RESET}"
+		echo -e "${ANSI_YELLOW}MY_NAME_IS=$(basename $PWD){ANSI_RESET}"
 
-	**Optional**: *feel free* to customize to use a preferred email and username
+	**Note**: Copy everything in `yellow` (or `orange`) to the clipboard
 
  - [ ] Now configure the git utility:
 
