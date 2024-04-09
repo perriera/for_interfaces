@@ -413,6 +413,10 @@ Molds allow the developer to work out details of a given interface independant o
 
 - Now try to build run the test cases again:
 
+       it_test.sh
+
+- Oops!
+
        error: ‘struct x4::sample::Blueprint’ has no member named ‘exec’
        71 |          i.exec("");
 
