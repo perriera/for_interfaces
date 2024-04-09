@@ -342,9 +342,153 @@ Molds allow the developer to work out details of a given interface independant o
        68 |             const sample::Cmd& cmd)
        |             ~~~~~~~~~~~~~~~~~~~^~~
 
-- While we can ignore this warning the whole point of molding interfaces is to identify any unnecessary code. So, why don't we refine our interface by make two changes. The first one being to remove this unused parameter from `sample::Blueprint`:
+- While we can ignore this warning the whole point of molding interfaces is to identify any unnecessary code. So, why don't we refine our interface by make two changes. The first one being to remove this unused parameter from `sample::Blueprint`.
 
+- In the file  `incude/x4/sample/interface.hpp` change the method signature from this:
 
+         virtual void exec(
+            const Cmd&)
+            const pure;
+
+- To this:
+
+         virtual void exec()
+            const pure;
+
+- And while we are at it let us give the method a better name, from this:
+
+         virtual void exec()
+            const pure;
+
+- To this:
+
+         virtual void prove_MySQL_is_working()
+            const pure;
+
+- To see one of the key benefits to [Interface-based programming](https://en.wikipedia.org/wiki/Interface-based_programming) is the ability for the C++ compile to quickly identify method signature changes:
+
+       it_test.sh
+
+- Now that we have change the method signature anywhere in the code where that method is being used will **immediately** inform you of the change. 
+
+       const’ marked ‘override’, but does not override
+       67 |          virtual void exec(
+       |                       ^~~~
+
+- Merely click on all the error messages displayed and cut and paste the updated method signature. 
+
+**Hint**: When you hold down the Ctrl (or Command) key and click on the source code line displayed VSC will take you directly to the line of code that needs to be updated.
+
+- Hence: 
+
+         virtual void exec(
+            const sample::Cmd& cmd)
+            const override
+         {
+
+- Becomes:
+
+         virtual void prove_MySQL_is_working()
+            const override
+
+- The same holds true the **mold**:
+
+       error: ‘exec’ is not a member of ‘std::remove_reference<x4::sample::Blueprint&>::type’ {aka ‘x4::sample::Blueprint’}
+       75 |    When(Method(dock, exec)).AlwaysDo([&_history]
+
+- Hold down Ctrl (or Command) and click on the source code line and make this change:
+
+       When(Method(dock, prove_MySQL_is_working))
+       .AlwaysDo([&_history]
+       () {
+
+- Do the same for the method verification:
+
+       Verify(Method(dock, exec));
+
+- Becomes 
+
+       Verify(Method(dock, prove_MySQL_is_working));
+
+- Now try to build run the test cases again:
+
+       error: ‘struct x4::sample::Blueprint’ has no member named ‘exec’
+       71 |          i.exec("");
+
+- Did we run into (yet another) compilation issue? 
+
+- This is one of the greatest benefits to using interfaces, you are now using the C++ compiler to catch what used to a major issue with modifying working code, (aka. famous for memory leaks and core dumps). 
+
+- Hold down Ctrl (or Command) and click on the source code line and make this change:
+
+         i.exec("");
+
+- To:
+
+         i.prove_MySQL_is_working();
+
+- Not only did we make the method more meaningful (to it's actual purpose) but we removed an unnecessary parameter, (hence the interface now has this issue resolved and won't find it's way into production code causing confusion for the next developer to look at it).
+
+       it_test.sh
+
+- Just when you thought we were out of the woods but that the `sample_console` did also notify us that the method signature needs to be updated:
+
+       try {
+              sample::Instance dock;
+              dock.exec("ls ~");
+              return 0;
+       }
+       resolve_all_injections() {
+              echo(ex);
+       }
+
+- Becomes:
+
+       try {
+              sample::Instance dock;
+              dock.prove_MySQL_is_working();
+              return 0;
+       }
+       resolve_all_injections() {
+              echo(ex);
+       }
+
+- Since we just happen to have create a Linux console instance of our method why not give it a whirl:
+
+       it_test.sh
+
+- Now run `sample_console`:
+
+       sample_console
+
+- Here is our output:
+
+       ~/dev/x4$ sample_console
+              ... MySQL replies: Hello World!
+              ... MySQL says it again: Hello World!
+
+- You may be wondering why the command did not require:
+
+       build/sample_console
+
+- That's because the current CMakeLists.txt is wired to automatically copy all successfully built binaries to the `~/.local/bin` folder:
+
+       nterface_tools.sh 
+
+- Now that we have successfuly docked our molded interface into a C++ class let's commit it to the Github repository:
+
+       upgrades_menu 4
+       tagit.sh
+
+- The number `tagit.sh` will display would be:
+
+       v0.2.2
+
+- So commit it:
+
+       tagit.sh v0.2.3  
+
+- Now everything is committed to your Github repo. 
 
 See *Next Steps* below ... 
 
