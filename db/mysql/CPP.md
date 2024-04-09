@@ -366,7 +366,7 @@ Molds allow the developer to work out details of a given interface independant o
          virtual void prove_MySQL_is_working()
             const pure;
 
-- To see one of the key benefits to [Interface-based programming](https://en.wikipedia.org/wiki/Interface-based_programming) is the ability for the C++ compile to quickly identify method signature changes:
+- To see one of the key benefits to [Interface-based programming](https://en.wikipedia.org/wiki/Interface-based_programming) is the ability for the C++ `gcc` compiler to quickly identify method signature changes:
 
        it_test.sh
 
