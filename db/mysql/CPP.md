@@ -422,7 +422,7 @@ Molds allow the developer to work out details of a given interface independant o
 
 - Did we run into (yet another) compilation issue? 
 
-- This is one of the greatest benefits to using interfaces, you are now using the C++ compiler to catch what used to a major issue with modifying working code, (aka. famous for memory leaks and core dumps). 
+- This is one of the greatest benefits to using interfaces, you are now using the C++ `gcc` compiler to do all the dirty work for you. That is, catch what used to be a major issue with modifying working code in the early days of C/C++ development, (aka. catching typos that were famous for memory leaks and unexpected core dumps). 
 
 - Hold down Ctrl (or Command) and click on the source code line and make this change:
 
