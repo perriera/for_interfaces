@@ -7,7 +7,7 @@
 **Note**: This Wish Case doubles as an introduction to the world of **dock/molds** and how this technique plays an intergral part in the formation of the `injection.io(sample)::Blueprint` interface.
 
 ### Wish Case
-Setting up `MySQL Connector/C++` support onto Ubuntu is not that difficult. However, exact details on how to do this vary with each and every version of Linux. We have assembled instructions here that work well for the Ubuntu 18.x to Ubuntu 22.x series of Linux vendors:
+Setting up `MySQL Connector/C++` support onto Ubuntu is not that difficult. However, exact details on how to do this vary with each and every version of Linux. We have assembled instructions here that currently work for the 18.x-22.x series of Ubuntu images:
 
 #### Tutorial setup
 
