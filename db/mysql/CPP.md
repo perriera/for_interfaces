@@ -518,7 +518,7 @@ To debug this program with VSC:
 - To the top left you would see another small green arrow that you can press to restart the test.
 - Play with the controls that you see to become familair with the VSC debugging environment.
 
-**Note**: Depending on whether or not `dock_instance.cpp` is renamed `dock_instance.cxx` or not affects how the debugger will operate during a debugging session with VSC. As both the `mold_interface.cpp` and the `dock_instance.cpp` use the exact same `test_interface.cpp` to conduct the same tests (but different origins). Hence, getting a new interface method working before testing it with the dock will reduce any confusion you might want to avoid, (when in doubt check the call stack window).
+**Note**: Depending on whether `dock_instance.cpp` has been renamed `dock_instance.cxx` or not affects how the debugger will operate during a debugging session with VSC. As both the `mold_interface.cpp` and the `dock_instance.cpp` use the exact same `test_interface.cpp` to conduct the same tests (but different origins). Hence, getting a new interface method working before testing it with the dock will reduce any confusion you might want to avoid, (when in doubt check the call stack window).
 
 ### Alternate Case 
 #### Is this a true MySQL test?
