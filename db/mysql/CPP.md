@@ -457,7 +457,7 @@ Molds allow the developer to work out details of a given interface independant o
               echo(ex);
        }
 
-- Since we just happen to have create a Linux console instance of our method why not give it a whirl:
+- Since we just happened to have created a Linux console instance of our method why not give it a whirl:
 
        it_test.sh
 
