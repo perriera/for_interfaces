@@ -334,7 +334,7 @@ Molds allow the developer to work out details of a given interface independant o
 
        namespace x4 {
 
- - Now we need to *temporarily* re-enable the dock for `sample::Blueprint`:
+ - Now we need to **re-enable** the dock for `sample::Blueprint`:
  
        mv interfaces/sample/dock_instance.cxx interfaces/sample/dock_instance.cpp
 
