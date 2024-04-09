@@ -76,9 +76,9 @@ The best way to resolve this issue is to follow the steps required when setting 
 ### Summary
 Either of the above links would help you with your VSC installation, (including Remote SSH support)
 
-### Next Steps
+### Resume/Next Steps
 
 - [How to install injectons.io(C++17)](https://github.com/perriera/injections)
 
-
-
+### Disclaimer
+> That `word` is not to appear anywhere on this page, ([except here](https://en.wikipedia.org/wiki/Knights_Who_Say_%22Ni!%22))
