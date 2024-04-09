@@ -407,7 +407,7 @@ Molds allow the developer to work out details of a given interface independant o
 
        Verify(Method(dock, exec));
 
-- Becomes 
+- Becomes:
 
        Verify(Method(dock, prove_MySQL_is_working));
 
