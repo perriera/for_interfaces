@@ -528,7 +528,7 @@ True, we didn't actually insert any data of our own into the MySQL database, (as
 - Feel free to create SQL INSERT statements to that effect (as an exercise).
 - Further, (as an exercise) add new methods to `sample::Blueprint` one for each type of SQL operation, (that interests you). Get them working in the mold first, then refined the test() cases for it. Then add the new methods to the C++ class. Then take a shot at testing these methods as part of the `sample_console` app complete with parameter passing. 
 - Doing this as an exercise will give you an appreciation for what `injections/injectx` is really all about, (which will be formally introduced a little later on).
-- Remember, whatever you do we never was that `word` any where in the C++ code base.
+- Remember, whatever you do we never use that `word` any where in the C++ code base.
 - Give a shot, do a Ctrl-F (or a Command-F) on this page and look for that `word`. 
 > *aka*: " It is not a matter of ... it is a matter of `when` " -- Anonymous 
 - Happy coding with `injections.io(C++17)`
