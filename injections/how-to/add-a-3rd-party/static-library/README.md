@@ -1,14 +1,21 @@
 ## How to add a 3rd party static library using `CPM/CMakeLists.txt` syntax
-**Given** the need to add 3rd party party library (for example `mysql`) support to your `injections.io(injections_cpp)` based project **when** we use adding `mysql` as an example of how to do this **then** we will have a working example of how to add 3rd party libraires using `CPM/CMakeLists.txt` syntax.
+**Given** the need to add 3rd party library (for example `mysql` support) to your `injections.io(injections_cpp)` based project **when** we use adding `mysql` as an example of how to do this **then** we will have a working example of how to add 3rd party libraires using `CPM/CMakeLists.txt` syntax.
 
 ### Prerequisites
- - a project created using `injections.io(injections_cpp)` as a template
+ - a project created using a `injections.io(injections_cpp)` based template (see **Alternate Case** for alternative templates)
  - a good computer and a decent Internet connection
 
 ### Wish Case
 The popular and well-established `mysql` database api will be used as an example of how to do this
 - Do [How to install `MySQL` onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
 - Do [How to install `MySQL Connector/C++` support (using CPM/CMakeLists.txt syntax)](https://github.com/perriera/for_interfaces/blob/main/db/mysql/CPP.md)
+
+### Alternate Case
+#### Which template to use?
+By `injections.io(injections_cpp)` based this would mean any template that is based off this original project. Which includes:
+-  `injections.io(interfaces_cpp)`
+-  `injections.io(htmlforge_cpp)`
+> The difference is that `injections.io(injections_cpp)` will only include the `injections` framework (by default). Whereas `injections.io(interfaces_cpp)` includes both `injections` and `interfaces`. Whereas `injections.io(htmlforge_cpp)` includes both `injections`, `interfaces` and `htmlforge_net`, (but any of these can be changed at a later date).
 
 ### Alternate Case
 #### Oracle support?
