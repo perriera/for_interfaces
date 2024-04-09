@@ -492,7 +492,7 @@ Molds allow the developer to work out details of a given interface independant o
 
        tagit.sh v0.2.3  
 
-- Now everything is committed to your Github repo. 
+- Now everything is committed to your Github repo, (take a quick peek there to see that everything is in line). 
 
 See *Next Steps* below ... 
 
