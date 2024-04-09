@@ -496,6 +496,8 @@ Molds allow the developer to work out details of a given interface independant o
        upgrades_menu 4
        tagit.sh
 
+**Note**: Take a look at `include/x4/version.hpp` and you see it update as soon as the `upgrades_menu 4` bash script is executed: 
+
 - The number `tagit.sh` will display would be:
 
        v0.2.2
