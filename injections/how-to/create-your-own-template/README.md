@@ -244,10 +244,9 @@ This exercise shows how to add a third party library with MySQL. It is just a ma
 
 
 ### Summary
-You now have accomplished setting up your own `injections.io(**x4**)`:
-- Incorporating a 3rd party static library to your `x4 repo`, (in this case `MySQL`)
-- In additionl you have created a template for `x4 repo` (known as `x4_cpp`)
-- This will allow you to have full control over all the source files (complete with full revision control) for your `x4 repo`
+You now have accomplished:
+- Setting up a template `x4_cpp` to allow developers to quickly and easily utilize your `MySQL`-enabled framework, (`injections.io(**x4**)`):
+- This will allow you to have full control over all the source files (complete with full revision control) for your `x4 repo`. This means there is no need to branch or merge changes with other developers, (each developer can have their own project).
 - At the same time this will allow developers wishing to use your `x4 repo` right down to the preferred version number:
 
         cmake_minimum_required(VERSION 3.21)
@@ -256,6 +255,14 @@ You now have accomplished setting up your own `injections.io(**x4**)`:
 
 - Of course any developers now importing `x4 repo` into their `x4_app` can just as easily add value to `x4 repo` then create their own template for other developers to use.
 - Welcome to the world of `CPM/CMakeLists.txt` and `injections.io(C++17)`
+
+**Note**: Developing apps using `dock/molds` has an interesting effect on builds. As all `dock/mold` code usually ends up in the `.hpp` files the building of shared libraries now happens in milliseconds. So, even were you to daisy chain about a dozen different shared libraries, each library could be built in less than a second. To see a demonstration of this:
+
+        rm -rf build
+        it_test.sh
+
+Then watch the build process.
+
 
 ### Next Steps
  - [How to create a project using injections.io(injections_cpp)](https://github.com/perriera/injections_cpp)
