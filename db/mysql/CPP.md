@@ -324,7 +324,7 @@ Molds allow the developer to work out details of a given interface independant o
 
        namespace x4 {
 
-- Now change the extenion on the dock file itself back from `.cxx` to `.cpp`
+- Now change the extension on the dock file itself back from `.cxx` to `.cpp`
 
        interfaces/sample/dock_instance.cxx
 
