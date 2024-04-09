@@ -8,7 +8,7 @@
 ### Wish Case
 Assuming you have a Linux instance and are currently logged into it (either locally or remotely):
 
-  - [ ] Login as dev (unless you are already `dev`):
+  - [ ] Login as dev (unless you are already logged in as `dev`):
 	
 		su dev
 	
