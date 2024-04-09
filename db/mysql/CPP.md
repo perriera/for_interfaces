@@ -65,6 +65,8 @@ Now would be a good time to open your project with the VSC editor:
        set(X4_LIBS_COMMON stdc++fs ${X4_THIRD_PARTY_LIBRARIES} Threads::Threads)
        set(X4_LIBS_NEEDED injections ${BUILT_UPON_LIBRARY} ${X4_LIBS_COMMON})
 
+**Note**: When asked to install `CMake Tools` say `yes`
+
  - In the above code block of `CMakeLists.txt` we need to uncomment this line:
 
        # set(X4_THIRD_PARTY_LIBRARIES ldap gcrypt gnutls uuid microhttpd)
