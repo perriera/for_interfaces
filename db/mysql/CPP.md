@@ -241,7 +241,7 @@ Now in this case we only tested that the `MySQL` shared libraries could be acces
 
 - Whatever number tagit.sh spits out just add one to the *minor* value (as `upgrades_menu 4` bumps it up by one). 
 
-- So, when `tagit.sh` byitself displays this:
+- So, when `tagit.sh` by itself displays this:
 
        injections.io (v5.55.2)
        --------------------------------------------------------------------
