@@ -8,12 +8,11 @@
 - Adequate ram and disk space
 
 ### Quick links
-- see [**native install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-as-the-host-operating-system-native-install) here
-- see [**virtual machine**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-on-top-of-an-existing-system-virtual-machine) here
 - see [**cloud hosted**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#digitalocean-cloud-hosted) here
 - see [**Docker install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#docker-linux-mac-or-windows) here
 - see [**Flutter install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#flutter-web-fuchsia-android-ios-linux-macos-and-windows) here
 - see [**multipass install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#multipass-linux-mac-or-windows) here
+- see [**native install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-as-the-host-operating-system-native-install) here
 - see [**Parallels Desktop install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#parallels-desktop-mac-only) here
 - see [**Qt install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#qt-linux-windows-macos-android-or-embedded-systems-install) here
 - see [**Windows 10/11 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#windows-1011--windows-install) here
