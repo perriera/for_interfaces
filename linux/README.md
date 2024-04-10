@@ -15,7 +15,7 @@
 - see [**Flutter install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#flutter-web-fuchsia-android-ios-linux-macos-and-windows) here
 - see [**multipass install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#multipass-linux-mac-or-windows) here
 - see [**Parallels Desktop install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#parallels-desktop-mac-only) here
-- see [**Qt Windows install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#qt-linux-windows-macos-android-or-embedded-systems-install) here
+- see [**Qt install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#qt-linux-windows-macos-android-or-embedded-systems-install) here
 - see [**Windows 10/11 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#windows-1011--windows-install) here
 - see [**WSL/WSL2 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#wslwsl2-windows-install) here
 - see [**VirtualBox install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#virtualbox-windows-only) here
