@@ -168,7 +168,7 @@ While it is possible to use Linux on Windows 10/11 through [multipass](https://m
 
 #### Alternate Case
 #### Windows 10/11  (WSL/WSL2 install)
-It can be and it is the first thing to do when ever there is any mention of using Linux on a Windows 10/11 platform. But for our purposes `multipass` is easier to use (and **recommended** over WSL/WSL2). However, WSL/WSL2 would be a better an easier to manage alternative to VirtualBox, (albiet setting it up to work with a GUI can be bit of a challenge).
+It can be and it is the first thing to do when ever there is any mention of using Linux on a Windows 10/11 platform. But for our purposes `multipass` is easier to use (and **recommended** over WSL/WSL2). However, WSL/WSL2 would be a better and easier to manage alternative to VirtualBox, (albiet setting it up to work with a GUI can be bit of a challenge).
 - [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/) website 
 - [WSL/WSL2](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) wiki 
 - [WSL/WSL2](https://www.udemy.com/courses/search/?src=ukw&q=wsl%2Fwsl2) tutorials
@@ -182,7 +182,7 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 
 #### Alternate Case
 #### Docker (Linux, Mac or Windows)
-Installing a Linux distribution using Docker is a possible as it is a forerunner to `multipass`. But for our purposes `multipass` is easier to use (and **recommended** over Docker). However, Docker would be a better an easier to manage alternative to VirtualBox, (albiet setting it up to work with a GUI can be bit of a challenge).
+Installing a Linux distribution using Docker is a possible as it is a forerunner to `multipass`. But for our purposes `multipass` is easier to use (and **recommended** over Docker). However, Docker would be a better and easier to manage alternative to VirtualBox, (albiet setting it up to work with a GUI can be bit of a challenge).
 - [Docker website](https://www.docker.com) here
 - [Docker wiki](https://en.wikipedia.org/wiki/Docker_(software)) here
 - [Docker tutorials](https://www.udemy.com/courses/search/?src=ukw&q=docker) here
