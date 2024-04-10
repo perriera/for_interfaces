@@ -4,7 +4,7 @@
 ### Prerequistes
 - Internet connection
 - Windows, Linux or Mac based computer
-- sudo privilages on that computer
+- **sudo privilages** on that computer
 - Adequate ram and disk space
 
 ### Quick links
