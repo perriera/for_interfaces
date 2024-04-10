@@ -195,7 +195,7 @@ Installing a Linux distribution using Docker is a possible as it is a forerunner
 - [Latest stable version](http://download.virtualbox.org/virtualbox/LATEST-STABLE.TXT)
 
 #### Alternate Case
-#### Flutter (Windows install)
+#### Flutter (Windows, Mac or Linux)
 **Flutter** is an open-source UI software development kit created by Google. It can be used to develop cross platform applications from a single codebase for the web, Fuchsia, Android, iOS, Linux, macOS, and Windows. First described in 2015, Flutter was released in May 2017. Flutter is used internally by Google in apps such as Google Pay and Google Earth as well as by other software developers including ByteDance and Alibaba.
 - [Flutter](https://flutter.dev) website 
 - [Flutter](https://en.wikipedia.org/wiki/Flutter_(software)) wiki 
