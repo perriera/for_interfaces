@@ -160,11 +160,18 @@ While it is possible to use Linux on Windows 10/11 through [multipass](https://m
     - see [How to install injections.io(C++17)](https://github.com/perriera/injections)
 
 #### Alternate Case
+#### Qt (Windows install)
+**Qt** (pronounced "cute" or as an initialism) is cross-platform application development framework for creating graphical user interfaces as well as cross-platform applications that run on various software and hardware platforms such as Linux, Windows, macOS, Android or embedded systems with little or no change in the underlying codebase while still being a native application with native capabilities and speed
+- [Qt](https://www.qt.io) website 
+- [Qt](https://en.wikipedia.org/wiki/Qt_(software)) wiki 
+- [Qt](https://www.udemy.com/courses/search/?src=ukw&q=Qt) tutorials
+
+#### Alternate Case
 #### Windows 10/11  (WSL/WSL2 install)
 It can be and it is the first thing to do when ever there is any mention of using Linux on a Windows 10/11 platform. But for our purposes `multipass` is easier to use (and **recommended** over WSL/WSL2). However, WSL/WSL2 would be a better an easier to manage alternative to VirtualBox, (albiet setting it up to work a GUI can be bit of a challenge).
 - [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/) website 
 - [WSL/WSL2](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) wiki 
-- [WSL/WSL2](https://www.udemy.com/courses/search/?src=ukw&q=wsl%2Fwsl2) tutorial 
+- [WSL/WSL2](https://www.udemy.com/courses/search/?src=ukw&q=wsl%2Fwsl2) tutorials
 
 #### Alternate Case
 #### multipass (Linux, Mac or Windows)
