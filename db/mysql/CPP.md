@@ -508,11 +508,14 @@ Molds allow the developer to work out details of a given interface independant o
 
        tagit.sh v0.2.3  
 
+
 - see [How to use the `git tag` operation with `injections.io(C++17)` ](https://github.com/perriera/for_interfaces/blob/main/injections/how-to/do-tagging/README.md)
 
 - Now everything is committed to your Github repo, (take a quick peek there to see that everything is in line). 
 
 - As an exercise `feel free` to remove `history()` method from `sample::Blueprint`, then the mold, then dock (along with any other code not in use) then tag the repo again.
+
+See [Debug the program with VSC?](https://github.com/perriera/for_interfaces/blob/main/db/mysql/CPP.md#alternate-case-1) *optional* 
 
 See *Next Steps* below ... 
 
