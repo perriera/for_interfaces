@@ -8,10 +8,11 @@
 - Adequate ram and disk space
 
 ### Wish Case: 
-#### Installing Linux as the host operating system (native install)
-Linux comes in many flavours can be installed either natively or as a virtual machine. 
 - see [**virtual machine**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-on-top-of-an-existing-system-virtual-machine) below
 - see [**cloud machine**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#digitalocean) below
+
+#### Installing Linux as the host operating system (native install)
+Linux comes in many flavours can be installed either natively or as a virtual machine. 
 - Step 1: Choose a Linux Distribution
     - Research and choose a Linux distribution that suits your needs. 
     - Popular Linux distributions:
