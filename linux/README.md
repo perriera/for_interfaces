@@ -165,7 +165,7 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 
 #### Alternate Case
 #### Docker (Linux, Mac or Windows)
-Installing a Linux distribution using Docker is a possible, (but `multipass` is easier to use and **recommended**).
+Installing a Linux distribution using Docker is a possible as it is a forerunner to `multipass`. But for our purposes `multipass` is easier to use (and **recommended** over Docker). However, Docker would be a better easier to manage alternative to VirtualBox, (albiet setting it up to work a GUI can be bit of a challenge).
 - [Docker website](https://www.docker.com) here
 - [Docker wiki](https://en.wikipedia.org/wiki/Docker_(software)) here
 - [Docker tutorials](https://www.udemy.com/courses/search/?src=ukw&q=docker) here
