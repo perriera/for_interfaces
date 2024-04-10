@@ -7,10 +7,10 @@
 - sudo privilages on that computer
 - Adequate ram and disk space
 
-### Quick links
-- see [**virtual machine installation**]() below
-- see [**cloud installation**]() below
-- see [**Windows 10/11 installation**]() below
+### Alternate Case links
+- see [**virtual machine**]() install below
+- see [**cloud installation**]() install below
+- see [**Windows 10/11 installation**]() install below
 
 ### Wish Case: 
 
