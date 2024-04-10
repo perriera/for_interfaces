@@ -9,6 +9,7 @@
 
 ### Wish Case
 The popular and well-established `mysql` database api will be used as an example of how to do this
+- [Create a new project and call it `x4` ](https://github.com/perriera/injections_cpp)
 - Do [How to install `MySQL` onto Ubuntu](https://github.com/perriera/for_interfaces/blob/main/db/mysql/README.md)
 - Do [How to install `MySQL Connector/C++` support (using CPM/CMakeLists.txt syntax)](https://github.com/perriera/for_interfaces/blob/main/db/mysql/CPP.md)
 
