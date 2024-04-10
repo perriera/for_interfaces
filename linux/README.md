@@ -15,7 +15,7 @@
 - see [**Flutter install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-on-top-of-an-existing-system-virtual-machine) here
 - see [**multipass install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#multipass-linux-mac-or-windows) here
 - see [**Parallels Desktop install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#parallels-desktop-mac-only) here
-- see [**Qt install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#qt-windows-install) here
+- see [**Qt Windows install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#qt-windows-install) here
 - see [**Windows 10/11 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#windows-1011--windows-install) here
 - see [**WSL/WSL21 10/11 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#windows-1011--wslwsl2-install) here
 - see [**VirtualBox install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#virtualbox-windows-only) here
@@ -193,6 +193,13 @@ Installing a Linux distribution using Docker is a possible as it is a forerunner
 - [How to setup ubuntu-20.04.4-desktop-amd64 (on VirtualBox)](https://github.com/perriera/for_interfaces/tree/main/vm/virtualbox)
 - [Complete listing of latest VirtualBox releases](http://download.virtualbox.org/virtualbox/) 
 - [Latest stable version](http://download.virtualbox.org/virtualbox/LATEST-STABLE.TXT)
+
+#### Alternate Case
+#### Flutter (Windows install)
+**Flutter** is an open-source UI software development kit created by Google. It can be used to develop cross platform applications from a single codebase for the web, Fuchsia, Android, iOS, Linux, macOS, and Windows. First described in 2015, Flutter was released in May 2017. Flutter is used internally by Google in apps such as Google Pay and Google Earth as well as by other software developers including ByteDance and Alibaba.
+- [Flutter](https://flutter.dev) website 
+- [Flutter](https://en.wikipedia.org/wiki/Flutter_(software)) wiki 
+- [Flutter](https://www.udemy.com/courses/search/?src=ukw&q=Flutter) tutorials
 
 #### Alternate Case
 #### Parallels Desktop (Mac only)
