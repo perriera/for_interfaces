@@ -142,7 +142,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 
 #### Shortcut to VSC
 In the case where you just happen to be inside VSC
-- Go 'Terminal->New Terminal` and paste the contents of the clipboard:
+- Go `Terminal->New Terminal` and paste the contents of the clipboard:
 
 			ssh dev@ip_address
 
