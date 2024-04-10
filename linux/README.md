@@ -12,8 +12,10 @@
 - see [**virtual machine**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-on-top-of-an-existing-system-virtual-machine) here
 - see [**cloud hosted**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#digitalocean-cloud-hosted) here
 - see [**Docker install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#docker-linux-mac-or-windows) here
+- see [**Flutter install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-on-top-of-an-existing-system-virtual-machine) here
 - see [**multipass install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#multipass-linux-mac-or-windows) here
 - see [**Parallels Desktop install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#parallels-desktop-mac-only) here
+- see [**Qt install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-on-top-of-an-existing-system-virtual-machine) here
 - see [**Windows 10/11 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#windows-1011--windows-install) here
 - see [**WSL/WSL21 10/11 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#windows-1011--wslwsl2-install) here
 - see [**VirtualBox install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#virtualbox-windows-only) here
