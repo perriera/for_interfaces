@@ -128,28 +128,6 @@ We recommend setting up a virtual machine that can be accessed remotely (via SSH
 - [How to install Ubuntu 22.04 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 
 #### Alternate Case
-#### multipass
-Installing a Linux distribution locally can be achieved easily using [multipass](https://multipass.run/). It does not matter whether you are using Windows, Mac or are using Linux on your system already. Just follow either of these links and you can install Linux using `multipass`:
-- [How to install Ubuntu 22.04 using `multipass` on Mac (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/mac/README.md)
-- [How to install Ubuntu 22.04 using `multipass` on Windows (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/windows/README.md)
-- [How to install Ubuntu 22.04 using `multipass` on Linux (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/linux/README.md)
-
-#### Alternate Case
-#### VirtualBox
-[VirtualBox](https://virtualbox.org) has been around for quite some time and their developers have been pretty [diligent in keeping it up to date](http://download.virtualbox.org/virtualbox/). The following are instructions on how to install VirtualBox for one particular situation. However, what is written there can be applicable for newer versions of Ubuntu: 
-- [How to setup ubuntu-20.04.4-desktop-amd64 (on VirtualBox)](https://github.com/perriera/for_interfaces/tree/main/vm/virtualbox)
-- [Complete listing of latest VirtualBox releases](http://download.virtualbox.org/virtualbox/) 
-- [Latest stable version](http://download.virtualbox.org/virtualbox/LATEST-STABLE.TXT)
-
-#### Alternate Case
-#### Parallels Desktop
-[parallels desktop](https://parallels.com) is essentially a much more modern approach to setting up virtual machines for the desktop however there is a modertately low yearly subscription required. But for that rather low and insignificant significant subscription price you tend to get a service that works out of the box. As you have at your disposal a small army of professional developers taking care of all the tiny little issues for you. 
-- A dedicated How-to page for Paralles will be provided shortly
-- But the website is already very straight forward
-- see [Find the Parallels solution that works best for you](https://parallels.com)
-- Currently Parallels Desktop does offer an evaluation period, ([free for 14 days](https://www.parallels.com/products/desktop/trial/?clientId=2032879761.1711828844&sessionId=1711828844&_gl=1*1nadzln*_up*MQ..*_ga*MjAzMjg3OTc2MS4xNzExODI4ODQ0*_ga_RYHBN2XNLK*MTcxMTgyODg0NC4xLjAuMTcxMTgyODg0NC4wLjAuMA..))
-
-#### Alternate Case
 #### Windows 10/11  (Windows install)
 While it is possible to use Linux on Windows 10/11 through [multipass](https://multipass.run/), [VirtualBox](https://virtualbox.org), [Parallels Desktop](https://parallels.com), [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) or [Docker](https://www.docker.com) you will have to work out the details on your own as the specific steps to do so keep changing with each and every upgrade. 
 > However the approach recommended is to merely install VSC onto the Windows 10/11 environment by itself. With just a SSH public key generated for remotely accessing a Linux box,  (either on the web or anywhere on the network). In this way almost no additional packages or modifications to settings are required for the delicate Windows 10/11 environment. Moreover, backing up and restoring the actual development environment is all but completely independent of Windows 10/11.
@@ -173,6 +151,28 @@ While it is possible to use Linux on Windows 10/11 through [multipass](https://m
 
 - Connect to the Ubuntu instance using VSC.
     - see [How to install injections.io(C++17)](https://github.com/perriera/injections)
+
+#### Alternate Case
+#### multipass (Linux, Mac or Windows)
+Installing a Linux distribution locally can be achieved easily using [multipass](https://multipass.run/). It does not matter whether you are using Windows, Mac or are using Linux on your system already. Just follow either of these links and you can install Linux using `multipass`:
+- [How to install Ubuntu 22.04 using `multipass` on Mac (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/mac/README.md)
+- [How to install Ubuntu 22.04 using `multipass` on Windows (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/windows/README.md)
+- [How to install Ubuntu 22.04 using `multipass` on Linux (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/linux/README.md)
+
+#### Alternate Case
+#### VirtualBox (Windows only)
+[VirtualBox](https://virtualbox.org) has been around for quite some time and their developers have been pretty [diligent in keeping it up to date](http://download.virtualbox.org/virtualbox/). The following are instructions on how to install VirtualBox for one particular situation. However, what is written there can be applicable for newer versions of Ubuntu: 
+- [How to setup ubuntu-20.04.4-desktop-amd64 (on VirtualBox)](https://github.com/perriera/for_interfaces/tree/main/vm/virtualbox)
+- [Complete listing of latest VirtualBox releases](http://download.virtualbox.org/virtualbox/) 
+- [Latest stable version](http://download.virtualbox.org/virtualbox/LATEST-STABLE.TXT)
+
+#### Alternate Case
+#### Parallels Desktop (Mac only)
+[parallels desktop](https://parallels.com) is essentially a much more modern approach to setting up virtual machines for the desktop however there is a modertately low yearly subscription required. But for that rather low and insignificant significant subscription price you tend to get a service that works out of the box. As you have at your disposal a small army of professional developers taking care of all the tiny little issues for you. 
+- A dedicated How-to page for Paralles will be provided shortly
+- But the website is already very straight forward
+- see [Find the Parallels solution that works best for you](https://parallels.com)
+- Currently Parallels Desktop does offer an evaluation period, ([free for 14 days](https://www.parallels.com/products/desktop/trial/?clientId=2032879761.1711828844&sessionId=1711828844&_gl=1*1nadzln*_up*MQ..*_ga*MjAzMjg3OTc2MS4xNzExODI4ODQ0*_ga_RYHBN2XNLK*MTcxMTgyODg0NC4xLjAuMTcxMTgyODg0NC4wLjAuMA..))
 
 ### Summary
 You now have a selection of methods for setting up a Linux distribution, (either natively or through a VM manager). At this point in time the number one recommendation is to utilize `DigitalOcean` provided you have a good Internet connection, (and a credit card). The number two recommendation is `multipass` as it is free and can support a GUI interface via `Microsoft Remote Desktop`, (albeit somewhat laggy). `VirtualBox` comes in as a strong number three as it also free and does do a fairly good GUI interface (but takes longer to setup properly and much more fragile compared to `Parallels Desktop`). `Docker` (a forerunner to `multipass`) is number five but requires a course off [Udemy.com](https://www.udemy.com/courses/search/?src=ukw&q=docker) to know how to use it properly. `WSl/WSL2` provides a Linux-style interface to a natively-installed Windows instance but is dependent on the ever-changing Windows desktop environment to make it practical for software development (when compared to software development in a pure Linux environment). 
