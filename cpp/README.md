@@ -12,7 +12,7 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 	
 		su dev
 	
-	**Note**: In the case where you are using a remote Linux box type:
+	**Note**: In the case of a remote Linux box type (unless you are already logged in remotely as `dev`):
 
 		ssh dev@ip_address 
 
