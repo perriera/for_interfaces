@@ -13,6 +13,7 @@
 - see [**cloud hosted**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#digitalocean-cloud-installation) here
 - see [**Windows 10/11 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#windows-1011--windows-install) here
 - see [**multipass install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#multipass-linux-mac-or-windows) here
+- see [**Docker install**]() here
 - see [**VirtualBox install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#virtualbox-windows-only) here
 - see [**Parallels Desktop install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#parallels-desktop-mac-only) here
 
@@ -161,6 +162,13 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 - [How to install Ubuntu 22.04 using `multipass` on Mac (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/mac/README.md)
 - [How to install Ubuntu 22.04 using `multipass` on Windows (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/windows/README.md)
 - [How to install Ubuntu 22.04 using `multipass` on Linux (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/linux/README.md)
+
+#### Alternate Case
+#### Docker (Linux, Mac or Windows)
+Installing a Linux distribution using Docker is a possible, (but `multipass` is easier to use and **recommended**).
+- [Docker website](https://www.docker.com) here
+- [Docker wiki](https://en.wikipedia.org/wiki/Docker_(software)) here
+- [Docker tutorials](https://www.udemy.com/courses/search/?src=ukw&q=docker) here
 
 #### Alternate Case
 #### VirtualBox (Windows only)
