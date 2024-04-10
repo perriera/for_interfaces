@@ -8,9 +8,10 @@
 - Adequate ram and disk space
 
 ### Wish Case: 
-Linux comes in many flavours can be installed either natively or as a virtual machine. 
-
 #### Installing Linux as the host operating system (native install)
+Linux comes in many flavours can be installed either natively or as a virtual machine. 
+- see [**virtual machine**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-on-top-of-an-existing-system-virtual-machine) below
+- see [**cloud machine**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#digitalocean) below
 - Step 1: Choose a Linux Distribution
     - Research and choose a Linux distribution that suits your needs. 
     - Popular Linux distributions:
@@ -117,7 +118,7 @@ Before we list the VM managers that have been tested with `injections.io(C++17)`
 - However, below you will find Wish Cases for select VM platforms and select Linux distributions (usually Ubuntu) that will have step-by-step instructions for that particular version of VM platform and Linux distribution. 
 
 #### Alternate Case
-#### DigitalOcean
+#### DigitalOcean (cloud machine)
 We recommend setting up a virtual machine that can be accessed remotely (via SSH) using [digitalocean.com](https://www.digitalocean.com) as it offers a 60-day, $200 coupon to new users (*credit card required*):
 - [How to install Ubuntu 22.04 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 
