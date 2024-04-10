@@ -85,7 +85,7 @@ When you encounter any issues during the installation process, such as driver co
 - [craftypenguins.net](https://www.craftypenguins.net/) (paid)
 
 ### Alternate Case
-#### Installing Linux on top of an existing system (virtual machine)
+#### Installing Linux on top of an existing system (virtual machine install)
 There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred. Especially for software development purposes, (as it proves to be more practical). While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it proves to be much simpler to restore a backup and retrace your steps (to recreate the malfunction) than to attempt to isolate the issue. 
 
 **Cross-platform API**: 
@@ -122,7 +122,7 @@ Before we list the VM managers that have been tested with `injections.io(C++17)`
 - However, below you will find Wish Cases for select VM platforms and select Linux distributions (usually Ubuntu) that will have step-by-step instructions for that particular version of VM platform and Linux distribution. 
 
 #### Alternate Case
-#### DigitalOcean (cloud machine)
+#### DigitalOcean (cloud machine install)
 We recommend setting up a virtual machine that can be accessed remotely (via SSH) using [digitalocean.com](https://www.digitalocean.com) as it offers a 60-day, $200 coupon to new users (*credit card required*):
 - [How to install Ubuntu 22.04 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 
@@ -149,7 +149,7 @@ Installing a Linux distribution locally can be achieved easily using [multipass]
 - Currently Parallels Desktop does offer an evaluation period, ([free for 14 days](https://www.parallels.com/products/desktop/trial/?clientId=2032879761.1711828844&sessionId=1711828844&_gl=1*1nadzln*_up*MQ..*_ga*MjAzMjg3OTc2MS4xNzExODI4ODQ0*_ga_RYHBN2XNLK*MTcxMTgyODg0NC4xLjAuMTcxMTgyODg0NC4wLjAuMA..))
 
 #### Alternate Case
-#### Windows 10/11
+#### Windows 10/11  (Windows install)
 While it is possible to use Linux on Windows 10/11 through [multipass](https://multipass.run/), [VirtualBox](https://virtualbox.org), [Parallels Desktop](https://parallels.com), [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) or [Docker](https://www.docker.com) you will have to work out the details on your own as the specific steps to do so keep changing with each and every upgrade. 
 > However the approach recommended is to merely install VSC onto the Windows 10/11 environment by itself. With just a SSH public key generated for remotely accessing a Linux box,  (either on the web or anywhere on the network). In this way almost no additional packages or modifications to settings are required for the delicate Windows 10/11 environment. Moreover, backing up and restoring the actual development environment is all but completely independent of Windows 10/11.
 
