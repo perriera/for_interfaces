@@ -161,7 +161,8 @@ While it is possible to use Linux on Windows 10/11 through [multipass](https://m
 
 #### Alternate Case
 #### Qt (Windows install)
-> **Qt** (pronounced "cute" or as an initialism) is cross-platform application development framework for creating graphical user interfaces as well as cross-platform applications that run on various software and hardware platforms such as [Linux, Windows, macOS, Android or embedded systems](https://www.qt.io) with little or no change in the underlying codebase while still being a native application with native capabilities and speed, -- source [Wikipedia](https://en.wikipedia.org/wiki/Qt_(software))
+> **Qt** (pronounced "cute" or as an initialism) is cross-platform application development framework for creating graphical user interfaces as well as cross-platform applications that run on various software and hardware platforms such as [Linux, Windows, macOS, Android or embedded systems](https://www.qt.io) with little or no change in the underlying codebase while still being a native application with native capabilities and speed, 
+> -- source [Wikipedia](https://en.wikipedia.org/wiki/Qt_(software))
 - [Qt](https://www.qt.io) website 
 - [Qt](https://en.wikipedia.org/wiki/Qt_(software)) wiki 
 - [Qt](https://www.udemy.com/courses/search/?src=ukw&q=Qt) tutorials
@@ -199,7 +200,8 @@ Installing a Linux distribution using Docker is a possible as it is a forerunner
 
 #### Alternate Case
 #### Flutter (Windows, Mac or Linux)
-> **Flutter** is an open-source UI software development kit created by Google. It can be used to develop cross platform applications from a single codebase for the [web, Fuchsia, Android, iOS, Linux, macOS, and Windows](https://flutter.dev/). First described in 2015, Flutter was released in May 2017. Flutter is used internally by Google in apps such as Google Pay and Google Earth as well as by other software developers including ByteDance and Alibaba. -- source [Wikipedia](https://en.wikipedia.org/wiki/Flutter_(software))
+> **Flutter** is an open-source UI software development kit created by Google. It can be used to develop cross platform applications from a single codebase for the [web, Fuchsia, Android, iOS, Linux, macOS, and Windows](https://flutter.dev/). First described in 2015, Flutter was released in May 2017. Flutter is used internally by Google in apps such as Google Pay and Google Earth as well as by other software developers including ByteDance and Alibaba. 
+> -- source [Wikipedia](https://en.wikipedia.org/wiki/Flutter_(software))
 - [Flutter](https://flutter.dev) website 
 - [Flutter](https://en.wikipedia.org/wiki/Flutter_(software)) wiki 
 - [Flutter](https://www.udemy.com/courses/search/?src=ukw&q=Flutter) tutorials
