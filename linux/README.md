@@ -12,7 +12,7 @@
 - see [**virtual machine**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-on-top-of-an-existing-system-virtual-machine) here
 - see [**cloud hosted**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#digitalocean-cloud-hosted) here
 - see [**Docker install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#docker-linux-mac-or-windows) here
-- see [**Flutter install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#flutter-windows-install) here
+- see [**Flutter install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#flutter-windows-mac-or-linux) here
 - see [**multipass install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#multipass-linux-mac-or-windows) here
 - see [**Parallels Desktop install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#parallels-desktop-mac-only) here
 - see [**Qt Windows install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#qt-windows-install) here
