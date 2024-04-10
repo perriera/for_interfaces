@@ -167,8 +167,8 @@ While it is possible to use Linux on Windows 10/11 through [multipass](https://m
 - [Qt](https://www.udemy.com/courses/search/?src=ukw&q=Qt) tutorials
 
 #### Alternate Case
-#### Windows 10/11  (WSL/WSL2 install)
-It can be and it is the first thing to do when ever there is any mention of using Linux on a Windows 10/11 platform. But for our purposes `multipass` is easier to use (and **recommended** over WSL/WSL2). However, WSL/WSL2 would be a better and easier to manage alternative to VirtualBox, (albiet setting it up to work with a GUI can be bit of a challenge).
+#### WSL/WSL2 (Windows install)
+It is usually the first thing to install whenever there is any mention of using Linux on a Windows 10/11 platform. But for our purposes `multipass` is easier to use (and **recommended** over WSL/WSL2). However, WSL/WSL2 would be a better and easier to manage alternative to VirtualBox, (albiet setting it up to work with a GUI can be bit of a challenge).
 - [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/) website 
 - [WSL/WSL2](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) wiki 
 - [WSL/WSL2](https://www.udemy.com/courses/search/?src=ukw&q=wsl%2Fwsl2) tutorials
