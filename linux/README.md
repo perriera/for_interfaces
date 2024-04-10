@@ -7,10 +7,11 @@
 - sudo privilages on that computer
 - Adequate ram and disk space
 
-### Alternate Case links
-- see [**virtual machine**]() install below
-- see [**cloud installation**]() install below
-- see [**Windows 10/11 installation**]() install below
+### Quick links
+- see [**native install**]() here
+- see [**virtual machine**]() here
+- see [**cloud hosted**]() here
+- see [**Windows 10/11 install**]() herew
 
 ### Wish Case: 
 
@@ -74,7 +75,7 @@ Linux comes in many flavours can be installed either natively or as a virtual ma
     - After logging in, you may need to perform additional setup tasks, such as installing updates, drivers, and software packages.
 
 ### Alternate Case
-#### Troubleshooting (native install)
+#### Troubleshooting 
 When you encounter any issues during the installation process, such as driver compatibility problems or partitioning errors, refer to the official documentation of your chosen Linux distribution for troubleshooting steps. Alternatively, you can seek help from online forums and communities dedicated to Linux users, where experienced users can provide assistance and guidance.
 - [Linus Torvalds](https://github.com/torvalds) ([Wikipedia](https://en.wikipedia.org/wiki/Linus_Torvalds))
 - [Slack.com](https://www.slack.com) (best)
@@ -85,7 +86,7 @@ When you encounter any issues during the installation process, such as driver co
 - [craftypenguins.net](https://www.craftypenguins.net/) (paid)
 
 ### Alternate Case
-#### Installing Linux on top of an existing system (virtual machine install)
+#### Installing Linux on top of an existing system (virtual machine)
 There are various methods to install Linux on your computer, depending on the type of computer you own and the existing operating system. Installing Linux as a virtual machine atop a native operating system is often preferred. Especially for software development purposes, (as it proves to be more practical). While installing Linux natively is also an option, it can pose challenges for development, particularly when it comes to restoring the Linux operating system in case of malfunction. In practice, it proves to be much simpler to restore a backup and retrace your steps (to recreate the malfunction) than to attempt to isolate the issue. 
 
 **Cross-platform API**: 
@@ -122,7 +123,7 @@ Before we list the VM managers that have been tested with `injections.io(C++17)`
 - However, below you will find Wish Cases for select VM platforms and select Linux distributions (usually Ubuntu) that will have step-by-step instructions for that particular version of VM platform and Linux distribution. 
 
 #### Alternate Case
-#### DigitalOcean (cloud machine install)
+#### DigitalOcean (cloud installation)
 We recommend setting up a virtual machine that can be accessed remotely (via SSH) using [digitalocean.com](https://www.digitalocean.com) as it offers a 60-day, $200 coupon to new users (*credit card required*):
 - [How to install Ubuntu 22.04 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 
