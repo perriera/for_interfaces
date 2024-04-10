@@ -158,6 +158,7 @@ In the case where you just happen to be inside VSC
 - To the bottom left there is a *green* square that resembles this: `><`
 - Click on it and select `Connect Current Window to Host ...`  
 - The enter the `dev@ip_address` and hit enter
+- (just the `dev@ip_address` part not `ssh dev@ip_address`)
 - Now VSC connects to the remote Linux box
 - Go 'Terminal->New Terminal` and this time see a session on the remote Linux box.
 - To activate the file panel do `File->Open Folder...` and select `/home/dev`
