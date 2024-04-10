@@ -17,7 +17,7 @@
 - see [**Parallels Desktop install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#parallels-desktop-mac-only) here
 - see [**Qt Windows install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#qt-windows-install) here
 - see [**Windows 10/11 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#windows-1011--windows-install) here
-- see [**WSL/WSL2 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#windows-1011--wslwsl2-install) here
+- see [**WSL/WSL2 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#wslwsl2-windows-install) here
 - see [**VirtualBox install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#virtualbox-windows-only) here
 
 ### Wish Case: 
