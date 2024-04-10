@@ -157,6 +157,13 @@ While it is possible to use Linux on Windows 10/11 through [multipass](https://m
     - see [How to install injections.io(C++17)](https://github.com/perriera/injections)
 
 #### Alternate Case
+#### Windows 10/11  (WSL/WSL2 install)
+It can be and it is the first thing to do when ever there is any mention of using Linux on a Windows 10/11 platform. But for our purposes `multipass` is easier to use (and **recommended** over WSL/WSL2). However, WSL/WSL2 would be a better an easier to manage alternative to VirtualBox, (albiet setting it up to work a GUI can be bit of a challenge).
+- [WSL/WSL2](https://learn.microsoft.com/en-us/windows/wsl/) website 
+- [WSL/WSL2](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) wiki 
+- [WSL/WSL2](https://www.udemy.com/courses/search/?src=ukw&q=wsl%2Fwsl2) tutorial 
+
+#### Alternate Case
 #### multipass (Linux, Mac or Windows)
 Installing a Linux distribution locally can be achieved easily using [multipass](https://multipass.run/). It does not matter whether you are using Windows, Mac or are using Linux on your system already. Just follow either of these links and you can install Linux using `multipass`:
 - [How to install Ubuntu 22.04 using `multipass` on Mac (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/mac/README.md)
