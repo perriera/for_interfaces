@@ -19,6 +19,7 @@
 - see [**WSL/WSL2 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#wslwsl2-windows-install) here
 - see [**virtual install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#alternate-case-1) here
 - see [**VirtualBox install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#virtualbox-windows-only) here
+- see [**Troubleshooting tips**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#parallels-desktop-mac-only) here
 
 ### Wish Case: 
 
@@ -82,7 +83,7 @@ Linux comes in many flavours can be installed either natively or as a virtual ma
     - After logging in, you may need to perform additional setup tasks, such as installing updates, drivers, and software packages.
 
 ### Alternate Case
-#### Troubleshooting 
+#### Troubleshooting tips
 When you encounter any issues during the installation process, such as driver compatibility problems or partitioning errors, refer to the official documentation of your chosen Linux distribution for troubleshooting steps. Alternatively, you can seek help from online forums and communities dedicated to Linux users, where experienced users can provide assistance and guidance.
 - [Linus Torvalds](https://github.com/torvalds) ([Wikipedia](https://en.wikipedia.org/wiki/Linus_Torvalds))
 - [Slack.com](https://www.slack.com) (best)
