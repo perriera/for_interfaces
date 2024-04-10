@@ -7,9 +7,12 @@
 - sudo privilages on that computer
 - Adequate ram and disk space
 
+### Quick links
+- see [**virtual machine installation**]() below
+- see [**cloud installation**]() below
+- see [**Windows 10/11 installation**]() below
+
 ### Wish Case: 
-- see [**virtual machine**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-on-top-of-an-existing-system-virtual-machine) below
-- see [**cloud machine**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#digitalocean) below
 
 #### Installing Linux as the host operating system (native install)
 Linux comes in many flavours can be installed either natively or as a virtual machine. 
