@@ -6,3 +6,4 @@
 >- [11 Simple Ways to Improve Your Memory](https://getpocket.com/explore/item/11-simple-ways-to-improve-your-memory?utm_source=pocket-newtab-en-us)
 >- [8 Simple Ways to Fit Stretching Into Your Day](https://getpocket.com/explore/item/8-simple-ways-to-fit-stretching-into-your-day-when-all-you-want-to-do-is-skip-it?utm_source=pocket-newtab-en-us)
 >- [Replace Your Teeth in 24 Hours](https://www.shawnkellerdds.com)
+>- [Fact or Fiction?: Feed a Cold, Starve a Fever](https://getpocket.com/explore/item/fact-or-fiction-feed-a-cold-starve-a-fever?utm_source=pocket-newtab-en-us)
