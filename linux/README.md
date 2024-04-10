@@ -19,7 +19,7 @@
 - see [**WSL/WSL2 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#wslwsl2-windows-install) here
 - see [**virtual install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#alternate-case-1) here
 - see [**VirtualBox install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#virtualbox-windows-only) here
-- see [**Troubleshooting tips**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#parallels-desktop-mac-only) here
+- see [**Troubleshooting tips**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#troubleshooting-tips) here
 
 ### Wish Case: 
 
