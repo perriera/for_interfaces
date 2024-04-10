@@ -140,6 +140,32 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 
 - Feel free to close the `Access` dialog box
 
+#### Shortcut to VSC
+In the case where you just happen to be inside VSC
+- Go 'Terminal->New Terminal` and paste the contents of the clipboard:
+
+			ssh dev@ip_address
+
+- Select `yes` for the fingerprint
+- You would now see a connection to the remote Linux box:
+
+
+		To run a command as administrator (user "root"), use "sudo <command>".
+		See "man sudo_root" for details.
+
+		dev@ubuntu-4g2:~$ 
+
+- To the bottom left there is a *blue* `><` square.
+- Click on it and select `Connect Current Window to Host ...`  
+- The enter the `dev@ip_address` and hit enter
+- Now VSC connects to the remote Linux box
+- Go 'Terminal->New Terminal` and this time see a session on the remote Linux box.
+- To activate the file panel do `File->Open Folder...` and select `/home/dev`
+- Select `Yes, I trust the Authors`
+- Do `Terminal->New Terminal`
+- You are now connected to the remote Linux box with VSC all set up to build projects with.
+
+
 #### Backup/Restore you instance
 In order to backup or restore your droplet you'll have to depend on the sevices provided by DigitalOcean.
 - Click on Droplets (in the blue side bar)
