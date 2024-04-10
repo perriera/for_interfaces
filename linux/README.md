@@ -8,10 +8,10 @@
 - Adequate ram and disk space
 
 ### Quick links
-- see [**native install**]() here
-- see [**virtual machine**]() here
-- see [**cloud hosted**]() here
-- see [**Windows 10/11 install**]() herew
+- see [**native install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-as-the-host-operating-system-native-install) here
+- see [**virtual machine**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-on-top-of-an-existing-system-virtual-machine) here
+- see [**cloud hosted**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#digitalocean-cloud-installation) here
+- see [**Windows 10/11 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#windows-1011--windows-install) here
 
 ### Wish Case: 
 
