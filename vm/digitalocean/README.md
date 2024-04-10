@@ -6,7 +6,7 @@
 - at time of writing [DigitalOcean is offering a $200 credit for 60 days](https://www.digitalocean.com)
 
 ### Wish Case
-#### Detailed instructions ([simplified instructions](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md#alternate-case) available below)
+#### Detailed instructions (see [simplified instructions](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md#alternate-case) below)
 To run Linux apps on the cloud using a DigitalOcean account, you can follow these steps to create and launch a Ubuntu instance:
 
 1. **Sign up for DigitalOcean**: If you haven't already, sign up for a DigitalOcean account at https://www.digitalocean.com/.
