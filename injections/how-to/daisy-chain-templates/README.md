@@ -6,6 +6,7 @@
 the need to allow other developers to *import* `injections.io(**your_project**)` (but not make *direct* changes to it) **when** we make a clone of the `injections.io(injections_cpp)` template (and adjust `CMakelists.txt` to include any enhancements like 3rd party libraries) **then** anyone wishing to import your `injections.io(**your_project**)` can do so quickly and easily
 
 ### Prerequisites
+ - [How to install `injections.io(C++17)`](https://github.com/perriera/injections)
  - a project created using `injections.io(injections_cpp)` as a template
  - a project now known as `injections.io(**your_project**)` 
  - a good computer and a decent Internet connection

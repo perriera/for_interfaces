@@ -2,6 +2,7 @@
 **Given** the need to add 3rd party library (for example `mysql` support) to your `injections.io(injections_cpp)` based project **when** we use adding `mysql` as an example of how to do this **then** we will have a working example of how to add 3rd party libraires using `CPM/CMakeLists.txt` syntax.
 
 ### Prerequisites
+ - [How to install `injections.io(C++17)`](https://github.com/perriera/injections)
  - a project created using a `injections.io(injections_cpp)` based template
  - (see **Alternate Case** for alternative template selections)
  - a good computer and a decent Internet connection
