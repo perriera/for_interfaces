@@ -8,11 +8,11 @@
 ### Wish Case
 Assuming you have a Linux instance and are currently logged into it (either locally or remotely):
 
-  - [ ] Login as dev (unless you are already logged in as `dev`):
+  - [ ] Login as dev (unless you are already `logged in as dev`):
 	
 		su dev
 	
-	**Note**: In the case of a remote Linux box type (unless you are already logged in remotely as `dev`):
+	**Note**: In the case of a remote Linux box type (unless you are already `logged in remotely as dev`):
 
 		ssh dev@ip_address 
 
