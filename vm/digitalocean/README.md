@@ -164,6 +164,7 @@ In the case where you just happen to be inside VSC
 - Select `Yes, I trust the Authors`
 - Go `Terminal->New Terminal` and this time see a session on the remote Linux box.
 - You are now connected to the remote Linux box with VSC all set up to build projects with.
+- You are now `logged in remotely as dev`
 
 
 #### Backup/Restore you instance
