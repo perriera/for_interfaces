@@ -208,7 +208,7 @@ Installing a Linux distribution using Docker is a possible as it is a forerunner
 
 #### Alternate Case
 #### Parallels Desktop (Mac only)
-[Parallels Desktop](https://parallels.com) is essentially a much more modern approach to setting up virtual machines for the desktop, (however a very competitive yearly subscription is required). But for that rather low and insignificant significant subscription price you tend to get a service that works out of the box. As you have at your disposal a small army of professional developers taking care of all the tiny little issues for you. 
+[Parallels Desktop](https://parallels.com) is essentially a much more modern approach to setting up virtual machines for the desktop, (albeit a low and competitively priced yearly subscription is required). But for that rather low and insignificant significant subscription price you tend to get a service that works out of the box. As you have at your disposal a small army of professional developers taking care of all the tiny little issues for you. 
 - A dedicated How-to page for Paralles will be provided shortly
 - But the website is already very straight forward
 - see [Find the Parallels solution that works best for you](https://parallels.com)
