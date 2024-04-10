@@ -10,7 +10,7 @@
 ### Quick links
 - see [**native install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-as-the-host-operating-system-native-install) here
 - see [**virtual machine**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#installing-linux-on-top-of-an-existing-system-virtual-machine) here
-- see [**cloud hosted**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#digitalocean-cloud-installation) here
+- see [**cloud hosted**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#digitalocean-cloud-hosted) here
 - see [**Windows 10/11 install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#windows-1011--windows-install) here
 - see [**multipass install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#multipass-linux-mac-or-windows) here
 - see [**Docker install**]() here
@@ -127,7 +127,7 @@ Before we list the VM managers that have been tested with `injections.io(C++17)`
 - However, below you will find Wish Cases for select VM platforms and select Linux distributions (usually Ubuntu) that will have step-by-step instructions for that particular version of VM platform and Linux distribution. 
 
 #### Alternate Case
-#### DigitalOcean (cloud installation)
+#### DigitalOcean (cloud hosted)
 We recommend setting up a virtual machine that can be accessed remotely (via SSH) using [digitalocean.com](https://www.digitalocean.com) as it offers a 60-day, $200 coupon to new users (*credit card required*):
 - [How to install Ubuntu 22.04 using `digitalocean`](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md)
 
