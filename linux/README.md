@@ -124,8 +124,8 @@ Before we list the VM managers that have been tested with `injections.io(C++17)`
 
 
 - **x11**: GUI support *possible* (using x11 protocol)
-- **MRDT**: *[Microsoft Remote Desktop tested](https://apps.microsoft.com/detail/9wzdncrfj3ps?hl=en-US&gl=US)* (by the author)
-    
+- **MRDT**: *[Microsoft Remote Desktop tested](https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/set-up-and-configure-remote-desktop)* (by the author)
+- [**Remote Desktop**](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&pli=1) *Microsoft Remote Desktop* alternative
 
 - Which ever VM platform you choose make sure that platform is installed properly onto your native operating system, (using the documentation supplied on their respective websites). 
 - However, below you will find Wish Cases for select VM platforms and select Linux distributions (usually Ubuntu) that will have step-by-step instructions for that particular version of VM platform and Linux distribution. 
