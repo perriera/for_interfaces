@@ -3,8 +3,6 @@
 
 ### Prerequisites
  - [How to install `injections.io(C++17)`](https://github.com/perriera/injections)
- - a project created using a `injections.io(injections_cpp)` based template
- - (see **Alternate Case** for alternative template selections)
  - a good computer and a decent Internet connection
 
 ### Wish Case
