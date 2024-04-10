@@ -161,7 +161,7 @@ While it is possible to use Linux on Windows 10/11 through [multipass](https://m
 
 #### Alternate Case
 #### Qt (Windows install)
-**Qt** (pronounced "cute" or as an initialism) is cross-platform application development framework for creating graphical user interfaces as well as cross-platform applications that run on various software and hardware platforms such as Linux, Windows, macOS, Android or embedded systems with little or no change in the underlying codebase while still being a native application with native capabilities and speed
+**Qt** (pronounced "cute" or as an initialism) is cross-platform application development framework for creating graphical user interfaces as well as cross-platform applications that run on various software and hardware platforms such as [Linux, Windows, macOS, Android or embedded systems](https://www.qt.io) with little or no change in the underlying codebase while still being a native application with native capabilities and speed
 - [Qt](https://www.qt.io) website 
 - [Qt](https://en.wikipedia.org/wiki/Qt_(software)) wiki 
 - [Qt](https://www.udemy.com/courses/search/?src=ukw&q=Qt) tutorials
