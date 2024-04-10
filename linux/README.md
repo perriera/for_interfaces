@@ -1,5 +1,5 @@
 ### How to install Linux 
-> **Given** that we need to be able to install onto a Linux platform **when** we document the steps involved for different methods of installing Linux (as a *Wish Case*) **then** anyone new to the Linux world will be able to as well, (anytime our instructions do not cover all the basis we will document the alternate methods to resolve the issue as an *Alternate Case*)
+**Given** that we need to be able to install onto a Linux platform **when** we document the steps involved for different methods of installing Linux (as a *Wish Case*) **then** anyone new to the Linux world will be able to as well, (anytime our instructions do not cover all the basis we will document the alternate methods to resolve the issue as an *Alternate Case*)
 
 ### Prerequistes
 - Internet connection
