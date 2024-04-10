@@ -36,10 +36,12 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 
 	**Note**: Copy everything in `yellow` (or `orange`) to the clipboard
 
- - [ ] Now paste the contents of the clipboard to the terminal
+ - [ ] Now paste **the contents of the clipboard** to the terminal
 
-		MY_EMAIL_IS="dev@12.34.56.78"
-		MY_NAME_IS="dev"
+ - [ ] Now make sure these environment variables are **set**:
+
+		echo $MY_EMAIL_IS
+		echo $MY_NAME_IS
  
 	It would look like something the above (just different numbers)
 
