@@ -155,7 +155,7 @@ In the case where you just happen to be inside VSC
 
 		dev@ubuntu-4g2:~$ 
 
-- To the bottom left there is a *green* `><` square.
+- To the bottom left there is a *green* square that resembles this: `><`
 - Click on it and select `Connect Current Window to Host ...`  
 - The enter the `dev@ip_address` and hit enter
 - Now VSC connects to the remote Linux box
