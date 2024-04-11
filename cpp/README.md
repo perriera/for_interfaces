@@ -91,7 +91,7 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		output=$(hostname -I)
 		output=($output)
 		ssh_cmd="$(basename $PWD)@${output[0]}"
-		echo -e "${ANSI_YELLOW}$ssh ssh_cmd${ANSI_RESET}"
+		echo -e "${ANSI_YELLOW}ssh $ssh_cmd${ANSI_RESET}"
 		echo -e "${ANSI_YELLOW}$ssh_cmd${ANSI_RESET}"
 
 	Copy & paste the number to your notes (for *later reference*)
