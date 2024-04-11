@@ -176,7 +176,7 @@ In the case where you just happen to have VSC *already* installed:
 
 		dev@ip_address
 
-- Click on the `green` arrow that looks a lot like `><` in the bottom left corner
+- Click on the `green` button (that looks a lot like `><`) in the bottom left corner
 - Select `Connect Current Window to Host...`
 - Paste the contents of the clipboard and hit `<Enter>`
 - Go `File->Open Folder..` and specify `/home/dev`
