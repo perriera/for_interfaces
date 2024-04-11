@@ -157,13 +157,13 @@ In the case where you just happen to have VSC *already* installed:
 
 		exit
 
-	**Note**: In the case you are asked `Yes, I trust the authors` select that option
-
 - Start a new instance of VSC:
 
 		code .
 
-- Go `Terminal->New Terminal` and paste the contents of the clipboard:
+	**Note**: In the case you are asked `Yes, I trust the authors` select that option
+
+- Maximize the screen and go `Terminal->New Terminal` and paste the contents of the clipboard:
 
 			ssh dev@ip_address
 
