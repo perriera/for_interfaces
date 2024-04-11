@@ -168,7 +168,8 @@ In the case where you just happen to have VSC *already* installed:
 
 			ssh dev@ip_address
 
-	**Note**: Where `ip_address` is part of the ssh command from earlier 
+	**Note**: In a pinch you can find the `ssh` command again just by selecting the same Terminal box you were just using and doing the `up` arrow once or twice
+	
 - Select `yes` for the fingerprint
 - You would now see a connection to the remote Linux box:
 
