@@ -96,6 +96,9 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 
 	Copy & paste whatever displays in `yellow` (or `orange`) to your notes (for *later reference*)
 
+		ssh dev@146.190.130.95
+		dev@146.190.130.95
+
  - [ ] Assuming that was successful, install CMake (on the new Linux box)
 
  		sudo apt install python3.11-venv -y
