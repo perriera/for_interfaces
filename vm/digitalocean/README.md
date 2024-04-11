@@ -49,8 +49,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 
 ### Alternate Case
 #### Create the Droplet (Simplified instructions)
-- **Sign up for DigitalOcean**: If you haven't already, sign up for a DigitalOcean account at https://www.digitalocean.com/, (credit card required).
-
+- **Sign up for DigitalOcean**: sign up for a [DigitalOcean](https://www.digitalocean.com/) account, (credit card required).
 - Look for the `Droplets` menu selection (click it)
 - Click the `Create Droplet` button
 - Select a server farm closet to your current location
