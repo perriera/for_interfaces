@@ -216,7 +216,7 @@ Remember to secure your Droplet by setting up a firewall, disabling root login, 
 
 ### Resume Steps
 
-- [How to install injections.io(C++17)](https://github.com/perriera/injections)
+- [How to install injections.io(C++17)](https://github.com/perriera/injections#how-to-install-injectionsioc17s)
 
 ### Next Steps
 
