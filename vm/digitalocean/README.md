@@ -33,7 +33,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
      ```
      ssh root@your_droplet_ip
      ```
-     Replace `your_droplet_ip` with the actual IP address of your Droplet.
+     **Note**: Replace `your_droplet_ip` with the actual IP address of your Droplet.
    - Enter the root password provided in the email when prompted.
 
 5. **Set up your environment**:
