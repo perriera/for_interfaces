@@ -47,6 +47,8 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 
 	**Note**: Copy everything in `yellow` (or `orange`) to the clipboard
 
+	- Setting your own email address is *optional* but not *required* here
+
  - [ ] Now paste **the contents of the clipboard** to the terminal
 
  - [ ] Now make sure these environment variables are **set**:
@@ -70,8 +72,6 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 
 		git config --global user.email ${MY_EMAIL_IS}
 		git config --global user.name ${MY_NAME_IS}
-
-	- Set your own email address *(optional)* 
 
   - [ ] Now create an SSH key for the Linux box:
 
