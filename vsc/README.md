@@ -10,6 +10,22 @@
 ### Wish Case
 Visual Studio Code is a text editor that gives the user the ability to edit files using a GUI. In the case where you have already setup a SSH connection to the remote Linux box all you have to do now is install VSC locally (see Alternate Case below for your native operating system)
 
+- [ ] Login as dev (unless you are already `logged in as dev`):
+	
+		su dev
+
+- Install using snap
+
+		sudo snap install --classic code # or code-insiders
+
+    **Note**: We don't install VSC on a remote Linux box
+
+    - To use VSC to access a remote Linux box we install VSC locally 
+    - Then use `Remote SSH` to access the remote Linux box
+    - Click on the `Extensions` icon (fifth large icon from the top left)
+    - And do a search for `Remote SSH` 
+    - It is usually installed by default (otherwise click `Install`)
+
 - Once installed open a Terminal box:
 
         code .
