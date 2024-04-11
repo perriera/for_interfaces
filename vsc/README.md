@@ -1,5 +1,5 @@
 ## How to install `Visual Studio Code (VSC)` 
-> **Given** we need to edit text files, source code and build projects **when** we install Visual Studio Code (VSC) **then** we can build and edit any projects that require a text file editor  
+**Given** we need to edit text files, source code and build files for our projects **when** we install Visual Studio Code (VSC) **then** we can build and edit any projects that require a text file editor  
 
 ### Prerequisites
 - Linux instance
