@@ -27,9 +27,10 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		cd ~
 		sudo apt update -y
 		sudo apt upgrade -y 
-		sudo apt install -y build-essential libtool autotools-dev automake pkg-config git clangd 
-		cppcheck clang-tidy python3-pip checkinstall 
-		gdb xclip openssh-server net-tools zip xterm 
+		sudo apt install -y build-essential libtool \
+		autotools-dev automake pkg-config git clangd \
+		cppcheck clang-tidy python3-pip checkinstall \
+		gdb xclip openssh-server net-tools zip xterm \
 		curl ncdu
 
  - [ ] Set the following environment variables:
