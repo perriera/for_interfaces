@@ -171,12 +171,14 @@ In the case where you just happen to have VSC *already* installed:
 	**Note**: In a pinch you can find the `ssh` command again just by selecting the same Terminal box you were just using and doing the `up` arrow once or twice
 
 - Now you would see a `ssh` session from inside VSC
-- But we can do better than that
+#### But we can do better than that
 - Take the `dev` portion of the `ssh` command and copy it to the clipboard
 - Click on the `green` arrow that looks a lot like `><` in the bottom left corner
 - Select `Connect Current Window to Host...`
-
-- Select `yes` for the fingerprint
+- Paste the contents of the clipboard and hit `<Enter>`
+- Go `File->Open Folder..` and specify `/home/dev`
+- Select `Yes, I trust the authors` and hit `<Enter>`
+- Go `Terminal->New Terminal`
 - You would now see a connection to the remote Linux box:
 
 
@@ -185,16 +187,7 @@ In the case where you just happen to have VSC *already* installed:
 
 		dev@ubuntu-4g2:~$ 
 
-- To the bottom left there is a *green* square that resembles this: `><`
-- Click on it and select `Connect Current Window to Host ...`  
-- The enter the `dev@ip_address` and hit enter
-- (just the `dev@ip_address` part not `ssh dev@ip_address`)
-- Now VSC connects to the remote Linux box
-- To activate the file panel do `File->Open Folder...` and select `/home/dev`
-- Select `Yes, I trust the Authors`
-- Go `Terminal->New Terminal` and this time see a session on the remote Linux box.
-- You are now connected to the remote Linux box with VSC all set up to build projects with.
-- You are now `logged in remotely as dev`
+- You are now `logged in remotely as dev` (from inside VSC)
 
 
 #### Backup/Restore you instance
