@@ -4,7 +4,7 @@
 
 **Note**: Cross-platform GUI compliance like Android and iPhone support?
  - first we build [Unix shell](https://en.wikipedia.org/wiki/Unix_shell) compliant [console applications](https://en.wikipedia.org/wiki/Unix_shell#/media/File:Tcsh_ejecut%C3%A1ndose_en_escritorio_Mac_OSX.png) (with just [C++11/17 & the STL](https://en.wikipedia.org/wiki/Standard_Template_Library))
- - then *attach* [operating system specific GUI platforms](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#alternate-case-1) to our [shared libraries](https://en.wikipedia.org/wiki/Shared_library)
+ - then *attach* [operating system specific GUI platforms](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#alternate-case-1) to the console's [shared libraries](https://en.wikipedia.org/wiki/Shared_library)
  - popular methods of sharing data such as simple [JSON](https://en.wikipedia.org/wiki/JSON) strings make this possible 
  - this is preferred method of developing software for real world applications
 
