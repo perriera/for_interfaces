@@ -5,7 +5,7 @@
 **Note**: Cross-platform GUI compliance like Android and iPhone support?
  - first we build [Unix shell](https://en.wikipedia.org/wiki/Unix_shell) compliant applications (with just [C++11/17 & the STL](https://en.wikipedia.org/wiki/Standard_Template_Library))
  - then *attach* operating system specific GUI platforms to our shared libraries 
- - popular methods such as simple [JSON](https://en.wikipedia.org/wiki/JSON) strings make this possible 
+ - popular methods of sharing data such as simple [JSON](https://en.wikipedia.org/wiki/JSON) strings make this possible 
  - this is preferred method of developing software for real world applications
 
 ### Prerequisites
