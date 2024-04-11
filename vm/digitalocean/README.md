@@ -157,6 +157,8 @@ In the case where you just happen to have VSC *already* installed:
 
 		exit
 
+	**Note**: In the case you are asked `Yes, I trust the authors` select that option
+
 - Start a new instance of VSC:
 
 		code .
