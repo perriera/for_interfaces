@@ -153,6 +153,10 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 
 #### Shortcut to Visual Studio Code (VSC)
 In the case where you just happen to have VSC *already* installed
+- Exit out of the SSH session with the remote (from above):
+
+		exit
+
 - Start a new instance of VSC:
 
 		code .
