@@ -173,6 +173,9 @@ In the case where you just happen to have VSC *already* installed:
 - Now you would see a `ssh` session from inside VSC
 #### But we can do better than that
 - Take the `dev` portion of the `ssh` command and copy it to the clipboard
+
+		dev@ip_address
+
 - Click on the `green` arrow that looks a lot like `><` in the bottom left corner
 - Select `Connect Current Window to Host...`
 - Paste the contents of the clipboard and hit `<Enter>`
