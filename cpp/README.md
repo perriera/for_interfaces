@@ -77,7 +77,7 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 
 		ssh-keygen -t ed25519 -C ${MY_EMAIL_IS}
 
-	- Do *not* supply a passphrase or change the filename
+	- Do **not** supply a passphrase or change the filename
 
   - [ ] Show the SSH public key and remember how to display it when it is needed later on (for SSH authentication)
 

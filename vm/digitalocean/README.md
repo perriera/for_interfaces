@@ -66,7 +66,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 		ssh-keygen -t ed25519 -C "your_name@your_email.com"
 
 	- Set your own email address *(optional)* 
-	- Do *not* supply a passphrase or change the filename
+	- Do **not** supply a passphrase or change the filename
 
 - Display the `SSH public key` and copy it to the clipboard:
 
