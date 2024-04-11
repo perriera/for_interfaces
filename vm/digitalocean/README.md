@@ -163,10 +163,12 @@ In the case where you just happen to have VSC *already* installed:
 
 	**Note**: In the case you are asked `Yes, I trust the authors` select that option
 
-- Maximize the screen and go `Terminal->New Terminal` and paste the contents of the clipboard:
+- Maximize the screen and go `Terminal->New Terminal`
+- Now and paste the `SSH` command (from the previous step):
 
 			ssh dev@ip_address
 
+	**Note**: Where `ip_address` is part of the ssh command from earlier 
 - Select `yes` for the fingerprint
 - You would now see a connection to the remote Linux box:
 
