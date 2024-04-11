@@ -54,7 +54,17 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		echo $MY_EMAIL_IS
 		echo $MY_NAME_IS
  
-	It would look like something the above (just different numbers)
+ - [ ] The output would look like this (just a different IP address):
+
+		MY_EMAIL_IS="dev@146.190.130.95"
+		MY_NAME_IS="dev"
+		dev@ubuntu-4g2:~$ MY_EMAIL_IS="dev@146.190.130.95"
+		MY_NAME_IS="dev"
+		dev@ubuntu-4g2:~$  echo $MY_EMAIL_IS
+		echo $MY_NAME_IS
+		dev@146.190.130.95
+		dev
+		dev@ubuntu-4g2:~$ 
 
  - [ ] Now configure the git utility:
 
