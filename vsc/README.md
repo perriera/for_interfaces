@@ -8,7 +8,7 @@
 - x11 or SSH access
 
 ### Wish Case
-Visual Studio Code is a text editor that gives the user the ability to edit files using a the host x11-based GUI. 
+Visual Studio Code is a text editor that gives the user the ability to edit files using a the local host *x11-based* GUI. 
 
 - [ ] Login as dev (unless you are already `logged in as dev`):
 	
