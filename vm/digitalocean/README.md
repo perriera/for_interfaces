@@ -18,15 +18,18 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 
 3. **Create a Droplet**:
    - Click on the "Create" button and select "Droplets".
-   - Choose Ubuntu as the distribution. You can select the version you prefer, such as Ubuntu 22.04 LTS.
-   - Choose a plan based on your requirements. DigitalOcean offers various plans with different resources like CPU, RAM, and storage.
+   - Choose Ubuntu as the distribution. 
+   - You can select the version you prefer, such as Ubuntu 22.04 LTS.
+   - Choose a plan based on your requirements. 
+   - DigitalOcean offers various plans with different resources like CPU, RAM, and storage.
    - Choose a datacenter region closest to your location for optimal performance.
    - Optionally, you can add additional options like backups, monitoring, and block storage when needed.
    - Finally, click on the "Create Droplet" button.
 
 4. **Access the Droplet via SSH**:
    - Once the Droplet is created, you'll receive an email with the root password and IP address.
-   - Use an SSH client (e.g., PuTTY on Windows, Terminal on macOS/Linux) to connect to your Droplet. You can use the command:
+   - Use an SSH client (e.g., PuTTY on Windows, Terminal on macOS/Linux) to connect to your Droplet. 
+   - You can use the command:
      ```
      ssh root@your_droplet_ip
      ```
@@ -34,7 +37,8 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
    - Enter the root password provided in the email when prompted.
 
 5. **Set up your environment**:
-   - Once logged in, you can install any necessary software or packages for your Linux apps. You can use the `apt` package manager to install software on Ubuntu.
+   - Once logged in, you can install any necessary software or packages for your Linux apps. 
+   - You can use the `apt` package manager to install software on Ubuntu.
    - Configure any firewall rules, security settings, or other configurations required for your apps.
 
 6. **Upload and Run Your Linux Apps**:
