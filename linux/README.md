@@ -193,12 +193,12 @@ Installing a Linux distribution using Docker is a possible as it is a forerunner
 #### Alternate Case
 #### VirtualBox (Windows only)
 [VirtualBox](https://virtualbox.org) has been around for quite some time and their developers have been really [diligent in keeping it up to date](http://download.virtualbox.org/virtualbox/). The following are instructions on how to install VirtualBox for one particular situation. However, what is written there can be applicable for newer versions of Ubuntu: 
-- [VirtualBox website](https://www.virtualbox.org) here
-- [VirtualBox wiki](https://en.wikipedia.org/wiki/VirtualBox) here
-- [VirtualBox tutorials](https://www.udemy.com/courses/search/?src=ukw&q=VirtualBox) here
 - [How to setup ubuntu-20.04.4-desktop-amd64 (on VirtualBox)](https://github.com/perriera/for_interfaces/tree/main/vm/virtualbox)
 - [Complete listing of latest VirtualBox releases](http://download.virtualbox.org/virtualbox/) 
 - [Latest stable version](http://download.virtualbox.org/virtualbox/LATEST-STABLE.TXT)
+- [VirtualBox website](https://www.virtualbox.org) here
+- [VirtualBox wiki](https://en.wikipedia.org/wiki/VirtualBox) here
+- [VirtualBox tutorials](https://www.udemy.com/courses/search/?src=ukw&q=VirtualBox) here
 
 #### Alternate Case
 #### Flutter (web, Fuchsia, Android, iOS, Linux, macOS, and Windows)
