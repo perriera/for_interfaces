@@ -8,7 +8,7 @@
 - x11 or SSH access
 
 ### Wish Case
-Visual Studio Code is a text editor that gives the user the ability to edit files using a GUI. In the case where you have already setup a SSH connection to the remote Linux box all you have to do now is install VSC locally (see Alternate Case below for your native operating system)
+Visual Studio Code is a text editor that gives the user the ability to edit files using a GUI. 
 
 - [ ] Login as dev (unless you are already `logged in as dev`):
 	
