@@ -22,7 +22,7 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 
 		ssh dev@ip_address 
 
- - [ ] Now install gcc and other necessary build tools:
+ - [ ] Now install `gcc, g++, make, gdb, ssh` as well as a few other necessary Unix-standard build tools:
 
 		cd ~
 		sudo apt update -y
