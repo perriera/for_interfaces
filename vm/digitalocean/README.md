@@ -61,7 +61,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 - Select `Ubuntu`
 - Select preferred version (`22.04` recommended)
 - Review Droplet Type, CPU, Addional Storage and make any changes but the default selections are fine
-- Unless you have already done so create a SSH key for your local computer:
+- **on your local computer** create a SSH key:
 
 		ssh-keygen -t ed25519 -C "your_name@your_email.com"
 
