@@ -94,7 +94,7 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		echo -e "${ANSI_YELLOW}ssh $ssh_cmd${ANSI_RESET}"
 		echo -e "${ANSI_YELLOW}$ssh_cmd${ANSI_RESET}"
 
-	Copy & paste the number to your notes (for *later reference*)
+	Copy & paste whatever displays in `yellow` (or `orange`) to your notes (for *later reference*)
 
  - [ ] Assuming that was successful, install CMake (on the new Linux box)
 
