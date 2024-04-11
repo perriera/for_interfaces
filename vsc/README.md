@@ -18,9 +18,9 @@ Visual Studio Code is a text editor that gives the user the ability to edit file
 
 		sudo snap install --classic code # or code-insiders
 
-- Now start VSC up using this syntax:
+- Once installed open a Terminal box (or CMD.exe):
 
-        code . 
+        code .
 
     **Note**: We don't install VSC on a remote Linux box
 
@@ -29,10 +29,6 @@ Visual Studio Code is a text editor that gives the user the ability to edit file
     - Click on the `Extensions` icon (fifth large icon from the top left)
     - And do a search for `Remote SSH` 
     - It is usually installed by default (otherwise click `Install`)
-
-- Once installed open a Terminal box:
-
-        code .
 
     - Once started open the File menu on VSC and select `Open Folder`
     - Here you can navigate to the dev folder or just select the home folder
