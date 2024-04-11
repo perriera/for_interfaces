@@ -33,6 +33,7 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		gdb xclip openssh-server net-tools zip xterm \
 		curl ncdu
 
+	**Note**: CMake/CPM installed *seperately* (below) ... 
  - [ ] Set the following environment variables:
 
 		cd ~
