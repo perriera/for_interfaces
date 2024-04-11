@@ -71,11 +71,12 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		git config --global user.email ${MY_EMAIL_IS}
 		git config --global user.name ${MY_NAME_IS}
 
+	- Set your own email address *(optional)* 
+
   - [ ] Now create an SSH key for the Linux box:
 
 		ssh-keygen -t ed25519 -C ${MY_EMAIL_IS}
 
-	- Set your own email address *(optional)* 
 	- Do *not* supply a passphrase or change the filename
 
   - [ ] Show the SSH public key and remember how to display it when it is needed later on (for SSH authentication)
