@@ -3,7 +3,7 @@
 **Given** we wish build real world GUI applications using Linux based operating systems using [C++11/17](https://en.wikipedia.org/wiki/C%2B%2B17) **when** we successfully install the [`GNU Compiler Collection`](https://en.wikipedia.org/wiki/GNU_Compiler_Collection) (`gcc, g++, make, gdb, ssh`) as our standard set of build tools **then** we can build [Unix shell style](https://en.wikipedia.org/wiki/Unix_shell) applications that will run on most of the [Popular Linux distributions](https://www.stackscale.com/blog/popular-linux-distributions/) as well as most [Android](https://en.wikipedia.org/wiki/Android_(operating_system)), [iPhone/iOS](https://developer.apple.com/xcode/cpp/) and [Windows 10/11](https://learn.microsoft.com/en-us/cpp/overview/install-c17-support?view=msvc-170) platforms
 
 **Note**: Cross-platform GUI compliance like Android and iPhone support?
- - first we build [Unix shell](https://en.wikipedia.org/wiki/Unix_shell) compliant [console](https://en.wikipedia.org/wiki/Unix_shell#/media/File:Tcsh_ejecut%C3%A1ndose_en_escritorio_Mac_OSX.png) applications (with just [C++11/17 & the STL](https://en.wikipedia.org/wiki/Standard_Template_Library))
+ - first we build [Unix shell](https://en.wikipedia.org/wiki/Unix_shell) compliant [console applications](https://en.wikipedia.org/wiki/Unix_shell#/media/File:Tcsh_ejecut%C3%A1ndose_en_escritorio_Mac_OSX.png) (with just [C++11/17 & the STL](https://en.wikipedia.org/wiki/Standard_Template_Library))
  - then *attach* operating system specific GUI platforms to our shared libraries 
  - popular methods of sharing data such as simple [JSON](https://en.wikipedia.org/wiki/JSON) strings make this possible 
  - this is preferred method of developing software for real world applications
