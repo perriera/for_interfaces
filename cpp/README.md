@@ -99,7 +99,7 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		ssh dev@146.190.130.95
 		dev@146.190.130.95
 
- - [ ] Assuming that was successful, install CMake (on the new Linux box)
+ - [ ] Assuming that was successful, install **CMake** (on the new Linux box)
 
  		sudo apt install python3.11-venv -y
 		python3 -m venv .venv
@@ -112,6 +112,12 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		sudo apt-add-repository universe -y
 		sudo apt-get install cmake-extras -y
 		mkdir -p ~/.local/bin
+
+	**Note**: `CMake` 
+		
+	- is built on top of the Unix standard `make` utility
+	- it's purpose is to make the `make` syntax more readible
+	- as well as add more features to `make` capabilities
 
  - [ ] Now edit the startup script with the vi editor:
 
