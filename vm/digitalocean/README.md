@@ -2,8 +2,9 @@
 > **Given** we need to be able to run Linux apps on the cloud **when** we have a digitalocean account **then** we can create and launch an Ubuntu instance (to access via SSH)
 
 ### Prerequisites
-- an paid or evaluation account on [digitalocean.com](https://www.digitalocean.com)
-- at time of writing [DigitalOcean is offering a $200 credit for 60 days](https://www.digitalocean.com)
+- A signup to [digitalocean.com](https://www.digitalocean.com) *(credit card required)*
+- At time of writing DigitalOcean is offering a [$200 credit for 60 days](https://www.digitalocean.com)
+- A $5 activation fee will be required, *(worth every penny)*
 
 ### Quick links
 - see [Simplified instructions](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md#alternate-case) below
