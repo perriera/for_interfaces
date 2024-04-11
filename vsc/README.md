@@ -14,9 +14,13 @@ Visual Studio Code is a text editor that gives the user the ability to edit file
 	
 		su dev
 
-- Install using snap
+- Install VSC using snap:
 
 		sudo snap install --classic code # or code-insiders
+
+- Now start VSC up using this syntax:
+
+        code . 
 
     **Note**: We don't install VSC on a remote Linux box
 
