@@ -5,8 +5,11 @@
 - an paid or evaluation account on [digitalocean.com](https://www.digitalocean.com)
 - at time of writing [DigitalOcean is offering a $200 credit for 60 days](https://www.digitalocean.com)
 
+### Quick links
+- see [Simplified instructions](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md#alternate-case) below
+
 ### Wish Case
-#### Detailed instructions (see [simplified instructions](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md#alternate-case) below)
+#### Detailed instructions 
 To run Linux apps on the cloud using a DigitalOcean account, you can follow these steps to create and launch a Ubuntu instance:
 
 1. **Sign up for DigitalOcean**: If you haven't already, sign up for a DigitalOcean account at https://www.digitalocean.com/.
@@ -45,7 +48,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
  - see *Resume/Next* steps below ... 
 
 ### Alternate Case
-#### Create the Droplet (simplified instructions)
+#### Create the Droplet (Simplified instructions)
 - Look for the `Droplets` menu selection (click it)
 - Click the `Create Droplet` button
 - Select a server farm closet to your current location
@@ -73,7 +76,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 - After a few moments the droplet will display 
 
 ### Alternate Case
-#### Configure the Droplet (simplified instructions)
+#### Configure the Droplet (Simplified instructions)
 - Select the droplet you just created (or select `Droplets`)
 - Find and select the `Access` button
 - Find and select the `Launch Drop Console` button 
