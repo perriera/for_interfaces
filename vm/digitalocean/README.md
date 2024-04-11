@@ -153,10 +153,9 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 
 #### Shortcut to Visual Studio Code (VSC)
 In the case where you just happen to have VSC installed
-- Start a new instance of VSC 
-	- Open a shell (Terminal or CMD.exe) and type:
+- Start a new instance of VSC:
 
-			code .
+		code .
 
 - Go `Terminal->New Terminal` and paste the contents of the clipboard:
 
