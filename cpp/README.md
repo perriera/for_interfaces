@@ -90,10 +90,11 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		ANSI_RESET="\e[0m"
 		output=$(hostname -I)
 		output=($output)
-		ssh_cmd="ssh $(basename $PWD)@${output[0]}"
+		ssh_cmd="$(basename $PWD)@${output[0]}"
+		echo -e "${ANSI_YELLOW}$ssh ssh_cmd${ANSI_RESET}"
 		echo -e "${ANSI_YELLOW}$ssh_cmd${ANSI_RESET}"
 
-	Something like this would display: `ssh dev@192.168.0.1`
+	Copy & paste the number to your notes (for *later reference*)
 
  - [ ] Assuming that was successful, install CMake (on the new Linux box)
 
