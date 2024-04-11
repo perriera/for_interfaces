@@ -135,6 +135,7 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 		export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
 
 	- Now paste these environment variables into the shell
+	- Now press ENTER once or twice (to give a new line)  
 	- Now press ESCAPE and then `SHIFT z` button twice
 
  - [ ] Then source it ... 
