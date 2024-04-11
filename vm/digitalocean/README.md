@@ -109,7 +109,7 @@ To run Linux apps on the cloud using a DigitalOcean account, you can follow thes
 		sudo reboot 
 
 	- A few dialog boxes might appear
-	- Just `TAB` till you hightlight the `<Ok>` button and hit enter
+	- Just `TAB` till you hightlight the `<Ok>` button and hit `Enter`
 
 #### Relog into the Linux instance (using DigitalOcean)
 - At present the console box would display a `Reload` or `Close` button
