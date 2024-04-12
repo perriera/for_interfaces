@@ -161,7 +161,9 @@ In the case where you just happen to have VSC *already* installed:
 
 		code .
 
-	**Note**: In the case you are asked `Yes, I trust the authors` select that option
+	**Notes**: 
+	- In the case you are asked `Yes, I trust the authors` select that option
+	- In the case `code .` is not found, look up Visual Studio Code with the GUI menu
 
 - Maximize the screen and go `Terminal->New Terminal`
 - Now and paste the `SSH` command (from the previous step):
