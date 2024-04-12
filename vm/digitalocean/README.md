@@ -169,7 +169,7 @@ In the case where you just happen to have VSC *already* installed:
 - Now and paste the `SSH` command (from the previous step):
 
 			ssh dev@ip_address
-
+			
 	**Note**: In a pinch you can find the `ssh` command again just by selecting the same Terminal box you were just using and doing the `up` arrow once or twice
 
 - Now you would see a `ssh` session from inside VSC
@@ -178,7 +178,7 @@ In the case where you just happen to have VSC *already* installed:
 
 		dev@ip_address
 
-- Click on the `green` button (that looks a lot like `><`) in the bottom left corner
+- Click on the button (that looks a lot like `><`) in the bottom left corner
 - Select `Connect Current Window to Host...`
 - Paste the contents of the clipboard and hit `<Enter>`
 - Go `File->Open Folder..` and specify `/home/dev`
