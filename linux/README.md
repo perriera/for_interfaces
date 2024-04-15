@@ -218,7 +218,7 @@ While Flutter is not an operating system, (nor is it directly capable of hosting
 - see [Find the Parallels solution that works best for you](https://parallels.com)
 - Currently Parallels Desktop does offer an evaluation period, ([free for 14 days](https://www.parallels.com/products/desktop/trial/?clientId=2032879761.1711828844&sessionId=1711828844&_gl=1*1nadzln*_up*MQ..*_ga*MjAzMjg3OTc2MS4xNzExODI4ODQ0*_ga_RYHBN2XNLK*MTcxMTgyODg0NC4xLjAuMTcxMTgyODg0NC4wLjAuMA..))
 - [How to install a Linux Platform (Ubuntu 20.04.4) on macOS](https://github.com/perriera/for_interfaces/blob/main/vm/parallels/ubuntu/macos/parallels/MACOS.md)
-- [How to install Ubuntu 22.04 using `multipass` on Windows (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/windows/README.md)
+- [How to install a Linux Platform (Ubuntu 20.04.4)](https://github.com/perriera/for_interfaces/tree/main/vm/parallels/ubuntu/linux)
 - [How to install Ubuntu 22.04 using `multipass` on Linux (OS X)](https://github.com/perriera/for_interfaces/blob/main/vm/multipass/linux/README.md)
 
 ### Summary
