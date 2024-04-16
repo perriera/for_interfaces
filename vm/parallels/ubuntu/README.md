@@ -140,7 +140,7 @@ Assuming you have an iMac with Parallels Desktop installed
 		sudo apt autoremove -y
 		sudo apt update -y
 
-	Everything would come back quickly as you've already updated the sytem
+Everything would come back quickly as you've already updated the sytem
 
 see *Resume/Next* steps below ... 
 
