@@ -1,5 +1,5 @@
 ## How to install Ubuntu 22.04 using `Parallels Desktop`
-> **Given** we need to be able to run Linux apps on Parallels Desktop **when** we have a Parallels Desktop installed **then** we can install an instance of Ubuntu
+**Given** we need to be able to run Linux apps on Parallels Desktop **when** we have a Parallels Desktop installed **then** we can install an instance of Ubuntu
 
 ### Prerequisites
 - Purchase [Parallels Desktop](https://www.parallels.com) 
