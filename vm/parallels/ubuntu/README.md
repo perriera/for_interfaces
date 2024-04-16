@@ -7,7 +7,7 @@
 - *credit **not** card required for free trial*
 
 ### Quick links
-- see [Simplified instructions](https://github.com/perriera/for_interfaces/blob/main/vm/digitalocean/README.md#alternate-case) below
+- see [Simplified instructions](https://github.com/perriera/for_interfaces/tree/main/vm/parallels/ubuntu#alternate-case) below
 
 ### Wish Case
 #### Detailed instructions 
