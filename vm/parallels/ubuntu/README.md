@@ -133,7 +133,7 @@ Assuming you have an iMac with Parallels Desktop installed
 
 #### Relog into the Linux instance as `dev`
 
-	- Open a Terminal box:
+- Open a Terminal box:
 
 		sudo apt update -y
 		sudo apt upgrade -y
