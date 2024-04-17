@@ -104,17 +104,6 @@ Assuming you have an iMac with Parallels Desktop installed
  -  Right mouse click on *Ubuntu 22.04.4 LTS* and select *Clone...*
  -  Replace the name *Copy of Ubuntu 22.04.4 LTS* with something meaningful (ex. Ubuntu 22.04.4 <your project name>")
  -  Start your cloned Ubuntu instance for your project (keeping the original one in reserve as a backup)
- - Open a Terminal window create a user like this:
- - Create a SSH key *([unless you already have one](https://github.com/perriera/for_interfaces/blob/main/ssh/README.md))*:
-
-		ssh-keygen -t ed25519 -C "your_name@your_email.com"
-
-	- Set your own email address *(optional)* 
-	- Do **not** supply a passphrase or change the filename
-
-- Display the `SSH public key`
-
-		cat ~/.ssh/id_ed25519.pub
 
 - Add the `dev` user:
 
