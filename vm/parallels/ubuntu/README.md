@@ -95,6 +95,9 @@ Assuming you have an iMac with Parallels Desktop installed
 		sudo apt update -y
 		sudo reboot
 
+	- A few dialog boxes might appear
+	- Just `TAB` till you hightlight the `<Ok>` button and hit `Enter`
+
  -  When you login again you now have a fully working Ubuntu instance
  -  Shutdown the Ubuntu instance (top right corner click on the icon)
  -  Select *Power Off -> Power Off*
@@ -114,9 +117,6 @@ Assuming you have an iMac with Parallels Desktop installed
 - Now add dev to the **sudo** group:
 
 		sudo adduser dev sudo
-
-	- A few dialog boxes might appear
-	- Just `TAB` till you hightlight the `<Ok>` button and hit `Enter`
 
 #### Relog into the Linux instance as `dev`
 
