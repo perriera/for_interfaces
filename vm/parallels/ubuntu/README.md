@@ -114,8 +114,6 @@ Assuming you have an iMac with Parallels Desktop installed
 - Now add dev to the **sudo** group:
 
 		sudo adduser dev sudo
-		cp -r .ssh /home/dev
-		chown -R dev:dev /home/dev/.ssh/
 
 	- A few dialog boxes might appear
 	- Just `TAB` till you hightlight the `<Ok>` button and hit `Enter`
