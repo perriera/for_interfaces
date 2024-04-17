@@ -83,7 +83,7 @@ Assuming you have a Linux instance and are currently logged into it (either loca
 
 		cat ~/.ssh/id_ed25519.pub
 
-	Feel free to copy & paste the `SSH public key` that you see displayed to your Github account (optional).
+	Feel free to copy & paste the `SSH public key` that you see displayed to the `GPG & SSH Keys` section of your Github account (under `Settings`).
 
   - [ ] Now determine the ssh command you'd need to log into this Linux box (once you add the clients SSH key): 
 
