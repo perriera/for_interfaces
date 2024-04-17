@@ -76,8 +76,8 @@ Assuming you have an iMac with Parallels Desktop installed
  -  Select *Customize settings before installation*
  -  Press *Create*
  -  Under *Options -> Sharing* share the Home folder (and unselect everything else)
- -  Under *Options -> CPU & Memory* set Memory to 8192 
- -  Under *Options -> Mouse & Keyboard* set Mouse & Keyboard to *Don't optimize for games*
+ -  Under *Hardware -> CPU & Memory* set Memory to 8192 
+ -  Under *Hardware -> Mouse & Keyboard* set Mouse & Keyboard to *Don't optimize for games*
  -  Close the dialog and press the blue *Continue* button
  -  Wait for the install to complete
  -  Login in with the login credentials you provided
