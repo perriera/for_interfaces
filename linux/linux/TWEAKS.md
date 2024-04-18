@@ -5,3 +5,4 @@
 ncdu
 ```
 - [No access to system settings from GUI in Ubuntu 22.04](https://askubuntu.com/questions/1464364/no-access-to-system-settings-from-gui-in-ubuntu-22-04)
+- [Don't like your Linux desktop? Here's how to install an alternative](https://www.zdnet.com/article/dont-like-your-linux-desktop-heres-how-to-install-an-alternative/)
