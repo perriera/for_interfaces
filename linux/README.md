@@ -7,7 +7,7 @@
 - **sudo privilages** on that computer
 - Adequate ram and disk space
 
-### Quick links
+### Quick links 
 Simplified instructions:
 - for [**cloud hosted**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#digitalocean-cloud-hosted) here
 - for [**Docker install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#docker-linux-mac-or-windows) here
