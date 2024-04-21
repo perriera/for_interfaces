@@ -1,5 +1,5 @@
 ### How to install Linux 
-**Given** that we need to be able to install onto a Linux platform **when** we document the steps involved for different methods of installing Linux (as a *Wish Case*) **then** anyone new to the Linux world will be able to as well, (anytime our instructions do not cover all the basics we will document the alternate methods to resolve the issue as an *Alternate Case*)
+**Given** that we need to be able to install onto a Linux platform **when** we document the steps involved for different methods of installing Linux (as a *Wish Case*) **then** anyone new to the Linux world will be able to as well, (anytime our instructions do not cover all the basics we will document the alternate methods to resolve the issue as an *Alternate Case*) [pdf](https://github.com/perriera/for_interfaces/blob/main/linux/README.pdf)
 
 ### Prerequistes
 - Internet connection
@@ -7,7 +7,7 @@
 - **sudo privilages** on that computer
 - Adequate ram and disk space
 
-### Quick links [PDF](https://github.com/perriera/for_interfaces/blob/main/linux/README.pdf)
+### Quick links 
 Simplified instructions:
 - for [**cloud hosted**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#digitalocean-cloud-hosted) here
 - for [**Docker install**](https://github.com/perriera/for_interfaces/blob/main/linux/README.md#docker-linux-mac-or-windows) here
