@@ -9,13 +9,9 @@ curl -s https://startpage.com | lynx --stdin
 
 - [HTACG HTML Tidy](https://github.com/htacg/tidy-html5)
 
-        tidy --wrap 72 --indent yes --indent-attributes yes --sort-attributes yes index.html 
+        tidy --wrap 72 --indent yes --indent-attributes yes --sort-attributes alpha index.html 
 
 ```
-
-Config: missing or malformed argument for option: sort-attributes
-Config: missing or malformed argument for option: sort-attributes
-Document: "yes" is not a file!
 
 Info: Document content looks like HTML5
 No warnings or errors were found.
@@ -26,8 +22,8 @@ No warnings or errors were found.
 <html data-wf-page="64f8e8ba506e743f86982274"
       data-wf-site="64f8e8ba506e743f8698226c">
   <head>
-    <meta name="generator"
-          content="HTML Tidy for HTML5 for Linux version 5.9.20">
+    <meta content="HTML Tidy for HTML5 for Linux version 5.9.20"
+          name="generator">
     <meta charset="utf-8">
     <title>
       my-first-app
@@ -63,23 +59,23 @@ No warnings or errors were found.
   </head>
   <body>
     <div class="w-form">
-      <form id="email-form"
-            name="email-form"
-            method="get"
-            data-name="Email Form"
+      <form data-name="Email Form"
+            data-wf-element-id="080f00e3-8276-9be9-a065-26d0c9b4d01c"
             data-wf-page-id="64f8e8ba506e743f86982274"
-            data-wf-element-id="080f00e3-8276-9be9-a065-26d0c9b4d01c">
-        <label for="name">Name</label><input type="text"
+            id="email-form"
+            method="get"
+            name="email-form">
+        <label for="name">Name</label><input accept="image/*"
               class="w-input"
+              data-name="Name"
+              id="name"
               maxlength="256"
               name="name"
               placeholder=""
-              id="name"
-              data-name="Name"
-              accept="image/*"><label id="x"
-              for="">{{name}}</label><input type="submit"
-              value="Submit"
-              class="w-button">
+              type="text"><label for=""
+              id="x">{{name}}</label><input class="w-button"
+              type="submit"
+              value="Submit">
       </form>
     </div>
   </body>
@@ -95,5 +91,6 @@ Lobby your company to join the W3C: https://www.w3.org/Consortium
 Do you speak a language other than English, or a different variant of 
 English? Consider helping us to localize HTML Tidy. For details please see 
 https://github.com/htacg/tidy-html5/blob/master/README/LOCALIZE.md
+
 
 ```
