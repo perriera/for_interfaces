@@ -3,3 +3,7 @@
 ```
 curl -s https://startpage.com | lynx --stdin
 ```
+- [html-tidy](https://www.html-tidy.org/)
+
+        sudo apt install tidy
+- [HTACG HTML Tidy](https://github.com/htacg/tidy-html5)
