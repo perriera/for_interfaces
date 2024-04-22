@@ -15,7 +15,7 @@
 
 - [HTACG HTML Tidy](https://github.com/htacg/tidy-html5)
 
-        tidy --wrap 72 --indent yes --indent-attributes yes --sort-attributes alpha --quiet yes index.html
+        tidy --wrap 72 --indent yes --indent-attributes yes --sort-attributes alpha --quiet yes --output-file new_index.html index.html
 
 ```
 
