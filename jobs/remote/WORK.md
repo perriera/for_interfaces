@@ -15,4 +15,7 @@
 - [[Bulba Code Eval] - High Quality Examples](https://www.loom.com/share/be6ada112c0a44d19bd638a5b3d40b77?sid=44c8ead3-c02a-44cf-a98f-68393aa59b3b)
 - [Bulba Code Eval - FAQ](https://docs.google.com/document/d/1fp0FT6xC1tkF7CrnD8jaozryRY9cpzspagHjKg4iOZ4/edit#heading=h.xgr2domldmhv) 
 
-- [Outliet docs](https://docs.google.com/document/d/1iEGurFzjcPOg3SR4eJ_wExeu_SHm6SlDFq9PeG9mIow/edit#heading=h.57h0qvxrmkqt)
+- [Outlier docs](https://docs.google.com/document/d/1iEGurFzjcPOg3SR4eJ_wExeu_SHm6SlDFq9PeG9mIow/edit#heading=h.57h0qvxrmkqt)
+
+### RFC / RFP
+- [How to Write a Request Letter (With Tips and Examples)](https://ca.indeed.com/career-advice/career-development/how-to-write-request-letter)
