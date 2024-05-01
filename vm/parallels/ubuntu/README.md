@@ -149,6 +149,25 @@ Backing up a Linux box using Parallels can happen in three ways.
 #### Don't know anything about SSH public keys?
 - see [How to setup a SSH public key](https://github.com/perriera/for_interfaces/blob/main/ssh)
 
+### Alternate Case
+#### Setting the hostname
+ - [ ] Now change the name of your Ubuntu box to **gitserver**
+
+		hostnamectl
+		sudo hostnamectl set-hostname gitserver
+
+ - [ ] Now in /etc/hosts change **ubuntu** to **gitserver**
+
+		sudo vi /etc/hosts
+
+ - [ ] Now reboot to make sure the changes were made
+
+		sudo reboot
+
+ - [ ] When your back make sure the name was changed
+
+		hostname
+
 ### Summary
 Remember to secure your Linux box by setting up a firewall, disabling root login, and keeping your system and applications updated regularly. Additionally, always follow best practices for security and data protection.
 
