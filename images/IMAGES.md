@@ -2,6 +2,14 @@
 [How to Sort and Remove Duplicate Photos in Linux](https://www.linux.com/training-tutorials/how-sort-and-remove-duplicate-photos-linux/)
 [fdupes – A Command Line Tool to Find and Delete Duplicate Files in Linux](https://www.tecmint.com/fdupes-find-and-delete-duplicate-files-in-linux/)
 ### how to compress images from command line
+
+```
+sudo apt install graphicsmagick-imagemagick-compat  # version 1.4+really1.3.38-1ubuntu0.1, or
+sudo apt install imagemagick-6.q16                  # version 8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3
+sudo apt install imagemagick-6.q16hdri              # version 8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3
+
+```
+
 ```
 mogrify -format jpg *.png
 
