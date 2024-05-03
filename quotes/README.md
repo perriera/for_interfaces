@@ -1,0 +1,2 @@
+### great quotes
+> "I get maybe two dozen requests for help with some sort of programming or design problem every day. Most have more sense than to send me hundreds of lines of code. If they do, I ask them to find the smallest example that exhibits the problem and send me that. Mostly, they then find the error themselves. "Finding the smallest program that demonstrates the error" is a powerful debugging tool." -- Bjarne Stroustrup (2000-10-14)
