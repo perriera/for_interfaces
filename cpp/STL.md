@@ -4,7 +4,54 @@
 > - [How to write an STL compatible container](https://medium.com/@vgasparyan1995/how-to-write-an-stl-compatible-container-fc5b994462c6)
 > - [C++ Vectors](https://www.programiz.com/cpp-programming/vectors)
 > - [How can I add two vectors in C++? ](https://www.reddit.com/r/cpp_questions/comments/vz261o/how_can_i_add_two_vectors_in_c/?rdt=53979)
+> - [Writing containers for abstract types](https://cplusplus.com/forum/beginner/141299/)
+```
+class placeholder
+{
+public:
+  virtual ~placeholder() {}
+  virtual placeholder* clone() const=0;
+};
+
+//And this is the wrapper class template:
+
+template<typename ValueType>
+class holder : public placeholder
+{
+public:
+  holder(ValueType const & value) : held(value) {}
+  virtual placeholder* clone() const 
+  {return new holder(held);}
+
+private:
+  ValueType held;
+};
+
+//The actual type erasing class any is a handle class that holds a pointer to the abstract base class:
+
+class any
+{
+public:
+  any() : content(0) {}
+
+template
+any(ValueType const & value) : content(new holder(value)) {}
+
+any(any const & other) : 
+  content(other.content ? other.content->clone() : 0) {}
+
+~any() 
+{delete content;}
+
+// Implement swap as swapping placeholder pointers, assignment
+// as copy and swap.
+
+private:
+  placeholder* content;
+};
+```
 > - [Understanding Vector insert() in C++](https://www.digitalocean.com/community/tutorials/vector-insert-in-c-plus-plus)
+
 ```
 #include <algorithm>
 #include <vector>
@@ -49,27 +96,4 @@ int main()
     return 0;
 }
 
-```
-
-> - [What is the best way to use a HashMap in C++?](https://stackoverflow.com/questions/3578083/what-is-the-best-way-to-use-a-hashmap-in-c)
-
-```
-#include <map>
-#include <iostream>
-#include <cassert>
-
-int main(int argc, char **argv)
-{
-  std::map<std::string, int> m;
-  m["hello"] = 23;
-  // check if key is present
-  if (m.find("world") != m.end())
-    std::cout << "map contains key world!\n";
-  // retrieve
-  std::cout << m["hello"] << '\n';
-  std::map<std::string, int>::iterator i = m.find("hello");
-  assert(i != m.end());
-  std::cout << "Key: " << i->first << " Value: " << i->second << '\n';
-  return 0;
-}
 ```
