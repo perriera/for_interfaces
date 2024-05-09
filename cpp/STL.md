@@ -4,6 +4,24 @@
 > - [How to write an STL compatible container](https://medium.com/@vgasparyan1995/how-to-write-an-stl-compatible-container-fc5b994462c6)
 > - [C++ Vectors](https://www.programiz.com/cpp-programming/vectors)
 > - [How can I add two vectors in C++? ](https://www.reddit.com/r/cpp_questions/comments/vz261o/how_can_i_add_two_vectors_in_c/?rdt=53979)
+> - [Why can't I make a vector of references?](https://stackoverflow.com/questions/922360/why-cant-i-make-a-vector-of-references)
+```
+#include <functional>
+#include <string>
+#include <vector>
+#include <iostream>
+
+int main()
+{
+    std::string hello = "Hello, ";
+    std::string world = "everyone!";
+    typedef std::vector<std::reference_wrapper<std::string>> vec_t;
+    vec_t vec = {hello, world};
+    vec[1].get() = "world!";
+    std::cout << hello << world << std::endl;
+    return 0;
+}
+```
 > - [Writing containers for abstract types](https://cplusplus.com/forum/beginner/141299/)
 ```
 class placeholder
