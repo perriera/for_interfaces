@@ -3,3 +3,4 @@
 
 - [best email hosting server provider](https://hpanel.hostinger.com/emails/)
 - [best local email server setup](https://www.hostinger.com/tutorials/how-to-install-and-setup-mail-server-on-ubuntu/)
+- [Mailgun](https://try.mailgun.com/esp-1_bsa/?utm_source=native&utm_medium=cpc&utm_content=banners&utm_campaign=community)
