@@ -19,3 +19,6 @@
 
 ### RFC / RFP
 - [How to Write a Request Letter (With Tips and Examples)](https://ca.indeed.com/career-advice/career-development/how-to-write-request-letter)
+
+
+- [Amazon](https://www.pubcourse.com/yt?utm_medium=cpc&utm_source=google&utm_campaign=21171780932&utm_agid=160706701893&utm_term=&creative=696113295103&device=c&placement=youtube.com&gc_id=21171780932&h_ga_id=160706701893&h_ad_id=696113295103&h_keyword_id=&h_keyword=&h_placement=youtube.com&gclid=EAIaIQobChMIzbHF-NeIhgMVhuXnAx34uAFlEAEYAiAAEgLGG_D_BwE)
