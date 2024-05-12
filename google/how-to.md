@@ -6,3 +6,7 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 google-chrome
 ```
+
+### Google Maps
+- [Google Cloud](https://console.cloud.google.com/home/dashboard)
+- [Google Maps Platform](https://developers.google.com/maps/documentation) 
