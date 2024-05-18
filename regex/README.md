@@ -4,3 +4,7 @@
 - [regex101](https://regex101.com/)
 - [Regex match filename](https://linuxconfig.org/match-beginning-and-end-of-the-filename-using-meta-characters-and-regex)
 - [Regular Expression](https://www.regextester.com/104048)
+- [Regular expressions library (since C++11)](https://en.cppreference.com/w/cpp/regex)
+- [Constexpr regex](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1149r0.html)
+- [Repeated Search](https://www.educative.io/courses/cpp-standard-library-including-cpp-14-and-cpp-17/repeated-search
+- [Qt Centre](https://www.qtcentre.org/threads/32150-Regular-Expression-YYYY-MM-DD-and-YYYY-MM-DD?p=149641))
