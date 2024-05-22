@@ -7,3 +7,6 @@
         sudo dpkg -i cncnet_1.0_all.deb 
 
 ### It's an oldie, (but a goodie) ... :) 
+> So nice to see Wine working under Ubuntu 22.04 
+
+
