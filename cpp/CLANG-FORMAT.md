@@ -50,3 +50,5 @@ int main() {
    cout << ltm->tm_sec << endl;
 }
 ```
+### parsing time format
+- [strftime](https://cplusplus.com/reference/ctime/strftime/#google_vignette)
