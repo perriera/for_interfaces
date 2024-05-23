@@ -4,6 +4,7 @@
 
 ### Date & Time
 - [C++ Date and Time](https://www.tutorialspoint.com/cplusplus/cpp_date_time.htm)
+- [Date and Time Parsing in C++](https://www.geeksforgeeks.org/date-and-time-parsing-in-cpp/)
 ```
 #include <iostream>
 #include <ctime>
