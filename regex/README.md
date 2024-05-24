@@ -8,4 +8,5 @@
 - [Constexpr regex](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1149r0.html)
 - [Repeated Search](https://www.educative.io/courses/cpp-standard-library-including-cpp-14-and-cpp-17/repeated-search
 - [Qt Centre](https://www.qtcentre.org/threads/32150-Regular-Expression-YYYY-MM-DD-and-YYYY-MM-DD?p=149641))
-= [6.7. Numbers Within a Certain Range](https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/ch06s07.html)
+- [6.7. Numbers Within a Certain Range](https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/ch06s07.html)
+- [Validate Traditional Time Formats](https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/ch04s06.html)
