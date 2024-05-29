@@ -85,6 +85,9 @@ void consumer() {
         std::cout << "Consumed: " << data << std::endl;
         sem_post(&emptySlots);
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+
+            echo("hello");
+
     }
 }
 
@@ -118,4 +121,21 @@ Consumed: 4
 Consumed: 5
 ```
 
-
+#### output with 'hello' message
+```
+Produced: 1
+Consumed: 1
+Produced: 2
+hello
+Consumed: 2
+Produced: 3
+Produced: 4
+hello
+Consumed: 3
+Produced: 5
+hello
+Consumed: 4
+hello
+Consumed: 5
+hello
+```
