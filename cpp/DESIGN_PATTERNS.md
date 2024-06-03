@@ -85,9 +85,6 @@ void consumer() {
         std::cout << "Consumed: " << data << std::endl;
         sem_post(&emptySlots);
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-
-            echo("hello");
-
     }
 }
 
