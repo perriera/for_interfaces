@@ -1,0 +1,2 @@
+### local jobs
+- [Software development engineer](https://www.jobbank.gc.ca/jobsearch/jobposting/41174378?token=-71:4:-79:-79:-32:-105:-116:47:-106:51:-7:59:-4:-9:41:-107:8:-3:91:39:-119:1:74:31:-21:36:77:-12:-14:-100:-71:-106:-90:38:93:-12:-96:62:93:59&subid=13949912&source=ja)
