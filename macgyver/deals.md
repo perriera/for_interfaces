@@ -1,0 +1,2 @@
+#### good deals
+- [When Money Is Tight, These 4 Resources Will Help Nearly Everyone](https://partners.thepennyhoarder.com/when-money-is-tight-ca-ff-prt/?aff_id=390&utm_source=firefox&utm_medium=paidnative&aff_sub3=when-money-is-tight-CA)
