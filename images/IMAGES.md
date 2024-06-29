@@ -26,6 +26,8 @@ cat dupres.txt
 ### compress movies
 ```
 for f in Videos/*.mov; do ffmpeg -i "$f" -vcodec libx265 -crf 22 "Videos/$(basename "${f%.*}").mkv"; done 
+for f in *.mov; do ffmpeg -i "$f" -vcodec libx265 -crf 22 "$(basename "${f%.*}").mkv"; done 
+
 ```
 
 ### compress images
