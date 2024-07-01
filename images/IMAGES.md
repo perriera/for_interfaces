@@ -10,6 +10,12 @@ sudo apt install imagemagick-6.q16hdri              # version 8:6.9.11.60+dfsg-1
 
 ```
 
+### codecs
+
+        sudo apt install ubuntu-restricted-extras 
+        sudo snap install vlc
+
+
 ```
 mogrify -format jpg *.png
 
