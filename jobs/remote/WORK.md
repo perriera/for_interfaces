@@ -25,3 +25,5 @@
 
 - [www.bizjournals.com/washington/inno/stories](https://www.bizjournals.com/washington/inno/stories/news/2024/05/20/startup-ceo-salaries-gender-pay-gap.html?utm_source=st&utm_medium=en&utm_campaign=inno&utm_content=innontlf
 )
+
+- [Move over, remote jobs. CEOs say borderless talent is the future of tech work](https://www.cnbc.com/2024/06/30/move-over-remote-ceos-say-borderless-talent-future-tech-jobs.html?utm_source=pocket-newtab-en-us)
