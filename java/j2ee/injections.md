@@ -1,0 +1,12 @@
+### j2ee @inject
+- [An Introduction to CDI (Contexts and Dependency ](https://www.baeldung.com/java-ee-cdi)
+- [Oracle: 4.2 Dependency Injection](https://docs.oracle.com/javaee/7/tutorial/injection002.htm)
+- [DZone: Understanding CDI](https://dzone.com/refcardz/contexts-and-depencency)
+- [Weld: Inject dependency inside Thread J2EE](https://stackoverflow.com/questions/41153102/weld-inject-dependency-inside-thread-j2ee)
+- [Annotation Type Inject: Java](https://docs.oracle.com/javaee%2F7%2Fapi%2F%2F/index.html?javax/inject/Inject.html)
+- [Java EE CDI Dependency Injection (@Inject) tutorial](https://www.byteslounge.com/tutorials/java-ee-cdi-dependency-injection-inject-tutorial) 
+- ### java interface keyword 
+- [Using the Java J2EE Interface](https://docs.vmware.com/en/VMware-Smart-Assurance/10.1.1/sas_ncm_api_10.1.1/GUID-766F240E-2CE3-4FD3-9B2E-CEAC90F2B180.html)
+- [J2EE 1.4 APIs ](https://docs.oracle.com/cd/E17802_01/j2ee/j2ee/1.4/docs/tutorial-update6/doc/Overview7.html)
+- [Introduction to Host On-Demand J2EE Connector](https://www.ibm.com/docs/en/host-on-demand/14.0?topic=connector-introduction-host-demand-j2ee)
+- [Web Configuration Interface for the J2EE/JMX Agent](https://docs.automic.com/documentation/webhelp/english/AWA/11.2/AE/11.2/All%2520Guides/Content/ucaccl.htm)
