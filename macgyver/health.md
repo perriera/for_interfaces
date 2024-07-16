@@ -1,0 +1,1 @@
+- [Chair Yoga](https://yoga-go.io/payment-g15-golf19?branch-name=chair&test-name=go10yng&utm_source=google&utm_medium=cpc&campaign_id=21354539246&adgroup_id=21354539246&ad_id=21354539246&utm_term=&asset_group_id=6501734761&gclid=CjwKCAjwtNi0BhA1EiwAWZaANNoy_YBzvJQ5mgzYKw6TgxEEwjX3LKlVezQWVxrWEmkpxNiX2CfMexoCxxsQAvD_BwE)
