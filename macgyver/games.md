@@ -10,3 +10,4 @@
 > So nice to see Wine working under Ubuntu 22.04 
 
 
+- [How Game Designers Secretly Run Your Life](https://www.scientificamerican.com/article/how-games-run-everything-from-online-dating-to-social-media-to-stock-markets/?utm_source=pocket-newtab-en-us)
