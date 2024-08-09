@@ -1,0 +1,2 @@
+### MacGyver tools 
+- [shopbrightfire](https://ca.shopbrightfire.com/checkout4/?affId=nva&uid=1504&c2=488&c1=34&sub5=ts-1_of-668_net-17_ci-21543420382_ai-169278490207_cr-708088563257_de-c_ac-7171018346_geo-CAEN&mvprm=sub5&gclid=CjwKCAjw_Na1BhAlEiwAM-dm7EN1w_G3UkLT_AyJFTTkGBecC8WWN5fhJ5VAIOe9v4CgUYfxTJTnTRoCM6oQAvD_BwE) 
