@@ -8,3 +8,4 @@
 - [GCC -fPIC option](https://stackoverflow.com/questions/5311515/gcc-fpic-option)
 - [Interprocedural optimization](https://en.wikipedia.org/wiki/Interprocedural_optimization)
 - [C++ Standards Support in GCC](https://gcc.gnu.org/projects/cxx-status.html) 
+- [How to Install GCC on Ubuntu 22.04 [and Compile a C Program]](https://www.cherryservers.com/blog/how-to-install-gcc-on-ubuntu)
