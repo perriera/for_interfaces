@@ -4,3 +4,15 @@
 - [Building GCC from source](https://medium.com/@darrenjs/building-gcc-from-source-dcc368a3bb70)
 - [Installing GCC](https://gcc.gnu.org/wiki/InstallingGCC)
 - [Building GDB from source](https://gist.github.com/richyliu/e9ec03f455bee86dc407b7e051245c0e)
+### gmp is missing while configuring building gdb from source
+- [gmp is missing while configuring building gdb from source](https://stackoverflow.com/questions/70380547/gmp-is-missing-while-configuring-building-gdb-from-source)
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libgmp-dev
+wget http://ftp.gnu.org/gnu/gdb/gdb-11.2.tar.gz
+tar -xvzf gdb-11.2.tar.gz
+./configure
+make
+sudo make install
+```
