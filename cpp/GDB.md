@@ -7,11 +7,15 @@
 ### gmp is missing while configuring building gdb from source
 - [gmp is missing while configuring building gdb from source](https://stackoverflow.com/questions/70380547/gmp-is-missing-while-configuring-building-gdb-from-source)
 ```
+mkdir build
+cd build
+mkdir t1
+cd t1
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install libgmp-dev
-wget http://ftp.gnu.org/gnu/gdb/gdb-11.2.tar.gz
-tar -xvzf gdb-11.2.tar.gz
+wget http://ftp.gnu.org/gnu/gdb/gdb-15.2.tar.gz
+tar -xvzf gdb-15.1.tar.gz
 ./configure
 make
 sudo make install
