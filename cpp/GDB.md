@@ -7,10 +7,6 @@
 ### gmp is missing while configuring building gdb from source
 - [gmp is missing while configuring building gdb from source](https://stackoverflow.com/questions/70380547/gmp-is-missing-while-configuring-building-gdb-from-source)
 ```
-mkdir build
-cd build
-mkdir t1
-cd t1
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install libgmp-dev
