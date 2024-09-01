@@ -12,6 +12,7 @@ sudo apt-get upgrade
 sudo apt-get install libgmp-dev
 wget http://ftp.gnu.org/gnu/gdb/gdb-15.1.tar.gz
 tar -xvzf gdb-15.1.tar.gz
+cd gdb-15.1
 ./configure
 make
 sudo make install
