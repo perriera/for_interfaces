@@ -9,3 +9,8 @@
 - [PayPal Examples](https://github.com/paypal-examples)
 - [https://github.com/paypal-examples](https://github.com/paypal-examples/paypal-sdk-server-side-integration/tree/main)
 - [PayPal ApplePay Example Code](https://github.com/paypal-examples/applepay)
+
+#### developer
+- https://developer.paypal.com/sdk/js/reference/#onapprove
+- https://stackoverflow.com/questions/43622337/using-import-fs-from-fs
+- 
