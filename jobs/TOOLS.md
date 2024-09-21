@@ -38,3 +38,14 @@ Please reach out to your QMs if you have any question.
 Thank you,
 Outlier Team
 ```
+###
+```
+Hey,
+Exciting news! You have been assigned a new mission. Seize the chance to boost your earnings by completing it!
+
+*Limited Time Coding Rewards
+Start Date: September 19 at 3:30 am UTC
+
+Ready to accept the challenge? You can check out the details on the Missions tab.
+Good luck!
+```
