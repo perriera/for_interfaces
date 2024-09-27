@@ -1,1 +1,2 @@
-see htmlforge.net/bin/websites.md
+(see bin/scripts/tweaks/website_setup.md)
+
