@@ -1,2 +1,4 @@
 ### Build A Successful Online Tutoring Business
 - [Build A Successful Online Tutoring Business](https://www.theteacherproject.com/optin-page696643?fbc_id=120210739026100443&h_ad_id=120210739026120443&utm_medium=paid&utm_source=fb&utm_id=120210739026110443&utm_content=120210739026120443&utm_term=120210739026100443&utm_campaign=120210739026110443&fbclid=IwY2xjawFaepRleHRuA2FlbQEwAAEd-tppLiGAPgc4se3ombjJGRjFLeZpiApMcneHkETwL34Y1poY4YIfhgmR_aem_ketwhUgW6vqrWsfO9r5yqw)
+- [If the Universe Is a Hologram, This Long-Forgotten Math Could Decode It](https://www.quantamagazine.org/if-the-universe-is-a-hologram-this-long-forgotten-math-could-decode-it-20240925/?utm_source=pocket-newtab-en-us)
+- [Warren Buffett Says This 1 Simple Habit Separates Successful People From Everyone Else](https://getpocket.com/explore/item/warren-buffett-says-this-1-simple-habit-separates-successful-people-from-everyone-else?utm_source=pocket-newtab-en-us)
