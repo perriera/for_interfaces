@@ -7,3 +7,4 @@
 >- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 >- [Visual Studio Code breakpoint appearing in wrong place](https://stackoverflow.com/questions/50765353/visual-studio-code-breakpoint-appearing-in-wrong-place)
 >- [C/C++ for Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
+>- [Common questions](https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc)
