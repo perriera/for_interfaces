@@ -1,0 +1,2 @@
+### fintech 
+- [LinkedIn FinTech Discussion](https://www.linkedin.com/advice/0/youre-tasked-deploying-fintech-solutions-cloud-mfzge?contributionUrn=urn%3Ali%3Acomment%3A%28urn%3Ali%3AarticleSegment%3A%28urn%3Ali%3AlinkedInArticle%3A7223384395657687041%2C7223384396995727360%29%2C7231389378793680896%29)
