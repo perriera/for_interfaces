@@ -1,2 +1,3 @@
 ### click ads
 - [Ad Clients](https://adclients.com/60?gc_id=21745529733&h_ad_id=715000467973&gclid=CjwKCAjwpbi4BhByEiwAMC8JneVDJ62TRvLtmKw7nR-cyNyLIyhdoRPhYEK1RH8jUIwheCqw41HUpxoCGn4QAvD_BwE) 
+- [Secrets Scaling](https://www.secretstoscalingsummit.com/join-live?gc_id=21804331109&h_ad_id=716988552884&source=youtubepaid&a=11585&utm_campaign=sts24&utm_source=dg_youtube&utm_medium=paid&gclid=CjwKCAjwpbi4BhByEiwAMC8JneKU0rx8kEEKWhGrWTk46DppJUeGqfFLq91ZrYcd1lDxUAXEOwASNxoCWqwQAvD_BwE)
