@@ -27,3 +27,7 @@
 )
 
 - [Move over, remote jobs. CEOs say borderless talent is the future of tech work](https://www.cnbc.com/2024/06/30/move-over-remote-ceos-say-borderless-talent-future-tech-jobs.html?utm_source=pocket-newtab-en-us)
+
+#### flexjobs
+- [CoinBase](https://www.flexjobs.com/remote-jobs/company/coinbase)
+- [RemoteJobs](https://www.flexjobs.com/blog/post/companies-switching-remote-work-long-term/?utm_source=Iterable-mktg&utm_medium=email&utm_campaign=11391255&utm_content=reg-only-newsletter_20241016&utm_template=14979875)
